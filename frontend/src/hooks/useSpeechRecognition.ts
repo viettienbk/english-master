@@ -18,29 +18,61 @@ function normalize(s: string) {
   return s.toLowerCase().trim().replace(/[^a-z0-9\s]/g, '');
 }
 
+/**
+ * Calculates a strict similarity score between what was heard and the target.
+ */
+function calculatePronunciationScore(transcript: string, target: string): number {
+  const tNorm = normalize(transcript);
+  const targetNorm = normalize(target);
+  
+  if (tNorm === targetNorm) return 100;
+  if (!tNorm) return 0;
+
+  const tWords = tNorm.split(/\s+/);
+  const targetWords = targetNorm.split(/\s+/);
+  
+  // 1. Word-level match score
+  let matches = 0;
+  const usedIndices = new Set<number>();
+  
+  targetWords.forEach(tw => {
+    const matchIdx = tWords.findIndex((word, idx) => word === tw && !usedIndices.has(idx));
+    if (matchIdx !== -1) {
+      matches++;
+      usedIndices.add(matchIdx);
+    }
+  });
+
+  const wordScore = (matches / targetWords.length) * 100;
+
+  // 2. Character-level similarity (Levenshtein)
+  const longerLen = Math.max(tNorm.length, targetNorm.length);
+  const distance = levenshtein(tNorm, targetNorm);
+  const charScore = ((longerLen - distance) / longerLen) * 100;
+
+  // Final score is a weighted average (70% word accuracy, 30% character accuracy)
+  // This penalizes missing words heavily but allows for minor phonetic variations
+  return Math.round((wordScore * 0.7) + (charScore * 0.3));
+}
+
 function diffWords(transcript: string, target: string): SpeechResultSegment[] {
   const tWords = normalize(transcript).split(/\s+/);
   const targetWords = target.split(/\s+/);
   
+  const usedIndices = new Set<number>();
+  
   return targetWords.map(targetWord => {
     const normalizedTarget = normalize(targetWord);
-    // Simple matching: if the word exists in the transcript, count as correct
-    const isCorrect = tWords.some(tw => tw === normalizedTarget);
-    return {
-      word: targetWord,
-      isCorrect
-    };
+    // Find if this word exists in the transcript and hasn't been "used" yet
+    const matchIdx = tWords.findIndex((tw, idx) => tw === normalizedTarget && !usedIndices.has(idx));
+    
+    if (matchIdx !== -1) {
+      usedIndices.add(matchIdx);
+      return { word: targetWord, isCorrect: true };
+    }
+    
+    return { word: targetWord, isCorrect: false };
   });
-}
-
-function similarityScore(a: string, b: string): number {
-  const na = normalize(a);
-  const nb = normalize(b);
-  if (na === nb) return 100;
-  const longer = na.length > nb.length ? na : nb;
-  if (longer.length === 0) return 100;
-  const editDistance = levenshtein(na, nb);
-  return Math.round(((longer.length - editDistance) / longer.length) * 100);
 }
 
 function levenshtein(a: string, b: string): number {
@@ -97,35 +129,32 @@ export function useSpeechRecognition() {
       recognition.lang = 'en-US';
       recognition.continuous = false;
       recognition.interimResults = false;
-      recognition.maxAlternatives = 3;
+      // We set maxAlternatives to 1 to get exactly what the engine heard first,
+      // which is better for pronunciation practice.
+      recognition.maxAlternatives = 1;
 
       recognitionRef.current = recognition;
       setIsRecording(true);
 
       recognition.onresult = (event: any) => {
-        const results = Array.from({ length: event.results[0].length }, (_, i) =>
-          event.results[0][i].transcript,
-        );
+        // Take ONLY the first (most confident) result
+        const transcript = event.results[0][0].transcript;
         
-        let best = { transcript: results[0], score: 0 };
-        for (const transcript of results) {
-          const score = similarityScore(transcript, targetWord);
-          if (score > best.score) best = { transcript, score };
-        }
-        
-        const isCorrect = best.score >= 70;
-        const segments = diffWords(best.transcript, targetWord);
+        const score = calculatePronunciationScore(transcript, targetWord);
+        const isCorrect = score >= 85; // Stricter threshold for "Correct"
+        const segments = diffWords(transcript, targetWord);
         
         onResult({ 
-          transcript: best.transcript, 
+          transcript, 
           isCorrect, 
-          score: best.score,
+          score,
           segments
         });
         setIsRecording(false);
       };
 
-      recognition.onerror = () => {
+      recognition.onerror = (event: any) => {
+        console.error('Speech recognition error:', event.error);
         setIsRecording(false);
         onResult({ transcript: '', isCorrect: false, score: 0 });
       };
