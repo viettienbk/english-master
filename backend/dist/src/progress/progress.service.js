@@ -102,6 +102,89 @@ let ProgressService = class ProgressService {
             include: { word: true },
         });
     }
+    async updateLessonProgress(userId, lessonId, lessonType, status, score) {
+        return this.prisma.lessonProgress.upsert({
+            where: {
+                userId_lessonId_lessonType: { userId, lessonId, lessonType },
+            },
+            update: {
+                status,
+                score,
+                lastStudied: new Date(),
+            },
+            create: {
+                userId,
+                lessonId,
+                lessonType,
+                status,
+                score,
+            },
+        });
+    }
+    async getOngoingLessons(userId) {
+        const ongoing = await this.prisma.lessonProgress.findMany({
+            where: { userId, status: 'ongoing' },
+            orderBy: { lastStudied: 'desc' },
+        });
+        const lessons = await Promise.all(ongoing.map(async (p) => {
+            if (p.lessonType === 'listening') {
+                const details = await this.prisma.listeningLesson.findUnique({
+                    where: { id: p.lessonId },
+                });
+                return { ...p, details };
+            }
+            else {
+                const details = await this.prisma.grammarLesson.findUnique({
+                    where: { id: p.lessonId },
+                });
+                return { ...p, details };
+            }
+        }));
+        return lessons.filter((l) => l.details);
+    }
+    async getProfileStats(userId) {
+        const progress = await this.prisma.progress.findMany({
+            where: { userId },
+        });
+        const totalWords = await this.prisma.word.count();
+        const learnedWords = progress.filter((p) => p.repetitions > 0).length;
+        const masteredWords = progress.filter((p) => p.repetitions >= 5).length;
+        const learningWords = learnedWords - masteredWords;
+        const newWords = totalWords - learnedWords;
+        const user = await this.prisma.user.findUnique({
+            where: { id: userId },
+            select: { name: true, email: true, image: true, createdAt: true },
+        });
+        const ongoingLessons = await this.getOngoingLessons(userId);
+        return {
+            user,
+            vocabulary: {
+                total: totalWords,
+                learned: learnedWords,
+                mastered: masteredWords,
+                learning: learningWords,
+                new: newWords,
+                percentage: totalWords > 0 ? (masteredWords / totalWords) * 100 : 0,
+            },
+            ongoingLessons,
+        };
+    }
+    async getMasteredWords(userId) {
+        return this.prisma.progress.findMany({
+            where: { userId, repetitions: { gte: 5 } },
+            include: { word: true },
+        });
+    }
+    async getNewWords(userId, limit = 20) {
+        const learnedWordIds = (await this.prisma.progress.findMany({
+            where: { userId },
+            select: { wordId: true },
+        })).map((p) => p.wordId);
+        return this.prisma.word.findMany({
+            where: { id: { notIn: learnedWordIds } },
+            take: limit,
+        });
+    }
 };
 exports.ProgressService = ProgressService;
 exports.ProgressService = ProgressService = __decorate([

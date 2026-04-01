@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ButtonLink } from '@/components/ui/button-link';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import { getListeningLessonById, checkListeningAnswers } from '@/lib/api';
+import { getListeningLessonById, checkListeningAnswers, updateLessonProgress } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
 import type { ListeningLesson, ListeningBlank, CheckResult } from '@/types';
 
@@ -24,7 +24,11 @@ export default function ListeningLessonPage() {
 
   useEffect(() => {
     getListeningLessonById(lessonId)
-      .then(setLesson)
+      .then((data) => {
+        setLesson(data);
+        // Mark as ongoing when started
+        updateLessonProgress(lessonId, 'listening', 'ongoing').catch(console.error);
+      })
       .finally(() => setLoading(false));
   }, [lessonId]);
 
@@ -39,6 +43,8 @@ export default function ListeningLessonPage() {
     if (!lesson) return;
     const res = await checkListeningAnswers(lessonId, answers);
     setResult(res);
+    // Mark as completed with score
+    updateLessonProgress(lessonId, 'listening', 'completed', res.score).catch(console.error);
   };
 
   if (loading) {

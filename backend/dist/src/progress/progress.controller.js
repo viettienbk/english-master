@@ -30,6 +30,18 @@ let ProgressController = class ProgressController {
     getWordsToReview(req) {
         return this.progressService.getWordsToReview(req.user.userId);
     }
+    updateLessonProgress(req, lessonId, lessonType, status, score) {
+        return this.progressService.updateLessonProgress(req.user.userId, lessonId, lessonType, status, score);
+    }
+    getProfileStats(req) {
+        return this.progressService.getProfileStats(req.user.userId);
+    }
+    getMasteredWords(req) {
+        return this.progressService.getMasteredWords(req.user.userId);
+    }
+    getNewWords(req) {
+        return this.progressService.getNewWords(req.user.userId);
+    }
 };
 exports.ProgressController = ProgressController;
 __decorate([
@@ -55,6 +67,38 @@ __decorate([
     __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", void 0)
 ], ProgressController.prototype, "getWordsToReview", null);
+__decorate([
+    (0, common_1.Post)('lesson'),
+    __param(0, (0, common_1.Req)()),
+    __param(1, (0, common_1.Body)('lessonId')),
+    __param(2, (0, common_1.Body)('lessonType')),
+    __param(3, (0, common_1.Body)('status')),
+    __param(4, (0, common_1.Body)('score')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, String, String, String, Number]),
+    __metadata("design:returntype", void 0)
+], ProgressController.prototype, "updateLessonProgress", null);
+__decorate([
+    (0, common_1.Get)('profile'),
+    __param(0, (0, common_1.Req)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], ProgressController.prototype, "getProfileStats", null);
+__decorate([
+    (0, common_1.Get)('words/mastered'),
+    __param(0, (0, common_1.Req)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], ProgressController.prototype, "getMasteredWords", null);
+__decorate([
+    (0, common_1.Get)('words/new'),
+    __param(0, (0, common_1.Req)()),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object]),
+    __metadata("design:returntype", void 0)
+], ProgressController.prototype, "getNewWords", null);
 exports.ProgressController = ProgressController = __decorate([
     (0, common_1.Controller)('progress'),
     (0, common_1.UseGuards)(jwt_auth_guard_1.JwtAuthGuard),

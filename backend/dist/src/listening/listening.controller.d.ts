@@ -5,26 +5,26 @@ export declare class ListeningController {
     getLessons(level?: string): Promise<{
         id: string;
         createdAt: Date;
-        level: string;
-        order: number;
         audioUrl: string;
         title: string;
         titleVi: string | null;
+        level: string;
         transcript: string;
         blanks: string;
         translation: string | null;
+        order: number;
     }[]>;
     getLessonById(id: string): Promise<{
         id: string;
         createdAt: Date;
-        level: string;
-        order: number;
         audioUrl: string;
         title: string;
         titleVi: string | null;
+        level: string;
         transcript: string;
         blanks: string;
         translation: string | null;
+        order: number;
     } | null>;
     checkAnswers(id: string, body: {
         answers: Record<number, string>;

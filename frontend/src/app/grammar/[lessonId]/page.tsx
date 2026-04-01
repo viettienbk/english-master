@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { ButtonLink } from '@/components/ui/button-link';
 import { Card, CardContent } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
-import { getGrammarLessonById } from '@/lib/api';
+import { getGrammarLessonById, updateLessonProgress } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
 import type { GrammarLesson, GrammarExample, GrammarExercise } from '@/types';
 
@@ -23,7 +23,11 @@ export default function GrammarLessonPage() {
 
   useEffect(() => {
     getGrammarLessonById(lessonId)
-      .then(setLesson)
+      .then((data) => {
+        setLesson(data);
+        // Mark as ongoing when started
+        updateLessonProgress(lessonId, 'grammar', 'ongoing').catch(console.error);
+      })
       .finally(() => setLoading(false));
   }, [lessonId]);
 
@@ -198,7 +202,18 @@ export default function GrammarLessonPage() {
               <Button
                 className="w-full"
                 size="lg"
-                onClick={() => setChecked(true)}
+                onClick={() => {
+                  setChecked(true);
+                  if (lesson) {
+                    const exercises: GrammarExercise[] = JSON.parse(lesson.exercises);
+                    const correctCount = exercises.filter((ex, i) => {
+                      const userAnswer = (answers[i] || '').trim().toLowerCase();
+                      return userAnswer === ex.answer.toLowerCase();
+                    }).length;
+                    const percentage = Math.round((correctCount / exercises.length) * 100);
+                    updateLessonProgress(lessonId, 'grammar', 'completed', percentage).catch(console.error);
+                  }
+                }}
               >
                 Kiểm tra đáp án
               </Button>

@@ -112,3 +112,49 @@ export const getProgressStats = () =>
 
 export const getReviewWords = () =>
   fetchApi<ProgressItem[]>('/progress/review');
+
+export interface ProfileStats {
+  user: {
+    name: string | null;
+    email: string;
+    image: string | null;
+    createdAt: string;
+  };
+  vocabulary: {
+    total: number;
+    learned: number;
+    mastered: number;
+    learning: number;
+    new: number;
+    percentage: number;
+  };
+  ongoingLessons: Array<{
+    id: string;
+    lessonId: string;
+    lessonType: 'listening' | 'grammar';
+    status: 'ongoing' | 'completed';
+    score: number | null;
+    lastStudied: string;
+    details: any;
+  }>;
+}
+
+export const getProfileStats = () =>
+  fetchApi<ProfileStats>('/progress/profile');
+
+export const updateLessonProgress = (
+  lessonId: string,
+  lessonType: 'listening' | 'grammar',
+  status: 'ongoing' | 'completed',
+  score?: number,
+) =>
+  fetchApi<any>('/progress/lesson', {
+    method: 'POST',
+    body: JSON.stringify({ lessonId, lessonType, status, score }),
+  });
+
+export const getMasteredWords = () =>
+  fetchApi<ProgressItem[]>('/progress/words/mastered');
+
+export const getNewWords = () =>
+  fetchApi<import('@/types').Word[]>('/progress/words/new');

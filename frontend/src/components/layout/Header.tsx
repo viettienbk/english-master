@@ -13,7 +13,7 @@ const navItems = [
   { href: '/grammar', label: 'Ngữ pháp', icon: '✏️' },
   { href: '/listening', label: 'Luyện nghe', icon: '🎧' },
   { href: '/conversation', label: 'Hội thoại AI', icon: '💬' },
-  { href: '/progress', label: 'Tiến độ', icon: '📈' },
+  { href: '/profile', label: 'Cá nhân', icon: '👤' },
 ];
 
 export default function Header() {
@@ -57,17 +57,17 @@ export default function Header() {
           <div className="hidden md:flex items-center gap-4">
             {user ? (
               <div className="flex items-center gap-3">
-                <div className="flex items-center gap-2">
+                <Link href="/profile" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
                   <img
                     src={user.image}
                     alt={user.name}
                     className="w-8 h-8 rounded-full border-2 border-white/20"
                   />
                   <span className="text-sm font-medium">{user.name}</span>
-                </div>
+                </Link>
                 <button
                   onClick={logout}
-                  className="text-xs text-white/60 hover:text-white underline"
+                  className="text-xs text-white/60 hover:text-white underline ml-2"
                 >
                   Đăng xuất
                 </button>
@@ -138,10 +138,10 @@ export default function Header() {
             ))}
             {user ? (
               <div className="px-4 py-2 flex items-center justify-between border-t border-white/10 mt-2 pt-4">
-                <div className="flex items-center gap-2">
+                <Link href="/profile" onClick={() => setMenuOpen(false)} className="flex items-center gap-2">
                   <img src={user.image} alt={user.name} className="w-8 h-8 rounded-full" />
                   <span className="text-sm font-medium">{user.name}</span>
-                </div>
+                </Link>
                 <button onClick={logout} className="text-sm text-white/60">Đăng xuất</button>
               </div>
             ) : (

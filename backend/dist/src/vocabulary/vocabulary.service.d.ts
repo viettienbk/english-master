@@ -8,18 +8,17 @@ export declare class VocabularyService {
         };
     } & {
         id: string;
-        name: string;
         createdAt: Date;
+        name: string;
+        imageUrl: string | null;
+        level: string;
+        order: number;
         nameVi: string | null;
         description: string | null;
-        level: string;
-        imageUrl: string | null;
-        order: number;
     })[]>;
     getTopicById(id: string): Promise<({
         words: {
             id: string;
-            imageUrl: string | null;
             word: string;
             phonetic: string | null;
             partOfSpeech: string;
@@ -27,22 +26,22 @@ export declare class VocabularyService {
             definitionVi: string | null;
             example: string | null;
             exampleVi: string | null;
+            imageUrl: string | null;
             audioUrl: string | null;
             topicId: string;
         }[];
     } & {
         id: string;
-        name: string;
         createdAt: Date;
+        name: string;
+        imageUrl: string | null;
+        level: string;
+        order: number;
         nameVi: string | null;
         description: string | null;
-        level: string;
-        imageUrl: string | null;
-        order: number;
     }) | null>;
     getWordsByTopicId(topicId: string): Promise<{
         id: string;
-        imageUrl: string | null;
         word: string;
         phonetic: string | null;
         partOfSpeech: string;
@@ -50,12 +49,12 @@ export declare class VocabularyService {
         definitionVi: string | null;
         example: string | null;
         exampleVi: string | null;
+        imageUrl: string | null;
         audioUrl: string | null;
         topicId: string;
     }[]>;
     getWordById(id: string): Promise<{
         id: string;
-        imageUrl: string | null;
         word: string;
         phonetic: string | null;
         partOfSpeech: string;
@@ -63,23 +62,23 @@ export declare class VocabularyService {
         definitionVi: string | null;
         example: string | null;
         exampleVi: string | null;
+        imageUrl: string | null;
         audioUrl: string | null;
         topicId: string;
     } | null>;
     searchWords(query: string): Promise<({
         topic: {
             id: string;
-            name: string;
             createdAt: Date;
+            name: string;
+            imageUrl: string | null;
+            level: string;
+            order: number;
             nameVi: string | null;
             description: string | null;
-            level: string;
-            imageUrl: string | null;
-            order: number;
         };
     } & {
         id: string;
-        imageUrl: string | null;
         word: string;
         phonetic: string | null;
         partOfSpeech: string;
@@ -87,6 +86,7 @@ export declare class VocabularyService {
         definitionVi: string | null;
         example: string | null;
         exampleVi: string | null;
+        imageUrl: string | null;
         audioUrl: string | null;
         topicId: string;
     })[]>;

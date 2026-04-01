@@ -5,10 +5,10 @@ export declare class GrammarController {
     getLessons(level?: string, category?: string): Promise<{
         id: string;
         createdAt: Date;
-        level: string;
-        order: number;
         title: string;
         titleVi: string | null;
+        level: string;
+        order: number;
         category: string;
         content: string;
         examples: string;
@@ -17,10 +17,10 @@ export declare class GrammarController {
     getLessonById(id: string): Promise<{
         id: string;
         createdAt: Date;
-        level: string;
-        order: number;
         title: string;
         titleVi: string | null;
+        level: string;
+        order: number;
         category: string;
         content: string;
         examples: string;
