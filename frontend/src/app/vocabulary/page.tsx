@@ -53,7 +53,7 @@ export default function VocabularyPage() {
       <div className="mb-12 text-center md:text-left">
         <h1 className="text-4xl font-extrabold mb-3 tracking-tight">Thư viện từ vựng</h1>
         <p className="text-lg text-muted-foreground max-w-2xl">
-          Khám phá {topics.length} chủ đề đa dạng với hơn 1,700 từ vựng cốt lõi giúp bạn tự tin giao tiếp.
+          Khám phá {topics.length} chủ đề đa dạng với hơn 3,100 từ vựng cốt lõi giúp bạn tự tin giao tiếp.
         </p>
       </div>
 
