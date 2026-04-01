@@ -4,6 +4,8 @@ export declare class ProgressController {
     constructor(progressService: ProgressService);
     updateProgress(req: any, wordId: string, quality: number): Promise<{
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         userId: string;
         wordId: string;
         easeFactor: number;
@@ -11,8 +13,6 @@ export declare class ProgressController {
         repetitions: number;
         nextReview: Date;
         lastQuality: number;
-        createdAt: Date;
-        updatedAt: Date;
     }>;
     getUserProgress(req: any): Promise<{
         stats: {
@@ -24,6 +24,7 @@ export declare class ProgressController {
         items: ({
             word: {
                 id: string;
+                imageUrl: string | null;
                 word: string;
                 phonetic: string | null;
                 partOfSpeech: string;
@@ -31,12 +32,13 @@ export declare class ProgressController {
                 definitionVi: string | null;
                 example: string | null;
                 exampleVi: string | null;
-                imageUrl: string | null;
                 audioUrl: string | null;
                 topicId: string;
             };
         } & {
             id: string;
+            createdAt: Date;
+            updatedAt: Date;
             userId: string;
             wordId: string;
             easeFactor: number;
@@ -44,13 +46,12 @@ export declare class ProgressController {
             repetitions: number;
             nextReview: Date;
             lastQuality: number;
-            createdAt: Date;
-            updatedAt: Date;
         })[];
     }>;
     getWordsToReview(req: any): Promise<({
         word: {
             id: string;
+            imageUrl: string | null;
             word: string;
             phonetic: string | null;
             partOfSpeech: string;
@@ -58,12 +59,13 @@ export declare class ProgressController {
             definitionVi: string | null;
             example: string | null;
             exampleVi: string | null;
-            imageUrl: string | null;
             audioUrl: string | null;
             topicId: string;
         };
     } & {
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         userId: string;
         wordId: string;
         easeFactor: number;
@@ -71,24 +73,22 @@ export declare class ProgressController {
         repetitions: number;
         nextReview: Date;
         lastQuality: number;
-        createdAt: Date;
-        updatedAt: Date;
     })[]>;
     updateLessonProgress(req: any, lessonId: string, lessonType: string, status: string, score?: number): Promise<{
         id: string;
+        score: number | null;
         userId: string;
         lessonId: string;
         lessonType: string;
         status: string;
-        score: number | null;
         lastStudied: Date;
     }>;
     getProfileStats(req: any): Promise<{
         user: {
-            createdAt: Date;
             name: string | null;
             email: string;
             image: string | null;
+            createdAt: Date;
         };
         vocabulary: {
             total: number;
@@ -102,47 +102,48 @@ export declare class ProgressController {
             details: {
                 id: string;
                 createdAt: Date;
+                level: string;
+                order: number;
                 audioUrl: string;
                 title: string;
                 titleVi: string | null;
-                level: string;
                 transcript: string;
                 blanks: string;
                 translation: string | null;
-                order: number;
             } | null;
             id: string;
+            score: number | null;
             userId: string;
             lessonId: string;
             lessonType: string;
             status: string;
-            score: number | null;
             lastStudied: Date;
         } | {
             details: {
                 id: string;
                 createdAt: Date;
-                title: string;
-                titleVi: string | null;
                 level: string;
                 order: number;
+                title: string;
+                titleVi: string | null;
                 category: string;
                 content: string;
                 examples: string;
                 exercises: string;
             } | null;
             id: string;
+            score: number | null;
             userId: string;
             lessonId: string;
             lessonType: string;
             status: string;
-            score: number | null;
             lastStudied: Date;
         })[];
     }>;
     getMasteredWords(req: any): Promise<({
         word: {
             id: string;
+            imageUrl: string | null;
             word: string;
             phonetic: string | null;
             partOfSpeech: string;
@@ -150,12 +151,13 @@ export declare class ProgressController {
             definitionVi: string | null;
             example: string | null;
             exampleVi: string | null;
-            imageUrl: string | null;
             audioUrl: string | null;
             topicId: string;
         };
     } & {
         id: string;
+        createdAt: Date;
+        updatedAt: Date;
         userId: string;
         wordId: string;
         easeFactor: number;
@@ -163,11 +165,10 @@ export declare class ProgressController {
         repetitions: number;
         nextReview: Date;
         lastQuality: number;
-        createdAt: Date;
-        updatedAt: Date;
     })[]>;
     getNewWords(req: any): Promise<{
         id: string;
+        imageUrl: string | null;
         word: string;
         phonetic: string | null;
         partOfSpeech: string;
@@ -175,7 +176,6 @@ export declare class ProgressController {
         definitionVi: string | null;
         example: string | null;
         exampleVi: string | null;
-        imageUrl: string | null;
         audioUrl: string | null;
         topicId: string;
     }[]>;
