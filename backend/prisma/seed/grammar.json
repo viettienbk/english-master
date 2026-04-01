@@ -1,0 +1,632 @@
+[
+  {
+    "title": "Present Simple Tense",
+    "titleVi": "Thì hiện tại đơn",
+    "level": "beginner",
+    "category": "basic",
+    "order": 1,
+    "content": "## Present Simple Tense\n\nThe present simple is used to describe habits, general truths, and routines.\n\n### Structure\n- **Positive:** Subject + V(s/es)\n- **Negative:** Subject + do/does + not + V\n- **Question:** Do/Does + Subject + V?\n\n### Usage\n1. **Habits and routines:** *I wake up at 7 AM every day.*\n2. **General truths:** *Water boils at 100°C.*\n3. **Permanent situations:** *She lives in Hanoi.*\n4. **Scheduled events:** *The train leaves at 9 PM.*\n\n### Signal words\nalways, usually, often, sometimes, rarely, never, every day/week/month",
+    "examples": [
+      { "english": "I go to school every day.", "vietnamese": "Tôi đi học mỗi ngày.", "explanation": "Habit/routine - use present simple" },
+      { "english": "She doesn't like coffee.", "vietnamese": "Cô ấy không thích cà phê.", "explanation": "Negative form with does + not" },
+      { "english": "Do you speak English?", "vietnamese": "Bạn có nói tiếng Anh không?", "explanation": "Question form with Do" },
+      { "english": "The sun rises in the east.", "vietnamese": "Mặt trời mọc ở hướng đông.", "explanation": "General truth - always true" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She ___ to work by bus.", "options": ["go", "goes", "going", "gone"], "answer": "goes" },
+      { "type": "multiple_choice", "question": "They ___ play football on Sundays.", "options": ["doesn't", "don't", "isn't", "aren't"], "answer": "don't" },
+      { "type": "fill_blank", "question": "___ you like pizza?", "answer": "Do" },
+      { "type": "fill_blank", "question": "He ___ (not/drink) tea.", "answer": "doesn't drink" },
+      { "type": "multiple_choice", "question": "Water ___ at 100 degrees Celsius.", "options": ["boil", "boils", "boiling", "boiled"], "answer": "boils" }
+    ]
+  },
+  {
+    "title": "Present Continuous Tense",
+    "titleVi": "Thì hiện tại tiếp diễn",
+    "level": "beginner",
+    "category": "basic",
+    "order": 2,
+    "content": "## Present Continuous Tense\n\nUsed to describe actions happening now or around the present time.\n\n### Structure\n- **Positive:** Subject + am/is/are + V-ing\n- **Negative:** Subject + am/is/are + not + V-ing\n- **Question:** Am/Is/Are + Subject + V-ing?\n\n### Usage\n1. **Actions happening now:** *I am reading a book.*\n2. **Temporary situations:** *She is staying with her parents this week.*\n3. **Future arrangements:** *We are meeting tomorrow at 3 PM.*\n4. **Changing situations:** *The weather is getting colder.*\n\n### Signal words\nnow, right now, at the moment, currently, today, this week",
+    "examples": [
+      { "english": "I am studying English right now.", "vietnamese": "Tôi đang học tiếng Anh ngay bây giờ.", "explanation": "Action happening at the moment of speaking" },
+      { "english": "She isn't working today.", "vietnamese": "Hôm nay cô ấy không làm việc.", "explanation": "Negative form - temporary situation" },
+      { "english": "Are you listening to me?", "vietnamese": "Bạn đang nghe tôi nói không?", "explanation": "Question form about current action" },
+      { "english": "We are having dinner at 7 PM tonight.", "vietnamese": "Chúng tôi sẽ ăn tối lúc 7 giờ tối nay.", "explanation": "Future arrangement - planned event" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Look! It ___ raining.", "options": ["is", "are", "am", "be"], "answer": "is" },
+      { "type": "fill_blank", "question": "They ___ (play) football in the park right now.", "answer": "are playing" },
+      { "type": "multiple_choice", "question": "She ___ TV at the moment.", "options": ["watches", "is watching", "watch", "watched"], "answer": "is watching" },
+      { "type": "fill_blank", "question": "I ___ (not/sleep). I ___ (study).", "answer": "am not sleeping, am studying" },
+      { "type": "multiple_choice", "question": "___ you coming to the party tonight?", "options": ["Do", "Are", "Is", "Does"], "answer": "Are" }
+    ]
+  },
+  {
+    "title": "Past Simple Tense",
+    "titleVi": "Thì quá khứ đơn",
+    "level": "beginner",
+    "category": "basic",
+    "order": 3,
+    "content": "## Past Simple Tense\n\nUsed to describe completed actions in the past.\n\n### Structure\n- **Positive:** Subject + V-ed (regular) / V2 (irregular)\n- **Negative:** Subject + did + not + V\n- **Question:** Did + Subject + V?\n\n### Usage\n1. **Completed actions in the past:** *I visited Paris last year.*\n2. **A series of past actions:** *I woke up, brushed my teeth, and had breakfast.*\n3. **Past habits:** *When I was young, I played outside every day.*\n\n### Signal words\nyesterday, last week/month/year, ago, in 2020, when I was young",
+    "examples": [
+      { "english": "I went to the cinema yesterday.", "vietnamese": "Tôi đã đi xem phim hôm qua.", "explanation": "Completed action - irregular verb go → went" },
+      { "english": "She didn't call me last night.", "vietnamese": "Cô ấy đã không gọi cho tôi tối qua.", "explanation": "Negative form with did not" },
+      { "english": "Did you enjoy the party?", "vietnamese": "Bạn có thích bữa tiệc không?", "explanation": "Question form with Did" },
+      { "english": "They lived in London for five years.", "vietnamese": "Họ đã sống ở London năm năm.", "explanation": "Completed action with duration" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I ___ a great movie last night.", "options": ["see", "saw", "seen", "seeing"], "answer": "saw" },
+      { "type": "fill_blank", "question": "She ___ (not/go) to school yesterday.", "answer": "didn't go" },
+      { "type": "multiple_choice", "question": "___ you finish your homework?", "options": ["Do", "Did", "Are", "Were"], "answer": "Did" },
+      { "type": "fill_blank", "question": "We ___ (visit) our grandparents last weekend.", "answer": "visited" },
+      { "type": "multiple_choice", "question": "He ___ born in 1990.", "options": ["is", "was", "were", "be"], "answer": "was" }
+    ]
+  },
+  {
+    "title": "Past Continuous Tense",
+    "titleVi": "Thì quá khứ tiếp diễn",
+    "level": "beginner",
+    "category": "basic",
+    "order": 4,
+    "content": "## Past Continuous Tense\n\nUsed to describe an action that was in progress at a specific time in the past.\n\n### Structure\n- **Positive:** Subject + was/were + V-ing\n- **Negative:** Subject + was/were + not + V-ing\n- **Question:** Was/Were + Subject + V-ing?\n\n### Usage\n1. **Action in progress at a past time:** *At 8 PM, I was watching TV.*\n2. **Background action interrupted:** *I was sleeping when the phone rang.*\n3. **Two simultaneous past actions:** *While she was cooking, he was cleaning.*\n4. **Setting the scene:** *The sun was shining and birds were singing.*\n\n### Key pattern\n**While** + Past Continuous + **when** + Past Simple",
+    "examples": [
+      { "english": "I was watching TV when she arrived.", "vietnamese": "Tôi đang xem TV khi cô ấy đến.", "explanation": "Ongoing action interrupted by a past simple action" },
+      { "english": "They were playing football at 4 PM.", "vietnamese": "Họ đang chơi bóng lúc 4 giờ chiều.", "explanation": "Action in progress at a specific past time" },
+      { "english": "While I was studying, my brother was listening to music.", "vietnamese": "Trong khi tôi đang học, anh tôi đang nghe nhạc.", "explanation": "Two simultaneous actions in the past" },
+      { "english": "Was it raining when you left?", "vietnamese": "Trời có đang mưa khi bạn rời đi không?", "explanation": "Question form about a past ongoing action" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She ___ dinner when I called.", "options": ["cook", "cooked", "was cooking", "is cooking"], "answer": "was cooking" },
+      { "type": "fill_blank", "question": "They ___ (not/sleep) at midnight.", "answer": "were not sleeping" },
+      { "type": "multiple_choice", "question": "What ___ you doing at 9 PM last night?", "options": ["did", "were", "was", "are"], "answer": "were" },
+      { "type": "fill_blank", "question": "While he ___ (read), the lights went out.", "answer": "was reading" },
+      { "type": "multiple_choice", "question": "I ___ a shower when the doorbell rang.", "options": ["was having", "had", "have", "having"], "answer": "was having" }
+    ]
+  },
+  {
+    "title": "Present Perfect Tense",
+    "titleVi": "Thì hiện tại hoàn thành",
+    "level": "beginner",
+    "category": "basic",
+    "order": 5,
+    "content": "## Present Perfect Tense\n\nConnects the past to the present — used for experiences, recent actions, and continuing states.\n\n### Structure\n- **Positive:** Subject + have/has + V3 (past participle)\n- **Negative:** Subject + have/has + not + V3\n- **Question:** Have/Has + Subject + V3?\n\n### Usage\n1. **Life experiences:** *I have visited Japan.*\n2. **Recent actions with present relevance:** *She has just finished her homework.*\n3. **Actions over a time period:** *I have lived here for 5 years.*\n4. **With 'ever', 'never', 'already', 'yet':** *Have you ever eaten sushi?*\n\n### Signal words\nalready, yet, just, ever, never, recently, for, since, so far",
+    "examples": [
+      { "english": "I have never been to Australia.", "vietnamese": "Tôi chưa bao giờ đến Úc.", "explanation": "Life experience - never in your life" },
+      { "english": "She has just finished the report.", "vietnamese": "Cô ấy vừa mới hoàn thành báo cáo.", "explanation": "Very recent action with present relevance" },
+      { "english": "Have you eaten lunch yet?", "vietnamese": "Bạn đã ăn trưa chưa?", "explanation": "Question with 'yet' - expecting it to happen" },
+      { "english": "We have lived in this city for ten years.", "vietnamese": "Chúng tôi đã sống ở thành phố này mười năm.", "explanation": "State continuing from past to present" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I ___ never tried Indian food.", "options": ["have", "has", "had", "am"], "answer": "have" },
+      { "type": "fill_blank", "question": "She ___ (just/finish) her homework.", "answer": "has just finished" },
+      { "type": "multiple_choice", "question": "___ you seen this movie before?", "options": ["Did", "Have", "Were", "Do"], "answer": "Have" },
+      { "type": "fill_blank", "question": "He ___ (live) here since 2015.", "answer": "has lived" },
+      { "type": "multiple_choice", "question": "They have already ___ dinner.", "options": ["eat", "ate", "eating", "eaten"], "answer": "eaten" }
+    ]
+  },
+  {
+    "title": "Future Simple: Will & Going To",
+    "titleVi": "Thì tương lai: Will & Going To",
+    "level": "beginner",
+    "category": "basic",
+    "order": 6,
+    "content": "## Future Simple: Will & Going To\n\n### WILL\nUsed for:\n1. **Spontaneous decisions:** *I'll help you with that.*\n2. **Predictions (opinion/belief):** *I think it will rain tomorrow.*\n3. **Promises and offers:** *I will call you tonight.*\n\n**Structure:** Subject + will + V (bare infinitive)\n\n### GOING TO\nUsed for:\n1. **Plans and intentions:** *I'm going to study abroad next year.*\n2. **Predictions based on evidence:** *Look at those clouds — it's going to rain.*\n\n**Structure:** Subject + am/is/are + going to + V\n\n### Key difference\n- *I'll get the door!* (spontaneous decision)\n- *I'm going to call her later.* (planned intention)",
+    "examples": [
+      { "english": "I'll have the chicken, please.", "vietnamese": "Cho tôi thịt gà, làm ơn.", "explanation": "Spontaneous decision made at the moment of speaking" },
+      { "english": "She's going to start a new job next month.", "vietnamese": "Cô ấy sẽ bắt đầu công việc mới vào tháng tới.", "explanation": "Pre-planned intention" },
+      { "english": "I think it will be a great trip.", "vietnamese": "Tôi nghĩ đó sẽ là một chuyến đi tuyệt vời.", "explanation": "Personal prediction/opinion" },
+      { "english": "Watch out! You're going to fall!", "vietnamese": "Coi chừng! Bạn sắp ngã rồi!", "explanation": "Prediction based on visible evidence" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I think she ___ love this gift.", "options": ["is going to", "will", "going to", "would"], "answer": "will" },
+      { "type": "fill_blank", "question": "We ___ (go) to the beach this summer. (plan)", "answer": "are going to go" },
+      { "type": "multiple_choice", "question": "A: The phone is ringing! B: I ___ get it!", "options": ["am going to", "will", "was", "have"], "answer": "will" },
+      { "type": "fill_blank", "question": "Look at the traffic — we ___ (be) late.", "answer": "are going to be" },
+      { "type": "multiple_choice", "question": "___ you help me move this table?", "options": ["Are going to", "Will", "Did", "Have"], "answer": "Will" }
+    ]
+  },
+  {
+    "title": "Past Perfect Tense",
+    "titleVi": "Thì quá khứ hoàn thành",
+    "level": "intermediate",
+    "category": "basic",
+    "order": 7,
+    "content": "## Past Perfect Tense\n\nUsed to describe an action that was completed BEFORE another past action.\n\n### Structure\n- **Positive:** Subject + had + V3 (past participle)\n- **Negative:** Subject + had + not + V3\n- **Question:** Had + Subject + V3?\n\n### Usage\n1. **Action completed before another past action:** *When I arrived, she had already left.*\n2. **Reported speech (backshift):** *He said he had seen the movie.*\n3. **Third conditional:** *If I had studied harder, I would have passed.*\n\n### Timeline\n---Past Perfect---→---Past Simple---→ Now\n\n### Signal words\nbefore, after, already, just, when, by the time, never ... before",
+    "examples": [
+      { "english": "When I arrived at the party, everyone had already gone home.", "vietnamese": "Khi tôi đến bữa tiệc, mọi người đã về nhà rồi.", "explanation": "The leaving happened BEFORE the arriving" },
+      { "english": "She had never seen snow before she moved to Canada.", "vietnamese": "Cô ấy chưa bao giờ nhìn thấy tuyết trước khi chuyển đến Canada.", "explanation": "An experience (or lack of) before a specific past point" },
+      { "english": "I realized I had forgotten my wallet.", "vietnamese": "Tôi nhận ra mình đã quên ví.", "explanation": "The forgetting happened before the realizing" },
+      { "english": "By the time the movie started, we had found our seats.", "vietnamese": "Đến lúc phim bắt đầu, chúng tôi đã tìm được chỗ ngồi.", "explanation": "Action completed before a reference point in the past" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She ___ already left when I called.", "options": ["has", "had", "have", "was"], "answer": "had" },
+      { "type": "fill_blank", "question": "By the time he arrived, we ___ (eat) all the food.", "answer": "had eaten" },
+      { "type": "multiple_choice", "question": "___ you ever seen a bear before that trip?", "options": ["Have", "Had", "Did", "Were"], "answer": "Had" },
+      { "type": "fill_blank", "question": "I felt sick because I ___ (not/sleep) well.", "answer": "hadn't slept" },
+      { "type": "multiple_choice", "question": "After they ___ dinner, they went for a walk.", "options": ["had had", "have had", "had", "have"], "answer": "had had" }
+    ]
+  },
+  {
+    "title": "Modal Verbs: Can, Could, May, Might",
+    "titleVi": "Động từ khiếm khuyết: Can, Could, May, Might",
+    "level": "beginner",
+    "category": "structures",
+    "order": 8,
+    "content": "## Modal Verbs: Can, Could, May, Might\n\nModal verbs are special verbs that express ability, possibility, and permission.\n\n### CAN\n1. **Ability:** *I can swim.* (I am able to)\n2. **Permission (informal):** *Can I borrow your pen?*\n3. **Possibility:** *It can be very cold here in winter.*\n\n### COULD\n1. **Past ability:** *I could run fast when I was young.*\n2. **Polite request:** *Could you help me, please?*\n3. **Possibility (less certain):** *She could be at home.*\n\n### MAY\n1. **Permission (formal):** *May I come in?*\n2. **Possibility:** *It may rain this afternoon.*\n\n### MIGHT\n1. **Possibility (less certain than may):** *I might go to the party.*\n2. **Suggestion:** *You might want to try this restaurant.*\n\n**Structure:** Subject + modal + V (bare infinitive)",
+    "examples": [
+      { "english": "Can you speak Japanese?", "vietnamese": "Bạn có thể nói tiếng Nhật không?", "explanation": "Asking about ability" },
+      { "english": "Could you please repeat that?", "vietnamese": "Bạn có thể nhắc lại không?", "explanation": "Polite request - more formal than 'can'" },
+      { "english": "It may be too late to call her now.", "vietnamese": "Có thể đã quá muộn để gọi cho cô ấy.", "explanation": "Possibility - around 50% chance" },
+      { "english": "I might go to the gym tonight, I'm not sure.", "vietnamese": "Tối nay tôi có thể đến phòng gym, tôi không chắc.", "explanation": "Uncertain possibility - less than 50% chance" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ I use your phone? Mine is dead.", "options": ["Might", "Would", "Can", "Must"], "answer": "Can" },
+      { "type": "multiple_choice", "question": "___ you pass the salt, please?", "options": ["Can", "Could", "May", "Might"], "answer": "Could" },
+      { "type": "fill_blank", "question": "She ___ be at the library — I'm not sure.", "answer": "might" },
+      { "type": "multiple_choice", "question": "___ I ask you a question?", "options": ["Could", "May", "Would", "All correct"], "answer": "All correct" },
+      { "type": "fill_blank", "question": "He ___ swim very well when he was a child.", "answer": "could" }
+    ]
+  },
+  {
+    "title": "Modal Verbs: Must, Have to, Should",
+    "titleVi": "Động từ khiếm khuyết: Must, Have to, Should",
+    "level": "beginner",
+    "category": "structures",
+    "order": 9,
+    "content": "## Modal Verbs: Must, Have to, Should\n\n### MUST\n1. **Strong obligation (speaker's decision):** *You must wear a seatbelt.*\n2. **Strong logical deduction:** *He must be tired — he's worked all day.*\n\n### HAVE TO\n1. **External obligation (rules, laws):** *I have to pay my taxes.*\n2. **Necessity:** *She has to take medicine every day.*\n\n### MUST vs HAVE TO\n- **Must** = personal obligation (I think this is important)\n- **Have to** = external obligation (rules say so)\n\n### SHOULD / OUGHT TO\n1. **Advice/recommendation:** *You should see a doctor.*\n2. **Expectation:** *The package should arrive tomorrow.*\n3. **Mild obligation:** *You ought to call your mother more often.*\n\n### MUSTN'T vs DON'T HAVE TO\n- **Mustn't** = prohibited (do NOT do this!)\n- **Don't have to** = not necessary (but you can if you want)",
+    "examples": [
+      { "english": "You must show your passport at immigration.", "vietnamese": "Bạn phải xuất trình hộ chiếu tại cửa khẩu.", "explanation": "Strong obligation - rule/law" },
+      { "english": "You should see a doctor about that cough.", "vietnamese": "Bạn nên đi gặp bác sĩ về cơn ho đó.", "explanation": "Advice/recommendation" },
+      { "english": "You mustn't smoke in the hospital.", "vietnamese": "Bạn không được hút thuốc trong bệnh viện.", "explanation": "Prohibition - absolutely not allowed" },
+      { "english": "You don't have to come if you're busy.", "vietnamese": "Bạn không cần phải đến nếu bận.", "explanation": "No obligation - optional" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "You ___ be quiet in the library.", "options": ["should", "must", "have to", "All correct"], "answer": "All correct" },
+      { "type": "multiple_choice", "question": "I ___ take the bus — my car is broken.", "options": ["must", "have to", "should", "ought"], "answer": "have to" },
+      { "type": "fill_blank", "question": "You ___ (not) tell anyone my secret!", "answer": "mustn't" },
+      { "type": "multiple_choice", "question": "You look pale. You ___ see a doctor.", "options": ["should", "must", "have to", "might"], "answer": "should" },
+      { "type": "fill_blank", "question": "She ___ (not/wear) a uniform — it's optional.", "answer": "doesn't have to wear" }
+    ]
+  },
+  {
+    "title": "Passive Voice",
+    "titleVi": "Câu bị động",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 10,
+    "content": "## Passive Voice\n\nUsed when the action is more important than who performs it, or when the agent is unknown.\n\n### Structure\n**Be + V3 (past participle)**\n\n| Tense | Active | Passive |\n|---|---|---|\n| Present Simple | She cleans the room. | The room **is cleaned**. |\n| Past Simple | He broke the window. | The window **was broken**. |\n| Present Perfect | They have built the bridge. | The bridge **has been built**. |\n| Future | They will deliver the package. | The package **will be delivered**. |\n\n### When to use passive\n1. **Unknown agent:** *My wallet was stolen.*\n2. **Unimportant agent:** *The report is written every month.*\n3. **Formal/scientific writing:** *Water is composed of hydrogen and oxygen.*\n4. **To emphasize the receiver:** *The president was elected by millions.*\n\n### Adding the agent (by + agent)\n*The cake was baked **by my mother**.*",
+    "examples": [
+      { "english": "English is spoken all over the world.", "vietnamese": "Tiếng Anh được nói trên toàn thế giới.", "explanation": "Present simple passive - general fact" },
+      { "english": "My car was repaired yesterday.", "vietnamese": "Xe của tôi được sửa hôm qua.", "explanation": "Past simple passive - we don't need to say who fixed it" },
+      { "english": "The new shopping center will be opened next month.", "vietnamese": "Trung tâm mua sắm mới sẽ được khai trương tháng tới.", "explanation": "Future passive" },
+      { "english": "The report has been submitted to the manager.", "vietnamese": "Báo cáo đã được nộp cho quản lý.", "explanation": "Present perfect passive" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The homework ___ done by all students.", "options": ["is", "was", "were", "are"], "answer": "is" },
+      { "type": "fill_blank", "question": "The letter ___ (send) yesterday.", "answer": "was sent" },
+      { "type": "multiple_choice", "question": "The museum ___ built in 1950.", "options": ["is", "was", "were", "be"], "answer": "was" },
+      { "type": "fill_blank", "question": "The project ___ (complete) by the team next week.", "answer": "will be completed" },
+      { "type": "multiple_choice", "question": "My keys ___. I can't find them.", "options": ["were stolen", "stole", "are steal", "have steal"], "answer": "were stolen" }
+    ]
+  },
+  {
+    "title": "First Conditional",
+    "titleVi": "Câu điều kiện loại 1",
+    "level": "beginner",
+    "category": "structures",
+    "order": 11,
+    "content": "## First Conditional\n\nUsed for real or likely situations in the present or future.\n\n### Structure\n**If + Present Simple, will + V (base form)**\n\nOr reversed: **Will + V, if + Present Simple**\n\n### Usage\n- Situations that are **possible and likely to happen**\n- *If it rains, I will stay home.*\n- *If you study hard, you will pass the exam.*\n\n### Variations\n- **If + present, can/may/might/should + V**\n- *If you're tired, you should rest.*\n- *If it stops raining, we can go out.*\n\n### Unless = If not\n- *Unless you hurry, you will miss the bus.*\n- = *If you don't hurry, you will miss the bus.*",
+    "examples": [
+      { "english": "If I finish work early, I will join you for dinner.", "vietnamese": "Nếu tôi kết thúc công việc sớm, tôi sẽ đi ăn tối với bạn.", "explanation": "Likely future condition - genuine possibility" },
+      { "english": "If you don't eat breakfast, you will feel hungry later.", "vietnamese": "Nếu bạn không ăn sáng, bạn sẽ cảm thấy đói sau này.", "explanation": "Warning about a likely consequence" },
+      { "english": "Will you call me if you need help?", "vietnamese": "Bạn sẽ gọi cho tôi nếu cần giúp không?", "explanation": "Question with first conditional" },
+      { "english": "Unless it snows, we will go hiking tomorrow.", "vietnamese": "Trừ khi tuyết rơi, chúng ta sẽ đi leo núi ngày mai.", "explanation": "Unless = If not" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "If you ___ hard, you will succeed.", "options": ["work", "works", "worked", "will work"], "answer": "work" },
+      { "type": "fill_blank", "question": "If she calls, I ___ (tell) her the news.", "answer": "will tell" },
+      { "type": "multiple_choice", "question": "Unless he ___, the project will fail.", "options": ["help", "helps", "helped", "will help"], "answer": "helps" },
+      { "type": "fill_blank", "question": "If it ___ (rain) tomorrow, we won't go to the beach.", "answer": "rains" },
+      { "type": "multiple_choice", "question": "If I have time, I ___ visit you.", "options": ["will", "would", "could", "might"], "answer": "will" }
+    ]
+  },
+  {
+    "title": "Second Conditional",
+    "titleVi": "Câu điều kiện loại 2",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 12,
+    "content": "## Second Conditional\n\nUsed for imaginary, hypothetical, or unlikely situations in the present or future.\n\n### Structure\n**If + Past Simple, would + V (base form)**\n\n### Usage\n- **Imaginary situations:** *If I were a bird, I would fly everywhere.*\n- **Unlikely situations:** *If I won the lottery, I would travel the world.*\n- **Giving advice:** *If I were you, I would apologize.*\n\n### Note: 'were' for all subjects\n*If I **were** rich... / If she **were** here...*\n(Although 'was' is accepted in informal speech)\n\n### Second vs First Conditional\n- **First:** *If it rains, I'll stay home.* (likely to happen)\n- **Second:** *If it rained in the Sahara, crops would grow.* (very unlikely/hypothetical)",
+    "examples": [
+      { "english": "If I were the president, I would reduce taxes.", "vietnamese": "Nếu tôi là tổng thống, tôi sẽ giảm thuế.", "explanation": "Hypothetical/imaginary situation - not real" },
+      { "english": "If she had more time, she would learn to cook.", "vietnamese": "Nếu cô ấy có nhiều thời gian hơn, cô ấy sẽ học nấu ăn.", "explanation": "Unlikely present situation" },
+      { "english": "What would you do if you lost your job?", "vietnamese": "Bạn sẽ làm gì nếu mất việc?", "explanation": "Hypothetical question" },
+      { "english": "If I were you, I would accept the offer.", "vietnamese": "Nếu tôi là bạn, tôi sẽ chấp nhận đề nghị đó.", "explanation": "Giving advice using 'if I were you'" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "If I ___ a car, I would drive to work.", "options": ["have", "had", "will have", "would have"], "answer": "had" },
+      { "type": "fill_blank", "question": "If she were rich, she ___ (buy) a yacht.", "answer": "would buy" },
+      { "type": "multiple_choice", "question": "If I ___ you, I would talk to her.", "options": ["am", "was", "were", "be"], "answer": "were" },
+      { "type": "fill_blank", "question": "What ___ you do if you found a wallet?", "answer": "would" },
+      { "type": "multiple_choice", "question": "He would travel more if he ___ more money.", "options": ["has", "had", "have", "will have"], "answer": "had" }
+    ]
+  },
+  {
+    "title": "Third Conditional",
+    "titleVi": "Câu điều kiện loại 3",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 13,
+    "content": "## Third Conditional\n\nUsed to talk about imaginary situations in the PAST — things that didn't happen.\n\n### Structure\n**If + Past Perfect (had + V3), would have + V3**\n\n### Usage\n- **Past regrets:** *If I had studied harder, I would have passed.*\n- **Imagining a different past:** *If she had taken that job, she would have moved to Paris.*\n- **Criticizing past actions:** *If you had called me, I would have come to help.*\n\n### Mixed conditional (past condition → present result)\n**If + Past Perfect, would + V**\n*If I had learned to drive, I would have a car now.*\n\n### Common contractions\n- I'd have = I would have\n- If I'd = If I had",
+    "examples": [
+      { "english": "If I had known you were coming, I would have baked a cake.", "vietnamese": "Nếu tôi biết bạn đến, tôi đã làm bánh.", "explanation": "Imaginary past - the person didn't come (or wasn't expected)" },
+      { "english": "She would have gotten the job if she had arrived on time.", "vietnamese": "Cô ấy đã được việc nếu đến đúng giờ.", "explanation": "Past regret - she arrived late" },
+      { "english": "If they had taken the highway, they wouldn't have gotten lost.", "vietnamese": "Nếu họ đi đường cao tốc, họ đã không bị lạc.", "explanation": "Different past decision → different outcome" },
+      { "english": "Would you have helped him if he had asked you?", "vietnamese": "Bạn có giúp anh ấy không nếu anh ấy nhờ?", "explanation": "Question about a hypothetical past action" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "If she had studied, she ___ have passed.", "options": ["would", "will", "could", "had"], "answer": "would" },
+      { "type": "fill_blank", "question": "If I ___ (know), I would have told you.", "answer": "had known" },
+      { "type": "multiple_choice", "question": "They ___ have won if they had tried harder.", "options": ["would", "will", "had", "should"], "answer": "would" },
+      { "type": "fill_blank", "question": "If you had called me, I ___ (come).", "answer": "would have come" },
+      { "type": "multiple_choice", "question": "If he had saved money, he ___ bought a house.", "options": ["would have", "had", "will have", "would"], "answer": "would have" }
+    ]
+  },
+  {
+    "title": "Reported Speech",
+    "titleVi": "Lời nói gián tiếp",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 14,
+    "content": "## Reported Speech\n\nUsed to report what someone said without using their exact words.\n\n### Tense backshift\n| Direct speech | Reported speech |\n|---|---|\n| Present Simple | Past Simple |\n| Present Continuous | Past Continuous |\n| Past Simple | Past Perfect |\n| Present Perfect | Past Perfect |\n| Will | Would |\n| Can | Could |\n\n### Reporting verbs\nsay, tell, ask, explain, admit, deny, promise, suggest\n\n### Changes in pronouns and time expressions\n- now → then\n- today → that day\n- yesterday → the day before\n- tomorrow → the next day\n- here → there\n- this → that\n\n### Questions in reported speech\n- Yes/No: *'Are you ready?' → She asked if I was ready.*\n- Wh-: *'Where do you live?' → He asked where I lived.*",
+    "examples": [
+      { "english": "Direct: 'I am tired.' → Reported: She said she was tired.", "vietnamese": "Trực tiếp: 'Tôi mệt.' → Gián tiếp: Cô ấy nói cô ấy mệt.", "explanation": "Present simple → Past simple in reported speech" },
+      { "english": "Direct: 'I will help you.' → Reported: He promised he would help me.", "vietnamese": "Trực tiếp: 'Tôi sẽ giúp bạn.' → Gián tiếp: Anh ấy hứa sẽ giúp tôi.", "explanation": "Will → Would, and pronouns change" },
+      { "english": "'Are you coming?' → She asked if I was coming.", "vietnamese": "'Bạn có đến không?' → Cô ấy hỏi tôi có đến không.", "explanation": "Yes/No question reported with 'if'" },
+      { "english": "'Where do you live?' → He asked where I lived.", "vietnamese": "'Bạn sống ở đâu?' → Anh ấy hỏi tôi sống ở đâu.", "explanation": "Wh-question in reported speech" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She said she ___ tired.", "options": ["is", "was", "were", "be"], "answer": "was" },
+      { "type": "fill_blank", "question": "He told me he ___ (can) help me.", "answer": "could" },
+      { "type": "multiple_choice", "question": "She asked me if I ___ ready.", "options": ["am", "was", "were", "be"], "answer": "was" },
+      { "type": "fill_blank", "question": "He said he ___ (go) to the party the next day.", "answer": "would go" },
+      { "type": "multiple_choice", "question": "They told us they ___ already finished.", "options": ["have", "has", "had", "having"], "answer": "had" }
+    ]
+  },
+  {
+    "title": "Relative Clauses",
+    "titleVi": "Mệnh đề quan hệ",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 15,
+    "content": "## Relative Clauses\n\nUsed to give additional information about a noun.\n\n### Relative pronouns\n| Pronoun | Used for |\n|---|---|\n| **who** | people (subject) |\n| **whom** | people (object/formal) |\n| **which** | things/animals |\n| **that** | people or things (defining) |\n| **whose** | possession |\n| **where** | places |\n| **when** | times |\n\n### Defining relative clauses\n(No commas — gives essential information)\n*The man **who called you** is my brother.*\n\n### Non-defining relative clauses\n(With commas — adds extra information)\n*My sister, **who lives in London**, is a doctor.*\n\n### Omitting the pronoun\nWhen the relative pronoun is the object, it can be omitted:\n*The book (that) I read was amazing.*",
+    "examples": [
+      { "english": "The woman who works in the bakery is my aunt.", "vietnamese": "Người phụ nữ làm ở tiệm bánh là dì tôi.", "explanation": "Who - defines which woman we mean (essential info)" },
+      { "english": "This is the house where I grew up.", "vietnamese": "Đây là ngôi nhà nơi tôi lớn lên.", "explanation": "Where - refers to a place" },
+      { "english": "The movie that we watched last night was fantastic.", "vietnamese": "Bộ phim mà chúng tôi xem tối qua thật tuyệt.", "explanation": "That - refers to a thing (object - 'that' can be omitted)" },
+      { "english": "My friend, whose father is a doctor, wants to study medicine.", "vietnamese": "Người bạn của tôi, bố anh ấy là bác sĩ, muốn học y khoa.", "explanation": "Whose - shows possession" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The girl ___ won the prize is my classmate.", "options": ["which", "who", "whose", "whom"], "answer": "who" },
+      { "type": "fill_blank", "question": "This is the café ___ I met her.", "answer": "where" },
+      { "type": "multiple_choice", "question": "The book ___ you recommended was great.", "options": ["who", "whose", "which", "where"], "answer": "which" },
+      { "type": "fill_blank", "question": "He's the man ___ car was stolen.", "answer": "whose" },
+      { "type": "multiple_choice", "question": "I remember the day ___ we first met.", "options": ["where", "when", "which", "who"], "answer": "when" }
+    ]
+  },
+  {
+    "title": "Articles: A, An, The",
+    "titleVi": "Mạo từ: A, An, The",
+    "level": "beginner",
+    "category": "structures",
+    "order": 16,
+    "content": "## Articles: A, An, The\n\n### Indefinite Article: A / AN\nUsed with singular countable nouns when:\n- **First mention:** *I saw **a** dog in the park.*\n- **Non-specific:** *Can I have **a** coffee?*\n- **Classifying:** *She is **an** engineer.*\n\n**A** + consonant sound: *a book, a university, a European*\n**AN** + vowel sound: *an apple, an hour, an honest person*\n\n### Definite Article: THE\nUsed when:\n- **Already mentioned:** *I saw a dog. **The** dog was big.*\n- **Unique items:** ***The** sun, **the** moon, **the** president*\n- **Superlatives:** ***The** best, **the** most beautiful*\n- **Known to both:** *Please close **the** door.*\n- **Ordinals:** ***The** first, **the** second*\n\n### No article (zero article)\n- **Plural/uncountable generalities:** *Dogs are loyal. Water is essential.*\n- **Proper nouns:** *Vietnam, John, Mount Everest*\n- **Meals, games, subjects:** *breakfast, chess, English*",
+    "examples": [
+      { "english": "I need an umbrella — it's going to rain.", "vietnamese": "Tôi cần một cái ô — trời sắp mưa.", "explanation": "An - before vowel sound, first mention, non-specific" },
+      { "english": "The Eiffel Tower is in Paris.", "vietnamese": "Tháp Eiffel ở Paris.", "explanation": "The - unique landmark, known to everyone" },
+      { "english": "She's a nurse at the local hospital.", "vietnamese": "Cô ấy là y tá tại bệnh viện địa phương.", "explanation": "A - classifying occupation; the - specific known hospital" },
+      { "english": "I love music, especially the music in this restaurant.", "vietnamese": "Tôi thích âm nhạc, đặc biệt là âm nhạc trong nhà hàng này.", "explanation": "No article for general; the - specific music being discussed" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She found ___ wallet on the street.", "options": ["a", "an", "the", "no article"], "answer": "a" },
+      { "type": "multiple_choice", "question": "He works as ___ engineer.", "options": ["a", "an", "the", "no article"], "answer": "an" },
+      { "type": "fill_blank", "question": "___ sun rises in the east. (definite)", "answer": "The" },
+      { "type": "multiple_choice", "question": "I had ___ coffee and ___ egg for breakfast.", "options": ["a / an", "an / a", "the / the", "a / a"], "answer": "a / an" },
+      { "type": "fill_blank", "question": "They play ___ chess every evening. (no article/the)", "answer": "no article" }
+    ]
+  },
+  {
+    "title": "Gerunds and Infinitives",
+    "titleVi": "Danh động từ và Động từ nguyên thể",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 17,
+    "content": "## Gerunds and Infinitives\n\n### Gerund (V-ing) — used as a noun\n**Verbs followed by gerund:**\nenjoyed, finish, mind, suggest, avoid, consider, deny, imagine, keep, miss, practice, stop, can't help\n\n*I enjoy **swimming**.*\n*She avoided **making** eye contact.*\n\n### Infinitive (to + V)\n**Verbs followed by infinitive:**\nwant, need, decide, plan, hope, expect, agree, refuse, manage, learn, promise, seem, tend\n\n*He wants **to study** abroad.*\n*She decided **to leave** early.*\n\n### Verbs followed by BOTH (with different meanings)\n- **remember:** *I remember locking the door.* (past) vs *I must remember to lock it.* (future)\n- **stop:** *I stopped smoking.* (quit) vs *I stopped to smoke.* (paused for)\n- **try:** *Try adding more salt.* (experiment) vs *Try to finish it.* (make effort)\n- **forget:** *I'll never forget meeting her.* vs *Don't forget to call.*\n\n### Preposition + Gerund\n*She's interested **in studying** medicine.*\n*He's good **at cooking**.*",
+    "examples": [
+      { "english": "I enjoy watching movies on weekends.", "vietnamese": "Tôi thích xem phim vào cuối tuần.", "explanation": "enjoy + gerund (V-ing)" },
+      { "english": "She decided to move to a bigger apartment.", "vietnamese": "Cô ấy quyết định chuyển đến căn hộ lớn hơn.", "explanation": "decide + infinitive (to + V)" },
+      { "english": "He stopped to talk to his friend. (He paused in order to talk)", "vietnamese": "Anh ấy dừng lại để nói chuyện với bạn.", "explanation": "stop + infinitive = stopped in order to do something" },
+      { "english": "He stopped smoking last year. (He quit)", "vietnamese": "Anh ấy đã bỏ thuốc lá năm ngoái.", "explanation": "stop + gerund = quit the habit" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I enjoy ___ in the park.", "options": ["walk", "to walk", "walking", "walked"], "answer": "walking" },
+      { "type": "multiple_choice", "question": "She decided ___ early.", "options": ["leave", "leaving", "to leave", "left"], "answer": "to leave" },
+      { "type": "fill_blank", "question": "He avoided ___ (make) eye contact.", "answer": "making" },
+      { "type": "multiple_choice", "question": "I remember ___ her at the party last year.", "options": ["meet", "to meet", "met", "meeting"], "answer": "meeting" },
+      { "type": "fill_blank", "question": "Don't forget ___ (lock) the door!", "answer": "to lock" }
+    ]
+  },
+  {
+    "title": "Comparative and Superlative",
+    "titleVi": "So sánh hơn và So sánh nhất",
+    "level": "beginner",
+    "category": "structures",
+    "order": 18,
+    "content": "## Comparative and Superlative\n\n### Comparative (hơn)\nUsed to compare two things.\n\n| Adjective | Comparative | Superlative |\n|---|---|---|\n| Short (1 syllable) | add -er | add -est |\n| Long (2+ syllables) | more + adj | most + adj |\n| good | better | best |\n| bad | worse | worst |\n| far | farther/further | farthest/furthest |\n\n**Structure:** A + is + comparative + than + B\n*This book is **more interesting than** that one.*\n*She is **taller than** her sister.*\n\n### Superlative (nhất)\nUsed to compare three or more.\n**Structure:** the + superlative + in/of\n*He is **the tallest** in the class.*\n*This is **the most expensive** restaurant in the city.*\n\n### Other comparison structures\n- **As ... as:** *She is as tall as her brother.*\n- **Not as ... as:** *This isn't as cheap as I expected.*\n- **The ... the ...:** *The more you practice, the better you get.*",
+    "examples": [
+      { "english": "My new phone is much faster than my old one.", "vietnamese": "Điện thoại mới của tôi nhanh hơn nhiều so với cái cũ.", "explanation": "Comparative - fast → faster; 'much' intensifies the comparison" },
+      { "english": "Hanoi is the most populated city in northern Vietnam.", "vietnamese": "Hà Nội là thành phố đông dân nhất ở miền Bắc Việt Nam.", "explanation": "Superlative - most populated + in + place" },
+      { "english": "Is English harder than Japanese?", "vietnamese": "Tiếng Anh có khó hơn tiếng Nhật không?", "explanation": "Comparative in a question" },
+      { "english": "The more you read, the better your English will become.", "vietnamese": "Bạn đọc càng nhiều, tiếng Anh của bạn càng tốt.", "explanation": "The ... the ... structure for parallel comparison" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She is ___ than her sister.", "options": ["tall", "more tall", "taller", "tallest"], "answer": "taller" },
+      { "type": "fill_blank", "question": "This is ___ (expensive) hotel in the city.", "answer": "the most expensive" },
+      { "type": "multiple_choice", "question": "Today is ___ than yesterday.", "options": ["hot", "hottest", "more hot", "hotter"], "answer": "hotter" },
+      { "type": "fill_blank", "question": "My bag is not as heavy ___ yours.", "answer": "as" },
+      { "type": "multiple_choice", "question": "Which is ___: French or Spanish?", "options": ["more easy", "easiest", "easier", "most easy"], "answer": "easier" }
+    ]
+  },
+  {
+    "title": "Question Tags",
+    "titleVi": "Câu hỏi đuôi",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 19,
+    "content": "## Question Tags\n\nShort questions added to the end of statements to seek confirmation or make conversation.\n\n### Rules\n1. **Positive statement → negative tag:**\n   *It's cold today, **isn't it?***\n2. **Negative statement → positive tag:**\n   *She doesn't like fish, **does she?***\n3. **The tag uses the same auxiliary verb as the main clause:**\n   - is/are → isn't/aren't\n   - do/does → don't/doesn't\n   - did → didn't\n   - have/has → haven't/hasn't\n   - will → won't\n   - can → can't\n\n### Special cases\n- **I am** → *aren't I?* (informal)\n- **Let's** → *shall we?*\n- **Imperatives** → *will you?*\n\n### Intonation\n- **Falling intonation** = speaker is quite sure, just confirming\n- **Rising intonation** = speaker is genuinely asking",
+    "examples": [
+      { "english": "You're coming to the party, aren't you?", "vietnamese": "Bạn đến bữa tiệc chứ?", "explanation": "Positive statement → negative tag with 'are'" },
+      { "english": "She hasn't called yet, has she?", "vietnamese": "Cô ấy vẫn chưa gọi, phải không?", "explanation": "Negative statement → positive tag" },
+      { "english": "Let's take a break, shall we?", "vietnamese": "Hãy nghỉ giải lao, nhé?", "explanation": "Special case: Let's → shall we?" },
+      { "english": "It will be a great event, won't it?", "vietnamese": "Đó sẽ là một sự kiện tuyệt vời, phải không?", "explanation": "Will → won't in the tag" }
+    ],
+    "exercises": [
+      { "type": "fill_blank", "question": "She's a doctor, ___ ___?", "answer": "isn't she" },
+      { "type": "multiple_choice", "question": "They didn't finish, ___ ___?", "options": ["did they", "didn't they", "do they", "don't they"], "answer": "did they" },
+      { "type": "fill_blank", "question": "You can swim, ___ ___?", "answer": "can't you" },
+      { "type": "multiple_choice", "question": "He won't be late, ___ ___?", "options": ["will he", "won't he", "is he", "does he"], "answer": "will he" },
+      { "type": "fill_blank", "question": "Let's go, ___ ___?", "answer": "shall we" }
+    ]
+  },
+  {
+    "title": "Wish and If Only",
+    "titleVi": "Wish và If Only",
+    "level": "intermediate",
+    "category": "structures",
+    "order": 20,
+    "content": "## Wish and If Only\n\nUsed to express regrets, desires, and complaints about reality.\n\n### Wish/If only + Past Simple\n(Present situation you want to be different)\n*I wish I **spoke** better English.* (But I don't)\n*If only she **were** here now.* (But she isn't)\n\n### Wish/If only + Past Perfect\n(Past situation you regret)\n*I wish I **had studied** harder.* (But I didn't)\n*If only I **hadn't said** that.* (But I did)\n\n### Wish + would\n(Expressing irritation or desire for change in someone's behavior)\n*I wish you **would stop** making noise.*\n*I wish it **would stop** raining.*\n\n### Note on 'were'\n*I wish I were taller.* (formal)\n*I wish I was taller.* (informal — also acceptable)\n\n### If only vs I wish\nSame meaning, but 'If only' is more emphatic.",
+    "examples": [
+      { "english": "I wish I had more free time.", "vietnamese": "Tôi ước mình có nhiều thời gian rảnh hơn.", "explanation": "Wish + past simple → desire to change present reality" },
+      { "english": "If only I hadn't eaten so much!", "vietnamese": "Giá như tôi không ăn nhiều vậy!", "explanation": "If only + past perfect → regret about past action" },
+      { "english": "I wish you would be quieter.", "vietnamese": "Tôi ước bạn im lặng hơn.", "explanation": "Wish + would → complaint about someone's behavior" },
+      { "english": "She wishes she could fly.", "vietnamese": "Cô ấy ước mình có thể bay.", "explanation": "Wish + could → desire for an impossible ability" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I wish I ___ taller.", "options": ["am", "be", "were", "is"], "answer": "were" },
+      { "type": "fill_blank", "question": "She wishes she ___ (study) harder last year.", "answer": "had studied" },
+      { "type": "multiple_choice", "question": "I wish you ___ stop interrupting me!", "options": ["will", "would", "could", "should"], "answer": "would" },
+      { "type": "fill_blank", "question": "If only I ___ (not/say) that to her.", "answer": "hadn't said" },
+      { "type": "multiple_choice", "question": "He wishes he ___ speak French.", "options": ["can", "could", "would", "should"], "answer": "could" }
+    ]
+  },
+  {
+    "title": "Common Sentence Patterns",
+    "titleVi": "Các mẫu câu thông dụng",
+    "level": "beginner",
+    "category": "structures",
+    "order": 21,
+    "content": "## Common Sentence Patterns\n\nThese patterns are frequently used in everyday English conversation.\n\n### 1. Would like to + V\nUsed to express a polite wish or desire.\n- *I would like to order a coffee.*\n\n### 2. Used to + V\nUsed to describe past habits that no longer happen.\n- *I used to play tennis when I was young.*\n\n### 3. It takes + time + to V\nUsed to express how long something takes.\n- *It takes 30 minutes to get to work.*\n\n### 4. Too + adj + to V\nUsed to say something is excessive.\n- *This coffee is too hot to drink.*\n\n### 5. Adj + enough + to V\nUsed to say something is sufficient.\n- *She is old enough to drive.*\n\n### 6. Not only ... but also\nUsed to add emphasis.\n- *He is not only smart but also hardworking.*",
+    "examples": [
+      { "english": "I would like to make a reservation.", "vietnamese": "Tôi muốn đặt chỗ.", "explanation": "Polite request using 'would like to'" },
+      { "english": "She used to live in New York.", "vietnamese": "Cô ấy từng sống ở New York.", "explanation": "Past habit - no longer true" },
+      { "english": "It takes about an hour to get there.", "vietnamese": "Mất khoảng một giờ để đến đó.", "explanation": "Expressing duration with 'It takes'" },
+      { "english": "The bag is too heavy to carry.", "vietnamese": "Cái túi quá nặng để mang.", "explanation": "Too + adjective + to infinitive" }
+    ],
+    "exercises": [
+      { "type": "fill_blank", "question": "I ___ like to try the special today.", "answer": "would" },
+      { "type": "multiple_choice", "question": "She ___ play the piano, but she stopped.", "options": ["use to", "used to", "used", "use"], "answer": "used to" },
+      { "type": "fill_blank", "question": "It ___ me 20 minutes to walk to school.", "answer": "takes" },
+      { "type": "multiple_choice", "question": "This problem is too ___ to solve alone.", "options": ["difficulty", "difficultly", "difficult", "difficulting"], "answer": "difficult" },
+      { "type": "fill_blank", "question": "He is smart ___ to pass the exam.", "answer": "enough" }
+    ]
+  },
+  {
+    "title": "Prepositions of Time",
+    "titleVi": "Giới từ chỉ thời gian",
+    "level": "beginner",
+    "category": "structures",
+    "order": 22,
+    "content": "## Prepositions of Time\n\n### AT — specific times and fixed times\n- *at 7 o'clock, at noon, at midnight, at night*\n- *at Christmas, at Easter, at the weekend (British)*\n\n### ON — days and dates\n- *on Monday, on my birthday, on 15th March*\n- *on weekdays, on weekends (American)*\n\n### IN — longer periods\n- *in January, in summer, in 2024*\n- *in the morning/afternoon/evening*\n- *in the 21st century*\n\n### FOR — duration\n*I studied for 3 hours.*\n\n### SINCE — starting point\n*She has lived here since 2018.*\n\n### BY — deadline\n*Please finish it by Friday.*\n\n### DURING — within a period\n*It rained during our trip.*\n\n### UNTIL / TILL — up to a point\n*I'll wait until 5 PM.*",
+    "examples": [
+      { "english": "The meeting starts at 9 AM on Monday.", "vietnamese": "Cuộc họp bắt đầu lúc 9 giờ sáng thứ Hai.", "explanation": "at + specific time; on + day" },
+      { "english": "I was born in 1995 in the spring.", "vietnamese": "Tôi sinh năm 1995 vào mùa xuân.", "explanation": "in + year; in + season" },
+      { "english": "She has worked here since January.", "vietnamese": "Cô ấy đã làm việc ở đây từ tháng Giêng.", "explanation": "since + starting point (used with perfect tenses)" },
+      { "english": "Please submit your report by Friday.", "vietnamese": "Vui lòng nộp báo cáo trước thứ Sáu.", "explanation": "by + deadline" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I wake up ___ 6 o'clock.", "options": ["in", "on", "at", "for"], "answer": "at" },
+      { "type": "multiple_choice", "question": "My birthday is ___ July.", "options": ["at", "on", "in", "for"], "answer": "in" },
+      { "type": "fill_blank", "question": "She called me ___ my birthday.", "answer": "on" },
+      { "type": "multiple_choice", "question": "I have lived here ___ 3 years.", "options": ["since", "for", "during", "at"], "answer": "for" },
+      { "type": "fill_blank", "question": "Please finish this ___ tomorrow morning.", "answer": "by" }
+    ]
+  },
+  {
+    "title": "Prepositions of Place",
+    "titleVi": "Giới từ chỉ nơi chốn",
+    "level": "beginner",
+    "category": "structures",
+    "order": 23,
+    "content": "## Prepositions of Place\n\n### Basic prepositions\n- **in** — inside an enclosed space: *in the box, in Vietnam, in the room*\n- **on** — on a surface: *on the table, on the wall, on the floor*\n- **at** — at a point/location: *at the door, at the bus stop, at school*\n\n### Position prepositions\n- **above / over** — higher than: *The plane is above the clouds.*\n- **below / under / beneath** — lower than: *The cat is under the table.*\n- **in front of** — before: *She stood in front of the mirror.*\n- **behind** — at the back: *The garden is behind the house.*\n- **beside / next to** — at the side: *Sit next to me.*\n- **between** — in the middle of two: *The shop is between the bank and the post office.*\n- **among** — in the middle of many: *He was among the crowd.*\n- **opposite** — facing: *The hotel is opposite the park.*\n- **near / close to** — not far: *I live near the station.*",
+    "examples": [
+      { "english": "The keys are on the table.", "vietnamese": "Chìa khóa ở trên bàn.", "explanation": "On - resting on a surface" },
+      { "english": "She works at a hospital in the city center.", "vietnamese": "Cô ấy làm việc tại một bệnh viện ở trung tâm thành phố.", "explanation": "at - specific location; in - inside a larger area" },
+      { "english": "The supermarket is between the school and the park.", "vietnamese": "Siêu thị nằm giữa trường học và công viên.", "explanation": "between - in the middle of two things" },
+      { "english": "There's a bakery opposite the hotel.", "vietnamese": "Có một tiệm bánh đối diện khách sạn.", "explanation": "opposite - directly across from" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The book is ___ the shelf.", "options": ["in", "on", "at", "above"], "answer": "on" },
+      { "type": "multiple_choice", "question": "Meet me ___ the café.", "options": ["in", "on", "at", "by"], "answer": "at" },
+      { "type": "fill_blank", "question": "The restaurant is ___ the bank and the pharmacy.", "answer": "between" },
+      { "type": "multiple_choice", "question": "She sat ___ to me on the bus.", "options": ["near", "next", "beside", "next to"], "answer": "next to" },
+      { "type": "fill_blank", "question": "There's a park ___ the hotel (directly across).", "answer": "opposite" }
+    ]
+  },
+  {
+    "title": "Phrasal Verbs",
+    "titleVi": "Cụm động từ",
+    "level": "intermediate",
+    "category": "conversational",
+    "order": 24,
+    "content": "## Phrasal Verbs\n\nA phrasal verb = verb + preposition/adverb that creates a new meaning.\n\n### Common phrasal verbs\n\n**Daily life:**\n- *wake up* — stop sleeping\n- *give up* — stop trying\n- *look after* — take care of\n- *run out of* — have no more of\n- *turn on/off* — start/stop a device\n\n**Communication:**\n- *bring up* — mention a topic\n- *come up with* — think of an idea\n- *get along with* — have a good relationship\n- *look up* — search for information\n- *put off* — delay, postpone\n\n**Business:**\n- *carry out* — perform/conduct\n- *set up* — establish\n- *take over* — assume control\n- *deal with* — handle\n- *follow up* — check on progress\n\n### Separable vs inseparable\n- **Separable:** *turn off the lights / turn the lights off*\n- **Inseparable:** *look after the children* ✓ (*look the children after* ✗)",
+    "examples": [
+      { "english": "I ran out of milk this morning.", "vietnamese": "Tôi hết sữa sáng nay.", "explanation": "run out of = have no more of something" },
+      { "english": "She put off the meeting until next week.", "vietnamese": "Cô ấy dời cuộc họp đến tuần sau.", "explanation": "put off = postpone" },
+      { "english": "Can you look after my dog while I'm away?", "vietnamese": "Bạn có thể trông chó của tôi khi tôi vắng không?", "explanation": "look after = take care of" },
+      { "english": "They came up with a great idea for the project.", "vietnamese": "Họ đã nghĩ ra một ý tưởng tuyệt vời cho dự án.", "explanation": "come up with = think of / create" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Don't give ___ — keep trying!", "options": ["up", "out", "in", "off"], "answer": "up" },
+      { "type": "fill_blank", "question": "She ___ a brilliant plan. (think of)", "answer": "came up with" },
+      { "type": "multiple_choice", "question": "Please turn ___ the TV — I'm sleeping.", "options": ["up", "on", "off", "out"], "answer": "off" },
+      { "type": "fill_blank", "question": "We need to ___ this problem. (handle)", "answer": "deal with" },
+      { "type": "multiple_choice", "question": "I'm ___ of patience with him.", "options": ["giving up", "running out", "looking after", "taking over"], "answer": "running out" }
+    ]
+  },
+  {
+    "title": "Expressing Opinions",
+    "titleVi": "Diễn đạt quan điểm",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 25,
+    "content": "## Expressing Opinions\n\n### Giving your opinion\n- **Neutral:** *I think / I believe / I feel / In my opinion / I reckon (informal)*\n- **Strong:** *I strongly believe / I'm convinced / I'm sure / There's no doubt that*\n- **Tentative:** *I'm not sure, but... / It seems to me that... / I suppose...*\n\n### Agreeing\n- *I agree (with you). / You're right. / Exactly! / Absolutely!*\n- *That's a good point. / I couldn't agree more.*\n\n### Disagreeing (politely)\n- *I'm not sure I agree... / I see your point, but...*\n- *I disagree / I beg to differ*\n- *With all due respect... / That's one way to look at it, but...*\n\n### Asking for opinions\n- *What do you think about...? / What's your opinion on...?*\n- *How do you feel about...? / Do you agree that...?*\n\n### Softening disagreement\n- *I see what you mean, however...*\n- *That may be true, but...*",
+    "examples": [
+      { "english": "In my opinion, remote work is more productive.", "vietnamese": "Theo tôi, làm việc từ xa năng suất hơn.", "explanation": "'In my opinion' - clear signal you're sharing a view" },
+      { "english": "I see your point, but I think we need more data.", "vietnamese": "Tôi hiểu ý bạn, nhưng tôi nghĩ chúng ta cần thêm dữ liệu.", "explanation": "Acknowledge then disagree politely" },
+      { "english": "What's your take on the new policy?", "vietnamese": "Ý kiến của bạn về chính sách mới là gì?", "explanation": "'What's your take on' = informal way to ask for opinion" },
+      { "english": "I couldn't agree more — teamwork is essential.", "vietnamese": "Tôi hoàn toàn đồng ý — làm việc nhóm là thiết yếu.", "explanation": "Strong agreement expression" }
+    ],
+    "exercises": [
+      { "type": "fill_blank", "question": "___ my opinion, exercise is very important.", "answer": "In" },
+      { "type": "multiple_choice", "question": "Which phrase shows AGREEMENT?", "options": ["I beg to differ", "That may be true, but", "I couldn't agree more", "I'm not sure I agree"], "answer": "I couldn't agree more" },
+      { "type": "fill_blank", "question": "I ___ your point, but I disagree.", "answer": "see" },
+      { "type": "multiple_choice", "question": "How do you ___ about working overtime?", "options": ["think", "feel", "believe", "All correct"], "answer": "All correct" },
+      { "type": "fill_blank", "question": "It ___ to me that this plan won't work.", "answer": "seems" }
+    ]
+  },
+  {
+    "title": "Giving Advice and Suggestions",
+    "titleVi": "Đưa ra lời khuyên và gợi ý",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 26,
+    "content": "## Giving Advice and Suggestions\n\n### Strong advice\n- *You should / You shouldn't...*\n- *You must / You mustn't...*\n- *You'd better (not)...* (warning of consequences)\n  *You'd better see a doctor before it gets worse.*\n\n### Suggestions (gentler)\n- *Why don't you...? / Why not...?*\n- *How about + V-ing?*\n- *What if you + past simple?* (hypothetical)\n- *Have you considered + V-ing?*\n- *It might be a good idea to...*\n- *You could always...*\n\n### Responding to advice\n- **Accepting:** *That's a good idea! / I'll try that. / You're right.*\n- **Rejecting politely:** *I appreciate the advice, but... / That might not work because...*\n\n### Offering to help\n- *Would you like me to...? / Shall I...? / Do you want me to...?*",
+    "examples": [
+      { "english": "You'd better call them now before the office closes.", "vietnamese": "Bạn tốt hơn nên gọi cho họ ngay trước khi văn phòng đóng cửa.", "explanation": "You'd better = warning - implies negative consequence if not done" },
+      { "english": "How about trying a different approach?", "vietnamese": "Thử một cách tiếp cận khác thì sao?", "explanation": "How about + V-ing = gentle suggestion" },
+      { "english": "Why don't you take a few days off to rest?", "vietnamese": "Tại sao bạn không nghỉ vài ngày để nghỉ ngơi?", "explanation": "Why don't you = friendly suggestion" },
+      { "english": "Have you considered talking to HR about the issue?", "vietnamese": "Bạn đã xem xét việc nói chuyện với HR về vấn đề chưa?", "explanation": "Have you considered + gerund = thoughtful suggestion" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "You'd better ___ a doctor.", "options": ["see", "seeing", "to see", "saw"], "answer": "see" },
+      { "type": "fill_blank", "question": "How ___ going for a walk?", "answer": "about" },
+      { "type": "multiple_choice", "question": "Why ___ you try a different method?", "options": ["don't", "not", "doesn't", "can"], "answer": "don't" },
+      { "type": "fill_blank", "question": "___ you considered joining a gym?", "answer": "Have" },
+      { "type": "multiple_choice", "question": "It might be a good ___ to arrive early.", "options": ["idea", "advice", "suggestion", "thought"], "answer": "idea" }
+    ]
+  },
+  {
+    "title": "Making Requests and Offers",
+    "titleVi": "Đưa ra yêu cầu và đề nghị",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 27,
+    "content": "## Making Requests and Offers\n\n### Requests (asking someone to do something)\n\n**Informal:**\n- *Can you...? / Will you...?*\n\n**Polite:**\n- *Could you...? / Would you mind + V-ing?*\n\n**Formal:**\n- *Would you be so kind as to...? / I was wondering if you could...*\n\n### Responding to requests\n- **Agree:** *Sure! / Of course! / No problem. / Certainly.*\n- **Refuse politely:** *I'm sorry, but... / I'm afraid I can't because...*\n\n### Offers (offering to help)\n**Making offers:**\n- *Shall I...? / Would you like me to...? / Do you want me to...? / Can I...? / Let me...*\n\n**Accepting offers:**\n- *Yes, please. / That would be great. / Thank you!*\n\n**Refusing offers:**\n- *No, thank you. / That's very kind, but I'm fine. / I can manage.*",
+    "examples": [
+      { "english": "Could you please email me the document?", "vietnamese": "Bạn có thể gửi email tài liệu cho tôi không?", "explanation": "Polite request - 'please' makes it even more polite" },
+      { "english": "Would you mind waiting for a moment?", "vietnamese": "Bạn có phiền đợi một lúc không?", "explanation": "Would you mind + gerund - formal polite request" },
+      { "english": "Shall I carry that for you?", "vietnamese": "Để tôi mang cái đó cho bạn nhé?", "explanation": "Shall I = offer to help" },
+      { "english": "That would be great, thank you!", "vietnamese": "Tuyệt vời quá, cảm ơn bạn!", "explanation": "Accepting an offer with appreciation" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ you mind closing the window?", "options": ["Could", "Would", "Shall", "Will"], "answer": "Would" },
+      { "type": "fill_blank", "question": "___ I bring you something to drink?", "answer": "Shall" },
+      { "type": "multiple_choice", "question": "I was ___ if you could help me.", "options": ["thinking", "wondering", "asking", "considering"], "answer": "wondering" },
+      { "type": "fill_blank", "question": "No, ___ you — I can manage.", "answer": "thank" },
+      { "type": "multiple_choice", "question": "Would you like ___ to help?", "options": ["I", "me", "my", "myself"], "answer": "me" }
+    ]
+  },
+  {
+    "title": "Talking About Past Experience",
+    "titleVi": "Nói về kinh nghiệm trong quá khứ",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 28,
+    "content": "## Talking About Past Experience\n\n### Using Present Perfect for experiences\n*Have you ever + V3?*\n*I've (never) + V3...*\n*This is the first time I've + V3*\n\n### Describing experiences\n- **Starting:** *Once, / One time, / A few years ago, / When I was...*\n- **Sequencing:** *First... Then... After that... Finally...*\n- **Adding detail:** *It was... / I felt... / I remember...*\n\n### Useful phrases\n- *It was an amazing/unforgettable/terrible experience.*\n- *I'll never forget the time when...*\n- *The best/worst part was...*\n- *Looking back, I think...*\n- *It really opened my eyes to...*\n- *I learned a lot from...*\n\n### Asking follow-up questions\n- *What was it like?*\n- *How did you feel?*\n- *What happened next?*\n- *Would you do it again?*",
+    "examples": [
+      { "english": "Have you ever been to Japan?", "vietnamese": "Bạn đã từng đến Nhật Bản chưa?", "explanation": "Present perfect + ever = asking about life experience" },
+      { "english": "I've never tried bungee jumping — I'm terrified of heights!", "vietnamese": "Tôi chưa bao giờ thử nhảy bungee — tôi rất sợ độ cao!", "explanation": "Never + present perfect = lack of life experience" },
+      { "english": "I'll never forget the time I got lost in a foreign city.", "vietnamese": "Tôi sẽ không bao giờ quên lần tôi bị lạc ở thành phố nước ngoài.", "explanation": "Memorable past experience story opener" },
+      { "english": "Looking back, it was one of the best decisions I ever made.", "vietnamese": "Nhìn lại, đó là một trong những quyết định tốt nhất tôi từng đưa ra.", "explanation": "Reflecting on past experiences" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Have you ever ___ sushi?", "options": ["eat", "ate", "eating", "eaten"], "answer": "eaten" },
+      { "type": "fill_blank", "question": "I've ___ been to Europe. (zero times)", "answer": "never" },
+      { "type": "multiple_choice", "question": "What was ___ like living abroad?", "options": ["it", "this", "that", "there"], "answer": "it" },
+      { "type": "fill_blank", "question": "I'll never ___ that moment.", "answer": "forget" },
+      { "type": "multiple_choice", "question": "This is the ___ time I've tried Thai food.", "options": ["one", "first", "once", "last"], "answer": "first" }
+    ]
+  },
+  {
+    "title": "Conjunctions and Linking Words",
+    "titleVi": "Liên từ và từ nối",
+    "level": "beginner",
+    "category": "structures",
+    "order": 29,
+    "content": "## Conjunctions and Linking Words\n\n### Coordinating conjunctions (FANBOYS)\n- **For** (reason): *She was tired, for she had worked all day.*\n- **And** (addition): *I like coffee and tea.*\n- **Nor** (negative): *I don't like coffee, nor do I like tea.*\n- **But** (contrast): *It was cold but sunny.*\n- **Or** (choice): *Do you want coffee or tea?*\n- **Yet** (contrast): *He's rich, yet he's unhappy.*\n- **So** (result): *I was tired, so I went to bed.*\n\n### Subordinating conjunctions\n- **Cause:** because, since, as *— She left because she was tired.*\n- **Contrast:** although, even though, while *— Although it was raining, we went out.*\n- **Condition:** if, unless, provided that\n- **Time:** when, while, before, after, as soon as, until\n- **Purpose:** so that, in order that\n\n### Linking adverbs\n- **Addition:** moreover, furthermore, in addition\n- **Contrast:** however, nevertheless, on the other hand\n- **Result:** therefore, consequently, as a result\n- **Example:** for example, for instance, such as",
+    "examples": [
+      { "english": "I was tired, but I finished the report.", "vietnamese": "Tôi mệt nhưng tôi đã hoàn thành báo cáo.", "explanation": "But = contrast between two ideas" },
+      { "english": "Although the price was high, I bought it.", "vietnamese": "Mặc dù giá cao, tôi vẫn mua.", "explanation": "Although = despite the fact (subordinating conjunction)" },
+      { "english": "The project failed; therefore, we need a new approach.", "vietnamese": "Dự án thất bại; do đó, chúng ta cần cách tiếp cận mới.", "explanation": "Therefore = linking adverb showing result" },
+      { "english": "As soon as I arrived, it started to rain.", "vietnamese": "Ngay khi tôi đến, trời bắt đầu mưa.", "explanation": "As soon as = immediately when" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "It was cold, ___ we stayed inside.", "options": ["but", "so", "or", "nor"], "answer": "so" },
+      { "type": "fill_blank", "question": "___ it was raining, we went for a walk.", "answer": "Although" },
+      { "type": "multiple_choice", "question": "She studied hard; ___, she passed.", "options": ["however", "therefore", "although", "unless"], "answer": "therefore" },
+      { "type": "fill_blank", "question": "Call me ___ you arrive. (immediately when)", "answer": "as soon as" },
+      { "type": "multiple_choice", "question": "I like cats ___ I don't like dogs.", "options": ["and", "but", "so", "for"], "answer": "but" }
+    ]
+  },
+  {
+    "title": "Numbers, Dates and Quantities",
+    "titleVi": "Số, ngày tháng và số lượng",
+    "level": "beginner",
+    "category": "conversational",
+    "order": 30,
+    "content": "## Numbers, Dates and Quantities\n\n### Saying dates\n- **British:** *15th March* → *the fifteenth of March*\n- **American:** *March 15* → *March fifteenth*\n- **Years:** *1995 → nineteen ninety-five; 2024 → twenty twenty-four*\n\n### Ordinal numbers\n1st (first), 2nd (second), 3rd (third), 4th-20th add -th\n21st (twenty-first), 22nd (twenty-second)...\n\n### Large numbers\n- 100 = one hundred\n- 1,000 = one thousand\n- 1,000,000 = one million\n- 1,000,000,000 = one billion\n\n### Fractions and decimals\n- ½ = a half / one half\n- ¼ = a quarter\n- 3.5 = three point five\n- 75% = seventy-five percent\n\n### Approximate quantities\n- *about / around / approximately*\n- *a few* (small number, countable)\n- *a little* (small amount, uncountable)\n- *a lot of / lots of / plenty of*\n- *several* (more than two but not many)\n- *dozens of / hundreds of*",
+    "examples": [
+      { "english": "The conference is on the 23rd of October.", "vietnamese": "Hội nghị diễn ra vào ngày 23 tháng Mười.", "explanation": "Saying dates - ordinal numbers" },
+      { "english": "About 3,000 people attended the festival.", "vietnamese": "Khoảng 3.000 người tham dự lễ hội.", "explanation": "Approximate quantity with 'about'" },
+      { "english": "Only a few students passed the exam.", "vietnamese": "Chỉ có một vài học sinh qua được kỳ thi.", "explanation": "A few = small number (countable)" },
+      { "english": "The project cost approximately $50,000.", "vietnamese": "Dự án tốn khoảng 50.000 đô la.", "explanation": "Approximately = about (more formal)" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "How do you say '21st'?", "options": ["twenty-oneth", "twenty-first", "twentyfirst", "twenty one"], "answer": "twenty-first" },
+      { "type": "fill_blank", "question": "I need ___ milk (not much, uncountable).", "answer": "a little" },
+      { "type": "multiple_choice", "question": "I have ___ friends in the city (small number).", "options": ["a little", "a few", "a lot", "several dozen"], "answer": "a few" },
+      { "type": "fill_blank", "question": "The population is ___ 10 million. (approximately)", "answer": "about" },
+      { "type": "multiple_choice", "question": "How do you say '1,500,000'?", "options": ["one million five hundred", "one point five million", "one and a half million", "Both B and C"], "answer": "Both B and C" }
+    ]
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "title": "At the Grocery Store",
+    "titleVi": "Tại cửa hàng bách hóa",
+    "level": "beginner",
+    "audioUrl": "/audio/grocery-store.mp3",
+    "transcript": "I am looking for some fresh vegetables. Where is the produce section? It is right over there. We have organic tomatoes and cucumbers on sale today. That sounds good. I will take one kilo of tomatoes. Do you need anything else? Yes, where can I find the olive oil? It is in aisle five, next to the pasta.",
+    "blanks": "[{\"position\":6, \"answer\":\"vegetables\", \"hint\":\"Plants like carrots or spinach\"}, {\"position\":10, \"answer\":\"produce\", \"hint\":\"Fresh fruits and vegetables section\"}, {\"position\":19, \"answer\":\"organic\", \"hint\":\"Grown without chemicals\"}, {\"position\":24, \"answer\":\"sale\", \"hint\":\"Sold at a lower price\"}, {\"position\":52, \"answer\":\"aisle\", \"hint\":\"A passage between shelves\"}]",
+    "translation": "Tôi đang tìm một ít rau tươi. Khu vực hàng nông sản ở đâu? Nó ở ngay đằng kia. Chúng tôi có cà chua hữu cơ và dưa leo đang giảm giá hôm nay. Nghe hay đấy. Tôi sẽ lấy một cân cà chua. Bạn có cần gì nữa không? Vâng, tôi có thể tìm dầu ô liu ở đâu? Nó ở lối đi số năm, cạnh quầy mì ý.",
+    "order": 4
+  },
+  {
+    "title": "Asking for Directions",
+    "titleVi": "Hỏi đường",
+    "level": "beginner",
+    "audioUrl": "/audio/asking-directions.mp3",
+    "transcript": "Excuse me, could you tell me how to get to the library? Sure. Go straight down this street for two blocks. Then turn left at the traffic light. The library will be on your right, opposite the park. Is it far from here? No, it is just a five minute walk. Thank you for your help. You are welcome.",
+    "blanks": "[{\"position\":0, \"answer\":\"Excuse\", \"hint\":\"Pardon me\"}, {\"position\":13, \"answer\":\"straight\", \"hint\":\"In a direct line\"}, {\"position\":24, \"answer\":\"traffic\", \"hint\":\"Vehicles moving on a road\"}, {\"position\":33, \"answer\":\"opposite\", \"hint\":\"Across from\"}, {\"position\":47, \"answer\":\"walk\", \"hint\":\"Going on foot\"}]",
+    "translation": "Xin lỗi, bạn có thể chỉ cho tôi đường đến thư viện không? Chắc chắn rồi. Đi thẳng xuống con phố này hai dãy nhà. Sau đó rẽ trái tại đèn giao thông. Thư viện sẽ nằm bên tay phải bạn, đối diện công viên. Nó có xa đây không? Không, chỉ mất năm phút đi bộ thôi. Cảm ơn sự giúp đỡ của bạn. Không có gì.",
+    "order": 5
+  },
+  {
+    "title": "My Daily Routine",
+    "titleVi": "Thói quen hàng ngày của tôi",
+    "level": "beginner",
+    "audioUrl": "/audio/daily-routine.mp3",
+    "transcript": "Every morning, I wake up at six thirty. First, I brush my teeth and take a shower. Then, I have breakfast with my family. I usually have cereal and coffee. I leave for work at eight o'clock. I take the bus to the office. In the evening, I cook dinner and watch some television before going to bed.",
+    "blanks": "[{\"position\":5, \"answer\":\"wake\", \"hint\":\"To stop sleeping\"}, {\"position\":12, \"answer\":\"brush\", \"hint\":\"To clean teeth\"}, {\"position\":21, \"answer\":\"breakfast\", \"hint\":\"The first meal of the day\"}, {\"position\":34, \"answer\":\"leave\", \"hint\":\"To go away from a place\"}, {\"position\":50, \"answer\":\"evening\", \"hint\":\"The end of the day\"}]",
+    "translation": "Mỗi sáng, tôi thức dậy lúc sáu giờ ba mươi. Đầu tiên, tôi đánh răng và đi tắm. Sau đó, tôi ăn sáng với gia đình. Tôi thường ăn ngũ cốc và cà phê. Tôi đi làm lúc tám giờ. Tôi đi xe buýt đến văn phòng. Vào buổi tối, tôi nấu bữa tối và xem tivi một chút trước khi đi ngủ.",
+    "order": 6
+  },
+  {
+    "title": "Talking about Hobbies",
+    "titleVi": "Nói về sở thích",
+    "level": "beginner",
+    "audioUrl": "/audio/talking-hobbies.mp3",
+    "transcript": "What do you like to do in your free time? I really enjoy playing guitar and listening to music. I also like photography. I take a lot of pictures of nature. That is interesting! How often do you practice? I try to play every day after school. It helps me relax after a busy day. Do you have any hobbies?",
+    "blanks": "[{\"position\":10, \"answer\":\"enjoy\", \"hint\":\"To take pleasure in\"}, {\"position\":12, \"answer\":\"guitar\", \"hint\":\"A musical instrument with strings\"}, {\"position\":18, \"answer\":\"photography\", \"hint\":\"The art of taking photos\"}, {\"position\":33, \"answer\":\"practice\", \"hint\":\"To do something repeatedly to improve\"}, {\"position\":44, \"answer\":\"relax\", \"hint\":\"To rest and feel calm\"}]",
+    "translation": "Bạn thích làm gì vào thời gian rảnh? Tôi thực sự thích chơi guitar và nghe nhạc. Tôi cũng thích nhiếp ảnh. Tôi chụp rất nhiều ảnh về thiên nhiên. Thật thú vị! Bạn có thường xuyên luyện tập không? Tôi cố gắng chơi mỗi ngày sau giờ học. Nó giúp tôi thư giãn sau một ngày bận rộn. Bạn có sở thích nào không?",
+    "order": 7
+  },
+  {
+    "title": "A Phone Call to a Friend",
+    "titleVi": "Cuộc gọi cho một người bạn",
+    "level": "beginner",
+    "audioUrl": "/audio/phone-call.mp3",
+    "transcript": "Hello, is Sarah there? Speaking. Hi Sarah, this is Mike. Do you want to go to the cinema tonight? I would love to, but I have to study for my exam tomorrow. That is too bad. What time are you finished? I should be done by eight. Maybe we can go to the late show? That sounds like a great idea!",
+    "blanks": "[{\"position\":4, \"answer\":\"Sarah\", \"hint\":\"A person's name\"}, {\"position\":15, \"answer\":\"cinema\", \"hint\":\"A place to watch movies\"}, {\"position\":27, \"answer\":\"study\", \"hint\":\"To learn for a test\"}, {\"position\":30, \"answer\":\"exam\", \"hint\":\"A formal test\"}, {\"position\":52, \"answer\":\"idea\", \"hint\":\"A thought or suggestion\"}]",
+    "translation": "Xin chào, có Sarah ở đó không? Tôi nghe đây. Chào Sarah, tôi là Mike. Bạn có muốn đi xem phim tối nay không? Tôi rất muốn, nhưng tôi phải học bài cho kỳ thi ngày mai. Thật tiếc quá. Mấy giờ bạn xong? Tôi sẽ xong lúc tám giờ. Có lẽ chúng ta có thể đi xem suất muộn? Nghe có vẻ là một ý tưởng hay đấy!",
+    "order": 8
+  },
+  {
+    "title": "Job Interview",
+    "titleVi": "Phỏng vấn xin việc",
+    "level": "intermediate",
+    "audioUrl": "/audio/job-interview.mp3",
+    "transcript": "Thank you for coming in today. Can you tell me about your work experience? Certainly. I have worked in marketing for three years. I am very organized and good at problem solving. Why do you want to work for our company? I have always admired your innovative products. I believe my skills would be a great fit for your team. Do you have any questions for us?",
+    "blanks": "[{\"position\":11, \"answer\":\"experience\", \"hint\":\"Knowledge gained from doing something\"}, {\"position\":20, \"answer\":\"marketing\", \"hint\":\"Promoting and selling products\"}, {\"position\":28, \"answer\":\"organized\", \"hint\":\"Able to plan things well\"}, {\"position\":42, \"answer\":\"company\", \"hint\":\"A business organization\"}, {\"position\":47, \"answer\":\"admired\", \"hint\":\"To respect and approve of\"}]",
+    "translation": "Cảm ơn bạn đã đến hôm nay. Bạn có thể kể cho tôi nghe về kinh nghiệm làm việc của bạn không? Chắc chắn rồi. Tôi đã làm việc trong lĩnh vực marketing được ba năm. Tôi rất ngăn nắp và giỏi giải quyết vấn đề. Tại sao bạn muốn làm việc cho công ty chúng tôi? Tôi luôn ngưỡng mộ các sản phẩm sáng tạo của các bạn. Tôi tin rằng kỹ năng của mình sẽ rất phù hợp với đội ngũ của bạn. Bạn có câu hỏi nào cho chúng tôi không?",
+    "order": 9
+  },
+  {
+    "title": "Planning a Trip",
+    "titleVi": "Lập kế hoạch cho một chuyến đi",
+    "level": "intermediate",
+    "audioUrl": "/audio/planning-trip.mp3",
+    "transcript": "We should start booking our flight and accommodation for the summer vacation. I agree. I found a direct flight to Tokyo that is quite affordable. Should we stay in a hotel or an apartment? An apartment might be better because we can cook our own meals and save money. Good thinking. Let's check the reviews online before we make a final decision. I will do that now.",
+    "blanks": "[{\"position\":3, \"answer\":\"booking\", \"hint\":\"To reserve something\"}, {\"position\":6, \"answer\":\"accommodation\", \"hint\":\"A place to stay\"}, {\"position\":16, \"answer\":\"direct\", \"hint\":\"Without stopping\"}, {\"position\":22, \"answer\":\"affordable\", \"hint\":\"Not too expensive\"}, {\"position\":43, \"answer\":\"reviews\", \"hint\":\"Opinions about a service\"}]",
+    "translation": "Chúng ta nên bắt đầu đặt vé máy bay và chỗ ở cho kỳ nghỉ hè. Tôi đồng ý. Tôi tìm thấy một chuyến bay thẳng đến Tokyo khá rẻ. Chúng ta nên ở khách sạn hay căn hộ? Một căn hộ có thể tốt hơn vì chúng ta có thể tự nấu ăn và tiết kiệm tiền. Ý kiến hay đấy. Hãy kiểm tra các đánh giá trực tuyến trước khi đưa ra quyết định cuối cùng. Tôi sẽ làm việc đó ngay bây giờ.",
+    "order": 10
+  },
+  {
+    "title": "Checking into a Hotel",
+    "titleVi": "Nhận phòng khách sạn",
+    "level": "intermediate",
+    "audioUrl": "/audio/checking-hotel.mp3",
+    "transcript": "Welcome to the Grand Plaza Hotel. How can I help you? I have a reservation under the name Johnson. Let me check. Yes, a double room for three nights. Could you please fill out this form and show me your identification? Here is my passport. Your room is on the fourth floor. Breakfast is served from seven to ten in the main dining room. Enjoy your stay!",
+    "blanks": "[{\"position\":13, \"answer\":\"reservation\", \"hint\":\"An arrangement to have something kept for you\"}, {\"position\":24, \"answer\":\"double\", \"hint\":\"A room for two people\"}, {\"position\":36, \"answer\":\"identification\", \"hint\":\"Official papers proving who you are\"}, {\"position\":50, \"answer\":\"Breakfast\", \"hint\":\"The first meal of the day\"}, {\"position\":61, \"answer\":\"dining\", \"hint\":\"A room where people eat\"}]",
+    "translation": "Chào mừng đến với khách sạn Grand Plaza. Tôi có thể giúp gì cho bạn? Tôi có phòng đặt dưới tên Johnson. Để tôi kiểm tra. Vâng, một phòng đôi cho ba đêm. Bạn vui lòng điền vào mẫu này và cho tôi xem giấy tờ tùy thân được không? Đây là hộ chiếu của tôi. Phòng của bạn ở tầng bốn. Bữa sáng được phục vụ từ bảy giờ đến mười giờ tại phòng ăn chính. Chúc bạn kỳ nghỉ vui vẻ!",
+    "order": 11
+  },
+  {
+    "title": "Giving a Presentation",
+    "titleVi": "Thuyết trình",
+    "level": "intermediate",
+    "audioUrl": "/audio/giving-presentation.mp3",
+    "transcript": "Good morning everyone. Today I am going to talk about the impact of social media on modern communication. I have divided my presentation into three main parts. First, I will discuss the benefits. Second, I will look at the challenges. Finally, I will provide some recommendations. Please feel free to interrupt me if you have any questions during the presentation. Let's begin with the first slide.",
+    "blanks": "[{\"position\":10, \"answer\":\"impact\", \"hint\":\"A powerful effect\"}, {\"position\":13, \"answer\":\"social\", \"hint\":\"Relating to society\"}, {\"position\":21, \"answer\":\"divided\", \"hint\":\"Separated into parts\"}, {\"position\":39, \"answer\":\"recommendations\", \"hint\":\"Suggestions for the best course of action\"}, {\"position\":44, \"answer\":\"interrupt\", \"hint\":\"To break the continuity of\"}]",
+    "translation": "Chào buổi sáng mọi người. Hôm nay tôi sẽ nói về tác động của mạng xã hội đối với truyền thông hiện đại. Tôi đã chia bài thuyết trình của mình thành ba phần chính. Đầu tiên, tôi sẽ thảo luận về những lợi ích. Thứ hai, tôi sẽ xem xét những thách thức. Cuối cùng, tôi sẽ đưa ra một số khuyến nghị. Vui lòng ngắt lời tôi nếu bạn có bất kỳ câu hỏi nào trong suốt bài thuyết trình. Hãy bắt đầu với slide đầu tiên.",
+    "order": 12
+  },
+  {
+    "title": "At the Bank",
+    "titleVi": "Tại ngân hàng",
+    "level": "intermediate",
+    "audioUrl": "/audio/at-the-bank.mp3",
+    "transcript": "Hello, I would like to open a savings account. Of course. We have several options with different interest rates. I am also interested in applying for a credit card. I can help you with that. You will need to provide proof of income and a utility bill for your address. What are the monthly fees for this account? If you maintain a minimum balance, there are no fees. That sounds perfect.",
+    "blanks": "[{\"position\":8, \"answer\":\"savings\", \"hint\":\"Money kept for the future\"}, {\"position\":18, \"answer\":\"interest\", \"hint\":\"Money paid regularly at a particular rate\"}, {\"position\":36, \"answer\":\"proof\", \"hint\":\"Evidence that something is true\"}, {\"position\":42, \"answer\":\"utility\", \"hint\":\"Services like electricity or water\"}, {\"position\":54, \"answer\":\"maintain\", \"hint\":\"To keep something at a certain level\"}]",
+    "translation": "Xin chào, tôi muốn mở một tài khoản tiết kiệm. Tất nhiên rồi. Chúng tôi có một vài lựa chọn với mức lãi suất khác nhau. Tôi cũng quan tâm đến việc đăng ký thẻ tín dụng. Tôi có thể giúp bạn việc đó. Bạn sẽ cần cung cấp bằng chứng thu nhập và hóa đơn tiện ích cho địa chỉ của mình. Phí hàng tháng cho tài khoản này là bao nhiêu? Nếu bạn duy trì số dư tối thiểu, sẽ không có phí. Nghe có vẻ hoàn hảo.",
+    "order": 13
+  },
+  {
+    "title": "Debate on Technology",
+    "titleVi": "Tranh luận về công nghệ",
+    "level": "advanced",
+    "audioUrl": "/audio/debate-technology.mp3",
+    "transcript": "The rapid advancement of artificial intelligence has sparked intense debate regarding its ethical implications. Some argue that AI will revolutionize productivity and solve complex global issues. However, critics express concerns about job displacement and the loss of human oversight. It is crucial to establish a robust regulatory framework to ensure that technology serves the best interests of humanity rather than posing a threat to our collective future.",
+    "blanks": "[{\"position\":2, \"answer\":\"advancement\", \"hint\":\"Progress or improvement\"}, {\"position\":4, \"answer\":\"artificial\", \"hint\":\"Made by humans, not natural\"}, {\"position\":11, \"answer\":\"ethical\", \"hint\":\"Relating to moral principles\"}, {\"position\":27, \"answer\":\"displacement\", \"hint\":\"The moving of something from its place\"}, {\"position\":40, \"answer\":\"regulatory\", \"hint\":\"Relating to rules or laws\"}]",
+    "translation": "Sự tiến bộ nhanh chóng của trí tuệ nhân tạo đã gây ra những cuộc tranh luận gay gắt về các tác động đạo đức của nó. Một số người lập luận rằng AI sẽ cách mạng hóa năng suất và giải quyết các vấn đề toàn cầu phức tạp. Tuy nhiên, các nhà phê bình bày tỏ lo ngại về việc mất việc làm và mất đi sự giám sát của con người. Điều quan trọng là phải thiết lập một khung pháp lý vững chắc để đảm bảo rằng công nghệ phục vụ lợi ích tốt nhất của nhân loại thay vì gây ra mối đe dọa cho tương lai chung của chúng ta.",
+    "order": 14
+  },
+  {
+    "title": "Environmental Issues",
+    "titleVi": "Các vấn đề môi trường",
+    "level": "advanced",
+    "audioUrl": "/audio/environmental-issues.mp3",
+    "transcript": "Climate change is undoubtedly one of the most pressing challenges of our era. The excessive consumption of fossil fuels has led to an unprecedented increase in greenhouse gas emissions. This phenomenon is causing global temperatures to rise, resulting in catastrophic weather events and the melting of polar ice caps. We must transition to renewable energy sources and implement sustainable practices to mitigate the long term consequences of environmental degradation.",
+    "blanks": "[{\"position\":6, \"answer\":\"pressing\", \"hint\":\"Requiring immediate attention\"}, {\"position\":13, \"answer\":\"fossil\", \"hint\":\"Remains of prehistoric organisms used as fuel\"}, {\"position\":22, \"answer\":\"emissions\", \"hint\":\"The production and discharge of gas\"}, {\"position\":32, \"answer\":\"catastrophic\", \"hint\":\"Involving sudden damage or suffering\"}, {\"position\":51, \"answer\":\"mitigate\", \"hint\":\"To make less severe\"}]",
+    "translation": "Biến đổi khí hậu chắc chắn là một trong những thách thức cấp bách nhất trong thời đại của chúng ta. Việc tiêu thụ quá mức nhiên liệu hóa thạch đã dẫn đến sự gia tăng chưa từng có của lượng phát thải khí nhà kính. Hiện tượng này đang khiến nhiệt độ toàn cầu tăng lên, dẫn đến các hiện tượng thời tiết thảm khốc và sự tan chảy của các chỏm băng ở cực. Chúng ta phải chuyển đổi sang các nguồn năng lượng tái tạo và thực hiện các biện pháp bền vững để giảm thiểu các hậu quả lâu dài của sự suy thoái môi trường.",
+    "order": 15
+  },
+  {
+    "title": "Business Negotiation",
+    "titleVi": "Đàm phán kinh doanh",
+    "level": "advanced",
+    "audioUrl": "/audio/business-negotiation.mp3",
+    "transcript": "During the negotiation, both parties sought to reach a mutually beneficial agreement regarding the distribution rights. The primary point of contention was the royalty percentage and the duration of the contract. After several rounds of intensive discussions, they managed to find common ground. The final compromise involved a tiered pricing structure that rewards high volume sales while protecting the manufacturer's profit margins. This partnership is expected to significantly enhance market share.",
+    "blanks": "[{\"position\":2, \"answer\":\"negotiation\", \"hint\":\"Discussion aimed at reaching an agreement\"}, {\"position\":9, \"answer\":\"beneficial\", \"hint\":\"Resulting in good; favorable\"}, {\"position\":18, \"answer\":\"contention\", \"hint\":\"Heated disagreement\"}, {\"position\":21, \"answer\":\"royalty\", \"hint\":\"A sum of money paid to an author or patentee\"}, {\"position\":38, \"answer\":\"compromise\", \"hint\":\"An agreement reached by each side making concessions\"}]",
+    "translation": "Trong quá trình đàm phán, cả hai bên đều tìm cách đạt được một thỏa thuận đôi bên cùng có lợi về quyền phân phối. Điểm tranh chấp chính là tỷ lệ phần trăm tiền bản quyền và thời hạn của hợp đồng. Sau vài vòng thảo luận căng thẳng, họ đã tìm được tiếng nói chung. Sự thỏa hiệp cuối cùng bao gồm một cấu trúc định giá theo cấp bậc, thưởng cho doanh số bán hàng khối lượng lớn trong khi vẫn bảo vệ biên lợi nhuận của nhà sản xuất. Sự hợp tác này được kỳ vọng sẽ làm tăng đáng kể thị phần.",
+    "order": 16
+  },
+  {
+    "title": "Scientific Discovery",
+    "titleVi": "Khám phá khoa học",
+    "level": "advanced",
+    "audioUrl": "/audio/scientific-discovery.mp3",
+    "transcript": "Recent breakthroughs in genomic sequencing have provided scientists with a deeper understanding of hereditary diseases. By analyzing the vast amount of data from the human genome project, researchers have identified specific genetic markers associated with various chronic conditions. This discovery paves the way for personalized medicine, where treatments can be tailored to an individual's unique genetic profile. The potential to revolutionize healthcare and improve patient outcomes is immense and truly inspiring.",
+    "blanks": "[{\"position\":2, \"answer\":\"breakthroughs\", \"hint\":\"Significant discoveries\"}, {\"position\":4, \"answer\":\"genomic\", \"hint\":\"Relating to the complete set of genes\"}, {\"position\":12, \"answer\":\"hereditary\", \"hint\":\"Passed down from parents to offspring\"}, {\"position\":31, \"answer\":\"associated\", \"hint\":\"Connected with something else\"}, {\"position\":42, \"answer\":\"personalized\", \"hint\":\"Designed for a specific person\"}]",
+    "translation": "Những đột phá gần đây trong giải trình tự bộ gen đã giúp các nhà khoa học hiểu sâu hơn về các bệnh di truyền. Bằng cách phân tích lượng dữ liệu khổng lồ từ dự án bản đồ gen người, các nhà nghiên cứu đã xác định được các dấu ấn di truyền cụ thể liên quan đến các bệnh mãn tính khác nhau. Khám phá này mở đường cho y học cá nhân hóa, nơi các phương pháp điều trị có thể được điều chỉnh cho phù hợp với hồ sơ di truyền duy nhất của từng cá nhân. Tiềm năng cách mạng hóa chăm sóc sức khỏe và cải thiện kết quả điều trị cho bệnh nhân là vô cùng lớn và thực sự truyền cảm hứng.",
+    "order": 17
+  },
+  {
+    "title": "Cultural Differences",
+    "titleVi": "Sự khác biệt văn hóa",
+    "level": "advanced",
+    "audioUrl": "/audio/cultural-differences.mp3",
+    "transcript": "In an increasingly globalized world, cross cultural competence is an indispensable skill for international professionals. Understanding the nuances of non-verbal communication and the underlying values of different societies can prevent misunderstandings and foster collaboration. For instance, high context cultures rely heavily on implicit cues, whereas low context cultures prioritize direct and explicit communication. Developing cultural sensitivity requires empathy, open mindedness, and a willingness to challenge one's own ethnocentric biases and assumptions.",
+    "blanks": "[{\"position\":6, \"answer\":\"competence\", \"hint\":\"The ability to do something successfully\"}, {\"position\":9, \"answer\":\"indispensable\", \"hint\":\"Absolutely necessary\"}, {\"position\":13, \"answer\":\"nuances\", \"hint\":\"Subtle differences in meaning\"}, {\"position\":25, \"answer\":\"collaboration\", \"hint\":\"Working together with others\"}, {\"position\":54, \"answer\":\"ethnocentric\", \"hint\":\"Evaluating other cultures based on your own\"}]",
+    "translation": "Trong một thế giới ngày càng toàn cầu hóa, năng lực giao lưu văn hóa là một kỹ năng không thể thiếu đối với các chuyên gia quốc tế. Hiểu được các sắc thái của giao tiếp phi ngôn ngữ và các giá trị cơ bản của các xã hội khác nhau có thể ngăn ngừa hiểu lầm và thúc đẩy sự hợp tác. Ví dụ, các nền văn hóa có ngữ cảnh cao phụ thuộc nhiều vào các gợi ý ngầm, trong khi các nền văn hóa có ngữ cảnh thấp ưu tiên giao tiếp trực tiếp và rõ ràng. Phát triển sự nhạy cảm về văn hóa đòi hỏi sự đồng cảm, tinh thần cởi mở và sẵn lòng thách thức các định kiến và giả định vị chủng của chính mình.",
+    "order": 18
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Daily Life",
+    "words": [
+      { "word": "alarm", "phonetic": "/əˈlɑːrm/", "partOfSpeech": "noun", "definition": "A device that makes a loud sound to wake you up", "definitionVi": "Báo thức", "example": "I set my alarm for 6 AM.", "exampleVi": "Tôi đặt báo thức lúc 6 giờ sáng." },
+      { "word": "commuter", "phonetic": "/kəˈmjuːtər/", "partOfSpeech": "noun", "definition": "A person who travels some distance to work on a regular basis", "definitionVi": "Người đi làm xa", "example": "The train was full of commuters.", "exampleVi": "Chuyến tàu đầy những người đi làm xa." },
+      { "word": "subscription", "phonetic": "/səbˈskrɪpʃn/", "partOfSpeech": "noun", "definition": "An agreement to pay money regularly to receive a service", "definitionVi": "Sự đăng ký (dịch vụ)", "example": "I have a monthly subscription to the gym.", "exampleVi": "Tôi đăng ký thẻ tập gym hàng tháng." },
+      { "word": "deadline", "phonetic": "/ˈdedlaɪn/", "partOfSpeech": "noun", "definition": "The latest time or date by which something should be completed", "definitionVi": "Hạn chót", "example": "I'm working hard to meet the deadline.", "exampleVi": "Tôi đang làm việc chăm chỉ để kịp hạn chót." },
+      { "word": "multitask", "phonetic": "/ˌmʌltiˈtæsk/", "partOfSpeech": "verb", "definition": "To do more than one thing at the same time", "definitionVi": "Đa nhiệm, làm nhiều việc cùng lúc", "example": "It's difficult to multitask effectively.", "exampleVi": "Thật khó để làm nhiều việc cùng lúc một cách hiệu quả." },
+      { "word": "prioritize", "phonetic": "/praɪˈɔːrətaɪz/", "partOfSpeech": "verb", "definition": "To treat something as being more important than others", "definitionVi": "Ưu tiên", "example": "You need to prioritize your tasks.", "exampleVi": "Bạn cần ưu tiên các nhiệm vụ của mình." },
+      { "word": "refreshment", "phonetic": "/rɪˈfreʃmənt/", "partOfSpeech": "noun", "definition": "Light snacks and drinks", "definitionVi": "Đồ ăn nhẹ và nước giải khát", "example": "Refreshments will be served after the meeting.", "exampleVi": "Đồ ăn nhẹ sẽ được phục vụ sau cuộc họp." },
+      { "word": "neighborhood", "phonetic": "/ˈneɪbərhʊd/", "partOfSpeech": "noun", "definition": "The area around where you live", "definitionVi": "Khu phố, vùng lân cận", "example": "It's a very quiet neighborhood.", "exampleVi": "Đó là một khu phố rất yên tĩnh." },
+      { "word": "chore", "phonetic": "/tʃɔːr/", "partOfSpeech": "noun", "definition": "A routine task, especially a household one", "definitionVi": "Việc nhà", "example": "I spent the morning doing household chores.", "exampleVi": "Tôi đã dành cả buổi sáng để làm việc nhà." },
+      { "word": "balanced", "phonetic": "/ˈbælənst/", "partOfSpeech": "adjective", "definition": "Keeping different things in correct proportions", "definitionVi": "Cân bằng", "example": "It's important to have a balanced diet.", "exampleVi": "Việc có một chế độ ăn uống cân bằng là rất quan trọng." }
+    ]
+  },
+  {
+    "name": "Travel & Tourism",
+    "words": [
+      { "word": "embark", "phonetic": "/ɪmˈbɑːrk/", "partOfSpeech": "verb", "definition": "To go on board a ship, aircraft, or other vehicle", "definitionVi": "Lên tàu/máy bay", "example": "Passengers are waiting to embark.", "exampleVi": "Hành khách đang chờ để lên tàu." },
+      { "word": "disembark", "phonetic": "/ˌdɪsɪmˈbɑːrk/", "partOfSpeech": "verb", "definition": "To leave a ship, aircraft, or other vehicle", "definitionVi": "Xuống tàu/máy bay", "example": "Please wait for the signal to disembark.", "exampleVi": "Vui lòng chờ tín hiệu để xuống tàu." },
+      { "word": "scenery", "phonetic": "/ˈsiːnəri/", "partOfSpeech": "noun", "definition": "The natural features of a landscape", "definitionVi": "Phong cảnh", "example": "The scenery in the mountains was breathtaking.", "exampleVi": "Phong cảnh trên núi thật ngoạn mục." },
+      { "word": "voyage", "phonetic": "/ˈvɔɪɪdʒ/", "partOfSpeech": "noun", "definition": "A long journey involving travel by sea or in space", "definitionVi": "Chuyến hành trình dài (đường biển/không gian)", "example": "The voyage across the Atlantic took ten days.", "exampleVi": "Chuyến hành trình qua Đại Tây Dương mất mười ngày." },
+      { "word": "hospitality", "phonetic": "/ˌhɑːspɪˈtæləti/", "partOfSpeech": "noun", "definition": "The friendly and generous reception of guests", "definitionVi": "Sự hiếu khách", "example": "Thank you for your wonderful hospitality.", "exampleVi": "Cảm ơn bạn vì sự hiếu khách tuyệt vời." },
+      { "word": "expedition", "phonetic": "/ˌekspəˈdɪʃn/", "partOfSpeech": "noun", "definition": "A journey undertaken by a group with a particular purpose", "definitionVi": "Cuộc thám hiểm", "example": "They are planning an expedition to the Arctic.", "exampleVi": "Họ đang lên kế hoạch cho một cuộc thám hiểm đến Bắc Cực." },
+      { "word": "layover", "phonetic": "/ˈleɪoʊvər/", "partOfSpeech": "noun", "definition": "A short stay in a place in between parts of a journey", "definitionVi": "Điểm dừng chân (quá cảnh)", "example": "We had a five-hour layover in Dubai.", "exampleVi": "Chúng tôi có 5 giờ quá cảnh tại Dubai." },
+      { "word": "off-season", "phonetic": "/ˌɔːf ˈsiːzn/", "partOfSpeech": "noun", "definition": "The time of year when few people go on holiday", "definitionVi": "Mùa thấp điểm", "example": "It's much cheaper to travel during the off-season.", "exampleVi": "Đi du lịch vào mùa thấp điểm rẻ hơn nhiều." },
+      { "word": "inclusive", "phonetic": "/ɪnˈkluːsɪv/", "partOfSpeech": "adjective", "definition": "Including everything", "definitionVi": "Bao trọn gói", "example": "We booked an all-inclusive holiday.", "exampleVi": "Chúng tôi đã đặt một kỳ nghỉ trọn gói." },
+      { "word": "guidebook", "phonetic": "/ˈɡaɪdbʊk/", "partOfSpeech": "noun", "definition": "A book that gives information about a place for visitors", "definitionVi": "Sách hướng dẫn du lịch", "example": "Check the guidebook for local restaurant recommendations.", "exampleVi": "Hãy xem sách hướng dẫn để biết các gợi ý nhà hàng địa phương." }
+    ]
+  },
+  {
+    "name": "Business & Work",
+    "words": [
+      { "word": "entrepreneur", "phonetic": "/ˌɑːntrəprəˈnɜːr/", "partOfSpeech": "noun", "definition": "A person who sets up a business", "definitionVi": "Doanh nhân, người khởi nghiệp", "example": "He is a successful tech entrepreneur.", "exampleVi": "Anh ấy là một doanh nhân công nghệ thành công." },
+      { "word": "outsourcing", "phonetic": "/ˈaʊtsɔːrsɪŋ/", "partOfSpeech": "noun", "definition": "Obtaining goods or services from an outside supplier", "definitionVi": "Thuê ngoài", "example": "The company saves money through outsourcing.", "exampleVi": "Công ty tiết kiệm tiền thông qua việc thuê ngoài." },
+      { "word": "redundant", "phonetic": "/rɪˈdʌndənt/", "partOfSpeech": "adjective", "definition": "No longer needed or useful", "definitionVi": "Dư thừa, bị sa thải (do dư thừa nhân viên)", "example": "Many workers were made redundant after the merger.", "exampleVi": "Nhiều công nhân đã bị sa thải sau vụ sáp nhập." },
+      { "word": "monopoly", "phonetic": "/məˈnɑːpəli/", "partOfSpeech": "noun", "definition": "The exclusive possession or control of a trade", "definitionVi": "Độc quyền", "example": "The government is trying to break up the monopoly.", "exampleVi": "Chính phủ đang cố gắng phá bỏ sự độc quyền." },
+      { "word": "commission", "phonetic": "/kəˈmɪʃn/", "partOfSpeech": "noun", "definition": "A sum of money paid to an agent in a commercial transaction", "definitionVi": "Tiền hoa hồng", "example": "He earns a 10% commission on every sale.", "exampleVi": "Anh ấy kiếm được 10% hoa hồng trên mỗi lần bán hàng." },
+      { "word": "deficit", "phonetic": "/ˈdefɪsɪt/", "partOfSpeech": "noun", "definition": "The amount by which something is too small", "definitionVi": "Thâm hụt", "example": "The company is facing a large budget deficit.", "exampleVi": "Công ty đang đối mặt với sự thâm hụt ngân sách lớn." },
+      { "word": "merger", "phonetic": "/ˈmɜːrdʒər/", "partOfSpeech": "noun", "definition": "A combination of two companies into one", "definitionVi": "Sự sáp nhập", "example": "The merger of the two banks was announced yesterday.", "exampleVi": "Sự sáp nhập của hai ngân hàng đã được thông báo ngày hôm qua." },
+      { "word": "appraisal", "phonetic": "/əˈpreɪzl/", "partOfSpeech": "noun", "definition": "An act of assessing something or someone", "definitionVi": "Sự đánh giá (nhân viên)", "example": "I have my annual performance appraisal tomorrow.", "exampleVi": "Tôi có buổi đánh giá hiệu suất hàng năm vào ngày mai." },
+      { "word": "infrastructure", "phonetic": "/ˈɪnfrəstrʌktʃər/", "partOfSpeech": "noun", "definition": "The basic physical and organizational structures", "definitionVi": "Cơ sở hạ tầng", "example": "The city needs to invest in its infrastructure.", "exampleVi": "Thành phố cần đầu tư vào cơ sở hạ tầng." },
+      { "word": "compliance", "phonetic": "/kəmˈplaɪəns/", "partOfSpeech": "noun", "definition": "The action or fact of complying with a wish or command", "definitionVi": "Sự tuân thủ", "example": "The company is in compliance with all safety regulations.", "exampleVi": "Công ty đang tuân thủ tất cả các quy định về an toàn." }
+    ]
+  },
+  {
+    "name": "Food & Restaurant",
+    "words": [
+      { "word": "buffet", "phonetic": "/bəˈfeɪ/", "partOfSpeech": "noun", "definition": "A meal consisting of several dishes from which guests serve themselves", "definitionVi": "Tiệc buffet", "example": "The hotel offers a breakfast buffet.", "exampleVi": "Khách sạn cung cấp buffet sáng." },
+      { "word": "cuisine", "phonetic": "/kwɪˈziːn/", "partOfSpeech": "noun", "definition": "A style or method of cooking", "definitionVi": "Ẩm thực", "example": "I love Italian cuisine.", "exampleVi": "Tôi yêu ẩm thực Ý." },
+      { "word": "gourmet", "phonetic": "/ˈɡʊrmeɪ/", "partOfSpeech": "adjective", "definition": "High-quality or exotic food", "definitionVi": "Sành ăn, cao cấp (đồ ăn)", "example": "We visited a gourmet food shop.", "exampleVi": "Chúng tôi đã ghé thăm một cửa hàng thực phẩm cao cấp." },
+      { "word": "flavor", "phonetic": "/ˈfleɪvər/", "partOfSpeech": "noun", "definition": "The distinctive taste of a food or drink", "definitionVi": "Hương vị", "example": "This soup has a very rich flavor.", "exampleVi": "Món súp này có hương vị rất đậm đà." },
+      { "word": "vegetarian", "phonetic": "/ˌvedʒəˈteriən/", "partOfSpeech": "noun", "definition": "A person who does not eat meat", "definitionVi": "Người ăn chay", "example": "Are there any vegetarian options on the menu?", "exampleVi": "Có lựa chọn ăn chay nào trong thực đơn không?" },
+      { "word": "specialty", "phonetic": "/ˈspeʃəlti/", "partOfSpeech": "noun", "definition": "A dish that a restaurant is famous for", "definitionVi": "Món đặc sản", "example": "The seafood pasta is the restaurant's specialty.", "exampleVi": "Mì Ý hải sản là món đặc sản của nhà hàng." },
+      { "word": "utensil", "phonetic": "/juːˈtensl/", "partOfSpeech": "noun", "definition": "A tool or container used in a kitchen", "definitionVi": "Dụng cụ nhà bếp", "example": "I need to buy some new kitchen utensils.", "exampleVi": "Tôi cần mua một ít dụng cụ nhà bếp mới." },
+      { "word": "marinate", "phonetic": "/ˈmærɪneɪt/", "partOfSpeech": "verb", "definition": "To soak food in a seasoned liquid before cooking", "definitionVi": "Tẩm ướp", "example": "You should marinate the meat for at least an hour.", "exampleVi": "Bạn nên tẩm ướp thịt ít nhất một giờ." },
+      { "word": "simmer", "phonetic": "/ˈsɪmər/", "partOfSpeech": "verb", "definition": "To stay just below the boiling point while bubbling gently", "definitionVi": "Ninh, hầm (lửa nhỏ)", "example": "Let the sauce simmer for twenty minutes.", "exampleVi": "Để nước xốt ninh trong 20 phút." },
+      { "word": "savory", "phonetic": "/ˈseɪvəri/", "partOfSpeech": "adjective", "definition": "Salty or spicy rather than sweet", "definitionVi": "Có vị mặn (không phải vị ngọt)", "example": "I prefer savory snacks over sweet ones.", "exampleVi": "Tôi thích đồ ăn nhẹ vị mặn hơn vị ngọt." }
+    ]
+  },
+  {
+    "name": "Health & Wellness",
+    "words": [
+      { "word": "antibiotic", "phonetic": "/ˌæntibaɪˈɑːtɪk/", "partOfSpeech": "noun", "definition": "A medicine that inhibits the growth of or destroys microorganisms", "definitionVi": "Thuốc kháng sinh", "example": "The doctor prescribed an antibiotic for my infection.", "exampleVi": "Bác sĩ đã kê đơn thuốc kháng sinh cho vết thương nhiễm trùng của tôi." },
+      { "word": "diagnosis", "phonetic": "/ˌdaɪəɡˈnoʊsɪs/", "partOfSpeech": "noun", "definition": "The identification of the nature of an illness", "definitionVi": "Sự chẩn đoán", "example": "The doctor's diagnosis was correct.", "exampleVi": "Chẩn đoán của bác sĩ là chính xác." },
+      { "word": "physician", "phonetic": "/fɪˈzɪʃn/", "partOfSpeech": "noun", "definition": "A person qualified to practice medicine", "definitionVi": "Bác sĩ (nội khoa)", "example": "She is a highly respected physician.", "exampleVi": "Cô ấy là một bác sĩ rất được tôn trọng." },
+      { "word": "symptom", "phonetic": "/ˈsɪmptəm/", "partOfSpeech": "noun", "definition": "A physical or mental feature indicating a condition of disease", "definitionVi": "Triệu chứng", "example": "Fatigue is a common symptom of the flu.", "exampleVi": "Mệt mỏi là một triệu chứng phổ biến của bệnh cúm." },
+      { "word": "vaccination", "phonetic": "/ˌvæksɪˈneɪʃn/", "partOfSpeech": "noun", "definition": "Treatment with a vaccine to produce immunity", "definitionVi": "Sự tiêm chủng", "example": "Vaccination is important for public health.", "exampleVi": "Tiêm chủng rất quan trọng đối với sức khỏe cộng đồng." },
+      { "word": "rehabilitation", "phonetic": "/ˌriːəˌbɪlɪˈteɪʃn/", "partOfSpeech": "noun", "definition": "The action of restoring someone to health", "definitionVi": "Sự phục hồi chức năng", "example": "He's in rehabilitation after his knee surgery.", "exampleVi": "Anh ấy đang phục hồi chức năng sau phẫu thuật đầu gối." },
+      { "word": "insurance", "phonetic": "/ɪnˈʃʊrəns/", "partOfSpeech": "noun", "definition": "An arrangement by which a company provides a guarantee of compensation", "definitionVi": "Bảo hiểm", "example": "Do you have health insurance?", "exampleVi": "Bạn có bảo hiểm y tế không?" },
+      { "word": "prescription", "phonetic": "/prɪˈskrɪpʃn/", "partOfSpeech": "noun", "definition": "An instruction written by a medical practitioner for a medicine", "definitionVi": "Đơn thuốc", "example": "The pharmacist filled my prescription.", "exampleVi": "Dược sĩ đã bốc thuốc theo đơn của tôi." },
+      { "word": "nutritious", "phonetic": "/nuˈtrɪʃəs/", "partOfSpeech": "adjective", "definition": "Efficient as food; nourishing", "definitionVi": "Bổ dưỡng", "example": "This meal is very nutritious.", "exampleVi": "Bữa ăn này rất bổ dưỡng." },
+      { "word": "well-being", "phonetic": "/ˌwel ˈbiːɪŋ/", "partOfSpeech": "noun", "definition": "The state of being comfortable, healthy, or happy", "definitionVi": "Sự khỏe mạnh và hạnh phúc", "example": "Exercise improves your overall well-being.", "exampleVi": "Tập thể dục cải thiện sức khỏe tổng thể của bạn." }
+    ]
+  }
+]

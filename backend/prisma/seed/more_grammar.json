@@ -1,0 +1,280 @@
+[
+  {
+    "title": "Zero Conditional",
+    "titleVi": "Câu điều kiện loại 0",
+    "level": "beginner",
+    "category": "structures",
+    "content": "## Zero Conditional (Câu điều kiện loại 0)\n\nCâu điều kiện loại 0 được dùng để diễn tả các sự thật hiển nhiên, chân lý, thói quen hoặc các quy luật khoa học.\n\n### Cấu trúc\n- **If + Present Simple, Present Simple**\n- (Nếu + Thì hiện tại đơn, Thì hiện tại đơn)\n\n### Cách dùng\n1. **Sự thật hiển nhiên/Khoa học:** *If you heat ice, it melts.* (Nếu bạn đun nóng đá, nó tan chảy.)\n2. **Quy tắc/Chỉ dẫn:** *If the light is red, you stop.* (Nếu đèn đỏ, bạn dừng lại.)\n3. **Thói quen cá nhân:** *If I am tired, I go to bed early.* (Nếu tôi mệt, tôi đi ngủ sớm.)\n\n### Lưu ý\nBạn có thể thay thế 'If' bằng 'When' trong câu điều kiện loại 0 mà không làm thay đổi ý nghĩa.",
+    "examples": "[{\"english\": \"If you freeze water, it becomes ice.\", \"vietnamese\": \"Nếu bạn làm đông nước, nó trở thành đá.\", \"explanation\": \"Quy luật khoa học - dùng điều kiện loại 0.\"}, {\"english\": \"When I have a headache, I take an aspirin.\", \"vietnamese\": \"Khi tôi bị đau đầu, tôi uống một viên aspirin.\", \"explanation\": \"Thói quen cá nhân - If và When có thể thay thế nhau.\"}, {\"english\": \"Plants die if they don't get enough water.\", \"vietnamese\": \"Cây cối sẽ chết nếu chúng không có đủ nước.\", \"explanation\": \"Sự thật hiển nhiên.\"}, {\"english\": \"If you mix blue and yellow, you get green.\", \"vietnamese\": \"Nếu bạn trộn màu xanh dương và màu vàng, bạn sẽ được màu xanh lá.\", \"explanation\": \"Sự thật hiển nhiên.\"} ]",
+    "exercises": "[{\"type\": \"multiple_choice\", \"question\": \"If you ___ ice, it turns into water.\", \"options\": [\"heat\", \"heats\", \"heated\", \"heating\"], \"answer\": \"heat\"}, {\"type\": \"fill_blank\", \"question\": \"If it rains, the grass ___ (get) wet.\", \"answer\": \"gets\"}, {\"type\": \"multiple_choice\", \"question\": \"When you ___ red and white, you get pink.\", \"options\": [\"mixes\", \"mix\", \"mixed\", \"mixing\"], \"answer\": \"mix\"}, {\"type\": \"fill_blank\", \"question\": \"If I ___ (be) late for work, my boss gets angry.\", \"answer\": \"am\"}, {\"type\": \"multiple_choice\", \"question\": \"Do you get hungry if you ___ eat breakfast?\", \"options\": [\"don't\", \"doesn't\", \"not\", \"aren't\"], \"answer\": \"don't\"}]"
+  },
+  {
+    "title": "Mixed Conditionals",
+    "titleVi": "Câu điều kiện hỗn hợp",
+    "level": "advanced",
+    "category": "structures",
+    "content": "## Mixed Conditionals (Câu điều kiện hỗn hợp)\n\nCâu điều kiện hỗn hợp dùng để diễn tả một điều kiện trái ngược với quá khứ và dẫn đến kết quả trái ngược với hiện tại (hoặc ngược lại).\n\n### Loại 1: Quá khứ → Hiện tại\n- **If + Past Perfect (had + V3), would + V-inf**\n- Dùng để nói về một sự việc không có thật trong quá khứ và kết quả của nó ở hiện tại.\n- *If I had studied harder (past), I would be a doctor now (present).* (Nếu ngày xưa tôi học chăm hơn thì bây giờ tôi đã là bác sĩ rồi.)\n\n### Loại 2: Hiện tại → Quá khứ\n- **If + Past Simple, would have + V3**\n- Dùng khi một tình huống giả định ở hiện tại (thường là một sự thật lâu dài) ảnh hưởng đến một sự việc trong quá khứ.\n- *If I weren't so busy (present fact), I would have gone to the party last night (past).* (Nếu tôi không quá bận rộn thì tối qua tôi đã đi dự tiệc rồi.)",
+    "examples": "[{\"english\": \"If he had taken the map, he wouldn't be lost now.\", \"vietnamese\": \"Nếu anh ấy đã mang theo bản đồ thì bây giờ anh ấy đã không bị lạc.\", \"explanation\": \"Hành động trong quá khứ (không mang bản đồ) ảnh hưởng đến hiện tại (đang bị lạc).\"}, {\"english\": \"I would be rich now if I had invested in Bitcoin early.\", \"vietnamese\": \"Tôi sẽ giàu có bây giờ nếu tôi đã đầu tư vào Bitcoin sớm.\", \"explanation\": \"Hành động quá khứ ảnh hưởng kết quả hiện tại.\"}, {\"english\": \"If she were more careful, she wouldn't have broken the vase.\", \"vietnamese\": \"Nếu cô ấy cẩn thận hơn, cô ấy đã không làm vỡ chiếc bình.\", \"explanation\": \"Tính cách ở hiện tại (không cẩn thận) ảnh hưởng đến sự việc quá khứ.\"}, {\"english\": \"If you hadn't missed the train, you would be here by now.\", \"vietnamese\": \"Nếu bạn không lỡ chuyến tàu, bạn đã ở đây lúc này rồi.\", \"explanation\": \"Quá khứ ảnh hưởng hiện tại.\"} ]",
+    "exercises": "[{\"type\": \"multiple_choice\", \"question\": \"If I ___ the lottery last year, I would be traveling now.\", \"options\": [\"win\", \"won\", \"had won\", \"would win\"], \"answer\": \"had won\"}, {\"type\": \"fill_blank\", \"question\": \"If she spoke English better, she ___ (get) the job yesterday.\", \"answer\": \"would have gotten\"}, {\"type\": \"multiple_choice\", \"question\": \"If you hadn't forgotten your keys, we ___ outside now.\", \"options\": [\"won't be\", \"wouldn't be\", \"weren't\", \"haven't been\"], \"answer\": \"wouldn't be\"}, {\"type\": \"fill_blank\", \"question\": \"I ___ (be) at home now if I had finished my work earlier.\", \"answer\": \"would be\"}, {\"type\": \"multiple_choice\", \"question\": \"If he ___ more talented, he would have won the competition.\", \"options\": [\"is\", \"was\", \"were\", \"had been\"], \"answer\": \"were\"}]"
+  },
+  {
+    "title": "Prepositions of Movement",
+    "titleVi": "Giới từ chỉ sự chuyển động",
+    "level": "beginner",
+    "category": "structures",
+    "content": "## Prepositions of Movement (Giới từ chỉ sự chuyển động)\n\nGiới từ chỉ sự chuyển động dùng để diễn tả hướng đi hoặc cách thức di chuyển từ nơi này sang nơi khác.\n\n### Các giới từ phổ biến\n- **To:** Đến (hướng tới một điểm cụ thể): *Go to school.*\n- **Into:** Vào trong: *Walk into the room.*\n- **Out of:** Ra khỏi: *Get out of the car.*\n- **Across:** Băng qua (bề mặt): *Run across the road.*\n- **Through:** Xuyên qua (không gian 3D): *Walk through the forest.*\n- **Along:** Dọc theo: *Walk along the river.*\n- **Past:** Băng qua, ngang qua: *Walk past the bank.*\n- **Over:** Vượt qua phía trên: *Jump over the fence.*\n- **Under:** Phía dưới: *The cat ran under the table.*\n- **Up / Down:** Lên / Xuống: *Walk up the stairs.*",
+    "examples": [
+      { "english": "The cat jumped into the box.", "vietnamese": "Con mèo đã nhảy vào trong chiếc hộp.", "explanation": "Into diễn tả sự chuyển động từ ngoài vào trong." },
+      { "english": "We walked along the beach for an hour.", "vietnamese": "Chúng tôi đã đi bộ dọc theo bãi biển trong một giờ.", "explanation": "Along diễn tả sự di chuyển song song với cái gì đó." },
+      { "english": "The train goes through the tunnel.", "vietnamese": "Đoàn tàu đi xuyên qua đường hầm.", "explanation": "Through diễn tả sự di chuyển bên trong một không gian kín." },
+      { "english": "He ran across the bridge to catch the bus.", "vietnamese": "Anh ấy chạy băng qua cây cầu để kịp xe buýt.", "explanation": "Across diễn tả sự di chuyển từ bên này sang bên kia bề mặt." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The hikers walked ___ the forest.", "options": ["across", "through", "along", "past"], "answer": "through" },
+      { "type": "multiple_choice", "question": "She ran ___ the street to the pharmacy.", "options": ["into", "across", "through", "past"], "answer": "across" },
+      { "type": "fill_blank", "question": "He jumped ___ the fence into the garden.", "answer": "over" },
+      { "type": "multiple_choice", "question": "The kids ran ___ the stairs to their bedroom.", "options": ["up", "along", "across", "through"], "answer": "up" },
+      { "type": "fill_blank", "question": "Get ___ of the car now! (Ra khỏi)", "answer": "out" }
+    ]
+  },
+  {
+    "title": "Causative Form: Have and Get",
+    "titleVi": "Thể sai khiến: Have và Get",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Causative Form (Thể sai khiến)\n\nDùng để diễn tả việc chúng ta không tự làm điều gì đó mà nhờ hoặc thuê người khác làm cho mình.\n\n### 1. Dạng chủ động (Nhờ ai làm gì)\n- **Have + someone + V (bare-inf)**\n- *I had the plumber fix the tap.* (Tôi nhờ thợ sửa ống nước sửa vòi nước.)\n- **Get + someone + to V**\n- *I got the plumber to fix the tap.* (Tôi bảo thợ sửa ống nước sửa vòi nước.)\n\n### 2. Dạng bị động (Có cái gì được làm bởi ai)\n- **Have/Get + something + V3 (past participle)**\n- *I had my hair cut yesterday.* (Tôi đã đi cắt tóc hôm qua - thợ cắt cho tôi.)\n- *I got my car repaired.* (Tôi đã cho sửa xe.)\n\n### Khi nào dùng?\n- Khi bạn trả tiền cho một dịch vụ (cắt tóc, sửa xe, dọn nhà).\n- Khi bạn thuyết phục hoặc yêu cầu ai đó làm gì.",
+    "examples": [
+      { "english": "I'll have my assistant call you tomorrow.", "vietnamese": "Tôi sẽ bảo trợ lý gọi cho bạn vào ngày mai.", "explanation": "Have + person + V (bare)" },
+      { "english": "Can you get the kids to clean their room?", "vietnamese": "Bạn có thể bảo lũ trẻ dọn phòng của chúng không?", "explanation": "Get + person + to V" },
+      { "english": "She is having her house painted this week.", "vietnamese": "Cô ấy đang cho người sơn nhà tuần này.", "explanation": "Have + object + V3 (bị động)" },
+      { "english": "I need to get my eyes tested.", "vietnamese": "Tôi cần đi khám mắt.", "explanation": "Get + object + V3 (bị động)" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I had the mechanic ___ my car.", "options": ["fix", "to fix", "fixed", "fixing"], "answer": "fix" },
+      { "type": "multiple_choice", "question": "I got my sister ___ me with my homework.", "options": ["help", "to help", "helped", "helping"], "answer": "to help" },
+      { "type": "fill_blank", "question": "I must have my watch ___ (repair). It stopped.", "answer": "repaired" },
+      { "type": "multiple_choice", "question": "Where did you get your hair ___?", "options": ["cut", "to cut", "cutting", "cuts"], "answer": "cut" },
+      { "type": "fill_blank", "question": "He got his brother ___ (wash) the car for him.", "answer": "to wash" }
+    ]
+  },
+  {
+    "title": "Be used to & Get used to",
+    "titleVi": "Cấu trúc Be used to và Get used to",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Be used to & Get used to\n\nPhân biệt giữa việc 'đã quen với' và 'đang dần quen với' một việc gì đó.\n\n### 1. Be used to + V-ing/Noun\n- Ý nghĩa: **Đã quen với** (việc này không còn lạ lẫm hay khó khăn nữa).\n- *I am used to the noise.* (Tôi đã quen với tiếng ồn rồi.)\n- *She is used to driving on the left.* (Cô ấy đã quen với việc lái xe bên trái.)\n\n### 2. Get used to + V-ing/Noun\n- Ý nghĩa: **Dần quen với** (đang trong quá trình thích nghi).\n- *I am getting used to the cold weather.* (Tôi đang dần quen với thời tiết lạnh.)\n- *You will soon get used to your new job.* (Bạn sẽ sớm quen với công việc mới thôi.)\n\n### Lưu ý quan trọng\nĐừng nhầm lẫn với **Used to + V** (thói quen trong quá khứ - nay không còn nữa). Hai cấu trúc trên luôn đi với **V-ing** hoặc **Danh từ**.",
+    "examples": [
+      { "english": "I'm used to waking up early for work.", "vietnamese": "Tôi đã quen với việc dậy sớm để đi làm.", "explanation": "Be used to + V-ing: thói quen hiện tại đã hình thành." },
+      { "english": "It took me a while to get used to living alone.", "vietnamese": "Tôi đã mất một thời gian để làm quen với việc sống một mình.", "explanation": "Get used to: quá trình thích nghi." },
+      { "english": "She isn't used to such spicy food.", "vietnamese": "Cô ấy chưa quen với thức ăn cay như thế này.", "explanation": "Be used to + Noun (dạng phủ định)." },
+      { "english": "Don't worry, you'll get used to it soon.", "vietnamese": "Đừng lo, bạn sẽ sớm quen với nó thôi.", "explanation": "Dùng get used to cho tương lai." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I am used to ___ in a big city.", "options": ["live", "living", "lived", "to live"], "answer": "living" },
+      { "type": "fill_blank", "question": "I'm gradually ___ used to the new software.", "answer": "getting" },
+      { "type": "multiple_choice", "question": "She ___ used to the heat yet.", "options": ["isn't", "doesn't", "hasn't", "won't"], "answer": "isn't" },
+      { "type": "fill_blank", "question": "It's hard to get used to ___ (work) at night.", "answer": "working" },
+      { "type": "multiple_choice", "question": "Are you used to ___ with chopsticks?", "options": ["eat", "eating", "eaten", "to eat"], "answer": "eating" }
+    ]
+  },
+  {
+    "title": "Future Continuous & Future Perfect",
+    "titleVi": "Thì tương lai tiếp diễn và tương lai hoàn thành",
+    "level": "intermediate",
+    "category": "basic",
+    "content": "## Future Continuous & Future Perfect\n\n### 1. Future Continuous (Tương lai tiếp diễn)\n- **Cấu trúc:** Will + be + V-ing\n- **Cách dùng:** Diễn tả hành động đang xảy ra tại một thời điểm xác định trong tương lai.\n- *At 9 PM tomorrow, I **will be watching** a movie.*\n\n### 2. Future Perfect (Tương lai hoàn thành)\n- **Cấu trúc:** Will + have + V3\n- **Cách dùng:** Diễn tả hành động sẽ hoàn tất trước một thời điểm hoặc một hành động khác trong tương lai.\n- *By the end of this month, I **will have finished** the project.*\n\n### Dấu hiệu nhận biết\n- **Future Continuous:** at this time tomorrow, at 8 AM next Monday...\n- **Future Perfect:** by + thời gian (by next year, by then), by the time...",
+    "examples": [
+      { "english": "This time next week, I will be lying on a beach in Bali.", "vietnamese": "Giờ này tuần tới, tôi sẽ đang nằm trên bãi biển ở Bali.", "explanation": "Hành động đang diễn ra tại một thời điểm cụ thể trong tương lai." },
+      { "english": "By 10 PM, the kids will have gone to sleep.", "vietnamese": "Đến 10 giờ tối, lũ trẻ sẽ đã đi ngủ rồi.", "explanation": "Hành động hoàn thành trước một mốc thời gian." },
+      { "english": "Will you be using your car tomorrow morning?", "vietnamese": "Sáng mai bạn có đang sử dụng xe không?", "explanation": "Hỏi về kế hoạch/hành động đang diễn ra." },
+      { "english": "By the time you arrive, we will have started dinner.", "vietnamese": "Đến lúc bạn tới, chúng tôi sẽ đã bắt đầu bữa tối rồi.", "explanation": "Hoàn thành trước một hành động khác trong tương lai." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Don't call me at 8 AM. I ___ my breakfast.", "options": ["will have", "will be having", "will have had", "have"], "answer": "will be having" },
+      { "type": "multiple_choice", "question": "By 2030, scientists ___ a cure for this disease.", "options": ["will find", "will be finding", "will have found", "find"], "answer": "will have found" },
+      { "type": "fill_blank", "question": "At this time tomorrow, we ___ (fly) to Paris.", "answer": "will be flying" },
+      { "type": "fill_blank", "question": "By next month, I ___ (live) here for a year.", "answer": "will have lived" },
+      { "type": "multiple_choice", "question": "Will you ___ finished the report by Friday?", "options": ["be", "have", "been", "has"], "answer": "have" }
+    ]
+  },
+  {
+    "title": "Adjective Order",
+    "titleVi": "Trật tự của tính từ",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Adjective Order (Trật tự của tính từ)\n\nKhi có nhiều tính từ đứng trước một danh từ, chúng ta cần sắp xếp chúng theo một trật tự nhất định. Quy tắc phổ biến nhất là **OSASCOMP**.\n\n### Quy tắc OSASCOMP\n1. **O**pinion (Quan điểm): *beautiful, ugly, smart*\n2. **S**ize (Kích cỡ): *big, small, tall*\n3. **A**ge (Tuổi tác): *old, new, young*\n4. **S**hape (Hình dáng): *round, square, long*\n5. **C**olor (Màu sắc): *red, blue, black*\n6. **O**rigin (Nguồn gốc): *Vietnamese, Japanese, Italian*\n7. **M**aterial (Chất liệu): *silk, wooden, plastic*\n8. **P**urpose (Mục đích): *sleeping (bag), walking (stick)*\n\n### Ví dụ\n- *A beautiful small old round red Vietnamese wooden table.*\n(Một chiếc bàn gỗ Việt Nam màu đỏ hình tròn cũ nhỏ đẹp.)",
+    "examples": [
+      { "english": "She bought a beautiful long red silk dress.", "vietnamese": "Cô ấy đã mua một chiếc váy lụa màu đỏ dài rất đẹp.", "explanation": "Opinion (beautiful) - Shape (long) - Color (red) - Material (silk)" },
+      { "english": "He lives in a big old white house.", "vietnamese": "Anh ấy sống trong một ngôi nhà trắng cũ và lớn.", "explanation": "Size (big) - Age (old) - Color (white)" },
+      { "english": "I saw a strange small black cat.", "vietnamese": "Tôi thấy một con mèo đen nhỏ lạ lùng.", "explanation": "Opinion (strange) - Size (small) - Color (black)" },
+      { "english": "It's a useful new Japanese gadget.", "vietnamese": "Đó là một thiết bị Nhật Bản mới và hữu ích.", "explanation": "Opinion (useful) - Age (new) - Origin (Japanese)" }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Choose the correct order: 'A ___ car.'", "options": ["red fast Italian", "fast red Italian", "Italian fast red", "red Italian fast"], "answer": "fast red Italian" },
+      { "type": "multiple_choice", "question": "He has a ___ table.", "options": ["wooden round big", "big round wooden", "round big wooden", "wooden big round"], "answer": "big round wooden" },
+      { "type": "fill_blank", "question": "Put these in order: small / beautiful / black (A ___ bag).", "answer": "beautiful small black" },
+      { "type": "multiple_choice", "question": "She wears ___ shoes.", "options": ["leather expensive black", "expensive black leather", "black expensive leather", "leather black expensive"], "answer": "expensive black leather" },
+      { "type": "fill_blank", "question": "Order: old / interesting / French (An ___ movie).", "answer": "interesting old French" }
+    ]
+  },
+  {
+    "title": "Quantifiers: Much, Many, Little, Few",
+    "titleVi": "Lượng từ: Much, Many, Little, Few",
+    "level": "beginner",
+    "category": "structures",
+    "content": "## Quantifiers (Lượng từ)\n\nLượng từ dùng để chỉ số lượng của danh từ. Cần phân biệt danh từ đếm được và không đếm được.\n\n### 1. Với danh từ đếm được số nhiều (Countable nouns)\n- **Many:** Nhiều (thường dùng trong câu phủ định/nghi vấn).\n- **A few:** Một vài (đủ dùng).\n- **Few:** Rất ít (không đủ dùng, mang nghĩa tiêu cực).\n\n### 2. Với danh từ không đếm được (Uncountable nouns)\n- **Much:** Nhiều (thường dùng trong câu phủ định/nghi vấn).\n- **A little:** Một ít (đủ dùng).\n- **Little:** Rất ít (không đủ dùng, mang nghĩa tiêu cực).\n\n### 3. Dùng cho cả hai\n- **A lot of / Lots of:** Nhiều (thường dùng trong câu khẳng định).\n- **Some / Any:** Một vài / Bất cứ.",
+    "examples": [
+      { "english": "I don't have much money left.", "vietnamese": "Tôi không còn nhiều tiền nữa.", "explanation": "Much + uncountable noun (money) in negative sentence." },
+      { "english": "There are many students in the library.", "vietnamese": "Có nhiều sinh viên trong thư viện.", "explanation": "Many + countable noun (students)." },
+      { "english": "I have a little time, let's talk.", "vietnamese": "Tôi có một chút thời gian, hãy nói chuyện nào.", "explanation": "A little = some (enough to do something)." },
+      { "english": "He has few friends and feels lonely.", "vietnamese": "Anh ấy có rất ít bạn và cảm thấy cô đơn.", "explanation": "Few = not many (negative meaning)." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "How ___ sugar do you want in your coffee?", "options": ["many", "much", "few", "little"], "answer": "much" },
+      { "type": "multiple_choice", "question": "There are ___ people at the bus stop.", "options": ["much", "many", "little", "any"], "answer": "many" },
+      { "type": "fill_blank", "question": "I have ___ (một ít) milk, enough for my tea.", "answer": "a little" },
+      { "type": "multiple_choice", "question": "I'm sorry, I have ___ information about this.", "options": ["few", "little", "many", "some"], "answer": "little" },
+      { "type": "fill_blank", "question": "There are only a ___ apples in the fridge.", "answer": "few" }
+    ]
+  },
+  {
+    "title": "Reflexive Pronouns",
+    "titleVi": "Đại từ phản thân",
+    "level": "beginner",
+    "category": "structures",
+    "content": "## Reflexive Pronouns (Đại từ phản thân)\n\nĐại từ phản thân dùng khi chủ ngữ và tân ngữ của câu là cùng một đối tượng.\n\n### Các đại từ phản thân\n- I → **myself**\n- You → **yourself** (số ít) / **yourselves** (số nhiều)\n- He → **himself**\n- She → **herself**\n- It → **itself**\n- We → **ourselves**\n- They → **themselves**\n\n### Cách dùng\n1. **Làm tân ngữ:** Khi chủ ngữ thực hiện hành động lên chính mình.\n   *I cut myself while cooking.* (Tôi tự làm mình đứt tay.)\n2. **Nhấn mạnh:** Để nhấn mạnh ai đó tự làm việc gì mà không có sự giúp đỡ.\n   *She did the homework herself.* (Cô ấy tự mình làm bài tập.)\n3. **Với 'By' (một mình):**\n   *He lives by himself.* (Anh ấy sống một mình.)",
+    "examples": [
+      { "english": "She looked at herself in the mirror.", "vietnamese": "Cô ấy nhìn chính mình trong gương.", "explanation": "Chủ ngữ và tân ngữ cùng là cô ấy." },
+      { "english": "The computer restarts itself after updates.", "vietnamese": "Máy tính tự khởi động lại sau khi cập nhật.", "explanation": "Itself dùng cho vật/máy móc." },
+      { "english": "We enjoyed ourselves at the party.", "vietnamese": "Chúng tôi đã chơi rất vui tại bữa tiệc.", "explanation": "Enjoy oneself = Have a good time." },
+      { "english": "You should do it yourself.", "vietnamese": "Bạn nên tự mình làm việc đó.", "explanation": "Nhấn mạnh chủ ngữ 'You'." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "He taught ___ how to play the piano.", "options": ["him", "his", "himself", "he"], "answer": "himself" },
+      { "type": "fill_blank", "question": "I'll do the shopping ___.", "answer": "myself" },
+      { "type": "multiple_choice", "question": "They cleaned the whole house by ___.", "options": ["them", "their", "themselves", "themself"], "answer": "themselves" },
+      { "type": "fill_blank", "question": "Take care of ___ (bản thân bạn)!.", "answer": "yourself" },
+      { "type": "multiple_choice", "question": "The cat licked ___.", "options": ["it", "its", "itself", "it's"], "answer": "itself" }
+    ]
+  },
+  {
+    "title": "Reported Speech: Requests and Commands",
+    "titleVi": "Câu tường thuật: Yêu cầu và Mệnh lệnh",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Reported Speech: Requests and Commands\n\nKhi tường thuật lại lời yêu cầu hoặc mệnh lệnh, chúng ta không dùng 'say' mà thường dùng cấu trúc với **Infinitive (to-V)**.\n\n### 1. Câu mệnh lệnh (Commands)\n- Cấu trúc: **tell/order + someone + (not) to V**\n- *'Stay in bed,' the doctor said.* → *The doctor **told me to stay** in bed.*\n- *'Don't talk!' the teacher said.* → *The teacher **told us not to talk**.*\n\n### 2. Câu yêu cầu (Requests)\n- Cấu trúc: **ask + someone + (not) to V**\n- *'Please help me,' she said.* → *She **asked me to help** her.*\n- *'Could you open the door?' he asked.* → *He **asked me to open** the door.*\n\n### Lưu ý\n- Động từ tường thuật: **tell** (bảo), **ask** (yêu cầu), **order** (ra lệnh), **warn** (cảnh báo), **advise** (khuyên).",
+    "examples": [
+      { "english": "The police officer told me to stop the car.", "vietnamese": "Viên cảnh sát bảo tôi dừng xe lại.", "explanation": "Tường thuật câu mệnh lệnh: Tell + someone + to V." },
+      { "english": "My mother asked me not to be late.", "vietnamese": "Mẹ tôi yêu cầu tôi đừng về muộn.", "explanation": "Tường thuật câu phủ định: Ask + someone + not to V." },
+      { "english": "He advised me to see a doctor.", "vietnamese": "Anh ấy khuyên tôi nên đi gặp bác sĩ.", "explanation": "Tường thuật lời khuyên dùng 'advise'." },
+      { "english": "The sign warned us not to enter.", "vietnamese": "Biển báo cảnh báo chúng tôi không được vào.", "explanation": "Dùng 'warn' để tường thuật lời cảnh báo." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "'Shut the door!' -> He told me ___ the door.", "options": ["shut", "to shut", "shutting", "shuts"], "answer": "to shut" },
+      { "type": "fill_blank", "question": "'Don't smoke here.' -> He told us ___ to smoke there.", "answer": "not" },
+      { "type": "multiple_choice", "question": "She ___ me to lend her some money.", "options": ["said", "told", "asked", "Both B and C"], "answer": "Both B and C" },
+      { "type": "fill_blank", "question": "The teacher told the students ___ (open) their books.", "answer": "to open" },
+      { "type": "multiple_choice", "question": "'Please don't go.' -> She asked him ___.", "options": ["to not go", "not to go", "doesn't go", "didn't go"], "answer": "not to go" }
+    ]
+  },
+  {
+    "title": "Relative Clauses with Prepositions",
+    "titleVi": "Mệnh đề quan hệ với giới từ",
+    "level": "advanced",
+    "category": "structures",
+    "content": "## Relative Clauses with Prepositions\n\nTrong mệnh đề quan hệ, giới từ có thể đứng ở cuối mệnh đề hoặc đứng trước đại từ quan hệ (whom/which).\n\n### 1. Vị trí trang trọng (Formal)\n- Giới từ đứng trước **whom** (cho người) hoặc **which** (cho vật).\n- *The man **to whom** I spoke was very helpful.*\n- *The hotel **in which** we stayed was excellent.*\n\n### 2. Vị trí thông dụng (Informal/Common)\n- Giới từ đứng ở cuối mệnh đề. Đại từ quan hệ có thể là **who/that/which** hoặc có thể lược bỏ.\n- *The man (who) I spoke **to** was very helpful.*\n- *The hotel (which) we stayed **in** was excellent.*\n\n### Lưu ý\n- Không dùng **that** hoặc **who** ngay sau giới từ. Phải dùng **which** hoặc **whom**.\n- Sai: *The person to **who** I talked...* (X)\n- Đúng: *The person to **whom** I talked...* (V)",
+    "examples": [
+      { "english": "This is the book about which I was telling you.", "vietnamese": "Đây là cuốn sách mà tôi đã nói với bạn.", "explanation": "Vị trí trang trọng: Giới từ 'about' đứng trước 'which'." },
+      { "english": "The people I work with are very friendly.", "vietnamese": "Những người tôi làm việc cùng rất thân thiện.", "explanation": "Vị trí thông thường: Giới từ 'with' ở cuối, đại từ 'whom' được lược bỏ." },
+      { "english": "The chair on which he sat was broken.", "vietnamese": "Chiếc ghế mà anh ấy ngồi lên đã bị hỏng.", "explanation": "Formal style." },
+      { "english": "Who was that girl you were talking to?", "vietnamese": "Cô gái mà bạn đang nói chuyện cùng là ai vậy?", "explanation": "Informal style." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The house in ___ I live is old.", "options": ["that", "which", "where", "whom"], "answer": "which" },
+      { "type": "multiple_choice", "question": "The candidate to ___ I voted won.", "options": ["who", "whom", "that", "which"], "answer": "whom" },
+      { "type": "fill_blank", "question": "This is the music I like to listen ___.", "answer": "to" },
+      { "type": "multiple_choice", "question": "The company for ___ she works is famous.", "options": ["which", "that", "whom", "who"], "answer": "which" },
+      { "type": "fill_blank", "question": "The friend ___ I went to the cinema with is Japanese.", "answer": "who" }
+    ]
+  },
+  {
+    "title": "Both, Either, Neither",
+    "titleVi": "Cách dùng Both, Either, Neither",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Both, Either, Neither\n\nDùng để nói về hai người hoặc hai vật.\n\n### 1. Both (Cả hai)\n- Dùng trong câu khẳng định.\n- **Both ... and ...**\n- *Both Tom and Jane are coming.* (Cả Tom và Jane đều đang đến.)\n\n### 2. Either (Một trong hai)\n- Dùng để chỉ một trong hai lựa chọn.\n- **Either ... or ...**\n- *You can have either tea or coffee.* (Bạn có thể uống trà hoặc cà phê.)\n\n### 3. Neither (Không ai/vật nào trong hai)\n- Mang nghĩa phủ định.\n- **Neither ... nor ...**\n- *Neither Chris nor Paul was at home.* (Cả Chris và Paul đều không ở nhà.)\n\n### Lưu ý về động từ\n- **Both** + động từ số nhiều.\n- **Either/Neither** + động từ số ít (thường dùng trong văn viết trang trọng).",
+    "examples": [
+      { "english": "Both restaurants are very good.", "vietnamese": "Cả hai nhà hàng đều rất tốt.", "explanation": "Both đi với danh từ số nhiều." },
+      { "english": "Neither of my parents speaks English.", "vietnamese": "Cả bố và mẹ tôi đều không nói tiếng Anh.", "explanation": "Neither mang nghĩa phủ định (không ai trong hai)." },
+      { "english": "Either day is fine for me.", "vietnamese": "Ngày nào (trong hai ngày) cũng được với tôi.", "explanation": "Either chọn 1 trong 2." },
+      { "english": "I liked neither movie.", "vietnamese": "Tôi không thích bộ phim nào (trong hai phim).", "explanation": "Neither dùng như tính từ." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ Tom and Bill passed the exam.", "options": ["Both", "Either", "Neither", "All"], "answer": "Both" },
+      { "type": "multiple_choice", "question": "I don't like ___ of those shirts.", "options": ["both", "either", "neither", "none"], "answer": "either" },
+      { "type": "fill_blank", "question": "Neither my mother ___ my father is here.", "answer": "nor" },
+      { "type": "multiple_choice", "question": "You can stay at ___ hotel. They are both good.", "options": ["both", "either", "neither", "none"], "answer": "either" },
+      { "type": "fill_blank", "question": "Both of them ___ (be) very kind.", "answer": "are" }
+    ]
+  },
+  {
+    "title": "So, Such, Too, Enough",
+    "titleVi": "Cấu trúc So, Such, Too, Enough",
+    "level": "beginner",
+    "category": "structures",
+    "content": "## So, Such, Too, Enough\n\nCác từ dùng để nhấn mạnh mức độ hoặc tính chất của sự việc.\n\n### 1. So & Such (Quá... đến nỗi mà)\n- **So + adj/adv (+ that)**\n  *The coffee is so hot (that) I can't drink it.*\n- **Such + (a/an) + adj + noun (+ that)**\n  *It was such a hot day (that) we stayed inside.*\n\n### 2. Too (Quá... không thể)\n- **Too + adj/adv (+ for someone) + to V**\n  *The box is too heavy (for me) to lift.*\n\n### 3. Enough (Đủ để)\n- **Adj/Adv + enough + to V**\n  *He is tall enough to play basketball.*\n- **Enough + Noun + to V**\n  *I have enough money to buy this car.*",
+    "examples": [
+      { "english": "The movie was so boring that I fell asleep.", "vietnamese": "Bộ phim quá chán đến nỗi tôi đã ngủ quên.", "explanation": "So + adjective + that." },
+      { "english": "She is such a talented singer.", "vietnamese": "Cô ấy là một ca sĩ tài năng như vậy.", "explanation": "Such + a + adjective + noun." },
+      { "english": "It's too cold to go out today.", "vietnamese": "Hôm nay trời quá lạnh để đi ra ngoài.", "explanation": "Too + adjective + to V (nghĩa phủ định: quá lạnh nên không đi)." },
+      { "english": "I'm not old enough to drive a car.", "vietnamese": "Tôi chưa đủ tuổi để lái ô tô.", "explanation": "Adjective + enough." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "It was ___ a beautiful day.", "options": ["so", "such", "too", "enough"], "answer": "such" },
+      { "type": "multiple_choice", "question": "This shirt is ___ small for me.", "options": ["so", "such", "too", "enough"], "answer": "too" },
+      { "type": "fill_blank", "question": "He speaks ___ fast that I can't understand him.", "answer": "so" },
+      { "type": "multiple_choice", "question": "Do we have ___ flour to make a cake?", "options": ["so", "such", "too", "enough"], "answer": "enough" },
+      { "type": "fill_blank", "question": "The water isn't warm ___ to swim.", "answer": "enough" }
+    ]
+  },
+  {
+    "title": "Purpose Clauses: In order to, So that",
+    "titleVi": "Mệnh đề chỉ mục đích",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Purpose Clauses (Mệnh đề chỉ mục đích)\n\nDùng để giải thích tại sao ai đó làm việc gì.\n\n### 1. Với cụm từ (Phrases)\n- **To + V-inf** (Thông dụng nhất)\n- **In order to / So as to + V-inf** (Trang trọng hơn)\n- *I went to the store **to buy** some milk.*\n- *He studied hard **in order to pass** the exam.*\n\n### 2. Với mệnh đề (Clauses)\n- **So that / In order that + Subject + can/could/will/would + V**\n- *I'll give you my number **so that you can call** me.*\n- *She spoke quietly **in order that nobody would hear** her.*\n\n### 3. Dạng phủ định\n- **In order not to / So as not to + V-inf**\n- *I left early **so as not to be** late.*",
+    "examples": [
+      { "english": "I'm learning English to get a better job.", "vietnamese": "Tôi đang học tiếng Anh để có một công việc tốt hơn.", "explanation": "To + V-inf chỉ mục đích thông thường." },
+      { "english": "She turned off the TV so that she could study.", "vietnamese": "Cô ấy đã tắt tivi để có thể học bài.", "explanation": "So that + mệnh đề." },
+      { "english": "He walked quietly so as not to wake the baby.", "vietnamese": "Anh ấy đi khẽ để không làm em bé thức giấc.", "explanation": "Phủ định: So as not to + V." },
+      { "english": "In order to stay healthy, you should exercise daily.", "vietnamese": "Để giữ sức khỏe, bạn nên tập thể dục hàng ngày.", "explanation": "In order to đứng đầu câu nhấn mạnh mục đích." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I went to the bank ___ get some cash.", "options": ["to", "for", "so that", "in order that"], "answer": "to" },
+      { "type": "multiple_choice", "question": "He wore a coat ___ he wouldn't get cold.", "options": ["to", "in order to", "so that", "for"], "answer": "so that" },
+      { "type": "fill_blank", "question": "I'm saving money ___ (để) buy a new phone.", "answer": "to" },
+      { "type": "multiple_choice", "question": "She studied hard so as ___ fail the exam.", "options": ["to not", "not to", "don't", "no"], "answer": "not to" },
+      { "type": "fill_blank", "question": "I'll leave a message so ___ you know I called.", "answer": "that" }
+    ]
+  },
+  {
+    "title": "Comparison with Nouns and Verbs",
+    "titleVi": "So sánh với Danh từ và Động từ",
+    "level": "intermediate",
+    "category": "structures",
+    "content": "## Comparison with Nouns and Verbs\n\nNgoài tính từ và trạng từ, chúng ta cũng có thể so sánh số lượng danh từ hoặc mức độ của động từ.\n\n### 1. So sánh với Danh từ (Nouns)\n- **More + noun + than:** Nhiều ... hơn.\n- **Fewer + countable noun + than:** Ít ... hơn (đếm được).\n- **Less + uncountable noun + than:** Ít ... hơn (không đếm được).\n- **As many/much + noun + as:** Nhiều bằng.\n\n### 2. So sánh với Động từ (Verbs)\n- **Verb + more than:** Làm gì nhiều hơn.\n- **Verb + less than:** Làm gì ít hơn.\n- **Verb + as much as:** Làm gì nhiều bằng.\n\n### Ví dụ\n- *I have **more books than** you.*\n- *She earns **less money than** her husband.*\n- *He **works more than** I do.*",
+    "examples": [
+      { "english": "There are fewer students in class today than yesterday.", "vietnamese": "Hôm nay có ít sinh viên trong lớp hơn hôm qua.", "explanation": "Fewer + countable noun (students)." },
+      { "english": "I spent less time on this project than the last one.", "vietnamese": "Tôi đã dành ít thời gian cho dự án này hơn dự án trước.", "explanation": "Less + uncountable noun (time)." },
+      { "english": "He doesn't eat as much as he used to.", "vietnamese": "Anh ấy không ăn nhiều như trước đây.", "explanation": "So sánh với động từ 'eat'." },
+      { "english": "Do you have as many friends as your brother?", "vietnamese": "Bạn có nhiều bạn bằng anh trai bạn không?", "explanation": "As many + countable noun + as." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "She has ___ experience than I do.", "options": ["many", "more", "few", "fewer"], "answer": "more" },
+      { "type": "multiple_choice", "question": "I have ___ free time these days.", "options": ["fewer", "less", "few", "many"], "answer": "less" },
+      { "type": "fill_blank", "question": "There are ___ (ít hơn) people here today than usual.", "answer": "fewer" },
+      { "type": "multiple_choice", "question": "He talks ___ than he listens.", "options": ["much", "more", "as much", "less"], "answer": "more" },
+      { "type": "fill_blank", "question": "I don't earn as ___ money as my boss.", "answer": "much" }
+    ]
+  }
+]

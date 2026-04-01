@@ -1,0 +1,4592 @@
+[
+  {
+    "name": "Adverbs of Frequency & Manner",
+    "nameVi": "Trạng từ chỉ tần suất & cách thức",
+    "description": "Words that describe how often or in what way an action occurs",
+    "level": "intermediate",
+    "order": 20,
+    "words": [
+      {
+        "word": "always",
+        "phonetic": "/ˈɔːlweɪz/",
+        "partOfSpeech": "adverb",
+        "definition": "At all times; on every occasion",
+        "definitionVi": "Luôn luôn",
+        "example": "I always drink coffee in the morning.",
+        "exampleVi": "Tôi luôn uống cà phê vào buổi sáng."
+      },
+      {
+        "word": "frequently",
+        "phonetic": "/ˈfriːkwəntli/",
+        "partOfSpeech": "adverb",
+        "definition": "Regularly or habitually; often",
+        "definitionVi": "Thường xuyên",
+        "example": "We frequently visit our grandparents.",
+        "exampleVi": "Chúng tôi thường xuyên thăm ông bà."
+      },
+      {
+        "word": "occasionally",
+        "phonetic": "/əˈkeɪʒnəli/",
+        "partOfSpeech": "adverb",
+        "definition": "At infrequent or irregular intervals; now and then",
+        "definitionVi": "Thỉnh thoảng",
+        "example": "I occasionally eat fast food.",
+        "exampleVi": "Thỉnh thoảng tôi có ăn thức ăn nhanh."
+      },
+      {
+        "word": "rarely",
+        "phonetic": "/ˈrerli/",
+        "partOfSpeech": "adverb",
+        "definition": "Not often; seldom",
+        "definitionVi": "Hiếm khi",
+        "example": "He rarely goes to the cinema.",
+        "exampleVi": "Anh ấy hiếm khi đi xem phim."
+      },
+      {
+        "word": "seldom",
+        "phonetic": "/ˈseldəm/",
+        "partOfSpeech": "adverb",
+        "definition": "Not often; rarely",
+        "definitionVi": "Ít khi",
+        "example": "Seldom have I seen such a beautiful sunset.",
+        "exampleVi": "Ít khi tôi thấy cảnh hoàng hôn đẹp như vậy."
+      },
+      {
+        "word": "carefully",
+        "phonetic": "/ˈkerfəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that avoids harm or errors; cautiously",
+        "definitionVi": "Cẩn thận",
+        "example": "Please drive carefully.",
+        "exampleVi": "Làm ơn lái xe cẩn thận."
+      },
+      {
+        "word": "efficiently",
+        "phonetic": "/ɪˈfɪʃntli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that achieves maximum productivity with minimum wasted effort",
+        "definitionVi": "Một cách hiệu quả",
+        "example": "The team worked efficiently to finish on time.",
+        "exampleVi": "Nhóm đã làm việc hiệu quả để hoàn thành đúng hạn."
+      },
+      {
+        "word": "gracefully",
+        "phonetic": "/ˈɡreɪsfəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a smooth, relaxed, attractive way",
+        "definitionVi": "Duyên dáng, uyển chuyển",
+        "example": "She danced gracefully across the stage.",
+        "exampleVi": "Cô ấy nhảy múa một cách duyên dáng trên sân khấu."
+      },
+      {
+        "word": "hastily",
+        "phonetic": "/ˈheɪstɪli/",
+        "partOfSpeech": "adverb",
+        "definition": "With excessive speed or urgency; hurriedly",
+        "definitionVi": "Vội vàng, hấp tấp",
+        "example": "The letter was written hastily.",
+        "exampleVi": "Bức thư được viết vội vàng."
+      },
+      {
+        "word": "patiently",
+        "phonetic": "/ˈpeɪʃntli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that shows tolerance of delays or problems",
+        "definitionVi": "Kiên nhẫn",
+        "example": "They waited patiently for the bus.",
+        "exampleVi": "Họ kiên nhẫn chờ xe buýt."
+      },
+      {
+        "word": "deliberately",
+        "phonetic": "/dɪˈlɪbərətli/",
+        "partOfSpeech": "adverb",
+        "definition": "On purpose; intentionally",
+        "definitionVi": "Cố ý",
+        "example": "I believe he did it deliberately.",
+        "exampleVi": "Tôi tin rằng anh ấy đã cố tình làm điều đó."
+      },
+      {
+        "word": "automatically",
+        "phonetic": "/ˌɔːtəˈmætɪkli/",
+        "partOfSpeech": "adverb",
+        "definition": "By itself, without human control",
+        "definitionVi": "Tự động",
+        "example": "The doors open automatically.",
+        "exampleVi": "Cửa mở tự động."
+      },
+      {
+        "word": "smoothly",
+        "phonetic": "/ˈsmuːðli/",
+        "partOfSpeech": "adverb",
+        "definition": "Without difficulties or sudden changes",
+        "definitionVi": "Trôi chảy, êm ả",
+        "example": "Everything went smoothly during the event.",
+        "exampleVi": "Mọi thứ diễn ra trôi chảy trong suốt sự kiện."
+      },
+      {
+        "word": "steadily",
+        "phonetic": "/ˈstedəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a regular and even manner",
+        "definitionVi": "Đều đặn, vững chắc",
+        "example": "The rain fell steadily all night.",
+        "exampleVi": "Mưa rơi đều đặn suốt đêm."
+      },
+      {
+        "word": "thoroughly",
+        "phonetic": "/ˈθɜːrəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a detailed and complete way",
+        "definitionVi": "Kỹ lưỡng, hoàn toàn",
+        "example": "Wash your hands thoroughly.",
+        "exampleVi": "Hãy rửa tay thật kỹ."
+      },
+      {
+        "word": "anxiously",
+        "phonetic": "/ˈæŋkʃəsli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that shows worry or nervousness",
+        "definitionVi": "Lo lắng",
+        "example": "We waited anxiously for the news.",
+        "exampleVi": "Chúng tôi lo lắng chờ đợi tin tức."
+      },
+      {
+        "word": "reluctantly",
+        "phonetic": "/rɪˈlʌktəntli/",
+        "partOfSpeech": "adverb",
+        "definition": "In an unwilling and hesitant way",
+        "definitionVi": "Miễn cưỡng",
+        "example": "She reluctantly agreed to help.",
+        "exampleVi": "Cô ấy miễn cưỡng đồng ý giúp đỡ."
+      },
+      {
+        "word": "precisely",
+        "phonetic": "/prɪˈsaɪsli/",
+        "partOfSpeech": "adverb",
+        "definition": "Exactly and accurately",
+        "definitionVi": "Chính xác",
+        "example": "The meeting started precisely at 9:00.",
+        "exampleVi": "Cuộc họp bắt đầu chính xác lúc 9 giờ."
+      },
+      {
+        "word": "suddenly",
+        "phonetic": "/ˈsʌdənli/",
+        "partOfSpeech": "adverb",
+        "definition": "Quickly and unexpectedly",
+        "definitionVi": "Đột ngột",
+        "example": "Suddenly, the lights went out.",
+        "exampleVi": "Đột nhiên, đèn tắt hết."
+      },
+      {
+        "word": "eventually",
+        "phonetic": "/ɪˈventʃuəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In the end, especially after a long time",
+        "definitionVi": "Cuối cùng thì",
+        "example": "She eventually found her keys.",
+        "exampleVi": "Cuối cùng cô ấy cũng tìm thấy chìa khóa."
+      },
+      {
+        "word": "regularly",
+        "phonetic": "/ˈreɡjələrli/",
+        "partOfSpeech": "adverb",
+        "definition": "With a constant amount of space or time between",
+        "definitionVi": "Thường xuyên",
+        "example": "You should exercise regularly.",
+        "exampleVi": "Bạn nên tập thể dục thường xuyên."
+      },
+      {
+        "word": "normally",
+        "phonetic": "/ˈnɔːrməli/",
+        "partOfSpeech": "adverb",
+        "definition": "Under usual or ordinary circumstances",
+        "definitionVi": "Thông thường",
+        "example": "I normally go to bed at 11 PM.",
+        "exampleVi": "Tôi thường đi ngủ lúc 11 giờ tối."
+      },
+      {
+        "word": "generally",
+        "phonetic": "/ˈdʒenrəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In most cases; usually",
+        "definitionVi": "Nhìn chung, thường lệ",
+        "example": "Generally, the weather is good here.",
+        "exampleVi": "Nhìn chung, thời tiết ở đây rất tốt."
+      },
+      {
+        "word": "consistently",
+        "phonetic": "/kənˈsɪstəntli/",
+        "partOfSpeech": "adverb",
+        "definition": "In every case or every time; invariably",
+        "definitionVi": "Nhất quán, luôn luôn",
+        "example": "He consistently arrives on time.",
+        "exampleVi": "Anh ấy luôn luôn đến đúng giờ."
+      },
+      {
+        "word": "constantly",
+        "phonetic": "/ˈkɑːnstəntli/",
+        "partOfSpeech": "adverb",
+        "definition": "Continuously over a period of time; always",
+        "definitionVi": "Liên tục, luôn luôn",
+        "example": "The world is constantly changing.",
+        "exampleVi": "Thế giới luôn luôn thay đổi."
+      },
+      {
+        "word": "frequently",
+        "phonetic": "/ˈfriːkwəntli/",
+        "partOfSpeech": "adverb",
+        "definition": "Often",
+        "definitionVi": "Thường xuyên",
+        "example": "Buses run frequently from the station.",
+        "exampleVi": "Xe buýt chạy thường xuyên từ nhà ga."
+      },
+      {
+        "word": "scarcely",
+        "phonetic": "/ˈskersli/",
+        "partOfSpeech": "adverb",
+        "definition": "Only just; almost not",
+        "definitionVi": "Hầu như không",
+        "example": "I could scarcely believe my eyes.",
+        "exampleVi": "Tôi hầu như không tin vào mắt mình."
+      },
+      {
+        "word": "hardly",
+        "phonetic": "/ˈhɑːrdli/",
+        "partOfSpeech": "adverb",
+        "definition": "Scarcely; barely",
+        "definitionVi": "Hầu như không",
+        "example": "We hardly know each other.",
+        "exampleVi": "Chúng tôi hầu như không biết nhau."
+      },
+      {
+        "word": "periodically",
+        "phonetic": "/ˌpɪriˈɑːdɪkli/",
+        "partOfSpeech": "adverb",
+        "definition": "From time to time; occasionally",
+        "definitionVi": "Định kỳ, thỉnh thoảng",
+        "example": "The software is updated periodically.",
+        "exampleVi": "Phần mềm được cập nhật định kỳ."
+      },
+      {
+        "word": "simultaneously",
+        "phonetic": "/ˌsaɪmlˈteɪniəsli/",
+        "partOfSpeech": "adverb",
+        "definition": "At the same time",
+        "definitionVi": "Đồng thời",
+        "example": "The movie was released simultaneously in ten countries.",
+        "exampleVi": "Bộ phim được công chiếu đồng thời tại mười quốc gia."
+      },
+      {
+        "word": "promptly",
+        "phonetic": "/ˈprɑːmptli/",
+        "partOfSpeech": "adverb",
+        "definition": "With little or no delay; immediately",
+        "definitionVi": "Kịp thời, ngay lập tức",
+        "example": "The doctor arrived promptly.",
+        "exampleVi": "Bác sĩ đã đến kịp thời."
+      },
+      {
+        "word": "silently",
+        "phonetic": "/ˈsaɪləntli/",
+        "partOfSpeech": "adverb",
+        "definition": "Without making any sound",
+        "definitionVi": "Âm thầm, lặng lẽ",
+        "example": "She crept silently into the room.",
+        "exampleVi": "Cô ấy lén lút lẻn vào phòng một cách lặng lẽ."
+      },
+      {
+        "word": "loudly",
+        "phonetic": "/ˈlaʊdli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that generates much noise",
+        "definitionVi": "Ồn ào, to tiếng",
+        "example": "He spoke loudly so everyone could hear.",
+        "exampleVi": "Anh ấy nói to để mọi người có thể nghe thấy."
+      },
+      {
+        "word": "quickly",
+        "phonetic": "/ˈkwɪkli/",
+        "partOfSpeech": "adverb",
+        "definition": "At a fast speed",
+        "definitionVi": "Nhanh chóng",
+        "example": "We need to move quickly.",
+        "exampleVi": "Chúng ta cần di chuyển nhanh chóng."
+      },
+      {
+        "word": "slowly",
+        "phonetic": "/ˈsloʊli/",
+        "partOfSpeech": "adverb",
+        "definition": "At a low speed",
+        "definitionVi": "Chậm chạp",
+        "example": "Please speak more slowly.",
+        "exampleVi": "Làm ơn nói chậm lại một chút."
+      },
+      {
+        "word": "brightly",
+        "phonetic": "/ˈbraɪtli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that gives off much light",
+        "definitionVi": "Sáng sủa",
+        "example": "The sun shone brightly.",
+        "exampleVi": "Mặt trời tỏa sáng rực rỡ."
+      },
+      {
+        "word": "calmly",
+        "phonetic": "/ˈkɑːmli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a peaceful and quiet way",
+        "definitionVi": "Bình tĩnh",
+        "example": "She calmly explained the situation.",
+        "exampleVi": "Cô ấy bình tĩnh giải thích tình hình."
+      },
+      {
+        "word": "bravely",
+        "phonetic": "/ˈbreɪvli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that shows courage",
+        "definitionVi": "Dũng cảm",
+        "example": "The soldier fought bravely.",
+        "exampleVi": "Người lính đã chiến đấu dũng cảm."
+      },
+      {
+        "word": "cheerfully",
+        "phonetic": "/ˈtʃɪr fəli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a happy and optimistic way",
+        "definitionVi": "Vui vẻ",
+        "example": "He whistled cheerfully while he worked.",
+        "exampleVi": "Anh ấy huýt sáo vui vẻ khi làm việc."
+      },
+      {
+        "word": "eagerly",
+        "phonetic": "/ˈiːɡərli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that shows great interest or desire",
+        "definitionVi": "Háo hức",
+        "example": "The children waited eagerly for their presents.",
+        "exampleVi": "Lũ trẻ háo hức chờ đợi quà của chúng."
+      },
+      {
+        "word": "easily",
+        "phonetic": "/ˈiːzəli/",
+        "partOfSpeech": "adverb",
+        "definition": "Without difficulty or effort",
+        "definitionVi": "Dễ dàng",
+        "example": "She passed the test easily.",
+        "exampleVi": "Cô ấy đã vượt qua bài kiểm tra một cách dễ dàng."
+      },
+      {
+        "word": "fairly",
+        "phonetic": "/ˈferli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a just or reasonable way",
+        "definitionVi": "Công bằng",
+        "example": "The teacher treated everyone fairly.",
+        "exampleVi": "Giáo viên đối xử công bằng với mọi người."
+      },
+      {
+        "word": "firmly",
+        "phonetic": "/ˈfɜːrmli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a strong, steady way",
+        "definitionVi": "Vững chắc, kiên quyết",
+        "example": "Hold the handle firmly.",
+        "exampleVi": "Hãy cầm chắc tay cầm."
+      },
+      {
+        "word": "honestly",
+        "phonetic": "/ˈɑːnɪstli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a truthful way",
+        "definitionVi": "Trung thực",
+        "example": "Honestly, I don't know the answer.",
+        "exampleVi": "Thành thật mà nói, tôi không biết câu trả lời."
+      },
+      {
+        "word": "neatly",
+        "phonetic": "/ˈniːtli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a tidy way",
+        "definitionVi": "Gọn gàng",
+        "example": "Fold your clothes neatly.",
+        "exampleVi": "Hãy gấp quần áo thật gọn gàng."
+      },
+      {
+        "word": "politely",
+        "phonetic": "/pəˈlaɪtli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a respectful and considerate way",
+        "definitionVi": "Lịch sự",
+        "example": "Always ask politely for things.",
+        "exampleVi": "Luôn luôn hỏi xin đồ vật một cách lịch sự."
+      },
+      {
+        "word": "roughly",
+        "phonetic": "/ˈrʌfli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a violent or harsh way; approximately",
+        "definitionVi": "Thô bạo; xấp xỉ",
+        "example": "He was pushed roughly aside.",
+        "exampleVi": "Anh ấy bị đẩy sang một bên một cách thô bạo."
+      },
+      {
+        "word": "sharply",
+        "phonetic": "/ˈʃɑːrpli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a critical or hurtful way; suddenly",
+        "definitionVi": "Sắc sảo; đột ngột",
+        "example": "Prices rose sharply last month.",
+        "exampleVi": "Giá cả tăng vọt vào tháng trước."
+      },
+      {
+        "word": "skillfully",
+        "phonetic": "/ˈskɪlfəli/",
+        "partOfSpeech": "adverb",
+        "definition": "With great ability or technique",
+        "definitionVi": "Khéo léo",
+        "example": "The surgeon performed the operation skillfully.",
+        "exampleVi": "Bác sĩ phẫu thuật đã thực hiện ca mổ một cách khéo léo."
+      },
+      {
+        "word": "wisely",
+        "phonetic": "/ˈwaɪzli/",
+        "partOfSpeech": "adverb",
+        "definition": "In a way that shows good judgment",
+        "definitionVi": "Khôn ngoan",
+        "example": "Spend your money wisely.",
+        "exampleVi": "Hãy chi tiêu tiền của bạn một cách khôn ngoan."
+      }
+    ]
+  },
+  {
+    "name": "Law & Justice",
+    "nameVi": "Luật pháp & Công lý",
+    "description": "Vocabulary related to legal systems, crimes, and the judiciary",
+    "level": "advanced",
+    "order": 21,
+    "words": [
+      {
+        "word": "attorney",
+        "phonetic": "/əˈtɜːrni/",
+        "partOfSpeech": "noun",
+        "definition": "A lawyer, especially one who represents clients in court",
+        "definitionVi": "Luật sư",
+        "example": "You should consult an attorney before signing the contract.",
+        "exampleVi": "Bạn nên tham khảo ý kiến luật sư trước khi ký hợp đồng."
+      },
+      {
+        "word": "bail",
+        "phonetic": "/beɪl/",
+        "partOfSpeech": "noun",
+        "definition": "Money paid to release an accused person as a guarantee of their appearance in court",
+        "definitionVi": "Tiền bảo lãnh",
+        "example": "The judge set the bail at $50,000.",
+        "exampleVi": "Thẩm phán đã ấn định tiền bảo lãnh là 50.000 đô la."
+      },
+      {
+        "word": "convict",
+        "phonetic": "/kənˈvɪkt/",
+        "partOfSpeech": "verb",
+        "definition": "To declare someone guilty of a crime",
+        "definitionVi": "Kết án",
+        "example": "He was convicted of fraud.",
+        "exampleVi": "Anh ta bị kết án vì tội gian lận."
+      },
+      {
+        "word": "defendant",
+        "phonetic": "/dɪˈfendənt/",
+        "partOfSpeech": "noun",
+        "definition": "A person accused of a crime in a court of law",
+        "definitionVi": "Bị cáo",
+        "example": "The defendant pleaded not guilty.",
+        "exampleVi": "Bị cáo đã không nhận tội."
+      },
+      {
+        "word": "evidence",
+        "phonetic": "/ˈevɪdəns/",
+        "partOfSpeech": "noun",
+        "definition": "Information used to prove or disprove something in court",
+        "definitionVi": "Bằng chứng",
+        "example": "The police are gathering evidence against the suspect.",
+        "exampleVi": "Cảnh sát đang thu thập bằng chứng chống lại kẻ tình nghi."
+      },
+      {
+        "word": "felony",
+        "phonetic": "/ˈfeləni/",
+        "partOfSpeech": "noun",
+        "definition": "A serious crime, such as murder or robbery",
+        "definitionVi": "Trọng tội",
+        "example": "Armed robbery is a felony in most jurisdictions.",
+        "exampleVi": "Cướp có vũ trang là một trọng tội ở hầu hết các khu vực pháp lý."
+      },
+      {
+        "word": "guilty",
+        "phonetic": "/ˈɡɪlti/",
+        "partOfSpeech": "adjective",
+        "definition": "Responsible for breaking a law or rule",
+        "definitionVi": "Có tội",
+        "example": "The jury found him guilty of theft.",
+        "exampleVi": "Bồi thẩm đoàn đã tuyên bố anh ta có tội trộm cắp."
+      },
+      {
+        "word": "indictment",
+        "phonetic": "/ɪnˈdaɪtmənt/",
+        "partOfSpeech": "noun",
+        "definition": "A formal charge or accusation of a serious crime",
+        "definitionVi": "Bản cáo trạng",
+        "example": "The grand jury issued an indictment for murder.",
+        "exampleVi": "Bồi thẩm đoàn đã ban hành bản cáo trạng về tội giết người."
+      },
+      {
+        "word": "jurisdiction",
+        "phonetic": "/ˌdʒʊrɪsˈdɪkʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The official power to make legal decisions and judgments",
+        "definitionVi": "Thẩm quyền pháp lý",
+        "example": "The case falls outside the jurisdiction of this court.",
+        "exampleVi": "Vụ việc nằm ngoài thẩm quyền của tòa án này."
+      },
+      {
+        "word": "lawsuit",
+        "phonetic": "/ˈlɔːsuːt/",
+        "partOfSpeech": "noun",
+        "definition": "A legal case brought by a person or group against another",
+        "definitionVi": "Vụ kiện",
+        "example": "The company faced a lawsuit for environmental damage.",
+        "exampleVi": "Công ty phải đối mặt với một vụ kiện vì gây hại cho môi trường."
+      },
+      {
+        "word": "litigation",
+        "phonetic": "/ˌlɪtɪˈɡeɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The process of taking legal action",
+        "definitionVi": "Việc kiện tụng",
+        "example": "Litigation can be a long and expensive process.",
+        "exampleVi": "Kiện tụng có thể là một quá trình lâu dài và tốn kém."
+      },
+      {
+        "word": "notary",
+        "phonetic": "/ˈnoʊtəri/",
+        "partOfSpeech": "noun",
+        "definition": "A person authorized to perform legal formalities, especially to certify documents",
+        "definitionVi": "Công chứng viên",
+        "example": "We need a notary to witness the signing of the deed.",
+        "exampleVi": "Chúng ta cần một công chứng viên để chứng kiến việc ký kết chứng thư."
+      },
+      {
+        "word": "offense",
+        "phonetic": "/əˈfens/",
+        "partOfSpeech": "noun",
+        "definition": "An illegal act; a crime",
+        "definitionVi": "Vi phạm, tội lỗi",
+        "example": "Speeding is a common traffic offense.",
+        "exampleVi": "Chạy quá tốc độ là một vi phạm giao thông phổ biến."
+      },
+      {
+        "word": "parole",
+        "phonetic": "/pəˈroʊl/",
+        "partOfSpeech": "noun",
+        "definition": "The release of a prisoner before the completion of a sentence on the promise of good behavior",
+        "definitionVi": "Lời thề danh dự, sự phóng thích trước thời hạn",
+        "example": "He was released on parole after serving five years.",
+        "exampleVi": "Anh ta được thả tự do trước thời hạn sau khi thụ án năm năm."
+      },
+      {
+        "word": "plaintiff",
+        "phonetic": "/ˈpleɪntɪf/",
+        "partOfSpeech": "noun",
+        "definition": "A person who brings a case against another in a court of law",
+        "definitionVi": "Nguyên đơn",
+        "example": "The plaintiff is seeking damages for breach of contract.",
+        "exampleVi": "Nguyên đơn đang yêu cầu bồi thường thiệt hại do vi phạm hợp đồng."
+      },
+      {
+        "word": "prosecute",
+        "phonetic": "/ˈprɑːsɪkjuːt/",
+        "partOfSpeech": "verb",
+        "definition": "To conduct legal proceedings against someone",
+        "definitionVi": "Truy tố",
+        "example": "The state decided to prosecute the case.",
+        "exampleVi": "Nhà nước đã quyết định truy tố vụ án."
+      },
+      {
+        "word": "sentence",
+        "phonetic": "/ˈsentəns/",
+        "partOfSpeech": "noun",
+        "definition": "The punishment assigned to a defendant found guilty by a court",
+        "definitionVi": "Bản án",
+        "example": "The judge passed a ten-year sentence.",
+        "exampleVi": "Thẩm phán đã tuyên bản án mười năm."
+      },
+      {
+        "word": "subpoena",
+        "phonetic": "/səˈpiːnə/",
+        "partOfSpeech": "noun",
+        "definition": "A writ ordering a person to attend a court",
+        "definitionVi": "Trát hầu tòa",
+        "example": "She received a subpoena to testify in the trial.",
+        "exampleVi": "Cô ấy đã nhận được trát hầu tòa để làm chứng trong phiên tòa."
+      },
+      {
+        "word": "testify",
+        "phonetic": "/ˈtestɪfaɪ/",
+        "partOfSpeech": "verb",
+        "definition": "To give evidence as a witness in a court of law",
+        "definitionVi": "Làm chứng",
+        "example": "He agreed to testify against his former boss.",
+        "exampleVi": "Anh ta đồng ý làm chứng chống lại sếp cũ của mình."
+      },
+      {
+        "word": "verdict",
+        "phonetic": "/ˈvɜːrdɪkt/",
+        "partOfSpeech": "noun",
+        "definition": "A decision on a disputed issue in a civil or criminal case",
+        "definitionVi": "Lời tuyên án",
+        "example": "The jury reached a verdict after two days of deliberation.",
+        "exampleVi": "Bồi thẩm đoàn đã đưa ra lời tuyên án sau hai ngày thảo luận."
+      },
+      {
+        "word": "witness",
+        "phonetic": "/ˈwɪtnəs/",
+        "partOfSpeech": "noun",
+        "definition": "A person who sees an event, typically a crime or accident, take place",
+        "definitionVi": "Nhân chứng",
+        "example": "Police are looking for witnesses to the accident.",
+        "exampleVi": "Cảnh sát đang tìm kiếm nhân chứng cho vụ tai nạn."
+      },
+      {
+        "word": "arbitration",
+        "phonetic": "/ˌɑːrbɪˈtreɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The use of an arbitrator to settle a dispute",
+        "definitionVi": "Sự trọng tài",
+        "example": "The dispute was settled through arbitration.",
+        "exampleVi": "Tranh chấp đã được giải quyết thông qua trọng tài."
+      },
+      {
+        "word": "bribery",
+        "phonetic": "/ˈbraɪbəri/",
+        "partOfSpeech": "noun",
+        "definition": "The giving or offering of a bribe",
+        "definitionVi": "Sự hối lộ",
+        "example": "The official was arrested on charges of bribery.",
+        "exampleVi": "Viên chức này đã bị bắt vì tội hối lộ."
+      },
+      {
+        "word": "burglary",
+        "phonetic": "/ˈbɜːrɡləri/",
+        "partOfSpeech": "noun",
+        "definition": "Entry into a building illegally with intent to commit a crime",
+        "definitionVi": "Tội trộm cắp (đột nhập)",
+        "example": "They were victims of a house burglary.",
+        "exampleVi": "Họ là nạn nhân của một vụ trộm nhà."
+      },
+      {
+        "word": "custody",
+        "phonetic": "/ˈkʌstədi/",
+        "partOfSpeech": "noun",
+        "definition": "The protective care or guardianship of someone or something",
+        "definitionVi": "Sự giam giữ, quyền nuôi con",
+        "example": "The father was granted custody of the children.",
+        "exampleVi": "Người cha đã được trao quyền nuôi con."
+      },
+      {
+        "word": "embezzlement",
+        "phonetic": "/ɪmˈbezlmənt/",
+        "partOfSpeech": "noun",
+        "definition": "Theft or misappropriation of funds placed in one's trust",
+        "definitionVi": "Sự biển thủ",
+        "example": "The accountant was charged with embezzlement.",
+        "exampleVi": "Kế toán đã bị buộc tội biển thủ."
+      },
+      {
+        "word": "forgery",
+        "phonetic": "/ˈfɔːrdʒəri/",
+        "partOfSpeech": "noun",
+        "definition": "The action of forging or producing a copy of a document, signature, banknote, or work of art",
+        "definitionVi": "Sự làm giả",
+        "example": "The signature on the check was a forgery.",
+        "exampleVi": "Chữ ký trên tấm séc là giả."
+      },
+      {
+        "word": "homicide",
+        "phonetic": "/ˈhɑːmɪsaɪd/",
+        "partOfSpeech": "noun",
+        "definition": "The killing of one person by another",
+        "definitionVi": "Tội giết người",
+        "example": "The police are investigating the death as a homicide.",
+        "exampleVi": "Cảnh sát đang điều tra cái chết này như một vụ giết người."
+      },
+      {
+        "word": "immunity",
+        "phonetic": "/ɪˈmjuːnəti/",
+        "partOfSpeech": "noun",
+        "definition": "Exemption from a duty or penalty",
+        "definitionVi": "Quyền miễn trừ",
+        "example": "Diplomats enjoy legal immunity in foreign countries.",
+        "exampleVi": "Các nhà ngoại giao được hưởng quyền miễn trừ pháp lý ở nước ngoài."
+      },
+      {
+        "word": "inmate",
+        "phonetic": "/ˈɪnmeɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A person confined to an institution such as a prison",
+        "definitionVi": "Tù nhân",
+        "example": "The prison has over 2,000 inmates.",
+        "exampleVi": "Nhà tù có hơn 2.000 tù nhân."
+      },
+      {
+        "word": "interrogation",
+        "phonetic": "/ɪnˌterəˈɡeɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The action of interrogating or being interrogated",
+        "definitionVi": "Sự thẩm vấn",
+        "example": "The suspect was subject to hours of interrogation.",
+        "exampleVi": "Nghi phạm đã phải trải qua nhiều giờ thẩm vấn."
+      },
+      {
+        "word": "larceny",
+        "phonetic": "/ˈlɑːrsəni/",
+        "partOfSpeech": "noun",
+        "definition": "Theft of personal property",
+        "definitionVi": "Tội trộm cắp tài sản",
+        "example": "He was arrested for grand larceny.",
+        "exampleVi": "Anh ta bị bắt vì tội trộm cắp tài sản lớn."
+      },
+      {
+        "word": "manslaughter",
+        "phonetic": "/ˈmænslɔːtər/",
+        "partOfSpeech": "noun",
+        "definition": "The crime of killing a human being without malice aforethought",
+        "definitionVi": "Tội ngộ sát",
+        "example": "The driver was charged with involuntary manslaughter.",
+        "exampleVi": "Người lái xe đã bị buộc tội ngộ sát vô ý."
+      },
+      {
+        "word": "negligence",
+        "phonetic": "/ˈneɡlɪdʒəns/",
+        "partOfSpeech": "noun",
+        "definition": "Failure to take proper care in doing something",
+        "definitionVi": "Sự cẩu thả, lơ là",
+        "example": "The hospital was sued for medical negligence.",
+        "exampleVi": "Bệnh viện bị kiện vì sự cẩu thả trong y tế."
+      },
+      {
+        "word": "pardon",
+        "phonetic": "/ˈpɑːrdn/",
+        "partOfSpeech": "noun",
+        "definition": "The action of forgiving or being forgiven for an error or offense",
+        "definitionVi": "Sự ân xá",
+        "example": "The president granted a pardon to the prisoner.",
+        "exampleVi": "Tổng thống đã ban lệnh ân xá cho tù nhân."
+      },
+      {
+        "word": "perjury",
+        "phonetic": "/ˈpɜːrdʒəri/",
+        "partOfSpeech": "noun",
+        "definition": "The offense of willfully telling an untruth in a court after having taken an oath",
+        "definitionVi": "Tội khai man trước tòa",
+        "example": "She was accused of perjury.",
+        "exampleVi": "Cô ấy bị buộc tội khai man trước tòa."
+      },
+      {
+        "word": "plea",
+        "phonetic": "/pliː/",
+        "partOfSpeech": "noun",
+        "definition": "A formal statement by or on behalf of a defendant or prisoner, stating guilt or innocence",
+        "definitionVi": "Lời tự bào chữa",
+        "example": "The defendant entered a plea of not guilty.",
+        "exampleVi": "Bị cáo đã đưa ra lời bào chữa không có tội."
+      },
+      {
+        "word": "precedent",
+        "phonetic": "/ˈpresɪdənt/",
+        "partOfSpeech": "noun",
+        "definition": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances",
+        "definitionVi": "Tiền lệ",
+        "example": "The judge's decision set a legal precedent.",
+        "exampleVi": "Quyết định của thẩm phán đã tạo ra một tiền lệ pháp lý."
+      },
+      {
+        "word": "probation",
+        "phonetic": "/proʊˈbeɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The release of an offender from detention, subject to a period of good behavior under supervision",
+        "definitionVi": "Thời gian quản chế",
+        "example": "He was placed on probation for two years.",
+        "exampleVi": "Anh ta bị quản chế trong hai năm."
+      },
+      {
+        "word": "sanction",
+        "phonetic": "/ˈsæŋkʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A threatened penalty for disobeying a law or rule",
+        "definitionVi": "Lệnh trừng phạt",
+        "example": "The UN imposed trade sanctions on the country.",
+        "exampleVi": "LHQ đã áp đặt các lệnh trừng phạt thương mại đối với quốc gia này."
+      },
+      {
+        "word": "search warrant",
+        "phonetic": "/sɜːrtʃ ˈwɔːrənt/",
+        "partOfSpeech": "noun",
+        "definition": "A court order authorizing a search",
+        "definitionVi": "Lệnh khám xét",
+        "example": "Police obtained a search warrant for the house.",
+        "exampleVi": "Cảnh sát đã có lệnh khám xét ngôi nhà."
+      },
+      {
+        "word": "smuggling",
+        "phonetic": "/ˈsmʌɡlɪŋ/",
+        "partOfSpeech": "noun",
+        "definition": "The illegal movement of goods into or out of a country",
+        "definitionVi": "Sự buôn lậu",
+        "example": "He was involved in drug smuggling.",
+        "exampleVi": "Anh ta có liên quan đến buôn lậu ma túy."
+      },
+      {
+        "word": "statute",
+        "phonetic": "/ˈstætʃuːt/",
+        "partOfSpeech": "noun",
+        "definition": "A written law passed by a legislative body",
+        "definitionVi": "Đạo luật",
+        "example": "The statute of limitations has expired.",
+        "exampleVi": "Thời hiệu khởi kiện đã hết."
+      },
+      {
+        "word": "sue",
+        "phonetic": "/suː/",
+        "partOfSpeech": "verb",
+        "definition": "To institute legal proceedings against a person or institution",
+        "definitionVi": "Kiện",
+        "example": "She decided to sue the company for damages.",
+        "exampleVi": "Cô ấy quyết định kiện công ty để đòi bồi thường thiệt hại."
+      },
+      {
+        "word": "suspect",
+        "phonetic": "/ˈsʌspekt/",
+        "partOfSpeech": "noun",
+        "definition": "A person thought to be guilty of an offense",
+        "definitionVi": "Kẻ tình nghi",
+        "example": "Police have arrested a suspect in the robbery.",
+        "exampleVi": "Cảnh sát đã bắt được một nghi phạm trong vụ cướp."
+      },
+      {
+        "word": "theft",
+        "phonetic": "/θeft/",
+        "partOfSpeech": "noun",
+        "definition": "The action or crime of stealing",
+        "definitionVi": "Tội trộm cắp",
+        "example": "Identity theft is a growing problem.",
+        "exampleVi": "Trộm cắp danh tính là một vấn đề ngày càng gia tăng."
+      },
+      {
+        "word": "trial",
+        "phonetic": "/ˈtraɪəl/",
+        "partOfSpeech": "noun",
+        "definition": "A formal examination of evidence by a judge",
+        "definitionVi": "Phiên tòa xét xử",
+        "example": "The murder trial lasted for three weeks.",
+        "exampleVi": "Phiên tòa xét xử tội giết người kéo dài ba tuần."
+      },
+      {
+        "word": "unconstitutional",
+        "phonetic": "/ˌʌnkɑːnstɪˈtuːʃənl/",
+        "partOfSpeech": "adjective",
+        "definition": "Not in accordance with a political constitution",
+        "definitionVi": "Vi hiến",
+        "example": "The court ruled the new law unconstitutional.",
+        "exampleVi": "Tòa án tuyên bố đạo luật mới là vi hiến."
+      },
+      {
+        "word": "valid",
+        "phonetic": "/ˈvælɪd/",
+        "partOfSpeech": "adjective",
+        "definition": "Legally binding or acceptable",
+        "definitionVi": "Có hiệu lực",
+        "example": "Do you have a valid driver's license?",
+        "exampleVi": "Bạn có bằng lái xe còn hiệu lực không?"
+      },
+      {
+        "word": "violation",
+        "phonetic": "/ˌvaɪəˈleɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "An action that breaks a law, rule, or agreement",
+        "definitionVi": "Sự vi phạm",
+        "example": "The company was fined for environmental violations.",
+        "exampleVi": "Công ty đã bị phạt vì các vi phạm về môi trường."
+      }
+    ]
+  },
+  {
+    "name": "Geography & Space",
+    "nameVi": "Địa lý & Vũ trụ",
+    "description": "Words related to the Earth's physical features and the universe",
+    "level": "intermediate",
+    "order": 22,
+    "words": [
+      {
+        "word": "asteroid",
+        "phonetic": "/ˈæstərɔɪd/",
+        "partOfSpeech": "noun",
+        "definition": "A small rocky body orbiting the sun",
+        "definitionVi": "Tiểu hành tinh",
+        "example": "Many asteroids are found in the asteroid belt.",
+        "exampleVi": "Nhiều tiểu hành tinh được tìm thấy trong vành đai tiểu hành tinh."
+      },
+      {
+        "word": "atmosphere",
+        "phonetic": "/ˈætməsfɪr/",
+        "partOfSpeech": "noun",
+        "definition": "The envelope of gases surrounding the earth or another planet",
+        "definitionVi": "Bầu khí quyển",
+        "example": "The Earth's atmosphere protects us from the sun's rays.",
+        "exampleVi": "Bầu khí quyển Trái Đất bảo vệ chúng ta khỏi tia nắng mặt trời."
+      },
+      {
+        "word": "canyon",
+        "phonetic": "/ˈkænjən/",
+        "partOfSpeech": "noun",
+        "definition": "A deep gorge, typically one with a river flowing through it",
+        "definitionVi": "Hẻm núi",
+        "example": "The Grand Canyon is a famous natural landmark.",
+        "exampleVi": "Grand Canyon là một địa danh tự nhiên nổi tiếng."
+      },
+      {
+        "word": "celestial",
+        "phonetic": "/səˈlestʃl/",
+        "partOfSpeech": "adjective",
+        "definition": "Positioned in or relating to the sky, or outer space",
+        "definitionVi": "Thuộc về bầu trời/thiên thể",
+        "example": "Stars and planets are celestial bodies.",
+        "exampleVi": "Các ngôi sao và hành tinh là các thiên thể."
+      },
+      {
+        "word": "comet",
+        "phonetic": "/ˈkɑːmət/",
+        "partOfSpeech": "noun",
+        "definition": "A celestial object consisting of a nucleus of ice and dust and, when near the sun, a tail of gas and dust particles",
+        "definitionVi": "Sao chổi",
+        "example": "Halley's Comet appears every 76 years.",
+        "exampleVi": "Sao chổi Halley xuất hiện 76 năm một lần."
+      },
+      {
+        "word": "constellation",
+        "phonetic": "/ˌkɑːnstəˈleɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A group of stars forming a recognizable pattern",
+        "definitionVi": "Chòm sao",
+        "example": "The Big Dipper is part of a larger constellation.",
+        "exampleVi": "Bắc Đẩu là một phần của một chòm sao lớn hơn."
+      },
+      {
+        "word": "continent",
+        "phonetic": "/ˈkɑːntɪnənt/",
+        "partOfSpeech": "noun",
+        "definition": "Any of the world's main continuous expanses of land",
+        "definitionVi": "Châu lục",
+        "example": "Asia is the largest continent in the world.",
+        "exampleVi": "Châu Á là châu lục lớn nhất thế giới."
+      },
+      {
+        "word": "crater",
+        "phonetic": "/ˈkreɪtər/",
+        "partOfSpeech": "noun",
+        "definition": "A large, bowl-shaped cavity in the ground or on the surface of a planet or the moon",
+        "definitionVi": "Miệng núi lửa/Hố thiên thạch",
+        "example": "The moon is covered in craters.",
+        "exampleVi": "Mặt trăng bị bao phủ bởi các hố thiên thạch."
+      },
+      {
+        "word": "desert",
+        "phonetic": "/ˈdezərt/",
+        "partOfSpeech": "noun",
+        "definition": "A barren area of landscape where little precipitation occurs",
+        "definitionVi": "Sa mạc",
+        "example": "The Sahara is the largest hot desert in the world.",
+        "exampleVi": "Sahara là sa mạc nóng lớn nhất thế giới."
+      },
+      {
+        "word": "eclipse",
+        "phonetic": "/ɪˈklɪps/",
+        "partOfSpeech": "noun",
+        "definition": "The total or partial obscuring of one celestial body by another",
+        "definitionVi": "Nhật thực/Nguyệt thực",
+        "example": "We watched the solar eclipse through special glasses.",
+        "exampleVi": "Chúng tôi xem nhật thực qua kính chuyên dụng."
+      },
+      {
+        "word": "equator",
+        "phonetic": "/ɪˈkweɪtər/",
+        "partOfSpeech": "noun",
+        "definition": "An imaginary line drawn around the earth equally distant from both poles",
+        "definitionVi": "Đường xích đạo",
+        "example": "The climate is very hot near the equator.",
+        "exampleVi": "Khí hậu rất nóng ở gần đường xích đạo."
+      },
+      {
+        "word": "galaxy",
+        "phonetic": "/ˈɡæləksi/",
+        "partOfSpeech": "noun",
+        "definition": "A system of millions or billions of stars, together with gas and dust, held together by gravitational attraction",
+        "definitionVi": "Thiên hà",
+        "example": "Our solar system is located in the Milky Way galaxy.",
+        "exampleVi": "Hệ mặt trời của chúng ta nằm trong thiên hà Ngân Hà."
+      },
+      {
+        "word": "glacier",
+        "phonetic": "/ˈɡleɪʃər/",
+        "partOfSpeech": "noun",
+        "definition": "A slowly moving mass or river of ice formed by the accumulation and compaction of snow",
+        "definitionVi": "Sông băng",
+        "example": "Glaciers are melting at an alarming rate.",
+        "exampleVi": "Các sông băng đang tan chảy với tốc độ đáng báo động."
+      },
+      {
+        "word": "gravity",
+        "phonetic": "/ˈɡrævəti/",
+        "partOfSpeech": "noun",
+        "definition": "The force that attracts a body toward the center of the earth",
+        "definitionVi": "Trọng lực",
+        "example": "Gravity keeps the planets in orbit around the sun.",
+        "exampleVi": "Trọng lực giữ các hành tinh quay quanh mặt trời."
+      },
+      {
+        "word": "hemisphere",
+        "phonetic": "/ˈhemɪsfɪr/",
+        "partOfSpeech": "noun",
+        "definition": "A half of the earth, usually as divided into northern and southern halves",
+        "definitionVi": "Bán cầu",
+        "example": "Vietnam is located in the northern hemisphere.",
+        "exampleVi": "Việt Nam nằm ở bắc bán cầu."
+      },
+      {
+        "word": "horizon",
+        "phonetic": "/həˈraɪzn/",
+        "partOfSpeech": "noun",
+        "definition": "The line at which the earth's surface and the sky appear to meet",
+        "definitionVi": "Chân trời",
+        "example": "The sun disappeared below the horizon.",
+        "exampleVi": "Mặt trời lặn dần dưới đường chân trời."
+      },
+      {
+        "word": "island",
+        "phonetic": "/ˈaɪlənd/",
+        "partOfSpeech": "noun",
+        "definition": "A piece of land surrounded by water",
+        "definitionVi": "Hòn đảo",
+        "example": "Phu Quoc is a beautiful island in Vietnam.",
+        "exampleVi": "Phú Quốc là một hòn đảo đẹp ở Việt Nam."
+      },
+      {
+        "word": "latitude",
+        "phonetic": "/ˈlætɪtuːd/",
+        "partOfSpeech": "noun",
+        "definition": "The angular distance of a place north or south of the earth's equator",
+        "definitionVi": "Vĩ độ",
+        "example": "The city is located at a latitude of 45 degrees north.",
+        "exampleVi": "Thành phố nằm ở vĩ độ 45 độ Bắc."
+      },
+      {
+        "word": "longitude",
+        "phonetic": "/ˈlɑːndʒɪtuːd/",
+        "partOfSpeech": "noun",
+        "definition": "The angular distance of a place east or west of the meridian at Greenwich, England",
+        "definitionVi": "Kinh độ",
+        "example": "What are the exact longitude and latitude of this location?",
+        "exampleVi": "Kinh độ và vĩ độ chính xác của vị trí này là gì?"
+      },
+      {
+        "word": "meteor",
+        "phonetic": "/ˈmiːtiər/",
+        "partOfSpeech": "noun",
+        "definition": "A small body of matter from outer space that enters the earth's atmosphere",
+        "definitionVi": "Thiên thạch/Sao băng",
+        "example": "We saw a meteor streak across the night sky.",
+        "exampleVi": "Chúng tôi thấy một vệt sao băng xẹt qua bầu trời đêm."
+      },
+      {
+        "word": "mountain",
+        "phonetic": "/ˈmaʊntn/",
+        "partOfSpeech": "noun",
+        "definition": "A large natural elevation of the earth's surface rising abruptly from the surrounding level",
+        "definitionVi": "Núi",
+        "example": "Fansipan is the highest mountain in Vietnam.",
+        "exampleVi": "Fansipan là ngọn núi cao nhất Việt Nam."
+      },
+      {
+        "word": "nebula",
+        "phonetic": "/ˈnebjələ/",
+        "partOfSpeech": "noun",
+        "definition": "A cloud of gas and dust in outer space",
+        "definitionVi": "Tinh vân",
+        "example": "The Orion Nebula is visible to the naked eye.",
+        "exampleVi": "Tinh vân Orion có thể nhìn thấy bằng mắt thường."
+      },
+      {
+        "word": "ocean",
+        "phonetic": "/ˈoʊʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A very large expanse of sea, in particular, each of the main areas into which the sea is divided geographically",
+        "definitionVi": "Đại dương",
+        "example": "The Pacific Ocean is the largest ocean on Earth.",
+        "exampleVi": "Thái Bình Dương là đại dương lớn nhất Trái Đất."
+      },
+      {
+        "word": "orbit",
+        "phonetic": "/ˈɔːrbɪt/",
+        "partOfSpeech": "verb",
+        "definition": "The curved path of a celestial object or spacecraft around a star, planet, or moon",
+        "definitionVi": "Quỹ đạo",
+        "example": "The Earth orbits the sun once a year.",
+        "exampleVi": "Trái Đất quay quanh mặt trời mỗi năm một lần."
+      },
+      {
+        "word": "peninsula",
+        "phonetic": "/pəˈnɪnsələ/",
+        "partOfSpeech": "noun",
+        "definition": "A piece of land almost surrounded by water or projecting out into a body of water",
+        "definitionVi": "Bán đảo",
+        "example": "Italy is a peninsula in southern Europe.",
+        "exampleVi": "Ý là một bán đảo ở Nam Âu."
+      },
+      {
+        "word": "planet",
+        "phonetic": "/ˈplænɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A celestial body moving in an elliptical orbit around a star",
+        "definitionVi": "Hành tinh",
+        "example": "Mars is known as the Red Planet.",
+        "exampleVi": "Sao Hỏa được gọi là Hành tinh Đỏ."
+      },
+      {
+        "word": "plateau",
+        "phonetic": "/plæˈtoʊ/",
+        "partOfSpeech": "noun",
+        "definition": "An area of relatively level high ground",
+        "definitionVi": "Cao nguyên",
+        "example": "The Tibetan Plateau is the highest in the world.",
+        "exampleVi": "Cao nguyên Tây Tạng là cao nguyên cao nhất thế giới."
+      },
+      {
+        "word": "range",
+        "phonetic": "/reɪndʒ/",
+        "partOfSpeech": "noun",
+        "definition": "A series of mountains or hills in a line",
+        "definitionVi": "Dãy (núi)",
+        "example": "The Himalayas is a famous mountain range.",
+        "exampleVi": "Himalayas là một dãy núi nổi tiếng."
+      },
+      {
+        "word": "satellite",
+        "phonetic": "/ˈsætəlaɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A celestial body orbiting the earth or another planet",
+        "definitionVi": "Vệ tinh",
+        "example": "The moon is a natural satellite of the Earth.",
+        "exampleVi": "Mặt trăng là vệ tinh tự nhiên của Trái Đất."
+      },
+      {
+        "word": "solar system",
+        "phonetic": "/ˈsoʊlər ˈsɪstəm/",
+        "partOfSpeech": "noun",
+        "definition": "The collection of eight planets and their moons in orbit around the sun",
+        "definitionVi": "Hệ mặt trời",
+        "example": "There are eight planets in our solar system.",
+        "exampleVi": "Có tám hành tinh trong hệ mặt trời của chúng ta."
+      },
+      {
+        "word": "spacecraft",
+        "phonetic": "/ˈspeɪskræft/",
+        "partOfSpeech": "noun",
+        "definition": "A vehicle used for traveling in space",
+        "definitionVi": "Tàu vũ trụ",
+        "example": "The spacecraft landed safely on the moon.",
+        "exampleVi": "Tàu vũ trụ đã hạ cánh an toàn xuống mặt trăng."
+      },
+      {
+        "word": "star",
+        "phonetic": "/stɑːr/",
+        "partOfSpeech": "noun",
+        "definition": "A fixed luminous point in the night sky which is a large, remote incandescent body like the sun",
+        "definitionVi": "Ngôi sao",
+        "example": "The sun is the closest star to Earth.",
+        "exampleVi": "Mặt trời là ngôi sao gần Trái Đất nhất."
+      },
+      {
+        "word": "tide",
+        "phonetic": "/taɪd/",
+        "partOfSpeech": "noun",
+        "definition": "The alternate rising and falling of the sea",
+        "definitionVi": "Thủy triều",
+        "example": "The tide comes in twice a day.",
+        "exampleVi": "Thủy triều lên hai lần một ngày."
+      },
+      {
+        "word": "topography",
+        "phonetic": "/təˈpɑːɡrəfi/",
+        "partOfSpeech": "noun",
+        "definition": "The arrangement of the natural and artificial physical features of an area",
+        "definitionVi": "Địa hình",
+        "example": "The topography of the region is very rugged.",
+        "exampleVi": "Địa hình của vùng này rất hiểm trở."
+      },
+      {
+        "word": "universe",
+        "phonetic": "/ˈjuːnɪvɜːrs/",
+        "partOfSpeech": "noun",
+        "definition": "All existing matter and space considered as a whole",
+        "definitionVi": "Vũ trụ",
+        "example": "The universe is vast and mysterious.",
+        "exampleVi": "Vũ trụ bao la và đầy bí ẩn."
+      },
+      {
+        "word": "valley",
+        "phonetic": "/ˈvæli/",
+        "partOfSpeech": "noun",
+        "definition": "A low area of land between hills or mountains",
+        "definitionVi": "Thung lũng",
+        "example": "The river flows through a deep valley.",
+        "exampleVi": "Con sông chảy qua một thung lũng sâu."
+      },
+      {
+        "word": "volcano",
+        "phonetic": "/vɑːlˈkeɪnoʊ/",
+        "partOfSpeech": "noun",
+        "definition": "A mountain or hill having a crater through which lava and gas are being or have been erupted",
+        "definitionVi": "Núi lửa",
+        "example": "The volcano erupted suddenly yesterday.",
+        "exampleVi": "Núi lửa đột ngột phun trào vào hôm qua."
+      },
+      {
+        "word": "waterfall",
+        "phonetic": "/ˈwɔːtərfɔːl/",
+        "partOfSpeech": "noun",
+        "definition": "A cascade of water falling from a height",
+        "definitionVi": "Thác nước",
+        "example": "Ban Gioc is a stunning waterfall in Vietnam.",
+        "exampleVi": "Bản Giốc là một thác nước tuyệt đẹp ở Việt Nam."
+      },
+      {
+        "word": "archipelago",
+        "phonetic": "/ˌɑːrkɪˈpeləɡoʊ/",
+        "partOfSpeech": "noun",
+        "definition": "A group of islands",
+        "definitionVi": "Quần đảo",
+        "example": "The Philippines is an archipelago in Southeast Asia.",
+        "exampleVi": "Philippines là một quần đảo ở Đông Nam Á."
+      },
+      {
+        "word": "bay",
+        "phonetic": "/beɪ/",
+        "partOfSpeech": "noun",
+        "definition": "A broad inlet of the sea where the land curves inward",
+        "definitionVi": "Vịnh",
+        "example": "Ha Long Bay is a UNESCO World Heritage site.",
+        "exampleVi": "Vịnh Hạ Long là một di sản thế giới của UNESCO."
+      },
+      {
+        "word": "cliff",
+        "phonetic": "/klɪf/",
+        "partOfSpeech": "noun",
+        "definition": "A steep rock face, especially at the edge of the sea",
+        "definitionVi": "Vách đá",
+        "example": "The cliffs overlook the ocean.",
+        "exampleVi": "Các vách đá nhìn ra đại dương."
+      },
+      {
+        "word": "coast",
+        "phonetic": "/koʊst/",
+        "partOfSpeech": "noun",
+        "definition": "The part of the land adjoining or near the sea",
+        "definitionVi": "Bờ biển",
+        "example": "We drove along the coast for several hours.",
+        "exampleVi": "Chúng tôi lái xe dọc bờ biển trong vài giờ."
+      },
+      {
+        "word": "delta",
+        "phonetic": "/ˈdeltə/",
+        "partOfSpeech": "noun",
+        "definition": "A triangular tract of sediment deposited at the mouth of a river",
+        "definitionVi": "Đồng bằng châu thổ",
+        "example": "The Mekong Delta is a fertile region.",
+        "exampleVi": "Đồng bằng sông Cửu Long là một vùng đất màu mỡ."
+      },
+      {
+        "word": "desertification",
+        "phonetic": "/dɪˌzɜːrtɪfɪˈkeɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The process by which fertile land becomes desert",
+        "definitionVi": "Sự sa mạc hóa",
+        "example": "Desertification is a serious environmental issue.",
+        "exampleVi": "Sa mạc hóa là một vấn đề môi trường nghiêm trọng."
+      },
+      {
+        "word": "erosion",
+        "phonetic": "/ɪˈroʊʒn/",
+        "partOfSpeech": "noun",
+        "definition": "The gradual destruction or diminution of something by wind, water, or other natural agents",
+        "definitionVi": "Sự xói mòn",
+        "example": "Soil erosion is caused by heavy rain.",
+        "exampleVi": "Xói mòn đất là do mưa lớn gây ra."
+      },
+      {
+        "word": "fjord",
+        "phonetic": "/fjɔːrd/",
+        "partOfSpeech": "noun",
+        "definition": "A long, narrow, deep inlet of the sea between high cliffs",
+        "definitionVi": "Vịnh hẹp (vùng Bắc Âu)",
+        "example": "Norway is famous for its beautiful fjords.",
+        "exampleVi": "Na Uy nổi tiếng với các vịnh hẹp tuyệt đẹp."
+      },
+      {
+        "word": "marsh",
+        "phonetic": "/mɑːrʃ/",
+        "partOfSpeech": "noun",
+        "definition": "An area of low-lying land that is flooded in wet seasons or at high tide",
+        "definitionVi": "Đầm lầy",
+        "example": "The marsh is home to many bird species.",
+        "exampleVi": "Đầm lầy là nơi cư ngụ của nhiều loài chim."
+      },
+      {
+        "word": "mountainous",
+        "phonetic": "/ˈmaʊntənəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Having many mountains",
+        "definitionVi": "Thuộc miền núi",
+        "example": "Northern Vietnam is very mountainous.",
+        "exampleVi": "Miền Bắc Việt Nam có rất nhiều núi."
+      },
+      {
+        "word": "plain",
+        "phonetic": "/pleɪn/",
+        "partOfSpeech": "noun",
+        "definition": "A large area of flat land with few trees",
+        "definitionVi": "Đồng bằng",
+        "example": "The Great Plains of the US are famous for farming.",
+        "exampleVi": "Vùng Đồng bằng lớn của Mỹ nổi tiếng về trồng trọt."
+      },
+      {
+        "word": "reef",
+        "phonetic": "/riːf/",
+        "partOfSpeech": "noun",
+        "definition": "A ridge of jagged rock, coral, or sand just above or below the surface of the sea",
+        "definitionVi": "Rạn san hô/Đá ngầm",
+        "example": "The Great Barrier Reef is visible from space.",
+        "exampleVi": "Rạn san hô Great Barrier có thể nhìn thấy từ vũ trụ."
+      }
+    ]
+  },
+  {
+    "name": "Tools & Materials",
+    "nameVi": "Công cụ & Vật liệu",
+    "description": "Common tools and the materials they are made from or used on",
+    "level": "intermediate",
+    "order": 23,
+    "words": [
+      {
+        "word": "hammer",
+        "phonetic": "/ˈhæmər/",
+        "partOfSpeech": "noun",
+        "definition": "A tool with a heavy metal head and a handle, used for hitting nails",
+        "definitionVi": "Cái búa",
+        "example": "Use a hammer to drive the nail into the wood.",
+        "exampleVi": "Sử dụng búa để đóng đinh vào gỗ."
+      },
+      {
+        "word": "screwdriver",
+        "phonetic": "/ˈskruːdraɪvər/",
+        "partOfSpeech": "noun",
+        "definition": "A tool with a tip that fits into the head of a screw to turn it",
+        "definitionVi": "Cái tua vít",
+        "example": "I need a Phillips head screwdriver for this.",
+        "exampleVi": "Tôi cần một cái tua vít đầu bốn cạnh cho việc này."
+      },
+      {
+        "word": "wrench",
+        "phonetic": "/rentʃ/",
+        "partOfSpeech": "noun",
+        "definition": "A tool used for gripping and turning nuts and bolts",
+        "definitionVi": "Cái cờ lê",
+        "example": "Adjust the wrench to fit the bolt.",
+        "exampleVi": "Điều chỉnh cờ lê để vừa với bu lông."
+      },
+      {
+        "word": "pliers",
+        "phonetic": "/ˈplaɪərz/",
+        "partOfSpeech": "noun",
+        "definition": "Pincers with parallel, flat, and typically serrated surfaces, used for gripping small objects",
+        "definitionVi": "Cái kìm",
+        "example": "Use pliers to bend the wire.",
+        "exampleVi": "Sử dụng kìm để uốn dây thép."
+      },
+      {
+        "word": "drill",
+        "phonetic": "/drɪl/",
+        "partOfSpeech": "noun",
+        "definition": "A tool or machine used for making holes",
+        "definitionVi": "Cái khoan",
+        "example": "You'll need an electric drill for this project.",
+        "exampleVi": "Bạn sẽ cần một cái khoan điện cho dự án này."
+      },
+      {
+        "word": "saw",
+        "phonetic": "/sɔː/",
+        "partOfSpeech": "noun",
+        "definition": "A tool with a jagged blade used for cutting wood or metal",
+        "definitionVi": "Cái cưa",
+        "example": "A hand saw is useful for small jobs.",
+        "exampleVi": "Một cái cưa tay rất hữu ích cho các công việc nhỏ."
+      },
+      {
+        "word": "chisel",
+        "phonetic": "/ˈtʃɪzl/",
+        "partOfSpeech": "noun",
+        "definition": "A long-bladed hand tool with a beveled cutting edge, used with a hammer to cut or shape wood, stone, or metal",
+        "definitionVi": "Cái đục",
+        "example": "The sculptor used a chisel to carve the stone.",
+        "exampleVi": "Nhà điêu khắc đã dùng đục để tạc đá."
+      },
+      {
+        "word": "sandpaper",
+        "phonetic": "/ˈsændpeɪpər/",
+        "partOfSpeech": "noun",
+        "definition": "Paper with sand glued to it, used for smoothing surfaces",
+        "definitionVi": "Giấy nhám",
+        "example": "Use fine sandpaper to smooth the wood before painting.",
+        "exampleVi": "Sử dụng giấy nhám mịn để làm mịn gỗ trước khi sơn."
+      },
+      {
+        "word": "spanner",
+        "phonetic": "/ˈspænər/",
+        "partOfSpeech": "noun",
+        "definition": "A tool used to provide grip and mechanical advantage in applying torque to turn objects",
+        "definitionVi": "Cái cờ lê",
+        "example": "Pass me the adjustable spanner.",
+        "exampleVi": "Đưa cho tôi cái cờ lê điều chỉnh được."
+      },
+      {
+        "word": "vice",
+        "phonetic": "/vaɪs/",
+        "partOfSpeech": "noun",
+        "definition": "A metal tool with two jaws used to hold an object firmly while work is being done on it",
+        "definitionVi": "Mỏ cặp, êtô",
+        "example": "Secure the pipe in the vice.",
+        "exampleVi": "Hãy kẹp chặt ống nước vào êtô."
+      },
+      {
+        "word": "tape measure",
+        "phonetic": "/teɪp ˈmeʒər/",
+        "partOfSpeech": "noun",
+        "definition": "A length of flexible tape marked with units for measuring",
+        "definitionVi": "Thước cuộn",
+        "example": "Always use a tape measure for accurate dimensions.",
+        "exampleVi": "Luôn sử dụng thước cuộn để có kích thước chính xác."
+      },
+      {
+        "word": "level",
+        "phonetic": "/ˈlevl/",
+        "partOfSpeech": "noun",
+        "definition": "A tool used to check if a surface is perfectly horizontal or vertical",
+        "definitionVi": "Thước thủy (nivo)",
+        "example": "Use the level to make sure the shelf is straight.",
+        "exampleVi": "Sử dụng thước thủy để đảm bảo kệ được thẳng."
+      },
+      {
+        "word": "ladder",
+        "phonetic": "/ˈlædər/",
+        "partOfSpeech": "noun",
+        "definition": "A structure consisting of series of bars or steps used for climbing up",
+        "definitionVi": "Cái thang",
+        "example": "You'll need a ladder to reach the roof.",
+        "exampleVi": "Bạn sẽ cần một cái thang để lên tới mái nhà."
+      },
+      {
+        "word": "glue",
+        "phonetic": "/ɡluː/",
+        "partOfSpeech": "noun",
+        "definition": "An adhesive substance used for sticking objects or materials together",
+        "definitionVi": "Keo dán",
+        "example": "Apply glue to both surfaces.",
+        "exampleVi": "Bôi keo lên cả hai bề mặt."
+      },
+      {
+        "word": "nail",
+        "phonetic": "/neɪl/",
+        "partOfSpeech": "noun",
+        "definition": "A small metal spike driven into wood to join things together",
+        "definitionVi": "Cái đinh",
+        "example": "I need a hammer and some nails.",
+        "exampleVi": "Tôi cần một cái búa và vài cái đinh."
+      },
+      {
+        "word": "screw",
+        "phonetic": "/skruː/",
+        "partOfSpeech": "noun",
+        "definition": "A metal pin with a spiral thread used to join things together by being rotated",
+        "definitionVi": "Cái vít",
+        "example": "Fasten the board with four screws.",
+        "exampleVi": "Cố định tấm ván bằng bốn cái vít."
+      },
+      {
+        "word": "bolt",
+        "phonetic": "/boʊlt/",
+        "partOfSpeech": "noun",
+        "definition": "A metal pin with a head at one end and a thread at the other, used with a nut",
+        "definitionVi": "Bu lông",
+        "example": "The bridge is held together by large bolts.",
+        "exampleVi": "Cây cầu được giữ chặt bởi các bu lông lớn."
+      },
+      {
+        "word": "nut",
+        "phonetic": "/nʌt/",
+        "partOfSpeech": "noun",
+        "definition": "A small metal block with a central hole, used with a bolt",
+        "definitionVi": "Đai ốc",
+        "example": "Tighten the nut with a wrench.",
+        "exampleVi": "Siết chặt đai ốc bằng cờ lê."
+      },
+      {
+        "word": "washer",
+        "phonetic": "/ˈwɑːʃər/",
+        "partOfSpeech": "noun",
+        "definition": "A small flat ring placed between a nut and a surface",
+        "definitionVi": "Vòng đệm (long đền)",
+        "example": "Don't forget to put a washer on the bolt.",
+        "exampleVi": "Đừng quên đặt một vòng đệm vào bu lông."
+      },
+      {
+        "word": "wood",
+        "phonetic": "/wʊd/",
+        "partOfSpeech": "noun",
+        "definition": "The hard fibrous material forming the main substance of the trunk or branches of a tree",
+        "definitionVi": "Gỗ",
+        "example": "The table is made of solid wood.",
+        "exampleVi": "Cái bàn được làm từ gỗ nguyên khối."
+      },
+      {
+        "word": "metal",
+        "phonetic": "/ˈmetl/",
+        "partOfSpeech": "noun",
+        "definition": "A solid material that is typically hard, shiny, malleable, fusible, and ductile",
+        "definitionVi": "Kim loại",
+        "example": "Steel is a strong metal.",
+        "exampleVi": "Thép là một kim loại mạnh."
+      },
+      {
+        "word": "plastic",
+        "phonetic": "/ˈplæstɪk/",
+        "partOfSpeech": "noun",
+        "definition": "A synthetic material made from organic polymers",
+        "definitionVi": "Nhựa",
+        "example": "The toy is made of durable plastic.",
+        "exampleVi": "Món đồ chơi được làm từ nhựa bền."
+      },
+      {
+        "word": "glass",
+        "phonetic": "/ɡlæs/",
+        "partOfSpeech": "noun",
+        "definition": "A hard, brittle substance, typically transparent or translucent",
+        "definitionVi": "Thủy tinh",
+        "example": "Be careful with the broken glass.",
+        "exampleVi": "Hãy cẩn thận với mảnh thủy tinh vỡ."
+      },
+      {
+        "word": "concrete",
+        "phonetic": "/ˈkɑːnkriːt/",
+        "partOfSpeech": "noun",
+        "definition": "A heavy, rough building material made from a mixture of broken stone or gravel, sand, cement, and water",
+        "definitionVi": "Bê tông",
+        "example": "The foundation of the building is made of concrete.",
+        "exampleVi": "Nền móng của tòa nhà được làm từ bê tông."
+      },
+      {
+        "word": "cement",
+        "phonetic": "/sɪˈment/",
+        "partOfSpeech": "noun",
+        "definition": "A powdery substance made with calcined lime and clay, used in making mortar and concrete",
+        "definitionVi": "Xi măng",
+        "example": "The workers mixed cement with sand and water.",
+        "exampleVi": "Công nhân trộn xi măng với cát và nước."
+      },
+      {
+        "word": "brick",
+        "phonetic": "/brɪk/",
+        "partOfSpeech": "noun",
+        "definition": "A small rectangular block typically made of fired or sun-dried clay, used in building",
+        "definitionVi": "Viên gạch",
+        "example": "The house is built of red bricks.",
+        "exampleVi": "Ngôi nhà được xây bằng gạch đỏ."
+      },
+      {
+        "word": "steel",
+        "phonetic": "/stiːl/",
+        "partOfSpeech": "noun",
+        "definition": "A hard, strong grey or bluish-grey alloy of iron with carbon",
+        "definitionVi": "Thép",
+        "example": "Steel is used in the construction of skyscrapers.",
+        "exampleVi": "Thép được sử dụng trong việc xây dựng các tòa nhà chọc trời."
+      },
+      {
+        "word": "aluminum",
+        "phonetic": "/əˈluːmɪnəm/",
+        "partOfSpeech": "noun",
+        "definition": "A light silvery-grey metal",
+        "definitionVi": "Nhôm",
+        "example": "Soda cans are usually made of aluminum.",
+        "exampleVi": "Vỏ lon nước ngọt thường được làm bằng nhôm."
+      },
+      {
+        "word": "copper",
+        "phonetic": "/ˈkɑːpər/",
+        "partOfSpeech": "noun",
+        "definition": "A red-brown metal, used especially for electrical wiring",
+        "definitionVi": "Đồng",
+        "example": "Copper is an excellent conductor of electricity.",
+        "exampleVi": "Đồng là một chất dẫn điện tuyệt vời."
+      },
+      {
+        "word": "brass",
+        "phonetic": "/bræs/",
+        "partOfSpeech": "noun",
+        "definition": "A yellow alloy of copper and zinc",
+        "definitionVi": "Đồng thau",
+        "example": "Musical instruments are often made of brass.",
+        "exampleVi": "Nhạc cụ thường được làm bằng đồng thau."
+      },
+      {
+        "word": "leather",
+        "phonetic": "/ˈleðər/",
+        "partOfSpeech": "noun",
+        "definition": "A material made from the skin of an animal by tanning or a similar process",
+        "definitionVi": "Da (vật liệu)",
+        "example": "His jacket is made of genuine leather.",
+        "exampleVi": "Áo khoác của anh ấy được làm bằng da thật."
+      },
+      {
+        "word": "fabric",
+        "phonetic": "/ˈfæbrɪk/",
+        "partOfSpeech": "noun",
+        "definition": "Cloth or other material produced by weaving or knitting fibers",
+        "definitionVi": "Vải",
+        "example": "Cotton is a common fabric for summer clothes.",
+        "exampleVi": "Bông là một loại vải phổ biến cho quần áo mùa hè."
+      },
+      {
+        "word": "rubber",
+        "phonetic": "/ˈrʌbər/",
+        "partOfSpeech": "noun",
+        "definition": "A tough elastic polymeric substance made from the latex of a tropical plant",
+        "definitionVi": "Cao su",
+        "example": "Car tires are made of rubber.",
+        "exampleVi": "Lốp xe ô tô được làm từ cao su."
+      },
+      {
+        "word": "ceramic",
+        "phonetic": "/səˈræmɪk/",
+        "partOfSpeech": "noun",
+        "definition": "Pottery or hollow clay tiles used for structural purposes",
+        "definitionVi": "Gốm sứ",
+        "example": "She collects ceramic vases.",
+        "exampleVi": "Cô ấy sưu tầm bình gốm."
+      },
+      {
+        "word": "stone",
+        "phonetic": "/stoʊn/",
+        "partOfSpeech": "noun",
+        "definition": "Hard solid non-metallic mineral matter of which rock is made",
+        "definitionVi": "Đá",
+        "example": "The walls are built of natural stone.",
+        "exampleVi": "Các bức tường được xây bằng đá tự nhiên."
+      },
+      {
+        "word": "clay",
+        "phonetic": "/kleɪ/",
+        "partOfSpeech": "noun",
+        "definition": "A stiff, sticky fine-grained earth that can be molded when wet",
+        "definitionVi": "Đất sét",
+        "example": "Children enjoy playing with clay.",
+        "exampleVi": "Trẻ em thích chơi với đất sét."
+      },
+      {
+        "word": "sand",
+        "phonetic": "/sænd/",
+        "partOfSpeech": "noun",
+        "definition": "A loose granular substance resulting from the erosion of siliceous and other rocks",
+        "definitionVi": "Cát",
+        "example": "The kids played in the sand.",
+        "exampleVi": "Lũ trẻ chơi trong cát."
+      },
+      {
+        "word": "gravel",
+        "phonetic": "/ˈɡrævl/",
+        "partOfSpeech": "noun",
+        "definition": "A loose aggregation of small water-worn or pounded stones",
+        "definitionVi": "Sỏi",
+        "example": "The driveway is covered with gravel.",
+        "exampleVi": "Lối vào nhà được phủ bằng sỏi."
+      },
+      {
+        "word": "asphalt",
+        "phonetic": "/ˈæsfɔːlt/",
+        "partOfSpeech": "noun",
+        "definition": "A mixture of dark bituminous pitch with sand or gravel, used for surfacing roads",
+        "definitionVi": "Nhựa đường",
+        "example": "The road was newly paved with asphalt.",
+        "exampleVi": "Con đường mới được rải nhựa."
+      },
+      {
+        "word": "insulation",
+        "phonetic": "/ˌɪnsəˈleɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "Material used to stop heat, sound, or electricity from escaping",
+        "definitionVi": "Vật liệu cách nhiệt/cách âm",
+        "example": "Good insulation keeps the house warm in winter.",
+        "exampleVi": "Cách nhiệt tốt giúp ngôi nhà ấm áp vào mùa đông."
+      },
+      {
+        "word": "plumbing",
+        "phonetic": "/ˈplʌmɪŋ/",
+        "partOfSpeech": "noun",
+        "definition": "The system of pipes, tanks, and fittings for water and sewage in a building",
+        "definitionVi": "Hệ thống ống nước",
+        "example": "We need to call a plumber to fix the plumbing.",
+        "exampleVi": "Chúng ta cần gọi thợ sửa ống nước đến để sửa hệ thống ống nước."
+      },
+      {
+        "word": "wiring",
+        "phonetic": "/ˈwaɪərɪŋ/",
+        "partOfSpeech": "noun",
+        "definition": "A system of wires providing electric circuits",
+        "definitionVi": "Hệ thống dây điện",
+        "example": "The electrical wiring in the old house needs replacing.",
+        "exampleVi": "Hệ thống dây điện trong ngôi nhà cũ cần được thay thế."
+      },
+      {
+        "word": "shovel",
+        "phonetic": "/ˈʃʌvl/",
+        "partOfSpeech": "noun",
+        "definition": "A tool with a broad blade and a long handle used for moving earth, coal, etc.",
+        "definitionVi": "Cái xẻng",
+        "example": "Use a shovel to clear the snow.",
+        "exampleVi": "Sử dụng xẻng để dọn tuyết."
+      },
+      {
+        "word": "axe",
+        "phonetic": "/æks/",
+        "partOfSpeech": "noun",
+        "definition": "A tool used for chopping wood, typically of iron with a steel edge and wooden handle",
+        "definitionVi": "Cái rìu",
+        "example": "He used an axe to chop firewood.",
+        "exampleVi": "Anh ta dùng rìu để chẻ củi."
+      },
+      {
+        "word": "rake",
+        "phonetic": "/reɪk/",
+        "partOfSpeech": "noun",
+        "definition": "A long-handled tool with a row of teeth, used for collecting leaves or grass",
+        "definitionVi": "Cái cào",
+        "example": "Rake the leaves into a pile.",
+        "exampleVi": "Cào lá thành một đống."
+      },
+      {
+        "word": "drill bit",
+        "phonetic": "/drɪl bɪt/",
+        "partOfSpeech": "noun",
+        "definition": "The cutting tool used in a drill to create holes",
+        "definitionVi": "Mũi khoan",
+        "example": "You need a masonry drill bit for brick walls.",
+        "exampleVi": "Bạn cần một mũi khoan bê tông cho tường gạch."
+      },
+      {
+        "word": "sawdust",
+        "phonetic": "/ˈsɔːdʌst/",
+        "partOfSpeech": "noun",
+        "definition": "Fine powdery particles of wood made by sawing",
+        "definitionVi": "Mùn cưa",
+        "example": "The floor was covered in sawdust.",
+        "exampleVi": "Sàn nhà bị bao phủ bởi mùn cưa."
+      },
+      {
+        "word": "timber",
+        "phonetic": "/ˈtɪmbər/",
+        "partOfSpeech": "noun",
+        "definition": "Wood prepared for use in building and carpentry",
+        "definitionVi": "Gỗ xây dựng",
+        "example": "The house frame is made of timber.",
+        "exampleVi": "Khung nhà được làm bằng gỗ."
+      },
+      {
+        "word": "varnish",
+        "phonetic": "/ˈvɑːrnɪʃ/",
+        "partOfSpeech": "noun",
+        "definition": "Resinous surface coating used to provide a hard, clear, shiny finish",
+        "definitionVi": "Véc-ni",
+        "example": "Apply two coats of varnish to the table.",
+        "exampleVi": "Sơn hai lớp véc-ni lên cái bàn."
+      },
+      {
+        "word": "mortar",
+        "phonetic": "/ˈmɔːrtər/",
+        "partOfSpeech": "noun",
+        "definition": "A mixture of lime or cement with sand and water, used in building to bond bricks",
+        "definitionVi": "Vữa",
+        "example": "Apply the mortar between the bricks.",
+        "exampleVi": "Trát vữa vào giữa các viên gạch."
+      }
+    ]
+  },
+  {
+    "name": "Clothing & Accessories",
+    "nameVi": "Quần áo & Phụ kiện",
+    "description": "Items people wear and the accessories that go with them",
+    "level": "intermediate",
+    "order": 24,
+    "words": [
+      {
+        "word": "blouse",
+        "phonetic": "/blaʊz/",
+        "partOfSpeech": "noun",
+        "definition": "A woman's upper garment resembling a shirt",
+        "definitionVi": "Áo sơ mi nữ",
+        "example": "She wore a white silk blouse.",
+        "exampleVi": "Cô ấy mặc một chiếc áo sơ mi nữ bằng lụa trắng."
+      },
+      {
+        "word": "cardigan",
+        "phonetic": "/ˈkɑːrdɪɡən/",
+        "partOfSpeech": "noun",
+        "definition": "A knitted sweater fastening down the front",
+        "definitionVi": "Áo khoác len",
+        "example": "It was a bit chilly, so she put on a cardigan.",
+        "exampleVi": "Trời hơi lạnh nên cô ấy đã mặc thêm một chiếc áo khoác len."
+      },
+      {
+        "word": "jacket",
+        "phonetic": "/ˈdʒækɪt/",
+        "partOfSpeech": "noun",
+        "definition": "An outer garment extending either to the waist or the hips",
+        "definitionVi": "Áo khoác ngắn",
+        "example": "I bought a new leather jacket.",
+        "exampleVi": "Tôi đã mua một chiếc áo khoác da mới."
+      },
+      {
+        "word": "jeans",
+        "phonetic": "/dʒiːnz/",
+        "partOfSpeech": "noun",
+        "definition": "Pants made of denim or other strong cotton fabric",
+        "definitionVi": "Quần bò",
+        "example": "He wears jeans and a T-shirt every day.",
+        "exampleVi": "Anh ấy mặc quần bò và áo thun mỗi ngày."
+      },
+      {
+        "word": "necklace",
+        "phonetic": "/ˈnekləs/",
+        "partOfSpeech": "noun",
+        "definition": "An ornamental chain or string of beads worn around the neck",
+        "definitionVi": "Dây chuyền",
+        "example": "She wore a beautiful pearl necklace.",
+        "exampleVi": "Cô ấy đeo một sợi dây chuyền ngọc trai rất đẹp."
+      },
+      {
+        "word": "earring",
+        "phonetic": "/ˈɪrrɪŋ/",
+        "partOfSpeech": "noun",
+        "definition": "A piece of jewelry worn on the lobe or edge of the ear",
+        "definitionVi": "Bông tai",
+        "example": "She lost one of her gold earrings.",
+        "exampleVi": "Cô ấy đã mất một chiếc bông tai vàng."
+      },
+      {
+        "word": "bracelet",
+        "phonetic": "/ˈbreɪslət/",
+        "partOfSpeech": "noun",
+        "definition": "An ornamental band, hoop, or chain worn on the wrist or arm",
+        "definitionVi": "Vòng tay",
+        "example": "He gave her a silver bracelet for her birthday.",
+        "exampleVi": "Anh ấy đã tặng cô ấy một chiếc vòng tay bạc vào ngày sinh nhật."
+      },
+      {
+        "word": "ring",
+        "phonetic": "/rɪŋ/",
+        "partOfSpeech": "noun",
+        "definition": "A small circular band, typically of precious metal, worn on a finger",
+        "definitionVi": "Nhẫn",
+        "example": "She wears a diamond ring on her left hand.",
+        "exampleVi": "Cô ấy đeo một chiếc nhẫn kim cương ở bàn tay trái."
+      },
+      {
+        "word": "scarf",
+        "phonetic": "/skɑːrf/",
+        "partOfSpeech": "noun",
+        "definition": "A length or square of fabric worn around the neck or head",
+        "definitionVi": "Khăn quàng cổ",
+        "example": "Wrap a scarf around your neck to stay warm.",
+        "exampleVi": "Quàng khăn quanh cổ để giữ ấm."
+      },
+      {
+        "word": "gloves",
+        "phonetic": "/ɡlʌvz/",
+        "partOfSpeech": "noun",
+        "definition": "A covering for the hand with separate parts for each finger",
+        "definitionVi": "Găng tay",
+        "example": "Wear gloves when it's freezing outside.",
+        "exampleVi": "Hãy đeo găng tay khi ngoài trời lạnh giá."
+      },
+      {
+        "word": "belt",
+        "phonetic": "/belt/",
+        "partOfSpeech": "noun",
+        "definition": "A strip of leather or other material worn around the waist",
+        "definitionVi": "Thắt lưng",
+        "example": "My pants are too loose, I need a belt.",
+        "exampleVi": "Quần của tôi bị rộng quá, tôi cần một cái thắt lưng."
+      },
+      {
+        "word": "handbag",
+        "phonetic": "/ˈhændbæɡ/",
+        "partOfSpeech": "noun",
+        "definition": "A small bag used by women for carrying personal items",
+        "definitionVi": "Túi xách",
+        "example": "She left her handbag on the bus.",
+        "exampleVi": "Cô ấy đã bỏ quên túi xách trên xe buýt."
+      },
+      {
+        "word": "wallet",
+        "phonetic": "/ˈwɑːlɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A pocket-sized, flat folding case for holding money and credit cards",
+        "definitionVi": "Ví tiền",
+        "example": "He keeps his ID card in his wallet.",
+        "exampleVi": "Anh ấy để thẻ ID trong ví."
+      },
+      {
+        "word": "suit",
+        "phonetic": "/suːt/",
+        "partOfSpeech": "noun",
+        "definition": "A set of clothes made from the same fabric, typically consisting of a jacket and pants",
+        "definitionVi": "Bộ com-lê",
+        "example": "He wore a dark blue suit to the interview.",
+        "exampleVi": "Anh ấy mặc một bộ com-lê xanh đen đi phỏng vấn."
+      },
+      {
+        "word": "tie",
+        "phonetic": "/taɪ/",
+        "partOfSpeech": "noun",
+        "definition": "A long piece of cloth worn around the neck and tied in a knot at the front",
+        "definitionVi": "Cà vạt",
+        "example": "He doesn't like wearing a tie.",
+        "exampleVi": "Anh ấy không thích đeo cà vạt."
+      },
+      {
+        "word": "socks",
+        "phonetic": "/sɑːks/",
+        "partOfSpeech": "noun",
+        "definition": "A garment for the foot and lower part of the leg",
+        "definitionVi": "Tất (vớ)",
+        "example": "I need to buy some new socks.",
+        "exampleVi": "Tôi cần mua vài đôi tất mới."
+      },
+      {
+        "word": "sneakers",
+        "phonetic": "/ˈsniːkərz/",
+        "partOfSpeech": "noun",
+        "definition": "Soft shoes with a rubber sole worn for sports or casual activities",
+        "definitionVi": "Giày thể thao",
+        "example": "I bought a new pair of sneakers for running.",
+        "exampleVi": "Tôi đã mua một đôi giày thể thao mới để chạy bộ."
+      },
+      {
+        "word": "boots",
+        "phonetic": "/buːts/",
+        "partOfSpeech": "noun",
+        "definition": "A sturdy item of footwear covering the foot and ankle, and sometimes the lower leg",
+        "definitionVi": "Ủng/Bốt",
+        "example": "Hiking boots are essential for mountain climbing.",
+        "exampleVi": "Giày bốt leo núi là thiết yếu khi leo núi."
+      },
+      {
+        "word": "sandals",
+        "phonetic": "/ˈsændlz/",
+        "partOfSpeech": "noun",
+        "definition": "Light shoes consisting of a sole held by straps",
+        "definitionVi": "Dép xăng đan",
+        "example": "I usually wear sandals in the summer.",
+        "exampleVi": "Tôi thường đi dép xăng đan vào mùa hè."
+      },
+      {
+        "word": "pajamas",
+        "phonetic": "/pəˈdʒæməz/",
+        "partOfSpeech": "noun",
+        "definition": "Loose-fitting pants and jacket worn for sleeping",
+        "definitionVi": "Bộ đồ ngủ",
+        "example": "He put on his pajamas and went to bed.",
+        "exampleVi": "Anh ấy mặc đồ ngủ và đi ngủ."
+      },
+      {
+        "word": "raincoat",
+        "phonetic": "/ˈreɪnkoʊt/",
+        "partOfSpeech": "noun",
+        "definition": "A coat that is impervious to water",
+        "definitionVi": "Áo mưa",
+        "example": "Don't forget your raincoat, it's going to rain.",
+        "exampleVi": "Đừng quên áo mưa, trời sắp mưa đấy."
+      },
+      {
+        "word": "umbrella",
+        "phonetic": "/ʌmˈbrelə/",
+        "partOfSpeech": "noun",
+        "definition": "A folding canopy supported by a central rod, used for protection against rain or sun",
+        "definitionVi": "Cái ô (dù)",
+        "example": "Can I borrow your umbrella?",
+        "exampleVi": "Tôi có thể mượn ô của bạn không?"
+      },
+      {
+        "word": "sunglasses",
+        "phonetic": "/ˈsʌnɡlæsɪz/",
+        "partOfSpeech": "noun",
+        "definition": "Glasses with tinted lenses to protect the eyes from sunlight",
+        "definitionVi": "Kính râm",
+        "example": "She put on her sunglasses as she stepped outside.",
+        "exampleVi": "Cô ấy đeo kính râm khi bước ra ngoài."
+      },
+      {
+        "word": "hat",
+        "phonetic": "/hæt/",
+        "partOfSpeech": "noun",
+        "definition": "A shaped covering for the head worn for warmth, protection, or fashion",
+        "definitionVi": "Cái mũ",
+        "example": "He wore a straw hat to the beach.",
+        "exampleVi": "Anh ấy đội một chiếc mũ cói đi biển."
+      },
+      {
+        "word": "cap",
+        "phonetic": "/kæp/",
+        "partOfSpeech": "noun",
+        "definition": "A kind of soft hat with a peak",
+        "definitionVi": "Mũ lưỡi trai",
+        "example": "He always wears a baseball cap.",
+        "exampleVi": "Anh ấy luôn đội mũ lưỡi trai."
+      },
+      {
+        "word": "watch",
+        "phonetic": "/wɑːtʃ/",
+        "partOfSpeech": "noun",
+        "definition": "A small timepiece worn typically on a strap on one's wrist",
+        "definitionVi": "Đồng hồ đeo tay",
+        "example": "I check my watch to see the time.",
+        "exampleVi": "Tôi xem đồng hồ để biết mấy giờ."
+      },
+      {
+        "word": "backpack",
+        "phonetic": "/ˈbækpæk/",
+        "partOfSpeech": "noun",
+        "definition": "A bag with shoulder straps that allow it to be carried on one's back",
+        "definitionVi": "Ba lô",
+        "example": "The students carry their books in backpacks.",
+        "exampleVi": "Học sinh để sách trong ba lô."
+      },
+      {
+        "word": "uniform",
+        "phonetic": "/ˈjuːnɪfɔːrm/",
+        "partOfSpeech": "noun",
+        "definition": "A prescribed set of clothes worn by members of an organization",
+        "definitionVi": "Đồng phục",
+        "example": "School children in Vietnam wear uniforms.",
+        "exampleVi": "Học sinh ở Việt Nam mặc đồng phục."
+      },
+      {
+        "word": "vest",
+        "phonetic": "/vest/",
+        "partOfSpeech": "noun",
+        "definition": "A garment worn on the upper part of the body, sometimes under a jacket",
+        "definitionVi": "Áo ghi lê",
+        "example": "He wore a formal vest under his suit jacket.",
+        "exampleVi": "Anh ấy mặc một chiếc áo ghi lê lịch sự bên trong áo khoác com-lê."
+      },
+      {
+        "word": "tights",
+        "phonetic": "/taɪts/",
+        "partOfSpeech": "noun",
+        "definition": "A close-fitting garment covering the legs and waist",
+        "definitionVi": "Quần tất",
+        "example": "She wore black tights under her skirt.",
+        "exampleVi": "Cô ấy mặc quần tất đen bên dưới váy."
+      },
+      {
+        "word": "swimsuit",
+        "phonetic": "/ˈswɪmsuːt/",
+        "partOfSpeech": "noun",
+        "definition": "A garment worn for swimming",
+        "definitionVi": "Đồ bơi",
+        "example": "Don't forget your swimsuit if you want to go to the pool.",
+        "exampleVi": "Đừng quên đồ bơi nếu bạn muốn đi bể bơi."
+      },
+      {
+        "word": "shorts",
+        "phonetic": "/ʃɔːrts/",
+        "partOfSpeech": "noun",
+        "definition": "Short pants that end above the knee",
+        "definitionVi": "Quần đùi",
+        "example": "I like wearing shorts in hot weather.",
+        "exampleVi": "Tôi thích mặc quần đùi khi trời nóng."
+      },
+      {
+        "word": "skirt",
+        "phonetic": "/skɜːrt/",
+        "partOfSpeech": "noun",
+        "definition": "A garment fastened around the waist and hanging down around the legs",
+        "definitionVi": "Cái váy (chân váy)",
+        "example": "She wore a long floral skirt.",
+        "exampleVi": "Cô ấy mặc một chiếc chân váy dài họa tiết hoa."
+      },
+      {
+        "word": "trousers",
+        "phonetic": "/ˈtraʊzərz/",
+        "partOfSpeech": "noun",
+        "definition": "An outer garment covering the body from the waist to the ankles",
+        "definitionVi": "Quần dài",
+        "example": "He wore gray trousers and a white shirt.",
+        "exampleVi": "Anh ấy mặc quần dài màu xám và áo sơ mi trắng."
+      },
+      {
+        "word": "sweater",
+        "phonetic": "/ˈswetər/",
+        "partOfSpeech": "noun",
+        "definition": "A knitted garment, typically with long sleeves, worn over the upper body",
+        "definitionVi": "Áo len",
+        "example": "I need a warm sweater for the winter.",
+        "exampleVi": "Tôi cần một chiếc áo len ấm cho mùa đông."
+      },
+      {
+        "word": "t-shirt",
+        "phonetic": "/ˈtiː ʃɜːrt/",
+        "partOfSpeech": "noun",
+        "definition": "A short-sleeved casual top",
+        "definitionVi": "Áo thun",
+        "example": "I bought a cotton t-shirt.",
+        "exampleVi": "Tôi đã mua một chiếc áo thun bông."
+      },
+      {
+        "word": "overcoat",
+        "phonetic": "/ˈoʊvərkoʊt/",
+        "partOfSpeech": "noun",
+        "definition": "A long warm coat worn over other clothes",
+        "definitionVi": "Áo măng tô",
+        "example": "He took off his overcoat when he entered the room.",
+        "exampleVi": "Anh ta cởi áo măng tô khi vào phòng."
+      },
+      {
+        "word": "undergarment",
+        "phonetic": "/ˈʌndərɡɑːrmənt/",
+        "partOfSpeech": "noun",
+        "definition": "A piece of clothing worn under outer clothes",
+        "definitionVi": "Đồ lót",
+        "example": "Cotton undergarments are most comfortable.",
+        "exampleVi": "Đồ lót bằng bông là thoải mái nhất."
+      },
+      {
+        "word": "handkerchief",
+        "phonetic": "/ˈhæŋkərtʃɪf/",
+        "partOfSpeech": "noun",
+        "definition": "A square of cloth for blowing one's nose",
+        "definitionVi": "Khăn tay",
+        "example": "He pulled a handkerchief out of his pocket.",
+        "exampleVi": "Anh ta lấy một chiếc khăn tay ra khỏi túi."
+      },
+      {
+        "word": "brooch",
+        "phonetic": "/broʊtʃ/",
+        "partOfSpeech": "noun",
+        "definition": "An ornamental pin fastened to clothing",
+        "definitionVi": "Trâm cài áo",
+        "example": "She wore a vintage brooch on her jacket.",
+        "exampleVi": "Cô ấy cài một chiếc trâm cổ điển trên áo khoác."
+      },
+      {
+        "word": "cufflink",
+        "phonetic": "/ˈkʌflɪŋk/",
+        "partOfSpeech": "noun",
+        "definition": "A device for fastening shirt cuffs",
+        "definitionVi": "Khuy măng sét",
+        "example": "He wore silver cufflinks with his formal shirt.",
+        "exampleVi": "Anh ấy đeo khuy măng sét bạc với áo sơ mi lịch sự."
+      },
+      {
+        "word": "apron",
+        "phonetic": "/ˈeɪprən/",
+        "partOfSpeech": "noun",
+        "definition": "A protective garment worn over the front of one's clothes",
+        "definitionVi": "Tạp dề",
+        "example": "Put on an apron before you start cooking.",
+        "exampleVi": "Hãy đeo tạp dề trước khi bạn bắt đầu nấu ăn."
+      },
+      {
+        "word": "bathrobe",
+        "phonetic": "/ˈbæθroʊb/",
+        "partOfSpeech": "noun",
+        "definition": "A loose piece of clothing worn before or after a bath",
+        "definitionVi": "Áo choàng tắm",
+        "example": "She wrapped herself in a warm bathrobe.",
+        "exampleVi": "Cô ấy quấn mình trong chiếc áo choàng tắm ấm áp."
+      },
+      {
+        "word": "clutch",
+        "phonetic": "/klʌtʃ/",
+        "partOfSpeech": "noun",
+        "definition": "A slim, flat handbag without handles or a strap",
+        "definitionVi": "Ví cầm tay",
+        "example": "She carried a small clutch to the party.",
+        "exampleVi": "Cô ấy mang theo một chiếc ví cầm tay nhỏ đến bữa tiệc."
+      },
+      {
+        "word": "heels",
+        "phonetic": "/hiːlz/",
+        "partOfSpeech": "noun",
+        "definition": "Shoes with a high heel",
+        "definitionVi": "Giày cao gót",
+        "example": "She finds it difficult to walk in high heels.",
+        "exampleVi": "Cô ấy thấy khó khăn khi đi trên giày cao gót."
+      },
+      {
+        "word": "slippers",
+        "phonetic": "/ˈslɪpərz/",
+        "partOfSpeech": "noun",
+        "definition": "Comfortable indoor shoes",
+        "definitionVi": "Dép đi trong nhà",
+        "example": "Put on your slippers so your feet stay warm.",
+        "exampleVi": "Hãy đi dép vào để chân được ấm."
+      },
+      {
+        "word": "tuxedo",
+        "phonetic": "/tʌkˈsiːdoʊ/",
+        "partOfSpeech": "noun",
+        "definition": "A man's formal evening suit",
+        "definitionVi": "Áo Tuxedo (Lễ phục)",
+        "example": "He wore a tuxedo to the charity gala.",
+        "exampleVi": "Anh ấy mặc tuxedo đến buổi dạ hội từ thiện."
+      },
+      {
+        "word": "bowtie",
+        "phonetic": "/ˈboʊ taɪ/",
+        "partOfSpeech": "noun",
+        "definition": "A necktie in the form of a bow",
+        "definitionVi": "Nơ đeo cổ",
+        "example": "The waiter was wearing a black bowtie.",
+        "exampleVi": "Người phục vụ đeo một chiếc nơ đen."
+      },
+      {
+        "word": "pendant",
+        "phonetic": "/ˈpendənt/",
+        "partOfSpeech": "noun",
+        "definition": "A piece of jewelry that hangs from a chain worn around the neck",
+        "definitionVi": "Mặt dây chuyền",
+        "example": "The pendant was in the shape of a heart.",
+        "exampleVi": "Mặt dây chuyền có hình trái tim."
+      },
+      {
+        "word": "stockings",
+        "phonetic": "/ˈstɑːkɪŋz/",
+        "partOfSpeech": "noun",
+        "definition": "A close-fitting garment covering the foot and leg",
+        "definitionVi": "Tất dài",
+        "example": "She wore silk stockings with her dress.",
+        "exampleVi": "Cô ấy đi tất dài bằng lụa với chiếc váy."
+      }
+    ]
+  },
+  {
+    "name": "Animals & Wildlife",
+    "nameVi": "Động vật & Động vật hoang dã",
+    "description": "Vocabulary for various species and animal-related terms",
+    "level": "intermediate",
+    "order": 25,
+    "words": [
+      {
+        "word": "mammal",
+        "phonetic": "/ˈmæml/",
+        "partOfSpeech": "noun",
+        "definition": "A warm-blooded vertebrate animal of a class that is distinguished by the possession of hair or fur",
+        "definitionVi": "Động vật có vú",
+        "example": "Whales and dolphins are mammals, not fish.",
+        "exampleVi": "Cá voi và cá heo là động vật có vú, không phải cá."
+      },
+      {
+        "word": "reptile",
+        "phonetic": "/ˈreptaɪl/",
+        "partOfSpeech": "noun",
+        "definition": "A vertebrate animal of a class that includes snakes, lizards, crocodiles, and turtles",
+        "definitionVi": "Động vật bò sát",
+        "example": "Lizards and snakes are common reptiles.",
+        "exampleVi": "Thằn lằn và rắn là các loài bò sát phổ biến."
+      },
+      {
+        "word": "amphibian",
+        "phonetic": "/æmˈfɪbiən/",
+        "partOfSpeech": "noun",
+        "definition": "A cold-blooded vertebrate animal that can live both on land and in water",
+        "definitionVi": "Động vật lưỡng cư",
+        "example": "Frogs and toads are amphibians.",
+        "exampleVi": "Ếch và cóc là động vật lưỡng cư."
+      },
+      {
+        "word": "predator",
+        "phonetic": "/ˈpredətər/",
+        "partOfSpeech": "noun",
+        "definition": "An animal that naturally preys on others",
+        "definitionVi": "Kẻ săn mồi",
+        "example": "The lion is a fierce predator.",
+        "exampleVi": "Sư tử là một kẻ săn mồi hung dữ."
+      },
+      {
+        "word": "prey",
+        "phonetic": "/preɪ/",
+        "partOfSpeech": "noun",
+        "definition": "An animal that is hunted and killed by another for food",
+        "definitionVi": "Con mồi",
+        "example": "The hawk circled in the sky, looking for prey.",
+        "exampleVi": "Con diều hâu lượn lờ trên bầu trời tìm kiếm con mồi."
+      },
+      {
+        "word": "habitat",
+        "phonetic": "/ˈhæbɪtæt/",
+        "partOfSpeech": "noun",
+        "definition": "The natural home or environment of an animal, plant, or other organism",
+        "definitionVi": "Môi trường sống",
+        "example": "The tropical rainforest is the habitat of many exotic birds.",
+        "exampleVi": "Rừng nhiệt đới là môi trường sống của nhiều loài chim lạ."
+      },
+      {
+        "word": "species",
+        "phonetic": "/ˈspiːʃiːz/",
+        "partOfSpeech": "noun",
+        "definition": "A group of living organisms consisting of similar individuals capable of exchanging genes",
+        "definitionVi": "Loài",
+        "example": "There are many different species of monkeys.",
+        "exampleVi": "Có rất nhiều loài khỉ khác nhau."
+      },
+      {
+        "word": "extinct",
+        "phonetic": "/ɪkˈstɪŋkt/",
+        "partOfSpeech": "adjective",
+        "definition": "A species having no living members",
+        "definitionVi": "Tuyệt chủng",
+        "example": "Dinosaures became extinct millions of years ago.",
+        "exampleVi": "Khủng long đã tuyệt chủng hàng triệu năm trước."
+      },
+      {
+        "word": "endangered",
+        "phonetic": "/ɪnˈdeɪndʒərd/",
+        "partOfSpeech": "adjective",
+        "definition": "A species at risk of extinction",
+        "definitionVi": "Bị đe dọa tuyệt chủng",
+        "example": "The giant panda is an endangered species.",
+        "exampleVi": "Gấu trúc khổng lồ là một loài đang bị đe dọa tuyệt chủng."
+      },
+      {
+        "word": "migration",
+        "phonetic": "/maɪˈɡreɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "Seasonal movement of animals from one region to another",
+        "definitionVi": "Sự di cư",
+        "example": "Bird migration is a fascinating natural phenomenon.",
+        "exampleVi": "Sự di cư của chim là một hiện tượng tự nhiên thú vị."
+      },
+      {
+        "word": "hibernation",
+        "phonetic": "/ˌhaɪbərˈneɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The state of being dormant during winter",
+        "definitionVi": "Sự ngủ đông",
+        "example": "Bears go into hibernation during the cold winter months.",
+        "exampleVi": "Gấu đi ngủ đông trong những tháng mùa đông lạnh giá."
+      },
+      {
+        "word": "carnivore",
+        "phonetic": "/ˈkɑːrnɪvɔːr/",
+        "partOfSpeech": "noun",
+        "definition": "An animal that feeds on flesh",
+        "definitionVi": "Động vật ăn thịt",
+        "example": "Tigers and wolves are carnivores.",
+        "exampleVi": "Hổ và sói là động vật ăn thịt."
+      },
+      {
+        "word": "herbivore",
+        "phonetic": "/ˈhɜːrbɪvɔːr/",
+        "partOfSpeech": "noun",
+        "definition": "An animal that feeds on plants",
+        "definitionVi": "Động vật ăn cỏ",
+        "example": "Elephants and giraffes are herbivores.",
+        "exampleVi": "Voi và hươu cao cổ là động vật ăn cỏ."
+      },
+      {
+        "word": "omnivore",
+        "phonetic": "/ˈɑːmnɪvɔːr/",
+        "partOfSpeech": "noun",
+        "definition": "An animal or person that eats food of both plant and animal origin",
+        "definitionVi": "Động vật ăn tạp",
+        "example": "Humans and bears are omnivores.",
+        "exampleVi": "Con người và gấu là động vật ăn tạp."
+      },
+      {
+        "word": "vertebrate",
+        "phonetic": "/ˈvɜːrtɪbrət/",
+        "partOfSpeech": "noun",
+        "definition": "An animal of a large group distinguished by the possession of a backbone",
+        "definitionVi": "Động vật có xương sống",
+        "example": "Birds, fish, and mammals are all vertebrates.",
+        "exampleVi": "Chim, cá và động vật có vú đều là động vật có xương sống."
+      },
+      {
+        "word": "invertebrate",
+        "phonetic": "/ɪnˈvɜːrtɪbrət/",
+        "partOfSpeech": "noun",
+        "definition": "An animal lacking a backbone",
+        "definitionVi": "Động vật không xương sống",
+        "example": "Insects and jellyfish are invertebrates.",
+        "exampleVi": "Côn trùng và sứa là động vật không xương sống."
+      },
+      {
+        "word": "nest",
+        "phonetic": "/nest/",
+        "partOfSpeech": "noun",
+        "definition": "A structure or place made or chosen by a bird for laying eggs and sheltering its young",
+        "definitionVi": "Cái tổ",
+        "example": "The bird built a nest in the apple tree.",
+        "exampleVi": "Con chim đã xây một cái tổ trên cây táo."
+      },
+      {
+        "word": "fur",
+        "phonetic": "/fɜːr/",
+        "partOfSpeech": "noun",
+        "definition": "The short, fine, soft hair of certain animals",
+        "definitionVi": "Lông thú",
+        "example": "The cat has very soft fur.",
+        "exampleVi": "Con mèo có bộ lông rất mềm."
+      },
+      {
+        "word": "feather",
+        "phonetic": "/ˈfeðər/",
+        "partOfSpeech": "noun",
+        "definition": "Any of the flat appendages growing from a bird's skin",
+        "definitionVi": "Lông vũ",
+        "example": "The peacock has beautiful feathers.",
+        "exampleVi": "Con công có bộ lông vũ tuyệt đẹp."
+      },
+      {
+        "word": "scales",
+        "phonetic": "/skeɪlz/",
+        "partOfSpeech": "noun",
+        "definition": "Small, thin plates covering the skin of fish and reptiles",
+        "definitionVi": "Vảy",
+        "example": "A snake is covered in scales.",
+        "exampleVi": "Rắn được bao phủ bởi các lớp vảy."
+      },
+      {
+        "word": "beak",
+        "phonetic": "/biːk/",
+        "partOfSpeech": "noun",
+        "definition": "The horny projecting mouth of a bird",
+        "definitionVi": "Mỏ chim",
+        "example": "The eagle has a sharp, curved beak.",
+        "exampleVi": "Đại bàng có cái mỏ cong và sắc nhọn."
+      },
+      {
+        "word": "claws",
+        "phonetic": "/klɔːz/",
+        "partOfSpeech": "noun",
+        "definition": "A curved pointed horny nail on each digit of the foot in birds, lizards, and some mammals",
+        "definitionVi": "Móng vuốt",
+        "example": "The cat retracted its claws.",
+        "exampleVi": "Con mèo đã thu lại móng vuốt của nó."
+      },
+      {
+        "word": "hoof",
+        "phonetic": "/huːf/",
+        "partOfSpeech": "noun",
+        "definition": "The horny part of the foot of an ungulate animal, such as a horse or deer",
+        "definitionVi": "Móng guốc",
+        "example": "The horse has hard hooves.",
+        "exampleVi": "Con ngựa có bộ móng guốc cứng."
+      },
+      {
+        "word": "antenna",
+        "phonetic": "/ænˈtenə/",
+        "partOfSpeech": "noun",
+        "definition": "A pair of long, thin sensory appendages on the heads of insects",
+        "definitionVi": "Râu (côn trùng)",
+        "example": "The ant uses its antennae to sense its surroundings.",
+        "exampleVi": "Con kiến sử dụng râu để cảm nhận xung quanh."
+      },
+      {
+        "word": "herd",
+        "phonetic": "/hɜːrd/",
+        "partOfSpeech": "noun",
+        "definition": "A large group of animals, especially hoofed mammals, that live together",
+        "definitionVi": "Đàn (động vật ăn cỏ)",
+        "example": "A large herd of elephants moved across the savanna.",
+        "exampleVi": "Một đàn voi lớn di chuyển qua thảo nguyên."
+      },
+      {
+        "word": "flock",
+        "phonetic": "/flɑːk/",
+        "partOfSpeech": "noun",
+        "definition": "A number of birds of one kind feeding, resting, or traveling together",
+        "definitionVi": "Đàn (chim/cừu)",
+        "example": "A flock of sheep was grazing in the field.",
+        "exampleVi": "Một đàn cừu đang gặm cỏ trên cánh đồng."
+      },
+      {
+        "word": "pack",
+        "phonetic": "/pæk/",
+        "partOfSpeech": "noun",
+        "definition": "A group of wild animals, especially wolves, hunting together",
+        "definitionVi": "Bầy (chó sói/chó săn)",
+        "example": "Wolves usually hunt in a pack.",
+        "exampleVi": "Sói thường đi săn theo bầy."
+      },
+      {
+        "word": "school",
+        "phonetic": "/skuːl/",
+        "partOfSpeech": "noun",
+        "definition": "A large group of fish or sea mammals swimming together",
+        "definitionVi": "Đàn (cá)",
+        "example": "We saw a huge school of fish while diving.",
+        "exampleVi": "Chúng tôi thấy một đàn cá khổng lồ khi đang lặn."
+      },
+      {
+        "word": "swarm",
+        "phonetic": "/swɔːrm/",
+        "partOfSpeech": "noun",
+        "definition": "A large or dense group of insects, especially flying ones",
+        "definitionVi": "Đàn/Đám (côn trùng)",
+        "example": "A swarm of bees was flying around the hive.",
+        "exampleVi": "Một đàn ong đang bay quanh tổ."
+      },
+      {
+        "word": "domestic",
+        "phonetic": "/dəˈmestɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "An animal kept by humans as a pet or on a farm",
+        "definitionVi": "Động vật nuôi/Đã thuần hóa",
+        "example": "Dogs and cats are domestic animals.",
+        "exampleVi": "Chó và mèo là động vật nuôi."
+      },
+      {
+        "word": "wild",
+        "phonetic": "/waɪld/",
+        "partOfSpeech": "adjective",
+        "definition": "An animal living in a natural state; not tamed or domesticated",
+        "definitionVi": "Hoang dã",
+        "example": "Lions live in the wild.",
+        "exampleVi": "Sư tử sống trong tự nhiên hoang dã."
+      },
+      {
+        "word": "safari",
+        "phonetic": "/səˈfɑːri/",
+        "partOfSpeech": "noun",
+        "definition": "An expedition to observe animals in their natural habitat",
+        "definitionVi": "Cuộc đi săn/Tham quan dã ngoại",
+        "example": "We went on a safari in Kenya.",
+        "exampleVi": "Chúng tôi đã đi tham quan dã ngoại ở Kenya."
+      },
+      {
+        "word": "marine",
+        "phonetic": "/məˈriːn/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to or found in the sea",
+        "definitionVi": "Thuộc về biển",
+        "example": "Marine life is very diverse.",
+        "exampleVi": "Đời sống sinh vật biển rất đa dạng."
+      },
+      {
+        "word": "insect",
+        "phonetic": "/ˈɪnsekt/",
+        "partOfSpeech": "noun",
+        "definition": "A small animal that has six legs and generally one or two pairs of wings",
+        "definitionVi": "Côn trùng",
+        "example": "Ants and bees are types of insects.",
+        "exampleVi": "Kiến và ong là các loại côn trùng."
+      },
+      {
+        "word": "parasite",
+        "phonetic": "/ˈpærəsaɪt/",
+        "partOfSpeech": "noun",
+        "definition": "An organism that lives in or on an organism of another species",
+        "definitionVi": "Ký sinh trùng",
+        "example": "Fleas are common parasites on dogs.",
+        "exampleVi": "Bọ chét là loài ký sinh trùng phổ biến trên chó."
+      },
+      {
+        "word": "camouflage",
+        "phonetic": "/ˈkæməflɑːʒ/",
+        "partOfSpeech": "noun",
+        "definition": "The use of any combination of materials, coloration, or illumination for concealment",
+        "definitionVi": "Sự ngụy trang",
+        "example": "The chameleon uses camouflage to hide from predators.",
+        "exampleVi": "Tắc kè hoa sử dụng sự ngụy trang để trốn tránh kẻ săn mồi."
+      },
+      {
+        "word": "territory",
+        "phonetic": "/ˈterətɔːri/",
+        "partOfSpeech": "noun",
+        "definition": "An area of land under the jurisdiction of a ruler or state; an area defended by an animal",
+        "definitionVi": "Lãnh thổ",
+        "example": "The male bird protects its territory.",
+        "exampleVi": "Con chim trống bảo vệ lãnh thổ của nó."
+      },
+      {
+        "word": "venomous",
+        "phonetic": "/ˈvenəməs/",
+        "partOfSpeech": "adjective",
+        "definition": "Secreting venom; capable of injecting venom by means of a bite or sting",
+        "definitionVi": "Có độc",
+        "example": "Be careful, that snake is venomous.",
+        "exampleVi": "Hãy cẩn thận, con rắn đó có độc."
+      },
+      {
+        "word": "nocturnal",
+        "phonetic": "/nɑːkˈtɜːrnl/",
+        "partOfSpeech": "adjective",
+        "definition": "Done, occurring, or active at night",
+        "definitionVi": "Hoạt động về đêm",
+        "example": "Owls are nocturnal animals.",
+        "exampleVi": "Cú là động vật hoạt động về đêm."
+      },
+      {
+        "word": "diurnal",
+        "phonetic": "/daɪˈɜːrnl/",
+        "partOfSpeech": "adjective",
+        "definition": "Of or during the day",
+        "definitionVi": "Hoạt động ban ngày",
+        "example": "Most birds are diurnal.",
+        "exampleVi": "Hầu hết các loài chim hoạt động vào ban ngày."
+      },
+      {
+        "word": "aquatic",
+        "phonetic": "/əˈkwætɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to water",
+        "definitionVi": "Dưới nước",
+        "example": "Dolphins are aquatic mammals.",
+        "exampleVi": "Cá heo là động vật có vú dưới nước."
+      },
+      {
+        "word": "poultry",
+        "phonetic": "/ˈpoʊltri/",
+        "partOfSpeech": "noun",
+        "definition": "Domestic fowl, such as chickens, turkeys, ducks, or geese",
+        "definitionVi": "Gia cầm",
+        "example": "Farmers raise poultry for meat and eggs.",
+        "exampleVi": "Nông dân nuôi gia cầm để lấy thịt và trứng."
+      },
+      {
+        "word": "livestock",
+        "phonetic": "/ˈlaɪvstɑːk/",
+        "partOfSpeech": "noun",
+        "definition": "Farm animals regarded as an asset",
+        "definitionVi": "Gia súc",
+        "example": "The farm has a lot of livestock, including cows and pigs.",
+        "exampleVi": "Trang trại có nhiều gia súc, bao gồm bò và lợn."
+      },
+      {
+        "word": "zoo",
+        "phonetic": "/zuː/",
+        "partOfSpeech": "noun",
+        "definition": "An establishment which maintains a collection of wild animals",
+        "definitionVi": "Vườn bách thú",
+        "example": "Children love visiting the zoo.",
+        "exampleVi": "Trẻ em thích đi tham quan vườn bách thú."
+      },
+      {
+        "word": "aquarium",
+        "phonetic": "/əˈkweriəm/",
+        "partOfSpeech": "noun",
+        "definition": "A transparent tank of water in which fish and other water creatures and plants are kept",
+        "definitionVi": "Thủy cung/Bể cá",
+        "example": "We saw sharks at the city aquarium.",
+        "exampleVi": "Chúng tôi thấy cá mập ở thủy cung thành phố."
+      },
+      {
+        "word": "canine",
+        "phonetic": "/ˈkeɪnaɪn/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to or resembling a dog or dogs",
+        "definitionVi": "Thuộc họ chó",
+        "example": "Wolves are members of the canine family.",
+        "exampleVi": "Sói là thành viên của họ nhà chó."
+      },
+      {
+        "word": "feline",
+        "phonetic": "/ˈfiːlaɪn/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to or resembling a cat or cats",
+        "definitionVi": "Thuộc họ mèo",
+        "example": "Lions have feline grace.",
+        "exampleVi": "Sư tử có vẻ duyên dáng của họ nhà mèo."
+      },
+      {
+        "word": "primate",
+        "phonetic": "/ˈpraɪmeɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A mammal of an order that includes monkeys, apes, and humans",
+        "definitionVi": "Lớp linh trưởng",
+        "example": "Chimpanzees are highly intelligent primates.",
+        "exampleVi": "Tinh tinh là loài linh trưởng rất thông minh."
+      },
+      {
+        "word": "rodent",
+        "phonetic": "/ˈroʊdnt/",
+        "partOfSpeech": "noun",
+        "definition": "A gnawing mammal of an order that includes rats, mice, and squirrels",
+        "definitionVi": "Động vật gặm nhấm",
+        "example": "Mice and rats are common rodents.",
+        "exampleVi": "Chuột nhắt và chuột cống là các loài gặm nhấm phổ biến."
+      },
+      {
+        "word": "pouch",
+        "phonetic": "/paʊtʃ/",
+        "partOfSpeech": "noun",
+        "definition": "A pocket-like fold of skin in which marsupials carry their young",
+        "definitionVi": "Túi (động vật)",
+        "example": "The kangaroo carries its joey in its pouch.",
+        "exampleVi": "Căng-gu-ru mang con non trong túi của nó."
+      }
+    ]
+  },
+  {
+    "name": "Personality Traits",
+    "nameVi": "Đặc điểm tính cách",
+    "description": "Words used to describe a person's character and behavior",
+    "level": "intermediate",
+    "order": 26,
+    "words": [
+      {
+        "word": "ambitious",
+        "phonetic": "/æmˈbɪʃəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing a strong desire and determination to succeed",
+        "definitionVi": "Tham vọng",
+        "example": "She is very ambitious and wants to become a CEO.",
+        "exampleVi": "Cô ấy rất tham vọng và muốn trở thành CEO."
+      },
+      {
+        "word": "arrogant",
+        "phonetic": "/ˈærəɡənt/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or revealing an exaggerated sense of one's own importance or abilities",
+        "definitionVi": "Kiêu ngạo",
+        "example": "He is so arrogant that he never listens to others.",
+        "exampleVi": "Anh ta quá kiêu ngạo đến mức không bao giờ lắng nghe người khác."
+      },
+      {
+        "word": "brave",
+        "phonetic": "/breɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Ready to face and endure danger or pain; showing courage",
+        "definitionVi": "Dũng cảm",
+        "example": "It was brave of her to stand up for what she believed in.",
+        "exampleVi": "Cô ấy thật dũng cảm khi đứng lên bảo vệ niềm tin của mình."
+      },
+      {
+        "word": "cautious",
+        "phonetic": "/ˈkɔːʃəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Careful to avoid potential problems or dangers",
+        "definitionVi": "Thận trọng",
+        "example": "He is a cautious driver and never speeds.",
+        "exampleVi": "Anh ấy là một tài xế thận trọng và không bao giờ chạy quá tốc độ."
+      },
+      {
+        "word": "compassionate",
+        "phonetic": "/kəmˈpæʃənət/",
+        "partOfSpeech": "adjective",
+        "definition": "Feeling or showing sympathy and concern for others",
+        "definitionVi": "Thấu hiểu, trắc ẩn",
+        "example": "She is a compassionate nurse who cares deeply for her patients.",
+        "exampleVi": "Cô ấy là một y tá giàu lòng trắc ẩn, luôn quan tâm sâu sắc đến bệnh nhân."
+      },
+      {
+        "word": "creative",
+        "phonetic": "/kriˈeɪtɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to or involving the imagination or original ideas",
+        "definitionVi": "Sáng tạo",
+        "example": "She is a very creative artist.",
+        "exampleVi": "Cô ấy là một nghệ sĩ rất sáng tạo."
+      },
+      {
+        "word": "decisive",
+        "phonetic": "/dɪˈsaɪsɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing the ability to make decisions quickly and effectively",
+        "definitionVi": "Quyết đoán",
+        "example": "In a crisis, you need a decisive leader.",
+        "exampleVi": "Trong khủng hoảng, bạn cần một người lãnh đạo quyết đoán."
+      },
+      {
+        "word": "dependable",
+        "phonetic": "/dɪˈpendəbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Trustworthy and reliable",
+        "definitionVi": "Đáng tin cậy",
+        "example": "John is a dependable friend who is always there when you need him.",
+        "exampleVi": "John là một người bạn đáng tin cậy, luôn có mặt khi bạn cần."
+      },
+      {
+        "word": "diligent",
+        "phonetic": "/ˈdɪlɪdʒənt/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing care and conscientiousness in one's work or duties",
+        "definitionVi": "Siêng năng, cần cù",
+        "example": "She is a diligent student who always finishes her homework on time.",
+        "exampleVi": "Cô ấy là một học sinh siêng năng, luôn hoàn thành bài tập về nhà đúng hạn."
+      },
+      {
+        "word": "easygoing",
+        "phonetic": "/ˌiːziˈɡoʊɪŋ/",
+        "partOfSpeech": "adjective",
+        "definition": "Relaxed and tolerant in attitude or manner",
+        "definitionVi": "Dễ tính, thoải mái",
+        "example": "He has an easygoing personality and never gets stressed.",
+        "exampleVi": "Anh ấy có tính cách thoải mái và không bao giờ bị căng thẳng."
+      },
+      {
+        "word": "extroverted",
+        "phonetic": "/ˈekstrəvɜːrtɪd/",
+        "partOfSpeech": "adjective",
+        "definition": "Outgoing, socially confident person",
+        "definitionVi": "Hướng ngoại",
+        "example": "Extroverted people usually enjoy being in large groups.",
+        "exampleVi": "Người hướng ngoại thường thích ở trong các nhóm đông người."
+      },
+      {
+        "word": "generous",
+        "phonetic": "/ˈdʒenərəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Showing a readiness to give more of something, especially money, than is strictly necessary or expected",
+        "definitionVi": "Hào phóng",
+        "example": "Thank you for your generous donation.",
+        "exampleVi": "Cảm ơn sự quyên góp hào phóng của bạn."
+      },
+      {
+        "word": "honest",
+        "phonetic": "/ˈɑːnɪst/",
+        "partOfSpeech": "adjective",
+        "definition": "Free of deceit and untruthfulness; sincere",
+        "definitionVi": "Trung thực",
+        "example": "To be honest, I didn't like the movie.",
+        "exampleVi": "Thành thật mà nói, tôi không thích bộ phim đó."
+      },
+      {
+        "word": "humble",
+        "phonetic": "/ˈhʌmbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing a modest or low estimate of one's own importance",
+        "definitionVi": "Khiêm tốn",
+        "example": "Despite his success, he remains very humble.",
+        "exampleVi": "Mặc dù thành công, anh ấy vẫn rất khiêm tốn."
+      },
+      {
+        "word": "impatient",
+        "phonetic": "/ɪmˈpeɪʃnt/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing a tendency to be quickly irritated or provoked",
+        "definitionVi": "Thiếu kiên nhẫn",
+        "example": "Don't be so impatient, the bus will be here soon.",
+        "exampleVi": "Đừng thiếu kiên nhẫn như thế, xe buýt sẽ đến sớm thôi."
+      },
+      {
+        "word": "introverted",
+        "phonetic": "/ˈɪntrəvɜːrtɪd/",
+        "partOfSpeech": "adjective",
+        "definition": "A shy, reticent person",
+        "definitionVi": "Hướng nội",
+        "example": "As an introverted person, she prefers quiet evenings at home.",
+        "exampleVi": "Là một người hướng nội, cô ấy thích những buổi tối yên tĩnh ở nhà."
+      },
+      {
+        "word": "lazy",
+        "phonetic": "/ˈleɪzi/",
+        "partOfSpeech": "adjective",
+        "definition": "Unwilling to work or use energy",
+        "definitionVi": "Lười biếng",
+        "example": "Stop being lazy and clean your room.",
+        "exampleVi": "Đừng lười biếng nữa và hãy dọn dẹp phòng của bạn đi."
+      },
+      {
+        "word": "loyal",
+        "phonetic": "/ˈlɔɪəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Giving or showing firm and constant support or allegiance to a person or institution",
+        "definitionVi": "Trung thành",
+        "example": "He is a loyal employee who has worked here for 20 years.",
+        "exampleVi": "Anh ấy là một nhân viên trung thành đã làm việc ở đây 20 năm."
+      },
+      {
+        "word": "modest",
+        "phonetic": "/ˈmɑːdɪst/",
+        "partOfSpeech": "adjective",
+        "definition": "Unassuming or moderate in the estimation of one's abilities or achievements",
+        "definitionVi": "Khiêm tốn",
+        "example": "She is very modest about her achievements.",
+        "exampleVi": "Cô ấy rất khiêm tốn về những thành tựu của mình."
+      },
+      {
+        "word": "optimistic",
+        "phonetic": "/ˌɑːptɪˈmɪstɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Hopeful and confident about the future",
+        "definitionVi": "Lạc quan",
+        "example": "Try to stay optimistic even in difficult situations.",
+        "exampleVi": "Hãy cố gắng giữ lạc quan ngay cả trong những tình huống khó khăn."
+      },
+      {
+        "word": "patient",
+        "phonetic": "/ˈpeɪʃnt/",
+        "partOfSpeech": "adjective",
+        "definition": "Able to accept or tolerate delays, problems, or suffering without becoming annoyed or anxious",
+        "definitionVi": "Kiên nhẫn",
+        "example": "You need to be patient when learning a new language.",
+        "exampleVi": "Bạn cần kiên nhẫn khi học một ngôn ngữ mới."
+      },
+      {
+        "word": "pessimistic",
+        "phonetic": "/ˌpesɪˈmɪstɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Tending to see the worst aspect of things or believe that the worst will happen",
+        "definitionVi": "Bi quan",
+        "example": "Don't be so pessimistic, I'm sure everything will be fine.",
+        "exampleVi": "Đừng bi quan thế, tôi chắc là mọi chuyện sẽ ổn thôi."
+      },
+      {
+        "word": "polite",
+        "phonetic": "/pəˈlaɪt/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing behavior that is respectful and considerate of other people",
+        "definitionVi": "Lịch sự",
+        "example": "It's important to be polite to everyone.",
+        "exampleVi": "Quan trọng là phải lịch sự với mọi người."
+      },
+      {
+        "word": "reliable",
+        "phonetic": "/rɪˈlaɪəbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Consistently good in quality or performance; able to be trusted",
+        "definitionVi": "Đáng tin cậy",
+        "example": "We need a reliable car for our road trip.",
+        "exampleVi": "Chúng tôi cần một chiếc xe đáng tin cậy cho chuyến đi xa."
+      },
+      {
+        "word": "selfish",
+        "phonetic": "/ˈselfɪʃ/",
+        "partOfSpeech": "adjective",
+        "definition": "Lacking consideration for others; concerned chiefly with one's own profit or pleasure",
+        "definitionVi": "Ích kỷ",
+        "example": "It was selfish of him to take all the food.",
+        "exampleVi": "Thật ích kỷ khi anh ta lấy hết thức ăn."
+      },
+      {
+        "word": "sensitive",
+        "phonetic": "/ˈsensətɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Quick to detect or respond to slight changes, signals, or influences; easily offended",
+        "definitionVi": "Nhạy cảm",
+        "example": "He is very sensitive to criticism.",
+        "exampleVi": "Anh ấy rất nhạy cảm với những lời chỉ trích."
+      },
+      {
+        "word": "sincere",
+        "phonetic": "/sɪnˈsɪr/",
+        "partOfSpeech": "adjective",
+        "definition": "Free from pretense or deceit; proceeding from genuine feelings",
+        "definitionVi": "Chân thành",
+        "example": "Please accept my sincere apologies.",
+        "exampleVi": "Xin hãy chấp nhận lời xin lỗi chân thành của tôi."
+      },
+      {
+        "word": "stubborn",
+        "phonetic": "/ˈstʌbərn/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing dogged determination not to change one's attitude or position on something",
+        "definitionVi": "Bướng bỉnh, ngoan cố",
+        "example": "He is too stubborn to admit he's wrong.",
+        "exampleVi": "Anh ta quá bướng bỉnh để thừa nhận mình sai."
+      },
+      {
+        "word": "thoughtful",
+        "phonetic": "/ˈθɔːtfəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Showing consideration for the needs of other people",
+        "definitionVi": "Chu đáo, quan tâm",
+        "example": "Thank you for the flowers, it was very thoughtful of you.",
+        "exampleVi": "Cảm ơn vì bó hoa, bạn thật chu đáo."
+      },
+      {
+        "word": "trustworthy",
+        "phonetic": "/ˈtrʌstwɜːrði/",
+        "partOfSpeech": "adjective",
+        "definition": "Able to be relied on as honest or truthful",
+        "definitionVi": "Đáng tin cậy",
+        "example": "She is a trustworthy person who never breaks a promise.",
+        "exampleVi": "Cô ấy là một người đáng tin cậy, không bao giờ thất hứa."
+      },
+      {
+        "word": "witty",
+        "phonetic": "/ˈwɪti/",
+        "partOfSpeech": "adjective",
+        "definition": "Showing or characterized by quick and inventive verbal humor",
+        "definitionVi": "Hóm hỉnh, nhanh trí",
+        "example": "He is famous for his witty remarks.",
+        "exampleVi": "Anh ấy nổi tiếng với những nhận xét hóm hỉnh."
+      },
+      {
+        "word": "adaptable",
+        "phonetic": "/əˈdæptəbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Able to adjust to new conditions",
+        "definitionVi": "Có khả năng thích nghi",
+        "example": "In a changing world, you need to be adaptable.",
+        "exampleVi": "Trong một thế giới luôn thay đổi, bạn cần có khả năng thích nghi."
+      },
+      {
+        "word": "adventurous",
+        "phonetic": "/ədˈventʃərəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Willing to take risks or to try out new methods, ideas, or experiences",
+        "definitionVi": "Thích phiêu lưu",
+        "example": "The adventurous travelers decided to explore the remote jungle.",
+        "exampleVi": "Những người khách du lịch thích phiêu lưu quyết định khám phá khu rừng hẻo lánh."
+      },
+      {
+        "word": "affectionate",
+        "phonetic": "/əˈfekʃənət/",
+        "partOfSpeech": "adjective",
+        "definition": "Readily feeling or showing fondness or tenderness",
+        "definitionVi": "Trìu mến, thắm thiết",
+        "example": "He is very affectionate toward his children.",
+        "exampleVi": "Anh ấy rất trìu mến với các con của mình."
+      },
+      {
+        "word": "aggressive",
+        "phonetic": "/əˈɡresɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Ready or likely to attack or confront",
+        "definitionVi": "Hung hăng",
+        "example": "He became aggressive after the argument.",
+        "exampleVi": "Anh ta trở nên hung hăng sau cuộc tranh cãi."
+      },
+      {
+        "word": "charismatic",
+        "phonetic": "/ˌkærɪzˈmætɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Exercising a compelling charm which inspires devotion in others",
+        "definitionVi": "Lôi cuốn, thuyết phục",
+        "example": "The politician was very charismatic.",
+        "exampleVi": "Chính trị gia này rất lôi cuốn."
+      },
+      {
+        "word": "clumsy",
+        "phonetic": "/ˈklʌmzi/",
+        "partOfSpeech": "adjective",
+        "definition": "Awkward in movement or in handling things",
+        "definitionVi": "Vụng về",
+        "example": "I'm so clumsy, I always drop things.",
+        "exampleVi": "Tôi thật vụng về, tôi toàn làm rơi đồ thôi."
+      },
+      {
+        "word": "courageous",
+        "phonetic": "/kəˈreɪdʒəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Not deterred by danger or pain; brave",
+        "definitionVi": "Can đảm",
+        "example": "It was a courageous decision to quit his job.",
+        "exampleVi": "Đó là một quyết định can đảm khi anh ấy bỏ việc."
+      },
+      {
+        "word": "courteous",
+        "phonetic": "/ˈkɜːrtiəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Polite, respectful, or considerate in manner",
+        "definitionVi": "Lịch sự, nhã nhặn",
+        "example": "The hotel staff were very courteous.",
+        "exampleVi": "Nhân viên khách sạn rất nhã nhặn."
+      },
+      {
+        "word": "cunning",
+        "phonetic": "/ˈkʌnɪŋ/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing skill in achieving one's ends by deceit or evasion",
+        "definitionVi": "Xảo quyệt",
+        "example": "The fox is a cunning animal.",
+        "exampleVi": "Cáo là một loài động vật xảo quyệt."
+      },
+      {
+        "word": "cynical",
+        "phonetic": "/ˈsɪnɪkl/",
+        "partOfSpeech": "adjective",
+        "definition": "Believing that people are motivated by self-interest",
+        "definitionVi": "Hoài nghi (về lòng tốt của người khác)",
+        "example": "He's very cynical about politics.",
+        "exampleVi": "Anh ta rất hoài nghi về chính trị."
+      },
+      {
+        "word": "eccentric",
+        "phonetic": "/ɪkˈsentrɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Unconventional and slightly strange",
+        "definitionVi": "Lập dị",
+        "example": "My neighbor is an eccentric old man.",
+        "exampleVi": "Hàng xóm của tôi là một ông lão lập dị."
+      },
+      {
+        "word": "enthusiastic",
+        "phonetic": "/ɪnˌθuːziˈæstɪk/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing intense and eager enjoyment, interest, or approval",
+        "definitionVi": "Nhiệt tình",
+        "example": "She is very enthusiastic about her new project.",
+        "exampleVi": "Cô ấy rất nhiệt tình với dự án mới của mình."
+      },
+      {
+        "word": "frank",
+        "phonetic": "/fræŋk/",
+        "partOfSpeech": "adjective",
+        "definition": "Open, honest, and direct in speech or writing",
+        "definitionVi": "Thẳng thắn",
+        "example": "We had a frank discussion about the problem.",
+        "exampleVi": "Chúng tôi đã có một cuộc thảo luận thẳng thắn về vấn đề này."
+      },
+      {
+        "word": "greedy",
+        "phonetic": "/ˈɡriːdi/",
+        "partOfSpeech": "adjective",
+        "definition": "Having or showing an intense and selfish desire for something, especially wealth or power",
+        "definitionVi": "Tham lam",
+        "example": "The greedy businessman wanted more money.",
+        "exampleVi": "Gã doanh nhân tham lam muốn có thêm nhiều tiền hơn nữa."
+      },
+      {
+        "word": "gullible",
+        "phonetic": "/ˈɡʌləbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Easily persuaded to believe something; credulous",
+        "definitionVi": "Cả tin, dễ tin",
+        "example": "He is so gullible, he believes everything he reads online.",
+        "exampleVi": "Anh ta thật dễ tin, anh ta tin mọi thứ đọc được trên mạng."
+      },
+      {
+        "word": "miserable",
+        "phonetic": "/ˈmɪzrəbl/",
+        "partOfSpeech": "adjective",
+        "definition": "Wretchedly unhappy or uncomfortable",
+        "definitionVi": "Khốn khổ, đau khổ",
+        "example": "The cold weather made everyone feel miserable.",
+        "exampleVi": "Thời tiết lạnh giá làm mọi người cảm thấy khốn khổ."
+      },
+      {
+        "word": "mischievous",
+        "phonetic": "/ˈmɪstʃɪvəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Causing or showing a fondness for causing trouble in a playful way",
+        "definitionVi": "Tinh nghịch, láu lỉnh",
+        "example": "The mischievous child hid his mother's keys.",
+        "exampleVi": "Đứa trẻ tinh nghịch đã giấu chìa khóa của mẹ nó."
+      },
+      {
+        "word": "naive",
+        "phonetic": "/naɪˈiːv/",
+        "partOfSpeech": "adjective",
+        "definition": "Showing a lack of experience, wisdom, or judgment",
+        "definitionVi": "Ngây thơ",
+        "example": "It was naive of him to think he could win without practice.",
+        "exampleVi": "Thật ngây thơ khi anh ta nghĩ mình có thể thắng mà không cần luyện tập."
+      },
+      {
+        "word": "resourceful",
+        "phonetic": "/rɪˈsɔːrsfl/",
+        "partOfSpeech": "adjective",
+        "definition": "Having the ability to find quick and clever ways to overcome difficulties",
+        "definitionVi": "Tháo vát",
+        "example": "A resourceful person can always find a solution.",
+        "exampleVi": "Một người tháo vát luôn có thể tìm ra giải pháp."
+      }
+    ]
+  },
+  {
+    "name": "Government & Politics",
+    "nameVi": "Chính phủ & Chính trị",
+    "description": "Vocabulary related to governing systems and political processes",
+    "level": "advanced",
+    "order": 27,
+    "words": [
+      {
+        "word": "administration",
+        "phonetic": "/ədˌmɪnɪˈstreɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The process or activity of running a business, organization, etc.; the government of a country",
+        "definitionVi": "Sự quản lý/Chính quyền",
+        "example": "The new administration took office in January.",
+        "exampleVi": "Chính quyền mới đã nhậm chức vào tháng Giêng."
+      },
+      {
+        "word": "amendment",
+        "phonetic": "/əˈmendmənt/",
+        "partOfSpeech": "noun",
+        "definition": "A minor change or addition designed to improve a text, piece of legislation, etc.",
+        "definitionVi": "Sự sửa đổi, bổ sung (luật)",
+        "example": "The First Amendment protects freedom of speech.",
+        "exampleVi": "Tu chính án thứ nhất bảo vệ quyền tự do ngôn luận."
+      },
+      {
+        "word": "bureaucracy",
+        "phonetic": "/bjʊˈrɑːkrəsi/",
+        "partOfSpeech": "noun",
+        "definition": "A system of government in which most of the important decisions are made by state officials rather than by elected representatives",
+        "definitionVi": "Chế độ quan liêu/Hệ thống hành chính",
+        "example": "The new law aims to reduce government bureaucracy.",
+        "exampleVi": "Luật mới nhằm giảm bớt hệ thống hành chính rườm rà của chính phủ."
+      },
+      {
+        "word": "campaign",
+        "phonetic": "/kæmˈpeɪn/",
+        "partOfSpeech": "noun",
+        "definition": "An organized course of action to achieve a particular goal, especially a political one",
+        "definitionVi": "Chiến dịch",
+        "example": "The presidential campaign lasted for several months.",
+        "exampleVi": "Chiến dịch tranh cử tổng thống kéo dài trong vài tháng."
+      },
+      {
+        "word": "candidate",
+        "phonetic": "/ˈkændɪdət/",
+        "partOfSpeech": "noun",
+        "definition": "A person who applies for a job or is nominated for election",
+        "definitionVi": "Ứng cử viên",
+        "example": "There are three candidates running for mayor.",
+        "exampleVi": "Có ba ứng cử viên đang chạy đua chức thị trưởng."
+      },
+      {
+        "word": "coalition",
+        "phonetic": "/ˌkoʊəˈlɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "An alliance for combined action, especially a temporary alliance of political parties forming a government",
+        "definitionVi": "Sự liên minh",
+        "example": "The two parties formed a coalition government.",
+        "exampleVi": "Hai đảng đã thành lập một chính phủ liên minh."
+      },
+      {
+        "word": "constituent",
+        "phonetic": "/kənˈstɪtʃuənt/",
+        "partOfSpeech": "noun",
+        "definition": "A member of a constituency; a voter",
+        "definitionVi": "Cử tri",
+        "example": "The MP met with his constituents to discuss their concerns.",
+        "exampleVi": "Nghị sĩ đã gặp gỡ các cử tri của mình để thảo luận về những lo ngại của họ."
+      },
+      {
+        "word": "constitution",
+        "phonetic": "/ˌkɑːnstɪˈtuːʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A body of fundamental principles according to which a state or other organization is acknowledged to be governed",
+        "definitionVi": "Hiến pháp",
+        "example": "The US Constitution was signed in 1787.",
+        "exampleVi": "Hiến pháp Hoa Kỳ được ký kết vào năm 1787."
+      },
+      {
+        "word": "democracy",
+        "phonetic": "/dɪˈmɑːkrəsi/",
+        "partOfSpeech": "noun",
+        "definition": "A system of government by the whole population or all the eligible members of a state, typically through elected representatives",
+        "definitionVi": "Chế độ dân chủ",
+        "example": "The country transitioned to a democracy in the 1990s.",
+        "exampleVi": "Đất nước đã chuyển sang chế độ dân chủ vào những năm 1990."
+      },
+      {
+        "word": "diplomacy",
+        "phonetic": "/dɪˈploʊməsi/",
+        "partOfSpeech": "noun",
+        "definition": "The profession, activity, or skill of managing international relations",
+        "definitionVi": "Ngoại giao",
+        "example": "The conflict was resolved through quiet diplomacy.",
+        "exampleVi": "Xung đột đã được giải quyết thông qua ngoại giao thầm lặng."
+      },
+      {
+        "word": "election",
+        "phonetic": "/ɪˈlekʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A formal and organized choice by vote of a person for a political office or other position",
+        "definitionVi": "Cuộc bầu cử",
+        "example": "The general election will be held next month.",
+        "exampleVi": "Cuộc tổng tuyển cử sẽ được tổ chức vào tháng tới."
+      },
+      {
+        "word": "governor",
+        "phonetic": "/ˈɡʌvərnər/",
+        "partOfSpeech": "noun",
+        "definition": "The elected executive head of a state of the US",
+        "definitionVi": "Thống đốc",
+        "example": "The governor signed the new bill into law.",
+        "exampleVi": "Thống đốc đã ký dự luật mới thành luật."
+      },
+      {
+        "word": "ideology",
+        "phonetic": "/ˌaɪdiˈɑːlədʒi/",
+        "partOfSpeech": "noun",
+        "definition": "A system of ideas and ideals, especially one which forms the basis of economic or political theory and policy",
+        "definitionVi": "Hệ tư tưởng",
+        "example": "The two parties have very different ideologies.",
+        "exampleVi": "Hai đảng có hệ tư tưởng rất khác nhau."
+      },
+      {
+        "word": "legislation",
+        "phonetic": "/ˌledʒɪsˈleɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "Laws, considered collectively",
+        "definitionVi": "Pháp luật, sự ban hành luật",
+        "example": "The government introduced new legislation to protect the environment.",
+        "exampleVi": "Chính phủ đã đưa ra luật mới để bảo vệ môi trường."
+      },
+      {
+        "word": "lobby",
+        "phonetic": "/ˈlɑːbi/",
+        "partOfSpeech": "verb",
+        "definition": "Seek to influence (a politician or public official) on an issue",
+        "definitionVi": "Vận động hành lang",
+        "example": "Groups are lobbying the government for tax reform.",
+        "exampleVi": "Các nhóm đang vận động hành lang chính phủ để cải cách thuế."
+      },
+      {
+        "word": "monarchy",
+        "phonetic": "/ˈmɑːnərki/",
+        "partOfSpeech": "noun",
+        "definition": "A form of government with a monarch at the head",
+        "definitionVi": "Chế độ quân chủ",
+        "example": "The United Kingdom is a constitutional monarchy.",
+        "exampleVi": "Vương quốc Anh là một quốc gia quân chủ lập hiến."
+      },
+      {
+        "word": "parliament",
+        "phonetic": "/ˈpɑːrləmənt/",
+        "partOfSpeech": "noun",
+        "definition": "The highest legislature, consisting of the sovereign, the House of Lords, and the House of Commons",
+        "definitionVi": "Nghị viện/Quốc hội",
+        "example": "The issue was discussed in Parliament today.",
+        "exampleVi": "Vấn đề này đã được thảo luận tại Quốc hội hôm nay."
+      },
+      {
+        "word": "policy",
+        "phonetic": "/ˈpɑːləsi/",
+        "partOfSpeech": "noun",
+        "definition": "A course or principle of action adopted or proposed by a government, party, business, or individual",
+        "definitionVi": "Chính sách",
+        "example": "The school has a strict policy on bullying.",
+        "exampleVi": "Trường học có chính sách nghiêm khắc đối với việc bắt nạt."
+      },
+      {
+        "word": "propaganda",
+        "phonetic": "/ˌprɑːpəˈɡændə/",
+        "partOfSpeech": "noun",
+        "definition": "Information, especially of a biased or misleading nature, used to promote or publicize a particular political cause or point of view",
+        "definitionVi": "Sự tuyên truyền",
+        "example": "The government used propaganda to win support for the war.",
+        "exampleVi": "Chính phủ đã sử dụng tuyên truyền để giành được sự ủng hộ cho chiến tranh."
+      },
+      {
+        "word": "referendum",
+        "phonetic": "/ˌrefəˈrendəm/",
+        "partOfSpeech": "noun",
+        "definition": "A general vote by the electorate on a single political question which has been referred to them for a direct decision",
+        "definitionVi": "Cuộc trưng cầu dân ý",
+        "example": "The country held a referendum on whether to stay in the EU.",
+        "exampleVi": "Đất nước đã tổ chức một cuộc trưng cầu dân ý về việc có nên ở lại EU hay không."
+      },
+      {
+        "word": "republic",
+        "phonetic": "/rɪˈpʌblɪk/",
+        "partOfSpeech": "noun",
+        "definition": "A state in which supreme power is held by the people and their elected representatives, and which has an elected or nominated president",
+        "definitionVi": "Cộng hòa",
+        "example": "France is a republic.",
+        "exampleVi": "Pháp là một quốc gia cộng hòa."
+      },
+      {
+        "word": "sanction",
+        "phonetic": "/ˈsæŋkʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A threatened penalty for disobeying a law or rule",
+        "definitionVi": "Lệnh trừng phạt",
+        "example": "International sanctions were imposed on the regime.",
+        "exampleVi": "Các lệnh trừng phạt quốc tế đã được áp đặt đối với chế độ này."
+      },
+      {
+        "word": "senate",
+        "phonetic": "/ˈsenət/",
+        "partOfSpeech": "noun",
+        "definition": "Any of various legislative or governing bodies, in particular the upper assembly in the US Congress",
+        "definitionVi": "Thượng viện",
+        "example": "The bill was passed by the Senate.",
+        "exampleVi": "Dự luật đã được Thượng viện thông qua."
+      },
+      {
+        "word": "sovereignty",
+        "phonetic": "/ˈsɑːvrənti/",
+        "partOfSpeech": "noun",
+        "definition": "Supreme power or authority",
+        "definitionVi": "Chủ quyền",
+        "example": "The people fought for their national sovereignty.",
+        "exampleVi": "Nhân dân đã đấu tranh vì chủ quyền quốc gia."
+      },
+      {
+        "word": "treaty",
+        "phonetic": "/ˈtriːti/",
+        "partOfSpeech": "noun",
+        "definition": "A formally concluded and ratified agreement between countries",
+        "definitionVi": "Hiệp ước",
+        "example": "The two nations signed a peace treaty.",
+        "exampleVi": "Hai quốc gia đã ký một hiệp ước hòa bình."
+      },
+      {
+        "word": "veto",
+        "phonetic": "/ˈviːtoʊ/",
+        "partOfSpeech": "noun",
+        "definition": "A constitutional right to reject a decision or proposal made by a law-making body",
+        "definitionVi": "Quyền phủ quyết",
+        "example": "The President has the power to veto the bill.",
+        "exampleVi": "Tổng thống có quyền phủ quyết dự luật."
+      },
+      {
+        "word": "ballot",
+        "phonetic": "/ˈbælət/",
+        "partOfSpeech": "noun",
+        "definition": "A system of voting secretly and in writing",
+        "definitionVi": "Lá phiếu/Việc bỏ phiếu kín",
+        "example": "The election was decided by secret ballot.",
+        "exampleVi": "Cuộc bầu cử được quyết định bằng bỏ phiếu kín."
+      },
+      {
+        "word": "cabinet",
+        "phonetic": "/ˈkæbɪnət/",
+        "partOfSpeech": "noun",
+        "definition": "A body of advisers to a head of state who also serve as the heads of government departments",
+        "definitionVi": "Nội các",
+        "example": "The Prime Minister is meeting with his cabinet.",
+        "exampleVi": "Thủ tướng đang họp với nội các của mình."
+      },
+      {
+        "word": "corruption",
+        "phonetic": "/kəˈrʌpʃn/",
+        "partOfSpeech": "noun",
+        "definition": "Dishonest or fraudulent conduct by those in power",
+        "definitionVi": "Sự tham nhũng",
+        "example": "The government is trying to fight corruption.",
+        "exampleVi": "Chính phủ đang cố gắng chống tham nhũng."
+      },
+      {
+        "word": "embassy",
+        "phonetic": "/ˈembəsi/",
+        "partOfSpeech": "noun",
+        "definition": "The official residence or offices of an ambassador",
+        "definitionVi": "Đại sứ quán",
+        "example": "We went to the US Embassy to apply for a visa.",
+        "exampleVi": "Chúng tôi đã đến Đại sứ quán Hoa Kỳ để xin visa."
+      },
+      {
+        "word": "federal",
+        "phonetic": "/ˈfedərəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to a system of government in which several states form a unity but remain independent in internal affairs",
+        "definitionVi": "Thuộc về liên bang",
+        "example": "The FBI is a federal agency.",
+        "exampleVi": "FBI là một cơ quan liên bang."
+      },
+      {
+        "word": "mayor",
+        "phonetic": "/ˈmeɪər/",
+        "partOfSpeech": "noun",
+        "definition": "The elected head of a city, town, or other municipality",
+        "definitionVi": "Thị trưởng",
+        "example": "The mayor announced a new plan for the city.",
+        "exampleVi": "Thị trưởng đã công bố một kế hoạch mới cho thành phố."
+      },
+      {
+        "word": "ministry",
+        "phonetic": "/ˈmɪnɪstri/",
+        "partOfSpeech": "noun",
+        "definition": "A government department headed by a minister",
+        "definitionVi": "Bộ (cơ quan chính phủ)",
+        "example": "The Ministry of Education is located downtown.",
+        "exampleVi": "Bộ Giáo dục nằm ở trung tâm thành phố."
+      },
+      {
+        "word": "oppression",
+        "phonetic": "/əˈpreʃn/",
+        "partOfSpeech": "noun",
+        "definition": "Prolonged cruel or unjust treatment or control",
+        "definitionVi": "Sự đàn áp",
+        "example": "The people rose up against years of oppression.",
+        "exampleVi": "Nhân dân đã đứng lên chống lại nhiều năm bị đàn áp."
+      },
+      {
+        "word": "petition",
+        "phonetic": "/pəˈtɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A formal written request, typically one signed by many people, appealing to authority with respect to a particular cause",
+        "definitionVi": "Đơn kiến nghị",
+        "example": "Thousands of people signed a petition against the new tax.",
+        "exampleVi": "Hàng ngàn người đã ký một bản kiến nghị chống lại loại thuế mới."
+      },
+      {
+        "word": "polling station",
+        "phonetic": "/ˈpoʊlɪŋ ˈsteɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A building where people can go to vote in an election",
+        "definitionVi": "Điểm bỏ phiếu",
+        "example": "The polling stations close at 8 PM.",
+        "exampleVi": "Các điểm bỏ phiếu đóng cửa lúc 8 giờ tối."
+      },
+      {
+        "word": "regime",
+        "phonetic": "/reɪˈʒiːm/",
+        "partOfSpeech": "noun",
+        "definition": "A government, especially an authoritarian one",
+        "definitionVi": "Chế độ",
+        "example": "The old regime was overthrown in a revolution.",
+        "exampleVi": "Chế độ cũ đã bị lật đổ trong một cuộc cách mạng."
+      },
+      {
+        "word": "taxation",
+        "phonetic": "/tækˈseɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The levying of tax",
+        "definitionVi": "Sự đánh thuế",
+        "example": "The government plans to increase taxation on luxury goods.",
+        "exampleVi": "Chính phủ có kế hoạch tăng thuế đối với hàng xa xỉ."
+      },
+      {
+        "word": "voter",
+        "phonetic": "/ˈvoʊtər/",
+        "partOfSpeech": "noun",
+        "definition": "A person who votes or has the right to vote at an election",
+        "definitionVi": "Cử tri/Người bỏ phiếu",
+        "example": "Voter turnout was very high this year.",
+        "exampleVi": "Tỷ lệ cử tri đi bỏ phiếu năm nay rất cao."
+      },
+      {
+        "word": "ambassador",
+        "phonetic": "/æmˈbæsədər/",
+        "partOfSpeech": "noun",
+        "definition": "An accredited diplomat sent by a country as its official representative to a foreign country",
+        "definitionVi": "Đại sứ",
+        "example": "The British Ambassador met with the President.",
+        "exampleVi": "Đại sứ Anh đã gặp Tổng thống."
+      },
+      {
+        "word": "autocracy",
+        "phonetic": "/ɔːˈtɑːkrəsi/",
+        "partOfSpeech": "noun",
+        "definition": "A system of government by one person with absolute power",
+        "definitionVi": "Chế độ chuyên chế",
+        "example": "The country lived under an autocracy for decades.",
+        "exampleVi": "Đất nước đã sống dưới chế độ chuyên chế trong nhiều thập kỷ."
+      },
+      {
+        "word": "bill",
+        "phonetic": "/bɪl/",
+        "partOfSpeech": "noun",
+        "definition": "A draft of a proposed law presented to parliament for discussion",
+        "definitionVi": "Dự luật",
+        "example": "The bill was approved by a majority of members.",
+        "exampleVi": "Dự luật đã được đa số thành viên chấp thuận."
+      },
+      {
+        "word": "censorship",
+        "phonetic": "/ˈsensərʃɪp/",
+        "partOfSpeech": "noun",
+        "definition": "The suppression or prohibition of any parts of books, films, news, etc. that are considered obscene, politically unacceptable, or a threat to security",
+        "definitionVi": "Sự kiểm duyệt",
+        "example": "There is strict censorship of the media in that country.",
+        "exampleVi": "Có sự kiểm duyệt chặt chẽ đối với các phương tiện truyền thông ở quốc gia đó."
+      },
+      {
+        "word": "diplomat",
+        "phonetic": "/ˈdɪpləmæt/",
+        "partOfSpeech": "noun",
+        "definition": "An official representing a country abroad",
+        "definitionVi": "Nhà ngoại giao",
+        "example": "Being a diplomat requires excellent communication skills.",
+        "exampleVi": "Trở thành nhà ngoại giao đòi hỏi kỹ năng giao tiếp tuyệt vời."
+      },
+      {
+        "word": "executive",
+        "phonetic": "/ɪɡˈzekjətɪv/",
+        "partOfSpeech": "noun",
+        "definition": "The branch of government responsible for putting decisions or laws into effect",
+        "definitionVi": "Nhánh hành pháp",
+        "example": "The executive power is vested in the President.",
+        "exampleVi": "Quyền hành pháp thuộc về Tổng thống."
+      },
+      {
+        "word": "judicial",
+        "phonetic": "/dʒuˈdɪʃl/",
+        "partOfSpeech": "adjective",
+        "definition": "Of, by, or appropriate to a court or judge",
+        "definitionVi": "Thuộc về tư pháp",
+        "example": "The judicial system is independent of the government.",
+        "exampleVi": "Hệ thống tư pháp độc lập với chính phủ."
+      },
+      {
+        "word": "legislative",
+        "phonetic": "/ˈledʒɪsleɪtɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Having the power to make laws",
+        "definitionVi": "Thuộc về lập pháp",
+        "example": "The legislative branch consists of Congress.",
+        "exampleVi": "Nhánh lập pháp bao gồm Quốc hội."
+      },
+      {
+        "word": "opposition",
+        "phonetic": "/ˌɑːpəˈzɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A political party or group opposed to the majority or ruling party",
+        "definitionVi": "Đảng đối lập",
+        "example": "The leader of the opposition criticized the government's plan.",
+        "exampleVi": "Lãnh đạo đảng đối lập đã chỉ trích kế hoạch của chính phủ."
+      },
+      {
+        "word": "prefect",
+        "phonetic": "/ˈpriːfekt/",
+        "partOfSpeech": "noun",
+        "definition": "A chief officer, magistrate, or regional governor in certain countries",
+        "definitionVi": "Quận trưởng/Trưởng quan",
+        "example": "The prefect is responsible for maintaining order in the region.",
+        "exampleVi": "Quận trưởng chịu trách nhiệm duy trì trật tự trong vùng."
+      },
+      {
+        "word": "tyranny",
+        "phonetic": "/ˈtɪrəni/",
+        "partOfSpeech": "noun",
+        "definition": "Cruel and oppressive government or rule",
+        "definitionVi": "Sự bạo ngược/Chế độ bạo chúa",
+        "example": "The revolution aimed to end the tyranny of the monarch.",
+        "exampleVi": "Cuộc cách mạng nhằm chấm dứt sự bạo ngược của nhà vua."
+      }
+    ]
+  },
+  {
+    "name": "Shapes & Measurements",
+    "nameVi": "Hình dạng & Đo lường",
+    "description": "Vocabulary for geometric shapes and various units of measurement",
+    "level": "intermediate",
+    "order": 28,
+    "words": [
+      {
+        "word": "circle",
+        "phonetic": "/ˈsɜːrkl/",
+        "partOfSpeech": "noun",
+        "definition": "A round plane figure whose boundary consists of points equidistant from a fixed point",
+        "definitionVi": "Hình tròn",
+        "example": "Draw a circle on the paper.",
+        "exampleVi": "Hãy vẽ một hình tròn lên giấy."
+      },
+      {
+        "word": "square",
+        "phonetic": "/skwer/",
+        "partOfSpeech": "noun",
+        "definition": "A plane figure with four equal straight sides and four right angles",
+        "definitionVi": "Hình vuông",
+        "example": "The room is 10 meters square.",
+        "exampleVi": "Căn phòng rộng 10 mét vuông."
+      },
+      {
+        "word": "triangle",
+        "phonetic": "/ˈtraɪæŋɡl/",
+        "partOfSpeech": "noun",
+        "definition": "A plane figure with three straight sides and three angles",
+        "definitionVi": "Hình tam giác",
+        "example": "A triangle has three sides.",
+        "exampleVi": "Một hình tam giác có ba cạnh."
+      },
+      {
+        "word": "rectangle",
+        "phonetic": "/ˈrektæŋɡl/",
+        "partOfSpeech": "noun",
+        "definition": "A plane figure with four straight sides and four right angles, especially one with unequal adjacent sides",
+        "definitionVi": "Hình chữ nhật",
+        "example": "The swimming pool is a large rectangle.",
+        "exampleVi": "Bể bơi là một hình chữ nhật lớn."
+      },
+      {
+        "word": "oval",
+        "phonetic": "/ˈoʊvl/",
+        "partOfSpeech": "noun",
+        "definition": "A rounded convex shape like that of an egg",
+        "definitionVi": "Hình bầu dục",
+        "example": "The mirror has an oval shape.",
+        "exampleVi": "Chiếc gương có hình bầu dục."
+      },
+      {
+        "word": "cube",
+        "phonetic": "/kjuːb/",
+        "partOfSpeech": "noun",
+        "definition": "A symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares",
+        "definitionVi": "Hình lập phương",
+        "example": "An ice cube is a small cube of ice.",
+        "exampleVi": "Viên đá là một khối lập phương nhỏ của băng."
+      },
+      {
+        "word": "sphere",
+        "phonetic": "/sfɪr/",
+        "partOfSpeech": "noun",
+        "definition": "A round solid figure, or its surface, with every point on its surface equidistant from its center",
+        "definitionVi": "Hình cầu",
+        "example": "The Earth is not a perfect sphere.",
+        "exampleVi": "Trái Đất không phải là một hình cầu hoàn hảo."
+      },
+      {
+        "word": "cylinder",
+        "phonetic": "/ˈsɪlɪndər/",
+        "partOfSpeech": "noun",
+        "definition": "A solid geometric figure with straight parallel sides and a circular or oval cross section",
+        "definitionVi": "Hình trụ",
+        "example": "A soda can is a cylinder.",
+        "exampleVi": "Vỏ lon nước ngọt là một hình trụ."
+      },
+      {
+        "word": "cone",
+        "phonetic": "/koʊn/",
+        "partOfSpeech": "noun",
+        "definition": "A solid or hollow object that tapers from a circular or roughly circular base to a point",
+        "definitionVi": "Hình nón",
+        "example": "An ice cream cone is shaped like a cone.",
+        "exampleVi": "Cái ốc quế kem có hình dạng như một hình nón."
+      },
+      {
+        "word": "pyramid",
+        "phonetic": "/ˈpɪrəmɪd/",
+        "partOfSpeech": "noun",
+        "definition": "A monumental structure with a square or triangular base and sloping sides that meet in a point at the top",
+        "definitionVi": "Hình chóp/Kim tự tháp",
+        "example": "The Great Pyramid of Giza is in Egypt.",
+        "exampleVi": "Kim tự tháp lớn Giza nằm ở Ai Cập."
+      },
+      {
+        "word": "angle",
+        "phonetic": "/ˈæŋɡl/",
+        "partOfSpeech": "noun",
+        "definition": "The space between two intersecting lines or surfaces at or close to the point where they meet",
+        "definitionVi": "Góc",
+        "example": "A right angle is 90 degrees.",
+        "exampleVi": "Một góc vuông là 90 độ."
+      },
+      {
+        "word": "diameter",
+        "phonetic": "/daɪˈæmɪtər/",
+        "partOfSpeech": "noun",
+        "definition": "A straight line passing from side to side through the center of a body or figure, especially a circle or sphere",
+        "definitionVi": "Đường kính",
+        "example": "The diameter of the circle is 10 cm.",
+        "exampleVi": "Đường kính của hình tròn là 10 cm."
+      },
+      {
+        "word": "radius",
+        "phonetic": "/ˈreɪdiəs/",
+        "partOfSpeech": "noun",
+        "definition": "A straight line from the center to the circumference of a circle or sphere",
+        "definitionVi": "Bán kính",
+        "example": "The radius is half of the diameter.",
+        "exampleVi": "Bán kính bằng một nửa đường kính."
+      },
+      {
+        "word": "perimeter",
+        "phonetic": "/pəˈrɪmɪtər/",
+        "partOfSpeech": "noun",
+        "definition": "The continuous line forming the boundary of a closed geometric figure",
+        "definitionVi": "Chu vi",
+        "example": "Calculate the perimeter of the rectangle.",
+        "exampleVi": "Hãy tính chu vi của hình chữ nhật."
+      },
+      {
+        "word": "area",
+        "phonetic": "/ˈeriə/",
+        "partOfSpeech": "noun",
+        "definition": "The extent or measurement of a surface or piece of land",
+        "definitionVi": "Diện tích",
+        "example": "The area of the room is 20 square meters.",
+        "exampleVi": "Diện tích căn phòng là 20 mét vuông."
+      },
+      {
+        "word": "volume",
+        "phonetic": "/ˈvɑːljuːm/",
+        "partOfSpeech": "noun",
+        "definition": "The amount of space that a substance or object occupies",
+        "definitionVi": "Thể tích",
+        "example": "The tank has a volume of 50 liters.",
+        "exampleVi": "Cái bình có thể tích 50 lít."
+      },
+      {
+        "word": "length",
+        "phonetic": "/leŋkθ/",
+        "partOfSpeech": "noun",
+        "definition": "The measurement or extent of something from end to end",
+        "definitionVi": "Chiều dài",
+        "example": "The length of the table is 2 meters.",
+        "exampleVi": "Chiều dài của cái bàn là 2 mét."
+      },
+      {
+        "word": "width",
+        "phonetic": "/wɪdθ/",
+        "partOfSpeech": "noun",
+        "definition": "The measurement or extent of something from side to side",
+        "definitionVi": "Chiều rộng",
+        "example": "What is the width of the hallway?",
+        "exampleVi": "Chiều rộng của hành lang là bao nhiêu?"
+      },
+      {
+        "word": "height",
+        "phonetic": "/haɪt/",
+        "partOfSpeech": "noun",
+        "definition": "The measurement from base to top or (of a standing person) from head to foot",
+        "definitionVi": "Chiều cao",
+        "example": "He is six feet in height.",
+        "exampleVi": "Anh ấy cao 6 bộ."
+      },
+      {
+        "word": "depth",
+        "phonetic": "/depθ/",
+        "partOfSpeech": "noun",
+        "definition": "The distance from the top or surface to the bottom of something",
+        "definitionVi": "Chiều sâu",
+        "example": "The depth of the pool is 3 meters.",
+        "exampleVi": "Chiều sâu của bể bơi là 3 mét."
+      },
+      {
+        "word": "weight",
+        "phonetic": "/weɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A body's relative mass or the quantity of matter contained by it",
+        "definitionVi": "Trọng lượng",
+        "example": "He is trying to lose weight.",
+        "exampleVi": "Anh ấy đang cố gắng giảm cân."
+      },
+      {
+        "word": "mass",
+        "phonetic": "/mæs/",
+        "partOfSpeech": "noun",
+        "definition": "A coherent, typically large body of matter with no definite shape",
+        "definitionVi": "Khối lượng",
+        "example": "The object has a mass of 5 kilograms.",
+        "exampleVi": "Vật thể có khối lượng 5 kilôgam."
+      },
+      {
+        "word": "density",
+        "phonetic": "/ˈdensəti/",
+        "partOfSpeech": "noun",
+        "definition": "The degree of compactness of a substance",
+        "definitionVi": "Mật độ/Tỉ trọng",
+        "example": "Lead has a higher density than aluminum.",
+        "exampleVi": "Chì có tỉ trọng cao hơn nhôm."
+      },
+      {
+        "word": "distance",
+        "phonetic": "/ˈdɪstəns/",
+        "partOfSpeech": "noun",
+        "definition": "An amount of space between two things or people",
+        "definitionVi": "Khoảng cách",
+        "example": "What is the distance between Hanoi and Ho Chi Minh City?",
+        "exampleVi": "Khoảng cách giữa Hà Nội và TP.HCM là bao nhiêu?"
+      },
+      {
+        "word": "speed",
+        "phonetic": "/spiːd/",
+        "partOfSpeech": "noun",
+        "definition": "The rate at which someone or something is able to move or operate",
+        "definitionVi": "Tốc độ",
+        "example": "The car was traveling at high speed.",
+        "exampleVi": "Chiếc xe đang di chuyển với tốc độ cao."
+      },
+      {
+        "word": "velocity",
+        "phonetic": "/vəˈlɑːsəti/",
+        "partOfSpeech": "noun",
+        "definition": "The speed of something in a given direction",
+        "definitionVi": "Vận tốc",
+        "example": "The aircraft's velocity was 500 mph.",
+        "exampleVi": "Vận tốc của máy bay là 500 dặm/giờ."
+      },
+      {
+        "word": "temperature",
+        "phonetic": "/ˈtemprətʃər/",
+        "partOfSpeech": "noun",
+        "definition": "The degree or intensity of heat present in a substance or object",
+        "definitionVi": "Nhiệt độ",
+        "example": "The water temperature is 25 degrees Celsius.",
+        "exampleVi": "Nhiệt độ nước là 25 độ C."
+      },
+      {
+        "word": "pressure",
+        "phonetic": "/ˈpreʃər/",
+        "partOfSpeech": "noun",
+        "definition": "The continuous physical force exerted on or against an object by something in contact with it",
+        "definitionVi": "Áp suất",
+        "example": "Check the tire pressure before a long trip.",
+        "exampleVi": "Hãy kiểm tra áp suất lốp trước khi đi xa."
+      },
+      {
+        "word": "capacity",
+        "phonetic": "/kəˈpæsəti/",
+        "partOfSpeech": "noun",
+        "definition": "The maximum amount that something can contain",
+        "definitionVi": "Dung tích/Sức chứa",
+        "example": "The stadium has a seating capacity of 50,000.",
+        "exampleVi": "Sân vận động có sức chứa 50.000 chỗ ngồi."
+      },
+      {
+        "word": "dimension",
+        "phonetic": "/daɪˈmenʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A measurable extent of some kind, such as length, breadth, depth, or height",
+        "definitionVi": "Kích thước/Chiều",
+        "example": "We live in a three-dimensional world.",
+        "exampleVi": "Chúng ta sống trong một thế giới ba chiều."
+      },
+      {
+        "word": "scale",
+        "phonetic": "/skeɪl/",
+        "partOfSpeech": "noun",
+        "definition": "A range of values or a graduated series used for measuring",
+        "definitionVi": "Thang đo/Tỷ lệ",
+        "example": "On a scale of 1 to 10, how do you feel?",
+        "exampleVi": "Trên thang điểm từ 1 đến 10, bạn cảm thấy thế nào?"
+      },
+      {
+        "word": "degree",
+        "phonetic": "/dɪˈɡriː/",
+        "partOfSpeech": "noun",
+        "definition": "A unit of measurement for angles or temperature",
+        "definitionVi": "Độ",
+        "example": "The water is boiling at 100 degrees.",
+        "exampleVi": "Nước đang sôi ở 100 độ."
+      },
+      {
+        "word": "percentage",
+        "phonetic": "/pərˈsentɪdʒ/",
+        "partOfSpeech": "noun",
+        "definition": "A rate, number, or amount in each hundred",
+        "definitionVi": "Tỷ lệ phần trăm",
+        "example": "What percentage of students passed the exam?",
+        "exampleVi": "Tỷ lệ phần trăm học sinh đỗ kỳ thi là bao nhiêu?"
+      },
+      {
+        "word": "ratio",
+        "phonetic": "/ˈreɪʃioʊ/",
+        "partOfSpeech": "noun",
+        "definition": "The quantitative relation between two amounts showing the number of times one value contains or is contained within the other",
+        "definitionVi": "Tỷ lệ",
+        "example": "The ratio of men to women in the class is 1:2.",
+        "exampleVi": "Tỷ lệ nam so với nữ trong lớp là 1:2."
+      },
+      {
+        "word": "average",
+        "phonetic": "/ˈævərɪdʒ/",
+        "partOfSpeech": "noun",
+        "definition": "A number expressing the central or typical value in a set of data",
+        "definitionVi": "Trung bình",
+        "example": "The average height of men in this country is 175 cm.",
+        "exampleVi": "Chiều cao trung bình của nam giới ở đất nước này là 175 cm."
+      },
+      {
+        "word": "maximum",
+        "phonetic": "/ˈmæksɪməm/",
+        "partOfSpeech": "noun",
+        "definition": "The greatest amount, size, or intensity possible or attained",
+        "definitionVi": "Tối đa",
+        "example": "The maximum speed limit is 100 km/h.",
+        "exampleVi": "Tốc độ tối đa cho phép là 100 km/h."
+      },
+      {
+        "word": "minimum",
+        "phonetic": "/ˈmɪnɪməm/",
+        "partOfSpeech": "noun",
+        "definition": "The least or smallest amount or quantity possible, attainable, or required",
+        "definitionVi": "Tối thiểu",
+        "example": "You need a minimum of 50 points to pass.",
+        "exampleVi": "Bạn cần tối thiểu 50 điểm để đỗ."
+      },
+      {
+        "word": "total",
+        "phonetic": "/ˈtoʊtl/",
+        "partOfSpeech": "noun",
+        "definition": "The whole number or amount of something",
+        "definitionVi": "Tổng cộng",
+        "example": "The total cost of the trip was $1000.",
+        "exampleVi": "Tổng chi phí chuyến đi là 1000 đô."
+      },
+      {
+        "word": "symmetry",
+        "phonetic": "/ˈsɪmətri/",
+        "partOfSpeech": "noun",
+        "definition": "The quality of being made up of exactly similar parts facing each other or around an axis",
+        "definitionVi": "Sự đối xứng",
+        "example": "A circle has perfect symmetry.",
+        "exampleVi": "Hình tròn có sự đối xứng hoàn hảo."
+      },
+      {
+        "word": "curve",
+        "phonetic": "/kɜːrv/",
+        "partOfSpeech": "noun",
+        "definition": "A line or outline which gradually deviates from being straight for some or all of its length",
+        "definitionVi": "Đường cong",
+        "example": "The road has a sharp curve ahead.",
+        "exampleVi": "Con đường có một khúc cua gắt phía trước."
+      },
+      {
+        "word": "diagonal",
+        "phonetic": "/daɪˈæɡənl/",
+        "partOfSpeech": "noun",
+        "definition": "A straight line joining two opposite corners of a square, rectangle, or other straight-sided shape",
+        "definitionVi": "Đường chéo",
+        "example": "Draw a diagonal line across the square.",
+        "exampleVi": "Hãy vẽ một đường chéo ngang qua hình vuông."
+      },
+      {
+        "word": "parallel",
+        "phonetic": "/ˈpærəlel/",
+        "partOfSpeech": "adjective",
+        "definition": "Side by side and having the same distance continuously between them",
+        "definitionVi": "Song song",
+        "example": "The two lines are parallel.",
+        "exampleVi": "Hai đường thẳng này song song với nhau."
+      },
+      {
+        "word": "perpendicular",
+        "phonetic": "/ˌpɜːrpənˈdɪkjələr/",
+        "partOfSpeech": "adjective",
+        "definition": "At an angle of 90 degrees to a given line, plane, or surface",
+        "definitionVi": "Vuông góc",
+        "example": "The wall is perpendicular to the floor.",
+        "exampleVi": "Bức tường vuông góc với sàn nhà."
+      },
+      {
+        "word": "horizontal",
+        "phonetic": "/ˌhɔːrɪˈzɑːntl/",
+        "partOfSpeech": "adjective",
+        "definition": "Parallel to the plane of the horizon; at right angles to the vertical",
+        "definitionVi": "Nằm ngang",
+        "example": "Draw a horizontal line.",
+        "exampleVi": "Hãy vẽ một đường nằm ngang."
+      },
+      {
+        "word": "vertical",
+        "phonetic": "/ˈvɜːrtɪkl/",
+        "partOfSpeech": "adjective",
+        "definition": "At right angles to a horizontal plane",
+        "definitionVi": "Thẳng đứng",
+        "example": "The skyscraper has many vertical lines.",
+        "exampleVi": "Tòa nhà chọc trời có nhiều đường thẳng đứng."
+      },
+      {
+        "word": "depth",
+        "phonetic": "/depθ/",
+        "partOfSpeech": "noun",
+        "definition": "The distance from the front to the back of something",
+        "definitionVi": "Chiều sâu",
+        "example": "Measure the depth of the cabinet.",
+        "exampleVi": "Hãy đo chiều sâu của cái tủ."
+      },
+      {
+        "word": "fraction",
+        "phonetic": "/ˈfrækʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A numerical quantity that is not a whole number",
+        "definitionVi": "Phân số/Một phần nhỏ",
+        "example": "Only a fraction of the original forest remains.",
+        "exampleVi": "Chỉ còn một phần nhỏ của khu rừng nguyên sinh."
+      },
+      {
+        "word": "decimal",
+        "phonetic": "/ˈdesɪml/",
+        "partOfSpeech": "noun",
+        "definition": "A fraction whose denominator is a power of ten and whose numerator is expressed by figures placed to the right of a decimal point",
+        "definitionVi": "Số thập phân",
+        "example": "Express the result as a decimal.",
+        "exampleVi": "Hãy biểu diễn kết quả dưới dạng số thập phân."
+      },
+      {
+        "word": "integer",
+        "phonetic": "/ˈɪntɪdʒər/",
+        "partOfSpeech": "noun",
+        "definition": "A whole number; a number that is not a fraction",
+        "definitionVi": "Số nguyên",
+        "example": "Zero is an integer.",
+        "exampleVi": "Số không là một số nguyên."
+      },
+      {
+        "word": "proportion",
+        "phonetic": "/prəˈpɔːrʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A part, share, or number considered in comparative relation to a whole",
+        "definitionVi": "Tỷ lệ",
+        "example": "A large proportion of the students are international.",
+        "exampleVi": "Một tỷ lệ lớn sinh viên là người nước ngoài."
+      }
+    ]
+  },
+  {
+    "name": "Time & Calendar",
+    "nameVi": "Thời gian & Lịch",
+    "description": "Vocabulary for periods of time, calendar dates, and scheduling",
+    "level": "intermediate",
+    "order": 29,
+    "words": [
+      {
+        "word": "century",
+        "phonetic": "/ˈsentʃəri/",
+        "partOfSpeech": "noun",
+        "definition": "A period of one hundred years",
+        "definitionVi": "Thế kỷ",
+        "example": "We are living in the 21st century.",
+        "exampleVi": "Chúng ta đang sống ở thế kỷ 21."
+      },
+      {
+        "word": "decade",
+        "phonetic": "/ˈdekeɪd/",
+        "partOfSpeech": "noun",
+        "definition": "A period of ten years",
+        "definitionVi": "Thập kỷ",
+        "example": "The technology has changed significantly over the last decade.",
+        "exampleVi": "Công nghệ đã thay đổi đáng kể trong thập kỷ qua."
+      },
+      {
+        "word": "annual",
+        "phonetic": "/ˈænjuəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Occurring once every year",
+        "definitionVi": "Hàng năm",
+        "example": "The company holds an annual meeting in December.",
+        "exampleVi": "Công ty tổ chức cuộc họp hàng năm vào tháng 12."
+      },
+      {
+        "word": "biannual",
+        "phonetic": "/baɪˈænjuəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Occurring twice a year",
+        "definitionVi": "Hai lần mỗi năm",
+        "example": "The magazine is published on a biannual basis.",
+        "exampleVi": "Tạp chí được xuất bản hai lần một năm."
+      },
+      {
+        "word": "fortnight",
+        "phonetic": "/ˈfɔːrtnaɪt/",
+        "partOfSpeech": "noun",
+        "definition": "A period of two weeks",
+        "definitionVi": "Nửa tháng/Hai tuần",
+        "example": "We went on holiday for a fortnight.",
+        "exampleVi": "Chúng tôi đã đi nghỉ trong hai tuần."
+      },
+      {
+        "word": "quarter",
+        "phonetic": "/ˈkwɔːrtər/",
+        "partOfSpeech": "noun",
+        "definition": "Each of four equal or corresponding parts into which something is or can be divided",
+        "definitionVi": "Quý/Một phần tư",
+        "example": "Sales increased in the third quarter of the year.",
+        "exampleVi": "Doanh số bán hàng tăng trong quý ba của năm."
+      },
+      {
+        "word": "schedule",
+        "phonetic": "/ˈskedʒuːl/",
+        "partOfSpeech": "noun",
+        "definition": "A plan for carrying out a process or procedure, giving lists of intended events and times",
+        "definitionVi": "Lịch trình",
+        "example": "I have a very busy schedule today.",
+        "exampleVi": "Tôi có một lịch trình rất bận rộn ngày hôm nay."
+      },
+      {
+        "word": "duration",
+        "phonetic": "/duˈreɪʃn/",
+        "partOfSpeech": "noun",
+        "definition": "The time during which something continues",
+        "definitionVi": "Thời lượng/Khoảng thời gian",
+        "example": "The duration of the flight is about three hours.",
+        "exampleVi": "Thời lượng của chuyến bay là khoảng ba giờ."
+      },
+      {
+        "word": "era",
+        "phonetic": "/ˈɪrə/",
+        "partOfSpeech": "noun",
+        "definition": "A long and distinct period of history with a particular feature or characteristic",
+        "definitionVi": "Kỷ nguyên/Thời đại",
+        "example": "The Victorian era was a time of great change.",
+        "exampleVi": "Thời đại Victoria là một thời kỳ có nhiều thay đổi lớn."
+      },
+      {
+        "word": "millennium",
+        "phonetic": "/mɪˈleniəm/",
+        "partOfSpeech": "noun",
+        "definition": "A period of a thousand years",
+        "definitionVi": "Thiên niên kỷ",
+        "example": "The celebration marked the beginning of the new millennium.",
+        "exampleVi": "Cuộc ăn mừng đánh dấu sự khởi đầu của thiên niên kỷ mới."
+      },
+      {
+        "word": "dawn",
+        "phonetic": "/dɔːn/",
+        "partOfSpeech": "noun",
+        "definition": "The first appearance of light in the sky before sunrise",
+        "definitionVi": "Bình minh",
+        "example": "They woke up at dawn to start their journey.",
+        "exampleVi": "Họ thức dậy lúc bình minh để bắt đầu hành trình."
+      },
+      {
+        "word": "dusk",
+        "phonetic": "/dʌsk/",
+        "partOfSpeech": "noun",
+        "definition": "The darker stage of twilight",
+        "definitionVi": "Hoàng hôn",
+        "example": "The birds return to their nests at dusk.",
+        "exampleVi": "Lũ chim quay về tổ lúc hoàng hôn."
+      },
+      {
+        "word": "noon",
+        "phonetic": "/nuːn/",
+        "partOfSpeech": "noun",
+        "definition": "Twelve o'clock in the day; midday",
+        "definitionVi": "Trưa/Chính ngọ",
+        "example": "The sun is highest at noon.",
+        "exampleVi": "Mặt trời cao nhất vào buổi trưa."
+      },
+      {
+        "word": "midnight",
+        "phonetic": "/ˈmɪdnaɪt/",
+        "partOfSpeech": "noun",
+        "definition": "Twelve o'clock at night",
+        "definitionVi": "Nửa đêm",
+        "example": "The party didn't end until after midnight.",
+        "exampleVi": "Bữa tiệc mãi đến sau nửa đêm mới kết thúc."
+      },
+      {
+        "word": "postpone",
+        "phonetic": "/poʊˈspoʊn/",
+        "partOfSpeech": "verb",
+        "definition": "Cause or arrange for something to take place at a time later than that first scheduled",
+        "definitionVi": "Hoãn lại",
+        "example": "The match was postponed due to rain.",
+        "exampleVi": "Trận đấu bị hoãn lại do trời mưa."
+      },
+      {
+        "word": "delay",
+        "phonetic": "/dɪˈleɪ/",
+        "partOfSpeech": "verb",
+        "definition": "Make someone or something late or slow",
+        "definitionVi": "Làm chậm trễ",
+        "example": "The flight was delayed by two hours.",
+        "exampleVi": "Chuyến bay bị chậm hai tiếng."
+      },
+      {
+        "word": "punctual",
+        "phonetic": "/ˈpʌŋktʃuəl/",
+        "partOfSpeech": "adjective",
+        "definition": "Happening or doing something at the agreed or proper time; on time",
+        "definitionVi": "Đúng giờ",
+        "example": "Please be punctual for the meeting.",
+        "exampleVi": "Làm ơn hãy đi họp đúng giờ."
+      },
+      {
+        "word": "overdue",
+        "phonetic": "/ˌoʊvərˈduː/",
+        "partOfSpeech": "adjective",
+        "definition": "Not having arrived, happened, or been done by the expected time",
+        "definitionVi": "Quá hạn",
+        "example": "The library books are overdue.",
+        "exampleVi": "Sách thư viện đã quá hạn."
+      },
+      {
+        "word": "leap year",
+        "phonetic": "/ˈliːp jɪr/",
+        "partOfSpeech": "noun",
+        "definition": "A year, occurring once every four years, that has 366 days",
+        "definitionVi": "Năm nhuận",
+        "example": "2024 is a leap year.",
+        "exampleVi": "2024 là một năm nhuận."
+      },
+      {
+        "word": "weekday",
+        "phonetic": "/ˈwiːkdeɪ/",
+        "partOfSpeech": "noun",
+        "definition": "Any day of the week except Sunday and typically Saturday",
+        "definitionVi": "Ngày trong tuần",
+        "example": "I work from Monday to Friday, which are my weekdays.",
+        "exampleVi": "Tôi làm việc từ thứ Hai đến thứ Sáu, đó là các ngày trong tuần của tôi."
+      },
+      {
+        "word": "weekend",
+        "phonetic": "/ˈwiːkend/",
+        "partOfSpeech": "noun",
+        "definition": "Saturday and Sunday",
+        "definitionVi": "Cuối tuần",
+        "example": "What are your plans for the weekend?",
+        "exampleVi": "Kế hoạch cuối tuần của bạn là gì?"
+      },
+      {
+        "word": "fortnightly",
+        "phonetic": "/ˈfɔːrtnaɪtli/",
+        "partOfSpeech": "adjective",
+        "definition": "Happening or produced every two weeks",
+        "definitionVi": "Hai tuần một lần",
+        "example": "The staff meetings are held fortnightly.",
+        "exampleVi": "Các cuộc họp nhân viên được tổ chức hai tuần một lần."
+      },
+      {
+        "word": "monthly",
+        "phonetic": "/ˈmʌnθli/",
+        "partOfSpeech": "adjective",
+        "definition": "Done, produced, or occurring once a month",
+        "definitionVi": "Hàng tháng",
+        "example": "I pay my rent on a monthly basis.",
+        "exampleVi": "Tôi trả tiền thuê nhà hàng tháng."
+      },
+      {
+        "word": "weekly",
+        "phonetic": "/ˈwiːkli/",
+        "partOfSpeech": "adjective",
+        "definition": "Done, produced, or occurring once a week",
+        "definitionVi": "Hàng tuần",
+        "example": "The magazine is published weekly.",
+        "exampleVi": "Tạp chí được xuất bản hàng tuần."
+      },
+      {
+        "word": "daily",
+        "phonetic": "/ˈdeɪli/",
+        "partOfSpeech": "adjective",
+        "definition": "Done, produced, or occurring every day",
+        "definitionVi": "Hàng ngày",
+        "example": "Exercise should be a daily habit.",
+        "exampleVi": "Tập thể dục nên là một thói quen hàng ngày."
+      },
+      {
+        "word": "century",
+        "phonetic": "/ˈsentʃəri/",
+        "partOfSpeech": "noun",
+        "definition": "A period of one hundred years",
+        "definitionVi": "Thế kỷ",
+        "example": "Many changes occurred in the last century.",
+        "exampleVi": "Nhiều thay đổi đã xảy ra trong thế kỷ qua."
+      },
+      {
+        "word": "moment",
+        "phonetic": "/ˈmoʊmənt/",
+        "partOfSpeech": "noun",
+        "definition": "A very brief period of time",
+        "definitionVi": "Khoảnh khắc/Giây lát",
+        "example": "Wait a moment, please.",
+        "exampleVi": "Vui lòng chờ một lát."
+      },
+      {
+        "word": "instant",
+        "phonetic": "/ˈɪnstənt/",
+        "partOfSpeech": "noun",
+        "definition": "A precise moment of time",
+        "definitionVi": "Ngay lập tức/Sát na",
+        "example": "For an instant, I forgot where I was.",
+        "exampleVi": "Trong một khoảnh khắc, tôi đã quên mất mình đang ở đâu."
+      },
+      {
+        "word": "past",
+        "phonetic": "/pæst/",
+        "partOfSpeech": "noun",
+        "definition": "The time or a period of time before the moment of speaking or writing",
+        "definitionVi": "Quá khứ",
+        "example": "In the past, people traveled by horse.",
+        "exampleVi": "Trong quá khứ, con người đi lại bằng ngựa."
+      },
+      {
+        "word": "present",
+        "phonetic": "/ˈpreznt/",
+        "partOfSpeech": "noun",
+        "definition": "The period of time now occurring",
+        "definitionVi": "Hiện tại",
+        "example": "Live in the present, not in the past.",
+        "exampleVi": "Hãy sống cho hiện tại, đừng sống trong quá khứ."
+      },
+      {
+        "word": "future",
+        "phonetic": "/ˈfjuːtʃər/",
+        "partOfSpeech": "noun",
+        "definition": "The time or a period of time following the moment of speaking or writing",
+        "definitionVi": "Tương lai",
+        "example": "Who knows what the future will bring?",
+        "exampleVi": "Ai biết được tương lai sẽ mang lại điều gì?"
+      },
+      {
+        "word": "eternal",
+        "phonetic": "/ɪˈtɜːrnl/",
+        "partOfSpeech": "adjective",
+        "definition": "Lasting or existing forever",
+        "definitionVi": "Vĩnh cửu",
+        "example": "The search for eternal youth continues.",
+        "exampleVi": "Cuộc tìm kiếm sự trẻ trung vĩnh cửu vẫn tiếp tục."
+      },
+      {
+        "word": "temporary",
+        "phonetic": "/ˈtempəreri/",
+        "partOfSpeech": "adjective",
+        "definition": "Lasting for only a limited period of time; not permanent",
+        "definitionVi": "Tạm thời",
+        "example": "This is just a temporary solution.",
+        "exampleVi": "Đây chỉ là một giải pháp tạm thời."
+      },
+      {
+        "word": "permanent",
+        "phonetic": "/ˈpɜːrmənənt/",
+        "partOfSpeech": "adjective",
+        "definition": "Lasting or intended to last or remain unchanged indefinitely",
+        "definitionVi": "Vĩnh viễn/Cố định",
+        "example": "She is looking for a permanent job.",
+        "exampleVi": "Cô ấy đang tìm một công việc ổn định."
+      },
+      {
+        "word": "chronological",
+        "phonetic": "/ˌkrɑːnəˈlɑːdʒɪkl/",
+        "partOfSpeech": "adjective",
+        "definition": "Starting with the earliest and following the order in which they occurred",
+        "definitionVi": "Theo thứ tự thời gian",
+        "example": "The events are listed in chronological order.",
+        "exampleVi": "Các sự kiện được liệt kê theo thứ tự thời gian."
+      },
+      {
+        "word": "contemporary",
+        "phonetic": "/kənˈtempəreri/",
+        "partOfSpeech": "adjective",
+        "definition": "Living or occurring at the same time",
+        "definitionVi": "Đương đại/Cùng thời",
+        "example": "He is a contemporary composer.",
+        "exampleVi": "Ông ấy là một nhà soạn nhạc đương đại."
+      },
+      {
+        "word": "ancient",
+        "phonetic": "/ˈeɪnʃənt/",
+        "partOfSpeech": "adjective",
+        "definition": "Belonging to the very distant past and no longer in existence",
+        "definitionVi": "Cổ đại",
+        "example": "Rome is an ancient city.",
+        "exampleVi": "Rome là một thành phố cổ đại."
+      },
+      {
+        "word": "modern",
+        "phonetic": "/ˈmɑːdərn/",
+        "partOfSpeech": "adjective",
+        "definition": "Relating to the present or recent times",
+        "definitionVi": "Hiện đại",
+        "example": "Modern technology has changed our lives.",
+        "exampleVi": "Công nghệ hiện đại đã thay đổi cuộc sống của chúng ta."
+      },
+      {
+        "word": "simultaneous",
+        "phonetic": "/ˌsaɪmlˈteɪniəs/",
+        "partOfSpeech": "adjective",
+        "definition": "Occurring, operating, or done at the same time",
+        "definitionVi": "Đồng thời",
+        "example": "The broadcast was simultaneous on TV and radio.",
+        "exampleVi": "Buổi phát sóng diễn ra đồng thời trên TV và radio."
+      },
+      {
+        "word": "consecutive",
+        "phonetic": "/kənˈsekjətɪv/",
+        "partOfSpeech": "adjective",
+        "definition": "Following each other continuously",
+        "definitionVi": "Liên tiếp",
+        "example": "It rained for three consecutive days.",
+        "exampleVi": "Trời mưa trong ba ngày liên tiếp."
+      },
+      {
+        "word": "span",
+        "phonetic": "/spæn/",
+        "partOfSpeech": "noun",
+        "definition": "The full extent of something from end to end",
+        "definitionVi": "Khoảng (thời gian)",
+        "example": "The average life span of a dog is 12 years.",
+        "exampleVi": "Tuổi thọ trung bình của một con chó là 12 năm."
+      },
+      {
+        "word": "phase",
+        "phonetic": "/feɪz/",
+        "partOfSpeech": "noun",
+        "definition": "A distinct period or stage in a series of events or a process of change or development",
+        "definitionVi": "Giai đoạn",
+        "example": "The project is in its final phase.",
+        "exampleVi": "Dự án đang ở giai đoạn cuối."
+      },
+      {
+        "word": "interval",
+        "phonetic": "/ˈɪntərvl/",
+        "partOfSpeech": "noun",
+        "definition": "An intervening time or space",
+        "definitionVi": "Khoảng nghỉ/Khoảng cách thời gian",
+        "example": "There was a short interval between the two acts of the play.",
+        "exampleVi": "Có một khoảng nghỉ ngắn giữa hai hồi của vở kịch."
+      },
+      {
+        "word": "session",
+        "phonetic": "/ˈseʃn/",
+        "partOfSpeech": "noun",
+        "definition": "A period devoted to a particular activity",
+        "definitionVi": "Phiên/Buổi",
+        "example": "The training session lasted all morning.",
+        "exampleVi": "Buổi đào tạo kéo dài cả buổi sáng."
+      },
+      {
+        "word": "timeline",
+        "phonetic": "/ˈtaɪmlaɪn/",
+        "partOfSpeech": "noun",
+        "definition": "A graphic representation of a passage of time as a line",
+        "definitionVi": "Dòng thời gian",
+        "example": "Create a timeline of the history of flight.",
+        "exampleVi": "Hãy tạo một dòng thời gian về lịch sử ngành hàng không."
+      },
+      {
+        "word": "agenda",
+        "phonetic": "/əˈdʒendə/",
+        "partOfSpeech": "noun",
+        "definition": "A list of items to be discussed at a formal meeting",
+        "definitionVi": "Chương trình/Lịch trình nghị sự",
+        "example": "What's on the agenda for today's meeting?",
+        "exampleVi": "Trong chương trình họp hôm nay có gì?"
+      },
+      {
+        "word": "deadline",
+        "phonetic": "/ˈdedlaɪn/",
+        "partOfSpeech": "noun",
+        "definition": "The latest time or date by which something should be completed",
+        "definitionVi": "Hạn chót",
+        "example": "The deadline for the project is Friday.",
+        "exampleVi": "Hạn chót cho dự án là thứ Sáu."
+      },
+      {
+        "word": "appointment",
+        "phonetic": "/əˈpɔɪntmənt/",
+        "partOfSpeech": "noun",
+        "definition": "An arrangement to meet someone at a particular time and place",
+        "definitionVi": "Cuộc hẹn",
+        "example": "I have a doctor's appointment at 3 PM.",
+        "exampleVi": "Tôi có một cuộc hẹn với bác sĩ lúc 3 giờ chiều."
+      },
+      {
+        "word": "priority",
+        "phonetic": "/praɪˈɔːrəti/",
+        "partOfSpeech": "noun",
+        "definition": "The fact or condition of being regarded or treated as more important than others",
+        "definitionVi": "Sự ưu tiên",
+        "example": "Our top priority is customer satisfaction.",
+        "exampleVi": "Ưu tiên hàng đầu của chúng tôi là sự hài lòng của khách hàng."
+      },
+      {
+        "word": "milestone",
+        "phonetic": "/ˈmaɪlstoʊn/",
+        "partOfSpeech": "noun",
+        "definition": "An action or event marking a significant change or stage in development",
+        "definitionVi": "Cột mốc",
+        "example": "Graduating from university is a major milestone.",
+        "exampleVi": "Tốt nghiệp đại học là một cột mốc quan trọng."
+      }
+    ]
+  }
+]

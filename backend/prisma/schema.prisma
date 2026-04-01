@@ -1,0 +1,113 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String         @id @default(cuid())
+  name          String?
+  email         String         @unique
+  password      String
+  image         String?
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+  progress      Progress[]
+  conversations Conversation[]
+}
+
+model VocabularyTopic {
+  id          String @id @default(cuid())
+  name        String
+  nameVi      String?
+  description String?
+  level       String // beginner, intermediate, advanced
+  imageUrl    String?
+  order       Int    @default(0)
+  words       Word[]
+  createdAt   DateTime @default(now())
+}
+
+model Word {
+  id           String          @id @default(cuid())
+  word         String
+  phonetic     String?
+  partOfSpeech String
+  definition   String
+  definitionVi String?
+  example      String?
+  exampleVi    String?
+  imageUrl     String?
+  audioUrl     String?
+  topicId      String
+  topic        VocabularyTopic @relation(fields: [topicId], references: [id], onDelete: Cascade)
+  progress     Progress[]
+}
+
+model Progress {
+  id          String   @id @default(cuid())
+  userId      String
+  wordId      String
+  easeFactor  Float    @default(2.5)
+  interval    Int      @default(0)
+  repetitions Int      @default(0)
+  nextReview  DateTime @default(now())
+  lastQuality Int      @default(0)
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  word        Word     @relation(fields: [wordId], references: [id], onDelete: Cascade)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@unique([userId, wordId])
+}
+
+model Conversation {
+  id        String    @id @default(cuid())
+  userId    String?
+  topic     String
+  scenario  String?
+  messages  Message[]
+  score     Float?
+  user      User?     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  createdAt DateTime  @default(now())
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  role           String // user, assistant
+  content        String
+  audioUrl       String?
+  pronunciation  Float?
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  createdAt      DateTime     @default(now())
+}
+
+model ListeningLesson {
+  id          String @id @default(cuid())
+  title       String
+  titleVi     String?
+  level       String
+  audioUrl    String
+  transcript  String
+  blanks      String // JSON string: [{position, answer, hint}]
+  translation String?
+  order       Int    @default(0)
+  createdAt   DateTime @default(now())
+}
+
+model GrammarLesson {
+  id        String @id @default(cuid())
+  title     String
+  titleVi   String?
+  level     String
+  category  String // basic, structures, conversational
+  content   String // Markdown content
+  examples  String // JSON string: [{english, vietnamese, explanation}]
+  exercises String // JSON string: [{type, question, options, answer}]
+  order     Int    @default(0)
+  createdAt DateTime @default(now())
+}
