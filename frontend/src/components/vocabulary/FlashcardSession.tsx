@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils';
 import FlashCard from '@/components/vocabulary/FlashCard';
 import { updateProgress } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
-import { useSpeechRecognition } from '@/hooks/useSpeechRecognition';
+import { useSpeechRecognition, type SpeechRecognitionResult } from '@/hooks/useSpeechRecognition';
 import type { Word } from '@/types';
 import { ChevronLeft, ArrowRight, Mic, CheckCircle2, AlertCircle, Square, Check, X } from 'lucide-react';
 
@@ -36,11 +36,7 @@ export default function FlashcardSession({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [animationClass, setAnimationClass] = useState('');
-  const [pronunciationResult, setPronunciationResult] = useState<{
-    transcript: string;
-    isCorrect: boolean;
-    score: number;
-  } | null>(null);
+  const [pronunciationResult, setPronunciationResult] = useState<SpeechRecognitionResult | null>(null);
 
   const { speak } = useSpeechSynthesis();
   const { isRecording, startRecording, stopRecording, isSupported } = useSpeechRecognition();
@@ -215,18 +211,39 @@ export default function FlashcardSession({
                     {pronunciationResult && (
                       <div className="w-full animate-in fade-in slide-in-from-bottom-2 duration-500 mt-2">
                         <div className={cn(
-                          "flex items-start gap-3 p-4 rounded-2xl",
+                          "flex flex-col gap-3 p-4 rounded-2xl",
                           pronunciationResult.isCorrect ? "bg-green-500/10 text-green-700" : "bg-orange-500/10 text-orange-700"
                         )}>
-                          {pronunciationResult.isCorrect ? <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" /> : <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />}
-                          <div>
-                            <p className="font-black text-sm leading-tight mb-1 uppercase tracking-tight">
-                              {pronunciationResult.isCorrect ? "Rất tốt! Chính xác" : "Hãy thử lại nhé!"}
-                            </p>
-                            <p className="text-xs font-medium opacity-80">
-                              Nhận diện: <span className="underline decoration-2 underline-offset-4 font-bold tracking-tight">"{pronunciationResult.transcript || "..."}"</span>
-                            </p>
+                          <div className="flex items-start gap-3">
+                            {pronunciationResult.isCorrect ? <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" /> : <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />}
+                            <div>
+                              <p className="font-black text-sm leading-tight mb-1 uppercase tracking-tight">
+                                {pronunciationResult.isCorrect ? "Rất tốt! Chính xác" : "Hãy thử lại nhé!"}
+                              </p>
+                              <p className="text-xs font-medium opacity-80">
+                                Nhận diện: <span className="underline decoration-2 underline-offset-4 font-bold tracking-tight">"{pronunciationResult.transcript || "..."}"</span>
+                              </p>
+                            </div>
                           </div>
+
+                          {/* Word-level feedback */}
+                          {pronunciationResult.segments && (
+                            <div className="flex flex-wrap gap-1.5 mt-1 pt-3 border-t border-current/10">
+                              {pronunciationResult.segments.map((seg, idx) => (
+                                <span 
+                                  key={idx}
+                                  className={cn(
+                                    "px-2 py-0.5 rounded-md text-sm font-bold border",
+                                    seg.isCorrect 
+                                      ? "bg-green-500 text-white border-green-600 shadow-sm" 
+                                      : "bg-red-500 text-white border-red-600 shadow-sm animate-pulse"
+                                  )}
+                                >
+                                  {seg.word}
+                                </span>
+                              ))}
+                            </div>
+                          )}
                         </div>
                       </div>
                     )}

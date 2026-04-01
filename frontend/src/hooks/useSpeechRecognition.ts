@@ -2,20 +2,42 @@
 
 import { useState, useRef, useCallback } from 'react';
 
+export interface SpeechResultSegment {
+  word: string;
+  isCorrect: boolean;
+}
+
 export interface SpeechRecognitionResult {
   transcript: string;
   isCorrect: boolean;
   score: number; // 0-100
+  segments?: SpeechResultSegment[];
+}
+
+function normalize(s: string) {
+  return s.toLowerCase().trim().replace(/[^a-z0-9\s]/g, '');
+}
+
+function diffWords(transcript: string, target: string): SpeechResultSegment[] {
+  const tWords = normalize(transcript).split(/\s+/);
+  const targetWords = target.split(/\s+/);
+  
+  return targetWords.map(targetWord => {
+    const normalizedTarget = normalize(targetWord);
+    // Simple matching: if the word exists in the transcript, count as correct
+    const isCorrect = tWords.some(tw => tw === normalizedTarget);
+    return {
+      word: targetWord,
+      isCorrect
+    };
+  });
 }
 
 function similarityScore(a: string, b: string): number {
-  const normalize = (s: string) => s.toLowerCase().trim().replace(/[^a-z\s]/g, '');
   const na = normalize(a);
   const nb = normalize(b);
   if (na === nb) return 100;
-  // Simple character-level similarity
   const longer = na.length > nb.length ? na : nb;
-  const shorter = na.length > nb.length ? nb : na;
   if (longer.length === 0) return 100;
   const editDistance = levenshtein(na, nb);
   return Math.round(((longer.length - editDistance) / longer.length) * 100);
@@ -44,7 +66,7 @@ function levenshtein(a: string, b: string): number {
 export function useSpeechRecognition() {
   const [isRecording, setIsRecording] = useState(false);
   const [isSupported, setIsSupported] = useState<boolean | null>(null);
-  const recognitionRef = useRef<SpeechRecognition | null>(null);
+  const recognitionRef = useRef<any>(null);
 
   const checkSupport = useCallback(() => {
     if (isSupported !== null) return isSupported;
@@ -62,14 +84,12 @@ export function useSpeechRecognition() {
         return;
       }
 
-      // Stop any existing session
       if (recognitionRef.current) {
         recognitionRef.current.abort();
       }
 
       const SpeechRecognitionAPI =
-        (window as typeof window & { SpeechRecognition?: typeof SpeechRecognition; webkitSpeechRecognition?: typeof SpeechRecognition }).SpeechRecognition ||
-        (window as typeof window & { webkitSpeechRecognition?: typeof SpeechRecognition }).webkitSpeechRecognition;
+        (window as any).SpeechRecognition || (window as any).webkitSpeechRecognition;
 
       if (!SpeechRecognitionAPI) return;
 
@@ -82,18 +102,26 @@ export function useSpeechRecognition() {
       recognitionRef.current = recognition;
       setIsRecording(true);
 
-      recognition.onresult = (event) => {
+      recognition.onresult = (event: any) => {
         const results = Array.from({ length: event.results[0].length }, (_, i) =>
           event.results[0][i].transcript,
         );
-        // Pick the result closest to the target word
+        
         let best = { transcript: results[0], score: 0 };
         for (const transcript of results) {
           const score = similarityScore(transcript, targetWord);
           if (score > best.score) best = { transcript, score };
         }
+        
         const isCorrect = best.score >= 70;
-        onResult({ transcript: best.transcript, isCorrect, score: best.score });
+        const segments = diffWords(best.transcript, targetWord);
+        
+        onResult({ 
+          transcript: best.transcript, 
+          isCorrect, 
+          score: best.score,
+          segments
+        });
         setIsRecording(false);
       };
 
