@@ -25,11 +25,15 @@ import { cn } from '@/lib/utils';
 export default function ProfilePage() {
   const [stats, setStats] = useState<ProfileStats | null>(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
     getProfileStats()
       .then(setStats)
-      .catch(console.error)
+      .catch((err) => {
+        console.error(err);
+        setError('Không thể tải thông tin cá nhân. Vui lòng thử lại sau.');
+      })
       .finally(() => setLoading(false));
   }, []);
 
@@ -37,22 +41,32 @@ export default function ProfilePage() {
     return (
       <div className="max-w-7xl mx-auto px-4 py-12">
         <div className="animate-pulse space-y-8">
-          <div className="flex items-center gap-6">
-            <div className="w-24 h-24 bg-muted rounded-full" />
-            <div className="space-y-2">
-              <div className="h-8 bg-muted rounded w-48" />
-              <div className="h-4 bg-muted rounded w-64" />
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="w-32 h-32 bg-muted rounded-full" />
+            <div className="space-y-3 flex-1">
+              <div className="h-10 bg-muted rounded w-64 mx-auto md:mx-0" />
+              <div className="h-4 bg-muted rounded w-48 mx-auto md:mx-0" />
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map(i => <div key={i} className="h-32 bg-muted rounded-xl" />)}
+            {[1, 2, 3].map(i => <div key={i} className="h-32 bg-muted rounded-2xl" />)}
           </div>
         </div>
       </div>
     );
   }
 
-  if (!stats) return null;
+  if (error || !stats || !stats.user) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-24 text-center">
+        <div className="bg-red-50 text-red-600 p-6 rounded-2xl inline-block max-w-md">
+          <p className="font-bold mb-4">{error || 'Đã có lỗi xảy ra'}</p>
+          <Button onClick={() => window.location.reload()}>Thử lại</Button>
+          <ButtonLink href="/" variant="outline" className="ml-2">Trở về trang chủ</ButtonLink>
+        </div>
+      </div>
+    );
+  }
 
   const { user, vocabulary, ongoingLessons } = stats;
 

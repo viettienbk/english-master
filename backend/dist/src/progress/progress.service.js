@@ -155,6 +155,9 @@ let ProgressService = class ProgressService {
             where: { id: userId },
             select: { name: true, email: true, image: true, createdAt: true },
         });
+        if (!user) {
+            throw new Error('User not found');
+        }
         const ongoingLessons = await this.getOngoingLessons(userId);
         return {
             user,

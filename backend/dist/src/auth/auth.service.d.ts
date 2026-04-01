@@ -11,23 +11,23 @@ export declare class AuthService {
         picture: string;
     }): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         name: string | null;
         email: string;
         password: string;
         image: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     }>;
     login(user: any): Promise<{
         access_token: string;
     }>;
     findUserById(id: string): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         name: string | null;
         email: string;
         password: string;
         image: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     } | null>;
 }

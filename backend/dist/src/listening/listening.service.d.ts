@@ -5,26 +5,26 @@ export declare class ListeningService {
     getLessons(level?: string): Promise<{
         id: string;
         createdAt: Date;
+        level: string;
+        order: number;
         audioUrl: string;
         title: string;
         titleVi: string | null;
-        level: string;
         transcript: string;
         blanks: string;
         translation: string | null;
-        order: number;
     }[]>;
     getLessonById(id: string): Promise<{
         id: string;
         createdAt: Date;
+        level: string;
+        order: number;
         audioUrl: string;
         title: string;
         titleVi: string | null;
-        level: string;
         transcript: string;
         blanks: string;
         translation: string | null;
-        order: number;
     } | null>;
     checkAnswers(blanks: {
         position: number;

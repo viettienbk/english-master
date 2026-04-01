@@ -89,7 +89,7 @@ export declare class ProgressController {
             name: string | null;
             email: string;
             image: string | null;
-        } | null;
+        };
         vocabulary: {
             total: number;
             learned: number;

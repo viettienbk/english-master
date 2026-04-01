@@ -13,11 +13,11 @@ export declare class ConversationService {
     startConversation(topicId: string, userId?: string): Promise<{
         conversation: {
             id: string;
-            userId: string | null;
             createdAt: Date;
             topic: string;
-            score: number | null;
             scenario: string | null;
+            score: number | null;
+            userId: string | null;
         };
         message: string;
     }>;
@@ -36,10 +36,10 @@ export declare class ConversationService {
         }[];
     } & {
         id: string;
-        userId: string | null;
         createdAt: Date;
         topic: string;
-        score: number | null;
         scenario: string | null;
+        score: number | null;
+        userId: string | null;
     }) | null>;
 }

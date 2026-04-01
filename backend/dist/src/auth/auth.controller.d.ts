@@ -9,11 +9,11 @@ export declare class AuthController {
     googleAuthRedirect(req: any, res: Response): Promise<void>;
     getProfile(req: any): Promise<{
         id: string;
-        createdAt: Date;
-        updatedAt: Date;
         name: string | null;
         email: string;
         password: string;
         image: string | null;
+        createdAt: Date;
+        updatedAt: Date;
     } | null>;
 }
