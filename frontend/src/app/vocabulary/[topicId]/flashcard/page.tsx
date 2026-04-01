@@ -48,13 +48,13 @@ export default function FlashcardPage() {
   }, [currentIndex]);
 
   const nextCard = useCallback(() => {
-    if (topic && currentIndex < topic.words.length - 1) {
+    if (topic?.words && currentIndex < topic.words.length - 1) {
       setCurrentIndex(currentIndex + 1);
     }
   }, [currentIndex, topic]);
 
   const handleAssess = (quality: number) => {
-    if (!topic) return;
+    if (!topic || !topic.words) return;
     const currentWord = topic.words[currentIndex];
     updateProgress(currentWord.id, quality).catch(console.error);
 
@@ -66,9 +66,9 @@ export default function FlashcardPage() {
     }
 
     setTimeout(() => {
-      if (currentIndex < topic.words.length - 1) {
+      if (topic.words && currentIndex < topic.words.length - 1) {
         nextCard();
-      } else {
+      } else if (topic.words) {
         // Just set final state if it's the last card
         setAnimationClass('');
         setCurrentIndex(topic.words.length); // Trigger finish state
@@ -82,11 +82,13 @@ export default function FlashcardPage() {
       return;
     }
     setPronunciationResult(null);
-    if (!topic) return;
+    if (!topic || !topic.words) return;
     startRecording(topic.words[currentIndex].word, (result) => {
       setPronunciationResult(result);
       const quality = Math.round(result.score / 20); 
-      updateProgress(topic.words[currentIndex].id, quality).catch(console.error);
+      if (topic.words) {
+        updateProgress(topic.words[currentIndex].id, quality).catch(console.error);
+      }
     });
   };
 
