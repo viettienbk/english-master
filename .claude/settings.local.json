@@ -3,7 +3,8 @@
     "allow": [
       "WebFetch(domain:www.voca.vn)",
       "Bash(npm uninstall:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(curl -s \"http://localhost:3001/api/listening/translate?word=hello&context=hello+world\")"
     ]
   }
 }

@@ -31,6 +31,10 @@ async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> 
     const text = await res.text();
     return text ? JSON.parse(text) : {} as T;
   } catch (error: any) {
+    if (error.name === 'TypeError' && error.message === 'Failed to fetch') {
+      console.error(`Network error or Mixed Content blocked: ${url}. Check if API server is running and accessible via ${url.startsWith('https') ? 'HTTPS' : 'HTTP'}.`);
+      throw new Error('Không thể kết nối đến máy chủ API. Vui lòng kiểm tra kết nối mạng hoặc cấu hình ứng dụng.');
+    }
     console.error(`Fetch error at ${url}:`, error);
     throw error;
   }

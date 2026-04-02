@@ -1,7 +1,13 @@
 import { PrismaService } from '../prisma/prisma.service';
 export declare class ListeningService {
     private prisma;
+    private readonly genAI;
+    private readonly translateCache;
     constructor(prisma: PrismaService);
+    translateWord(word: string, context: string): Promise<{
+        translation: string;
+        partOfSpeech: string;
+    }>;
     getLessons(level?: string): Promise<{
         id: string;
         createdAt: Date;

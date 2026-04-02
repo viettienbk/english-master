@@ -12,10 +12,38 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.ListeningService = void 0;
 const common_1 = require("@nestjs/common");
 const prisma_service_1 = require("../prisma/prisma.service");
+const generative_ai_1 = require("@google/generative-ai");
 let ListeningService = class ListeningService {
     prisma;
+    genAI;
+    translateCache = new Map();
     constructor(prisma) {
         this.prisma = prisma;
+        this.genAI = new generative_ai_1.GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
+    }
+    async translateWord(word, context) {
+        const cacheKey = `${word.toLowerCase()}|${context.toLowerCase().slice(0, 80)}`;
+        if (this.translateCache.has(cacheKey)) {
+            return this.translateCache.get(cacheKey);
+        }
+        const model = this.genAI.getGenerativeModel({
+            model: 'gemini-2.0-flash-lite',
+            generationConfig: { responseMimeType: 'application/json', temperature: 0.1 },
+        });
+        const prompt = `Translate the English word "${word}" used in this sentence: "${context}"
+Return ONLY a JSON object:
+{
+  "translation": "<Vietnamese translation>",
+  "partOfSpeech": "<one of: danh từ | động từ | tính từ | trạng từ | giới từ | liên từ | đại từ | thán từ>"
+}`;
+        const result = await model.generateContent(prompt);
+        const parsed = JSON.parse(result.response.text());
+        const data = {
+            translation: parsed.translation ?? word,
+            partOfSpeech: parsed.partOfSpeech ?? '',
+        };
+        this.translateCache.set(cacheKey, data);
+        return data;
     }
     async getLessons(level) {
         const where = level ? { level } : {};

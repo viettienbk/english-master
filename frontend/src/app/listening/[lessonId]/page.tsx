@@ -13,6 +13,7 @@ import { getListeningLessonById, checkListeningAnswers, updateLessonProgress } f
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
 import type { ListeningLesson, ListeningBlank, CheckResult } from '@/types';
 import ProtectedRoute from '@/components/auth/ProtectedRoute';
+import WordTooltip from '@/components/listening/WordTooltip';
 import { 
   ChevronLeft, 
   Play, 
@@ -39,15 +40,20 @@ export default function ListeningLessonPage() {
   const [showTranslation, setShowTranslation] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
   const { speak } = useSpeechSynthesis();
+useEffect(() => {
+  if (!lessonId) return;
+  getListeningLessonById(lessonId)
+    .then((data) => {
+      setLesson(data);
+      // Mark as ongoing when started
+      updateLessonProgress(lessonId, 'listening', 'ongoing').catch(console.error);
+    })
+    .catch((err) => {
+      console.error('Error fetching lesson:', err);
+    })
+    .finally(() => setLoading(false));
+}, [lessonId]);
 
-  useEffect(() => {
-    getListeningLessonById(lessonId)
-      .then((data) => {
-        setLesson(data);
-        updateLessonProgress(lessonId, 'listening', 'ongoing').catch(console.error);
-      })
-      .finally(() => setLoading(false));
-  }, [lessonId]);
 
   const playAudio = useCallback(() => {
     if (!lesson) return;
@@ -161,7 +167,10 @@ export default function ListeningLessonPage() {
                   <div className="w-10 h-10 rounded-xl bg-white/10 flex items-center justify-center">
                     <PenTool className="w-5 h-5 text-emerald-400" />
                   </div>
-                  <h2 className="text-xl font-bold text-white">Điền vào chỗ trống</h2>
+                  <div>
+                    <h2 className="text-xl font-bold text-white">Điền vào chỗ trống</h2>
+                    <p className="text-[10px] text-white/40 font-medium mt-0.5">Rê chuột hoặc nhấn vào từ bất kỳ để xem nghĩa</p>
+                  </div>
                 </div>
                 <div className="flex items-center gap-4 text-white/60">
                   <div className="text-right hidden sm:block">
@@ -208,7 +217,7 @@ export default function ListeningLessonPage() {
                         </span>
                       );
                     }
-                    return <span key={idx}>{word} </span>;
+                    return <WordTooltip key={idx} word={word} context={lesson.transcript} />;
                   })}
                 </div>
               </CardContent>
@@ -274,14 +283,14 @@ export default function ListeningLessonPage() {
                   <RotateCcw className="w-5 h-5 mr-2" /> Nghe lại từ đầu
                 </Button>
                 
-                {lesson.translation && result && (
-                  <Button 
+                {lesson.translation && (
+                  <Button
                     variant="ghost"
                     onClick={() => setShowTranslation(!showTranslation)}
                     className="flex-1 h-14 rounded-2xl font-bold text-slate-600 hover:bg-white hover:text-primary transition-all border border-transparent hover:border-primary/20 shadow-sm bg-white/50"
                   >
-                    <Languages className="w-5 h-5 mr-2" /> 
-                    {showTranslation ? 'Ẩn bản dịch' : 'Xem bản dịch'}
+                    <Languages className="w-5 h-5 mr-2" />
+                    {showTranslation ? 'Ẩn bản dịch' : 'Dịch cả đoạn'}
                   </Button>
                 )}
               </div>

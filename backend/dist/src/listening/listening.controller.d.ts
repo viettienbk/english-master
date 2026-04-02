@@ -26,6 +26,10 @@ export declare class ListeningController {
         blanks: string;
         translation: string | null;
     } | null>;
+    translateWord(word: string, context: string): Promise<{
+        translation: string;
+        partOfSpeech: string;
+    }>;
     checkAnswers(id: string, body: {
         answers: Record<number, string>;
     }): Promise<{

@@ -26,6 +26,11 @@ let ListeningController = class ListeningController {
     getLessonById(id) {
         return this.listeningService.getLessonById(id);
     }
+    async translateWord(word, context) {
+        if (!word?.trim())
+            throw new common_1.BadRequestException('Missing word');
+        return this.listeningService.translateWord(word.trim(), context?.trim() || word.trim());
+    }
     async checkAnswers(id, body) {
         const lesson = await this.listeningService.getLessonById(id);
         if (!lesson)
@@ -49,6 +54,14 @@ __decorate([
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", void 0)
 ], ListeningController.prototype, "getLessonById", null);
+__decorate([
+    (0, common_1.Get)('translate'),
+    __param(0, (0, common_1.Query)('word')),
+    __param(1, (0, common_1.Query)('context')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [String, String]),
+    __metadata("design:returntype", Promise)
+], ListeningController.prototype, "translateWord", null);
 __decorate([
     (0, common_1.Post)('lessons/:id/check'),
     __param(0, (0, common_1.Param)('id')),

@@ -10,10 +10,10 @@ export declare class ConversationService {
     startConversation(topicId: string, userId?: string): Promise<{
         conversation: {
             id: string;
+            createdAt: Date;
             topic: string;
             scenario: string | null;
             score: number | null;
-            createdAt: Date;
             userId: string | null;
         };
         message: string;
@@ -25,18 +25,18 @@ export declare class ConversationService {
         messages: {
             id: string;
             createdAt: Date;
-            conversationId: string;
-            role: string;
-            content: string;
             audioUrl: string | null;
+            content: string;
+            role: string;
             pronunciation: number | null;
+            conversationId: string;
         }[];
     } & {
         id: string;
+        createdAt: Date;
         topic: string;
         scenario: string | null;
         score: number | null;
-        createdAt: Date;
         userId: string | null;
     }>;
 }

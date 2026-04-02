@@ -1,4 +1,4 @@
-import { Controller, Get, Param, Post, Body, Query } from '@nestjs/common';
+import { Controller, Get, Param, Post, Body, Query, BadRequestException } from '@nestjs/common';
 import { ListeningService } from './listening.service';
 
 @Controller('listening')
@@ -13,6 +13,15 @@ export class ListeningController {
   @Get('lessons/:id')
   getLessonById(@Param('id') id: string) {
     return this.listeningService.getLessonById(id);
+  }
+
+  @Get('translate')
+  async translateWord(
+    @Query('word') word: string,
+    @Query('context') context: string,
+  ) {
+    if (!word?.trim()) throw new BadRequestException('Missing word');
+    return this.listeningService.translateWord(word.trim(), context?.trim() || word.trim());
   }
 
   @Post('lessons/:id/check')
