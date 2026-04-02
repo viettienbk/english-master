@@ -4,16 +4,34 @@ const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
 
 async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> {
   const token = Cookies.get('token');
-  const res = await fetch(`${API_BASE}${endpoint}`, {
-    ...options,
-    headers: {
-      'Content-Type': 'application/json',
-      ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
-      ...options?.headers,
-    },
-  });
-  if (!res.ok) throw new Error(`API error: ${res.status}`);
-  return res.json();
+  const url = `${API_BASE}${endpoint}`;
+  
+  try {
+    const res = await fetch(url, {
+      ...options,
+      headers: {
+        'Content-Type': 'application/json',
+        ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        ...options?.headers,
+      },
+    });
+
+    if (!res.ok) {
+      // Try to get error message from body
+      let errorData;
+      try {
+        errorData = await res.json();
+      } catch {
+        errorData = { message: `HTTP Error ${res.status}` };
+      }
+      throw new Error(errorData.message || `API error: ${res.status}`);
+    }
+
+    return res.json();
+  } catch (error: any) {
+    console.error(`Fetch error at ${url}:`, error);
+    throw error;
+  }
 }
 
 // Vocabulary
