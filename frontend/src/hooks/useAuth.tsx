@@ -37,8 +37,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         },
       });
       if (res.ok) {
-        const userData = await res.json();
-        setUser(userData);
+        const text = await res.text();
+        if (text) {
+          const userData = JSON.parse(text);
+          setUser(userData);
+        } else {
+          console.warn('Profile API returned empty response');
+          logout();
+        }
       } else {
         // Token invalid
         logout();

@@ -52,9 +52,13 @@ let AuthService = class AuthService {
         };
     }
     async findUserById(id) {
-        return this.prisma.user.findUnique({
+        const user = await this.prisma.user.findUnique({
             where: { id },
         });
+        if (!user) {
+            throw new common_1.UnauthorizedException('User not found');
+        }
+        return user;
     }
 };
 exports.AuthService = AuthService;
