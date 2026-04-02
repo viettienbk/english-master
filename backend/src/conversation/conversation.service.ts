@@ -98,24 +98,29 @@ Rules:
     });
 
     const model = this.genAI.getGenerativeModel({
-      model: 'gemini-2.0-flash-lite',
+      model: 'gemini-1.5-flash',
       systemInstruction: this.buildSystemPrompt(topic.scenario),
     });
 
-    const result = await model.generateContent(
-      'Start the conversation naturally as the person in the scenario. Greet the user and begin the interaction. Then provide 3 suggested phrases the user could say to respond.',
-    );
-    const aiContent = result.response.text();
+    try {
+      const result = await model.generateContent(
+        'Start the conversation naturally as the person in the scenario. Greet the user and begin the interaction. Then provide 3 suggested phrases the user could say to respond.',
+      );
+      const aiContent = result.response.text();
 
-    await this.prisma.message.create({
-      data: {
-        conversationId: conversation.id,
-        role: 'assistant',
-        content: aiContent,
-      },
-    });
+      await this.prisma.message.create({
+        data: {
+          conversationId: conversation.id,
+          role: 'assistant',
+          content: aiContent,
+        },
+      });
 
-    return { conversation, message: aiContent };
+      return { conversation, message: aiContent };
+    } catch (error) {
+      console.error('Gemini API Error (startConversation):', error);
+      throw new Error(`Failed to connect to Gemini AI: ${error.message}`);
+    }
   }
 
   async sendMessage(conversationId: string, userMessage: string) {
@@ -134,7 +139,7 @@ Rules:
     });
 
     const model = this.genAI.getGenerativeModel({
-      model: 'gemini-2.0-flash-lite',
+      model: 'gemini-1.5-flash',
       systemInstruction: this.buildSystemPrompt(scenario),
       generationConfig: { temperature: 0.8 },
     });
@@ -145,15 +150,20 @@ Rules:
       parts: [{ text: m.content }],
     }));
 
-    const chat = model.startChat({ history });
-    const result = await chat.sendMessage(userMessage);
-    const aiContent = result.response.text();
+    try {
+      const chat = model.startChat({ history });
+      const result = await chat.sendMessage(userMessage);
+      const aiContent = result.response.text();
 
-    await this.prisma.message.create({
-      data: { conversationId, role: 'assistant', content: aiContent },
-    });
+      await this.prisma.message.create({
+        data: { conversationId, role: 'assistant', content: aiContent },
+      });
 
-    return { message: aiContent };
+      return { message: aiContent };
+    } catch (error) {
+      console.error('Gemini API Error (sendMessage):', error);
+      throw new Error(`Failed to get AI response: ${error.message}`);
+    }
   }
 
   async getConversation(id: string) {
