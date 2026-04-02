@@ -1,0 +1,152 @@
+[
+  {
+    "title": "Meeting a New Colleague",
+    "titleVi": "Gặp gỡ đồng nghiệp mới",
+    "level": "beginner",
+    "audioUrl": "/audio/new-colleague.mp3",
+    "transcript": "Hello, you must be the new graphic designer. I am David, the marketing manager. Nice to meet you David. I am happy to join the team. Welcome aboard! Let me show you to your desk. It is next to the window. If you need any help with the computer or the office equipment, just ask me.",
+    "blanks": "[{\"position\":7, \"answer\":\"graphic\", \"hint\":\"Visual art\"}, {\"position\":8, \"answer\":\"designer\", \"hint\":\"A person who plans the look of something\"}, {\"position\":18, \"answer\":\"marketing\", \"hint\":\"Promoting products\"}, {\"position\":33, \"answer\":\"aboard\", \"hint\":\"On or in a team/ship\"}, {\"position\":48, \"answer\":\"equipment\", \"hint\":\"Tools needed for a job\"}]",
+    "translation": "Xin chào, bạn chắc hẳn là nhà thiết kế đồ họa mới. Tôi là David, quản lý tiếp thị. Rất vui được gặp bạn David. Tôi rất vui được gia nhập đội ngũ. Chào mừng bạn! Để tôi dẫn bạn đến bàn làm việc. Nó ở cạnh cửa sổ. Nếu bạn cần bất kỳ sự giúp đỡ nào về máy tính hoặc thiết bị văn phòng, cứ hỏi tôi nhé.",
+    "order": 19
+  },
+  {
+    "title": "Ordering Coffee",
+    "titleVi": "Gọi cà phê",
+    "level": "beginner",
+    "audioUrl": "/audio/ordering-coffee.mp3",
+    "transcript": "Good morning! What can I get for you today? Can I have a large latte and a chocolate muffin please? Certainly. Would you like any sugar or cinnamon on top? Just a little bit of sugar. Is that for here or to go? To go, please. That will be six dollars and fifty cents.",
+    "blanks": "[{\"position\":12, \"answer\":\"latte\", \"hint\":\"Coffee with milk\"}, {\"position\":15, \"answer\":\"chocolate\", \"hint\":\"A sweet brown food\"}, {\"position\":16, \"answer\":\"muffin\", \"hint\":\"A small cake\"}, {\"position\":24, \"answer\":\"cinnamon\", \"hint\":\"A spice\"}, {\"position\":42, \"answer\":\"dollars\", \"hint\":\"Currency unit\"}]",
+    "translation": "Chào buổi sáng! Tôi có thể lấy gì cho bạn hôm nay? Cho tôi một ly latte lớn và một bánh muffin socola được không? Chắc chắn rồi. Bạn có muốn thêm đường hay quế lên trên không? Chỉ một ít đường thôi. Bạn dùng tại đây hay mang đi? Mang đi ạ. Của bạn hết sáu đô la và năm mươi cent.",
+    "order": 20
+  },
+  {
+    "title": "A Weekend Trip",
+    "titleVi": "Chuyến đi cuối tuần",
+    "level": "beginner",
+    "audioUrl": "/audio/weekend-trip.mp3",
+    "transcript": "What are your plans for the weekend? My friends and I are going hiking in the mountains. We want to see the waterfall. That sounds lovely! What time are you leaving? We are leaving early on Saturday morning at five o'clock. We will return on Sunday evening. I hope you have good weather!",
+    "blanks": "[{\"position\":12, \"answer\":\"hiking\", \"hint\":\"Walking in nature\"}, {\"position\":15, \"answer\":\"mountains\", \"hint\":\"High land areas\"}, {\"position\":21, \"answer\":\"waterfall\", \"hint\":\"Water falling from a height\"}, {\"position\":24, \"answer\":\"lovely\", \"hint\":\"Beautiful or pleasant\"}, {\"position\":41, \"answer\":\"return\", \"hint\":\"To come back\"}]",
+    "translation": "Kế hoạch cho cuối tuần của bạn là gì? Tôi và bạn bè sẽ đi leo núi. Chúng tôi muốn xem thác nước. Nghe có vẻ tuyệt đấy! Mấy giờ các bạn đi? Chúng tôi sẽ đi sớm vào sáng thứ Bảy lúc năm giờ. Chúng tôi sẽ trở về vào tối Chủ Nhật. Tôi hy vọng các bạn có thời tiết tốt!",
+    "order": 21
+  },
+  {
+    "title": "Shopping for Clothes",
+    "titleVi": "Mua sắm quần áo",
+    "level": "beginner",
+    "audioUrl": "/audio/shopping-clothes.mp3",
+    "transcript": "Hello, can I help you find anything? Yes, I am looking for a blue sweater in medium size. We have these wool sweaters over here. They are very warm. Can I try it on? Of course, the fitting rooms are at the back. It fits perfectly! I will take it. How much does it cost? It is forty dollars.",
+    "blanks": "[{\"position\":12, \"answer\":\"sweater\", \"hint\":\"Knitted clothing for the upper body\"}, {\"position\":15, \"answer\":\"medium\", \"hint\":\"Between small and large\"}, {\"position\":20, \"answer\":\"wool\", \"hint\":\"Hair from sheep\"}, {\"position\":30, \"answer\":\"fitting\", \"hint\":\"Where you try clothes\"}, {\"position\":38, \"answer\":\"perfectly\", \"hint\":\"In a perfect way\"}]",
+    "translation": "Xin chào, tôi có thể giúp bạn tìm gì không? Vâng, tôi đang tìm một chiếc áo len màu xanh dương size trung bình. Chúng tôi có những chiếc áo len lông cừu ở đằng này. Chúng rất ấm. Tôi có thể mặc thử không? Tất nhiên rồi, phòng thay đồ ở phía sau. Nó vừa khít luôn! Tôi sẽ lấy cái này. Nó giá bao nhiêu? Bốn mươi đô la.",
+    "order": 22
+  },
+  {
+    "title": "A Visit to the Museum",
+    "titleVi": "Tham quan bảo tàng",
+    "level": "beginner",
+    "audioUrl": "/audio/visit-museum.mp3",
+    "transcript": "The national museum has a special exhibition on ancient Egypt this month. I would love to go. Are there any guided tours available? Yes, they start every hour. The tour explains the history of the pyramids and the pharaohs. It is very educational. Remember that taking photos with a flash is not allowed inside.",
+    "blanks": "[{\"position\":7, \"answer\":\"exhibition\", \"hint\":\"A public display of art or items\"}, {\"position\":10, \"answer\":\"Egypt\", \"hint\":\"A country in Africa\"}, {\"position\":19, \"answer\":\"guided\", \"hint\":\"Led by a person\"}, {\"position\":31, \"answer\":\"pyramids\", \"hint\":\"Ancient triangular structures\"}, {\"position\":40, \"answer\":\"educational\", \"hint\":\"Providing knowledge\"}]",
+    "translation": "Bảo tàng quốc gia có một cuộc triển lãm đặc biệt về Ai Cập cổ đại trong tháng này. Tôi rất muốn đi. Có tour hướng dẫn nào không? Có, chúng bắt đầu mỗi giờ. Tour giải thích về lịch sử của các kim tự tháp và các pharaoh. Nó rất mang tính giáo dục. Hãy nhớ rằng việc chụp ảnh có đèn flash là không được phép bên trong.",
+    "order": 23
+  },
+  {
+    "title": "Working from Home",
+    "titleVi": "Làm việc tại nhà",
+    "level": "intermediate",
+    "audioUrl": "/audio/work-home.mp3",
+    "transcript": "Many employees prefer working from home because it offers more flexibility and eliminates the daily commute. However, it requires self discipline to stay productive and avoid distractions. It is also important to have a dedicated workspace and a stable internet connection. Communication with colleagues through video calls and instant messaging is essential for successful remote collaboration.",
+    "blanks": "[{\"position\":10, \"answer\":\"flexibility\", \"hint\":\"Ability to adapt to new situations\"}, {\"position\":13, \"answer\":\"eliminates\", \"hint\":\"Removes or gets rid of\"}, {\"position\":16, \"answer\":\"commute\", \"hint\":\"Travel between home and work\"}, {\"position\":21, \"answer\":\"discipline\", \"hint\":\"Control of behavior\"}, {\"position\":28, \"answer\":\"distractions\", \"hint\":\"Things that prevent concentration\"}]",
+    "translation": "Nhiều nhân viên thích làm việc tại nhà vì nó mang lại sự linh hoạt hơn và loại bỏ việc đi lại hàng ngày. Tuy nhiên, nó đòi hỏi sự tự giác để duy trì năng suất và tránh bị xao nhãng. Việc có một không gian làm việc riêng và kết nối internet ổn định cũng rất quan trọng. Giao tiếp với đồng nghiệp qua các cuộc gọi video và tin nhắn tức thời là điều cần thiết để cộng tác từ xa thành công.",
+    "order": 24
+  },
+  {
+    "title": "Healthy Eating Habits",
+    "titleVi": "Thói quen ăn uống lành mạnh",
+    "level": "intermediate",
+    "audioUrl": "/audio/healthy-eating.mp3",
+    "transcript": "A balanced diet is crucial for maintaining physical and mental health. You should consume plenty of fruits, vegetables, and whole grains while limiting your intake of processed foods and added sugars. Staying hydrated by drinking enough water throughout the day is equally important. Small changes in your eating habits can lead to significant long term benefits for your overall well being.",
+    "blanks": "[{\"position\":2, \"answer\":\"balanced\", \"hint\":\"Containing different types in correct proportions\"}, {\"position\":13, \"answer\":\"consume\", \"hint\":\"To eat or drink\"}, {\"position\":26, \"answer\":\"processed\", \"hint\":\"Food that has been altered from its natural state\"}, {\"position\":33, \"answer\":\"hydrated\", \"hint\":\"Having enough water in the body\"}, {\"position\":53, \"answer\":\"overall\", \"hint\":\"Taking everything into account\"}]",
+    "translation": "Một chế độ ăn uống cân bằng là rất quan trọng để duy trì sức khỏe thể chất và tinh thần. Bạn nên tiêu thụ nhiều trái cây, rau và ngũ cốc nguyên hạt đồng thời hạn chế lượng thức ăn chế biến sẵn và đường bổ sung. Giữ nước bằng cách uống đủ nước suốt cả ngày cũng quan trọng không kém. Những thay đổi nhỏ trong thói quen ăn uống có thể mang lại lợi ích lâu dài đáng kể cho sức khỏe tổng thể của bạn.",
+    "order": 25
+  },
+  {
+    "title": "The Importance of Recycling",
+    "titleVi": "Tầm quan trọng của việc tái chế",
+    "level": "intermediate",
+    "audioUrl": "/audio/recycling.mp3",
+    "transcript": "Recycling plays a vital role in protecting our environment and conserving natural resources. By sorting our waste into paper, plastic, and glass, we can reduce the amount of trash that ends up in landfills. Many materials can be repurposed to create new products, which saves energy and reduces pollution. Everyone should make a conscious effort to minimize their ecological footprint.",
+    "blanks": "[{\"position\":11, \"answer\":\"conserving\", \"hint\":\"Protecting from loss or harm\"}, {\"position\":16, \"answer\":\"sorting\", \"hint\":\"Arranging according to type\"}, {\"position\":33, \"answer\":\"landfills\", \"hint\":\"Places where trash is buried\"}, {\"position\":38, \"answer\":\"repurposed\", \"hint\":\"Adapted for a different use\"}, {\"position\":54, \"answer\":\"ecological\", \"hint\":\"Relating to living things and their environment\"}]",
+    "translation": "Tái chế đóng một vai trò quan trọng trong việc bảo vệ môi trường và bảo tồn tài nguyên thiên nhiên. Bằng cách phân loại rác thải thành giấy, nhựa và thủy tinh, chúng ta có thể giảm lượng rác thải đổ ra các bãi chôn lấp. Nhiều vật liệu có thể được tái sử dụng để tạo ra các sản phẩm mới, giúp tiết kiệm năng lượng và giảm ô nhiễm. Mọi người nên nỗ lực có ý thức để giảm thiểu dấu chân sinh thái của mình.",
+    "order": 26
+  },
+  {
+    "title": "Public Transportation",
+    "titleVi": "Giao thông công cộng",
+    "level": "intermediate",
+    "audioUrl": "/audio/public-transport.mp3",
+    "transcript": "Using public transportation is an effective way to reduce traffic congestion and air pollution in urban areas. Most cities offer a variety of options, such as buses, subways, and light rail systems. Investing in a monthly transit pass can be more economical than paying for parking and fuel for a private vehicle. It also allows you to read or relax during your journey to work.",
+    "blanks": "[{\"position\":11, \"answer\":\"congestion\", \"hint\":\"State of being overcrowded with traffic\"}, {\"position\":24, \"answer\":\"subways\", \"hint\":\"Underground railways\"}, {\"position\":34, \"answer\":\"transit\", \"hint\":\"System of moving people or goods\"}, {\"position\":39, \"answer\":\"economical\", \"hint\":\"Giving good value for money\"}, {\"position\":46, \"answer\":\"private\", \"hint\":\"Belonging to an individual person\"}]",
+    "translation": "Sử dụng phương tiện giao thông công cộng là một cách hiệu quả để giảm tắc nghẽn giao thông và ô nhiễm không khí ở các khu vực đô thị. Hầu hết các thành phố đều cung cấp nhiều lựa chọn, chẳng hạn như xe buýt, tàu điện ngầm và hệ thống đường sắt nhẹ. Đầu tư vào vé tháng có thể tiết kiệm hơn so với việc trả tiền đỗ xe và nhiên liệu cho phương tiện cá nhân. Nó cũng cho phép bạn đọc sách hoặc thư giãn trong hành trình đi làm.",
+    "order": 27
+  },
+  {
+    "title": "Learning a New Language",
+    "titleVi": "Học một ngôn ngữ mới",
+    "level": "intermediate",
+    "audioUrl": "/audio/learning-language.mp3",
+    "transcript": "Acquiring a second language enhances cognitive abilities and provides a deeper understanding of different cultures. It is helpful to immerse yourself in the language by watching films, listening to podcasts, and practicing with native speakers. Consistency is key, so try to dedicate at least thirty minutes every day to your studies. Don't be afraid to make mistakes, as they are a natural part of the learning process.",
+    "blanks": "[{\"position\":0, \"answer\":\"Acquiring\", \"hint\":\"Gaining a skill or habit\"}, {\"position\":5, \"answer\":\"cognitive\", \"hint\":\"Relating to mental processes\"}, {\"position\":16, \"answer\":\"immerse\", \"hint\":\"Involve oneself deeply\"}, {\"position\":30, \"answer\":\"Consistency\", \"hint\":\"Agreement or adherence to same principles\"}, {\"position\":36, \"answer\":\"dedicate\", \"hint\":\"Devote time or effort to a particular task\"}]",
+    "translation": "Tiếp thu một ngôn ngữ thứ hai giúp tăng cường khả năng nhận thức và mang lại sự hiểu biết sâu sắc hơn về các nền văn hóa khác nhau. Sẽ rất hữu ích nếu bạn đắm mình vào ngôn ngữ bằng cách xem phim, nghe podcast và thực hành với người bản xứ. Sự kiên trì là chìa khóa, vì vậy hãy cố gắng dành ít nhất ba mươi phút mỗi ngày cho việc học của bạn. Đừng sợ mắc lỗi, vì chúng là một phần tự nhiên của quá trình học tập.",
+    "order": 28
+  },
+  {
+    "title": "The Future of Space Exploration",
+    "titleVi": "Tương lai của khám phá không gian",
+    "level": "advanced",
+    "audioUrl": "/audio/space-exploration.mp3",
+    "transcript": "Space exploration has entered a new era with the emergence of private aerospace companies and ambitious plans for lunar colonies. Scientists are developing innovative propulsion systems that could drastically reduce the time required for interplanetary travel. The discovery of liquid water on Mars has further fueled speculation about the possibility of extraterrestrial life. However, the immense costs and technological challenges associated with deep space missions remain significant hurdles to overcome.",
+    "blanks": "[{\"position\":10, \"answer\":\"emergence\", \"hint\":\"The process of coming into view\"}, {\"position\":13, \"answer\":\"aerospace\", \"hint\":\"Industry concerned with flight\"}, {\"position\":23, \"answer\":\"propulsion\", \"hint\":\"Action of driving or pushing forward\"}, {\"position\":41, \"answer\":\"speculation\", \"hint\":\"Forming of a theory without firm evidence\"}, {\"position\":46, \"answer\":\"extraterrestrial\", \"hint\":\"Outside the earth or its atmosphere\"}]",
+    "translation": "Khám phá không gian đã bước vào một kỷ nguyên mới với sự xuất hiện của các công ty hàng không vũ trụ tư nhân và các kế hoạch đầy tham vọng cho các thuộc địa trên mặt trăng. Các nhà khoa học đang phát triển các hệ thống đẩy sáng tạo có thể giảm đáng kể thời gian cần thiết cho việc di hành giữa các hành tinh. Việc phát hiện ra nước lỏng trên sao Hỏa đã thúc đẩy thêm những suy đoán về khả năng tồn tại sự sống ngoài trái đất. Tuy nhiên, chi phí khổng lồ và những thách thức công nghệ liên quan đến các sứ mệnh không gian sâu vẫn là những rào cản đáng kể cần vượt qua.",
+    "order": 29
+  },
+  {
+    "title": "Global Economic Trends",
+    "titleVi": "Xu hướng kinh tế toàn cầu",
+    "level": "advanced",
+    "audioUrl": "/audio/economic-trends.mp3",
+    "transcript": "The global economy is currently navigating a period of profound transformation characterized by digitalization and the shift towards green energy. While some emerging markets are experiencing rapid growth, others are struggling with inflationary pressures and high levels of sovereign debt. Central banks face the delicate task of balancing interest rate adjustments to curb inflation without stifling economic recovery. The long term outlook remains uncertain, as geopolitical tensions continue to influence international trade and investment flows.",
+    "blanks": "[{\"position\":9, \"answer\":\"profound\", \"hint\":\"Very great or intense\"}, {\"position\":24, \"answer\":\"emerging\", \"hint\":\"Becoming prominent\"}, {\"position\":32, \"answer\":\"inflationary\", \"hint\":\"Characterized by a general increase in prices\"}, {\"position\":38, \"answer\":\"sovereign\", \"hint\":\"Relating to a national government\"}, {\"position\":54, \"answer\":\"stifling\", \"hint\":\"Preventing from developing or being expressed\"}]",
+    "translation": "Nền kinh tế toàn cầu hiện đang trải qua một giai đoạn chuyển đổi sâu sắc được đặc trưng bởi quá trình số hóa và sự chuyển dịch sang năng lượng xanh. Trong khi một số thị trường mới nổi đang có sự tăng trưởng nhanh chóng, những thị trường khác đang phải vật lộn với áp lực lạm phát và mức nợ công cao. Các ngân hàng trung ương đối mặt với nhiệm vụ tế nhị là cân bằng các điều chỉnh lãi suất để kiềm chế lạm phát mà không làm kìm hãm sự phục hồi kinh tế. Triển vọng dài hạn vẫn chưa chắc chắn, khi các căng thẳng địa chính trị tiếp tục ảnh hưởng đến thương mại quốc tế và các dòng vốn đầu tư.",
+    "order": 30
+  },
+  {
+    "title": "The Psychology of Success",
+    "titleVi": "Tâm lý học về sự thành công",
+    "level": "advanced",
+    "audioUrl": "/audio/psychology-success.mp3",
+    "transcript": "Success is often attributed to a combination of innate talent and relentless perseverance. Psychological research suggests that individuals with a growth mindset are more likely to overcome obstacles and achieve their goals. This involves viewing failures as opportunities for growth rather than insurmountable barriers. Cultivating emotional intelligence and maintaining a clear sense of purpose are also vital components of long term achievement in both professional and personal spheres.",
+    "blanks": "[{\"position\":4, \"answer\":\"attributed\", \"hint\":\"Regarded as being caused by\"}, {\"position\":7, \"answer\":\"innate\", \"hint\":\"Inborn; natural\"}, {\"position\":10, \"answer\":\"perseverance\", \"hint\":\"Persistence in doing something despite difficulty\"}, {\"position\":31, \"answer\":\"insurmountable\", \"hint\":\"Too great to be overcome\"}, {\"position\":34, \"answer\":\"Cultivating\", \"hint\":\"Trying to acquire or develop\"}]",
+    "translation": "Thành công thường được quy cho sự kết hợp giữa tài năng bẩm sinh và sự kiên trì bền bỉ. Nghiên cứu tâm lý học cho thấy những cá nhân có tư duy phát triển có nhiều khả năng vượt qua trở ngại và đạt được mục tiêu của mình. Điều này bao gồm việc xem thất bại là cơ hội để phát triển thay vì những rào cản không thể vượt qua. Trau dồi trí tuệ cảm xúc và duy trì ý thức rõ ràng về mục đích cũng là những thành phần quan trọng của thành tựu lâu dài trong cả lĩnh vực nghề nghiệp và cá nhân.",
+    "order": 31
+  },
+  {
+    "title": "Bioethics and Biotechnology",
+    "titleVi": "Đạo đức sinh học và Công nghệ sinh học",
+    "level": "advanced",
+    "audioUrl": "/audio/bioethics.mp3",
+    "transcript": "The rapid development of biotechnology has raised complex bioethical questions regarding gene editing and human enhancement. While these technologies offer the potential to eradicate debilitating diseases, they also pose significant risks related to social inequality and unintended consequences. Establishing an ethical consensus requires a multidisciplinary approach involving scientists, ethicists, and policymakers to ensure that innovation aligns with fundamental human rights and values.",
+    "blanks": "[{\"position\":10, \"answer\":\"bioethical\", \"hint\":\"Relating to the ethics of medical and biological research\"}, {\"position\":23, \"answer\":\"eradicate\", \"hint\":\"Destroy completely; put an end to\"}, {\"position\":24, \"answer\":\"debilitating\", \"hint\":\"Making someone very weak and infirm\"}, {\"position\":40, \"answer\":\"consensus\", \"hint\":\"A general agreement\"}, {\"position\":43, \"answer\":\"multidisciplinary\", \"hint\":\"Combining several academic disciplines\"}]",
+    "translation": "Sự phát triển nhanh chóng của công nghệ sinh học đã đặt ra những câu hỏi đạo đức sinh học phức tạp liên quan đến chỉnh sửa gen và tăng cường con người. Mặc dù những công nghệ này mang lại tiềm năng xóa sổ các bệnh gây suy nhược, chúng cũng đặt ra những rủi ro đáng kể liên quan đến bất bình đẳng xã hội và những hậu quả ngoài ý muốn. Việc thiết lập một sự đồng thuận về đạo đức đòi hỏi một cách tiếp cận đa ngành với sự tham gia của các nhà khoa học, nhà đạo đức học và các nhà hoạch định chính sách để đảm bảo rằng đổi mới phù hợp với các quyền và giá trị cơ bản của con người.",
+    "order": 32
+  },
+  {
+    "title": "Artificial Intelligence in Healthcare",
+    "titleVi": "Trí tuệ nhân tạo trong y tế",
+    "level": "advanced",
+    "audioUrl": "/audio/ai-healthcare.mp3",
+    "transcript": "Artificial intelligence is poised to transform healthcare by improving diagnostic accuracy and streamlining administrative tasks. Machine learning algorithms can analyze vast datasets to identify patterns that might be overlooked by human clinicians. This could lead to earlier detection of diseases and more effective treatment plans. However, ensuring data privacy and addressing algorithmic bias are critical challenges that must be addressed to foster trust in AI driven medical solutions.",
+    "blanks": "[{\"position\":4, \"answer\":\"poised\", \"hint\":\"Ready or prepared to do something\"}, {\"position\":9, \"answer\":\"diagnostic\", \"hint\":\"Concerned with the identification of a disease\"}, {\"position\":12, \"answer\":\"streamlining\", \"hint\":\"Making more efficient and effective\"}, {\"position\":28, \"answer\":\"clinicians\", \"hint\":\"Healthcare professionals who work directly with patients\"}, {\"position\":41, \"answer\":\"algorithmic\", \"hint\":\"Relating to a set of rules or processes\"}]",
+    "translation": "Trí tuệ nhân tạo đã sẵn sàng để thay đổi ngành y tế bằng cách cải thiện độ chính xác trong chẩn đoán và tinh giản các công việc hành chính. Các thuật toán học máy có thể phân tích các bộ dữ liệu khổng lồ để xác định các mẫu có thể bị các bác sĩ lâm sàng bỏ qua. Điều này có thể dẫn đến việc phát hiện bệnh sớm hơn và có các kế hoạch điều trị hiệu quả hơn. Tuy nhiên, đảm bảo quyền riêng tư dữ liệu và giải quyết định kiến thuật toán là những thách thức quan trọng cần được giải quyết để thúc đẩy niềm tin vào các giải pháp y tế dựa trên AI.",
+    "order": 33
+  }
+]

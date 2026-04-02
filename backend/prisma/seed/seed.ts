@@ -25,6 +25,8 @@ const grammarData = require('./grammar.json');
 const expandedGrammarData = require('./expanded_grammar.json');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const ultimateBasicGrammarData = require('./ultimate_basic_grammar.json');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const expandedListeningData = require('./expanded_listening.json');
 
 const prisma = new PrismaClient();
 
@@ -178,6 +180,7 @@ async function main() {
       order: 3,
     },
     ...moreListeningData,
+    ...expandedListeningData,
   ];
 
   for (const lesson of listeningLessons) {

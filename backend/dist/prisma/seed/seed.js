@@ -14,6 +14,7 @@ const moreGrammarData = require('./more_grammar.json');
 const grammarData = require('./grammar.json');
 const expandedGrammarData = require('./expanded_grammar.json');
 const ultimateBasicGrammarData = require('./ultimate_basic_grammar.json');
+const expandedListeningData = require('./expanded_listening.json');
 const prisma = new client_1.PrismaClient();
 async function main() {
     console.log('Seeding database...');
@@ -133,6 +134,7 @@ async function main() {
             order: 3,
         },
         ...moreListeningData,
+        ...expandedListeningData,
     ];
     for (const lesson of listeningLessons) {
         const created = await prisma.listeningLesson.create({
