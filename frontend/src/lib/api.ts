@@ -20,14 +20,16 @@ async function fetchApi<T>(endpoint: string, options?: RequestInit): Promise<T> 
       // Try to get error message from body
       let errorData;
       try {
-        errorData = await res.json();
+        const errorText = await res.text();
+        errorData = errorText ? JSON.parse(errorText) : { message: `HTTP Error ${res.status}` };
       } catch {
         errorData = { message: `HTTP Error ${res.status}` };
       }
       throw new Error(errorData.message || `API error: ${res.status}`);
     }
 
-    return res.json();
+    const text = await res.text();
+    return text ? JSON.parse(text) : {} as T;
   } catch (error: any) {
     console.error(`Fetch error at ${url}:`, error);
     throw error;
