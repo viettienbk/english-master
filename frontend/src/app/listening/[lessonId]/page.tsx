@@ -23,7 +23,9 @@ import {
   ArrowRight,
   Headphones,
   Languages,
-  Info
+  Info,
+  PenTool,
+  Award
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 
