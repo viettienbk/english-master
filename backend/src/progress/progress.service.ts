@@ -33,8 +33,9 @@ export class ProgressService {
       }
       repetitions++;
     } else {
-      // Failure
-      repetitions = 0;
+      // Failure - reset repetitions but be a bit more lenient if it was already mastered
+      // If it was mastered (rep >= 5), drop to 3 so it can be re-mastered faster
+      repetitions = previousRepetitions >= 5 ? 3 : 0; 
       interval = 1;
     }
 
@@ -125,13 +126,23 @@ export class ProgressService {
     status: string,
     score?: number,
   ) {
+    // Check current status
+    const current = await this.prisma.lessonProgress.findUnique({
+      where: { userId_lessonId_lessonType: { userId, lessonId, lessonType } },
+    });
+
+    // If already completed and trying to set to ongoing, ignore
+    if (current?.status === 'completed' && status === 'ongoing') {
+      return current;
+    }
+
     return this.prisma.lessonProgress.upsert({
       where: {
         userId_lessonId_lessonType: { userId, lessonId, lessonType },
       },
       update: {
         status,
-        score,
+        score: score !== undefined ? score : current?.score,
         lastStudied: new Date(),
       },
       create: {
@@ -139,7 +150,7 @@ export class ProgressService {
         lessonId,
         lessonType,
         status,
-        score,
+        score: score || 0,
       },
     });
   }
