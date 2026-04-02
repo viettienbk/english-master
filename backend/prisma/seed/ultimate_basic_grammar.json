@@ -1,0 +1,262 @@
+[
+  {
+    "title": "Pronouns & Possessives",
+    "titleVi": "Đại từ và Tính từ sở hữu",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0,
+    "content": "## Pronouns & Possessives\n\nĐể tránh lặp lại danh từ, chúng ta sử dụng các đại từ. Có 4 loại chính bạn cần nắm vững.\n\n### 1. Đại từ nhân xưng chủ ngữ (Subject Pronouns)\nDùng làm chủ ngữ của câu, đứng trước động từ.\n- **I, You, We, They, He, She, It**\n- *She is a teacher.*\n\n### 2. Đại từ nhân xưng tân ngữ (Object Pronouns)\nĐứng sau động từ hoặc giới từ.\n- **Me, You, Us, Them, Him, Her, It**\n- *Call me later. / I like them.*\n\n### 3. Tính từ sở hữu (Possessive Adjectives)\nLuôn đứng trước một danh từ để chỉ sự sở hữu.\n- **My, Your, Our, Their, His, Her, Its**\n- *This is my book.*\n\n### 4. Đại từ sở hữu (Possessive Pronouns)\nDùng một mình, không có danh từ theo sau (đã bao hàm cả danh từ).\n- **Mine, Yours, Ours, Theirs, His, Hers, Its**\n- *This book is mine. (Mine = my book)*\n\n!NOTE: 'Its' là sở hữu, còn 'It's' là viết tắt của 'It is' hoặc 'It has'. Đừng nhầm lẫn nhé!",
+    "examples": [
+      { "english": "I like her but she doesn't like me.", "vietnamese": "Tôi thích cô ấy nhưng cô ấy không thích tôi.", "explanation": "Kết hợp Subject và Object pronouns." },
+      { "english": "This is our house. It's ours.", "vietnamese": "Đây là nhà của chúng tôi. Nó là của chúng tôi.", "explanation": "So sánh Possessive Adjective (our house) và Possessive Pronoun (ours)." },
+      { "english": "Can you give him his bag?", "vietnamese": "Bạn có thể đưa cho anh ấy chiếc túi của anh ấy không?", "explanation": "Object pronoun (him) và Possessive adjective (his)." },
+      { "english": "Their car is blue, but mine is red.", "vietnamese": "Xe của họ màu xanh, còn của tôi màu đỏ.", "explanation": "Mine thay thế cho 'my car'." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ am a student.", "options": ["Me", "I", "My", "Mine"], "answer": "I" },
+      { "type": "multiple_choice", "question": "That is my pen. Give it to ___.", "options": ["I", "me", "my", "mine"], "answer": "me" },
+      { "type": "multiple_choice", "question": "Is this ___ jacket?", "options": ["you", "your", "yours", "you're"], "answer": "your" },
+      { "type": "multiple_choice", "question": "I have a dog. ___ name is Lucky.", "options": ["It", "Its", "It's", "His"], "answer": "Its" },
+      { "type": "multiple_choice", "question": "This phone isn't my phone. It is ___.", "options": ["her", "she", "hers", "herself"], "answer": "hers" },
+      { "type": "fill_blank", "question": "They are my friends. I like ___ (họ) very much.", "answer": "them" },
+      { "type": "fill_blank", "question": "We live here. This house is ___ (của chúng tôi).", "answer": "ours" },
+      { "type": "fill_blank", "question": "He is doing ___ (của anh ấy) homework.", "answer": "his" },
+      { "type": "multiple_choice", "question": "___ are going to the park. Do you want to come?", "options": ["Us", "We", "Our", "Ours"], "answer": "We" },
+      { "type": "multiple_choice", "question": "I don't know ___ phone number.", "options": ["she", "her", "hers", "herself"], "answer": "her" }
+    ]
+  },
+  {
+    "title": "The Verb 'To Be'",
+    "titleVi": "Động từ To Be (Am/Is/Are)",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.1,
+    "content": "## The Verb 'To Be'\n\nĐộng từ 'To be' là động từ quan trọng nhất trong tiếng Anh, dùng để giới thiệu tên, tuổi, nghề nghiệp, trạng thái hoặc vị trí.\n\n### 1. Ở thì Hiện tại (Present)\n**Khẳng định:**\n**I + am** (I'm)\n**He/She/It + is** (He's...)\n**You/We/They + are** (You're...)\n\n**Phủ định:**\nThêm **not** sau am/is/are.\n- *I am not (I'm not)*\n- *She is not (She isn't)*\n- *They are not (They aren't)*\n\n**Nghi vấn:**\nĐảo **Am/Is/Are** lên trước chủ ngữ.\n- *Are you happy? - Yes, I am.*\n\n### 2. Ở thì Quá khứ (Past)\n**I/He/She/It + was**\n**You/We/They + were**\n\n!NOTE: Trong câu hỏi, chúng ta không dùng trợ động từ 'do/does' với 'to be'. \nSai: *Do you be hungry?* (X)\nĐúng: *Are you hungry?* (V)",
+    "examples": [
+      { "english": "I am 20 years old.", "vietnamese": "Tôi 20 tuổi.", "explanation": "Dùng to be để nói về tuổi." },
+      { "english": "They are at home now.", "vietnamese": "Họ đang ở nhà bây giờ.", "explanation": "Dùng to be chỉ vị trí." },
+      { "english": "Was it cold yesterday?", "vietnamese": "Hôm qua trời có lạnh không?", "explanation": "Câu hỏi thì quá khứ của To be." },
+      { "english": "We aren't tired.", "vietnamese": "Chúng tôi không mệt.", "explanation": "Dạng phủ định." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I ___ from Vietnam.", "options": ["am", "is", "are", "be"], "answer": "am" },
+      { "type": "multiple_choice", "question": "___ she your sister?", "options": ["Am", "Is", "Are", "Do"], "answer": "Is" },
+      { "type": "multiple_choice", "question": "My parents ___ teachers.", "options": ["am", "is", "are", "was"], "answer": "are" },
+      { "type": "multiple_choice", "question": "Where ___ you yesterday?", "options": ["was", "were", "are", "did"], "answer": "were" },
+      { "type": "multiple_choice", "question": "It ___ a sunny day today.", "options": ["am", "is", "are", "be"], "answer": "is" },
+      { "type": "fill_blank", "question": "He ___ (không phải) a doctor. He is a nurse.", "answer": "isn't" },
+      { "type": "fill_blank", "question": "I ___ (đã) very busy last night.", "answer": "was" },
+      { "type": "fill_blank", "question": "___ (Bạn có) hungry?", "answer": "Are you" },
+      { "type": "multiple_choice", "question": "They ___ happy with the results.", "options": ["wasn't", "weren't", "isn't", "don't"], "answer": "weren't" },
+      { "type": "multiple_choice", "question": "Who ___ that man over there?", "options": ["am", "is", "are", "be"], "answer": "is" }
+    ]
+  },
+  {
+    "title": "Plural Nouns",
+    "titleVi": "Danh từ số nhiều",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.2,
+    "content": "## Plural Nouns (Danh từ số nhiều)\n\nThông thường, chúng ta thêm **-s** vào sau danh từ để biến nó thành số nhiều. Tuy nhiên có một số quy tắc đặc biệt.\n\n### 1. Quy tắc thêm đuôi\n- **Thông thường:** Thêm **-s** (*cat -> cats*).\n- **Tận cùng là s, ss, sh, ch, x, z:** Thêm **-es** (*bus -> buses, watch -> watches*).\n- **Tận cùng là 'phụ âm + y':** Đổi y thành i rồi thêm **-es** (*baby -> babies*).\n- **Tận cùng là f hoặc fe:** Đổi thành **-ves** (*leaf -> leaves, wife -> wives*).\n\n### 2. Danh từ bất quy tắc (Irregular)\nNhững từ này không theo quy tắc thêm -s/es, bạn phải học thuộc:\n- **man -> men**\n- **woman -> women**\n- **child -> children**\n- **foot -> feet**\n- **tooth -> teeth**\n- **mouse -> mice**\n- **person -> people**\n\n!NOTE: Một số danh từ luôn ở dạng số nhiều: *police, clothes, scissors, trousers*.",
+    "examples": [
+      { "english": "I have two children, a boy and a girl.", "vietnamese": "Tôi có hai đứa con, một trai và một gái.", "explanation": "Children là số nhiều của child." },
+      { "english": "The boxes are on the table.", "vietnamese": "Những chiếc hộp ở trên bàn.", "explanation": "Box tận cùng là x nên thêm -es." },
+      { "english": "There are many people in the park.", "vietnamese": "Có rất nhiều người trong công viên.", "explanation": "People là số nhiều của person." },
+      { "english": "Look at those beautiful butterflies!", "vietnamese": "Nhìn những con bướm xinh đẹp kia kìa!", "explanation": "Butterfly đổi y thành i rồi thêm -es." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I see three ___ in the street.", "options": ["bus", "buses", "buss", "bussies"], "answer": "buses" },
+      { "type": "multiple_choice", "question": "The ___ are playing football.", "options": ["child", "childs", "children", "childrens"], "answer": "children" },
+      { "type": "multiple_choice", "question": "Brush your ___ twice a day.", "options": ["tooth", "tooths", "teeth", "teeths"], "answer": "teeth" },
+      { "type": "multiple_choice", "question": "Many ___ work in this office.", "options": ["woman", "womans", "women", "womens"], "answer": "women" },
+      { "type": "multiple_choice", "question": "Where are my ___?", "options": ["key", "keys", "keies", "keyes"], "answer": "keys" },
+      { "type": "fill_blank", "question": "The cat is chasing two ___ (con chuột).", "answer": "mice" },
+      { "type": "fill_blank", "question": "There are some ___ (chiếc lá) on the ground.", "answer": "leaves" },
+      { "type": "fill_blank", "question": "I bought three ___ (quả cà chua) yesterday.", "answer": "tomatoes" },
+      { "type": "multiple_choice", "question": "How many ___ live in this city?", "options": ["person", "persons", "people", "peoples"], "answer": "people" },
+      { "type": "multiple_choice", "question": "She has very small ___.", "options": ["foot", "foots", "feet", "feets"], "answer": "feet" }
+    ]
+  },
+  {
+    "title": "There is / There are",
+    "titleVi": "Cấu trúc There is / There are",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.3,
+    "content": "## There is / There are\n\nDùng để diễn tả sự tồn tại của một vật hoặc người tại một địa điểm nào đó.\n\n### 1. Khẳng định\n- **There is + danh từ số ít / danh từ không đếm được.**\n  *There is an apple on the table. / There is some water in the bottle.*\n- **There are + danh từ số nhiều.**\n  *There are many students in the class.*\n\n### 2. Phủ định\n- **There is not (There isn't)**\n- **There are not (There aren't)**\n  *There isn't any milk left.*\n\n### 3. Nghi vấn\nĐảo Is/Are lên đầu.\n- *Is there a bank near here?*\n- *Are there any oranges?*\n\n!NOTE: Chúng ta sử dụng 'any' trong câu phủ định và nghi vấn, 'some' trong câu khẳng định.",
+    "examples": [
+      { "english": "There is a big tree in front of my house.", "vietnamese": "Có một cái cây lớn ở trước cửa nhà tôi.", "explanation": "There is + singular noun." },
+      { "english": "There are five people in my family.", "vietnamese": "Có 5 người trong gia đình tôi.", "explanation": "There are + plural noun." },
+      { "english": "Is there any sugar in the kitchen?", "vietnamese": "Có chút đường nào trong bếp không?", "explanation": "Câu hỏi với danh từ không đếm được." },
+      { "english": "There aren't any cars in the garage.", "vietnamese": "Không có chiếc ô tô nào trong gara cả.", "explanation": "Phủ định số nhiều dùng 'any'." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ a cat under the sofa.", "options": ["There is", "There are", "Is there", "Are there"], "answer": "There is" },
+      { "type": "multiple_choice", "question": "___ any eggs in the fridge?", "options": ["There is", "There are", "Is there", "Are there"], "answer": "Are there" },
+      { "type": "multiple_choice", "question": "There ___ some books on the shelf.", "options": ["is", "are", "am", "be"], "answer": "are" },
+      { "type": "multiple_choice", "question": "___ some milk in the glass.", "options": ["There is", "There are", "There isn't", "There aren't"], "answer": "There is" },
+      { "type": "multiple_choice", "question": "___ a hospital near here?", "options": ["There is", "Is there", "Are there", "Are"], "answer": "Is there" },
+      { "type": "fill_blank", "question": "There ___ (không có) any chairs in this room.", "answer": "aren't" },
+      { "type": "fill_blank", "question": "___ (Có) a message for you.", "answer": "There is" },
+      { "type": "fill_blank", "question": "How many students ___ (có) in your class?", "answer": "are there" },
+      { "type": "multiple_choice", "question": "There ___ a lot of traffic this morning.", "options": ["is", "are", "was", "be"], "answer": "is" },
+      { "type": "multiple_choice", "question": "___ any problems yesterday?", "options": ["There was", "There were", "Was there", "Were there"], "answer": "Were there" }
+    ]
+  },
+  {
+    "title": "Demonstratives: This, That, These, Those",
+    "titleVi": "Đại từ chỉ định",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.4,
+    "content": "## Demonstratives: This, That, These, Those\n\nDùng để chỉ ra cụ thể người hoặc vật đang được nói đến, dựa trên khoảng cách (gần/xa) và số lượng (ít/nhiều).\n\n### 1. Ở gần (Near)\n- **This:** Số ít / Không đếm được (*This book*).\n- **These:** Số nhiều (*These books*).\n\n### 2. Ở xa (Far)\n- **That:** Số ít / Không đếm được (*That star*).\n- **Those:** Số nhiều (*Those stars*).\n\n### Bảng tổng kết\n| | Số ít | Số nhiều |\n|---|---|---|\n| **Gần** | This | These |\n| **Xa** | That | Those |\n\n!NOTE: Chúng ta cũng dùng 'This' để giới thiệu người khác: *This is my friend, Tom.*",
+    "examples": [
+      { "english": "This is my car and that one over there is yours.", "vietnamese": "Đây là xe của tôi và cái kia ở đằng kia là của bạn.", "explanation": "So sánh khoảng cách Gần (this) và Xa (that)." },
+      { "english": "These shoes are too small for me.", "vietnamese": "Những chiếc giày này quá nhỏ đối với tôi.", "explanation": "These + plural noun (gần)." },
+      { "english": "Who are those people?", "vietnamese": "Những người kia là ai vậy?", "explanation": "Those + plural noun (xa)." },
+      { "english": "That was a great movie!", "vietnamese": "Đó quả là một bộ phim tuyệt vời!", "explanation": "Dùng 'That' cho sự việc vừa mới xảy ra." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I like ___ shirt I'm wearing.", "options": ["this", "that", "these", "those"], "answer": "this" },
+      { "type": "multiple_choice", "question": "Look at ___ birds flying high in the sky.", "options": ["this", "that", "these", "those"], "answer": "those" },
+      { "type": "multiple_choice", "question": "___ apples in this basket are very sweet.", "options": ["This", "That", "These", "Those"], "answer": "These" },
+      { "type": "multiple_choice", "question": "Who is ___ man standing by the door?", "options": ["this", "that", "these", "those"], "answer": "that" },
+      { "type": "multiple_choice", "question": "___ is my mother, and the woman over there is my aunt.", "options": ["This", "That", "These", "Those"], "answer": "This" },
+      { "type": "fill_blank", "question": "I don't like ___ (kia) movie. It's boring.", "answer": "that" },
+      { "type": "fill_blank", "question": "___ (Những cái này) are my keys. I found them!", "answer": "These" },
+      { "type": "fill_blank", "question": "___ (Cái này) is a present for you.", "answer": "This" },
+      { "type": "multiple_choice", "question": "Can you pass me ___ book on the table next to you?", "options": ["this", "that", "these", "those"], "answer": "that" },
+      { "type": "multiple_choice", "question": "___ pictures on the wall were painted by my father.", "options": ["This", "That", "These", "Those"], "answer": "Those" }
+    ]
+  },
+  {
+    "title": "Wh- Questions",
+    "titleVi": "Câu hỏi bắt đầu bằng Wh-",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.5,
+    "content": "## Wh- Questions\n\nCâu hỏi dùng để lấy thông tin cụ thể (không phải câu hỏi Yes/No).\n\n### 1. Các từ để hỏi phổ biến\n- **Who:** Hỏi về người (*Who is he?*)\n- **What:** Hỏi về vật, hành động (*What is that?*)\n- **Where:** Hỏi về nơi chốn (*Where do you live?*)\n- **When:** Hỏi về thời gian (*When is your birthday?*)\n- **Why:** Hỏi về lý do (*Why are you late?*)\n- **How:** Hỏi về cách thức, tính chất (*How are you?*)\n\n### 2. Cấu trúc\n**Wh- word + Trợ động từ (do/does/is/am/are) + Chủ ngữ + Động từ chính?**\n- *Where does she work?*\n- *What are you doing?*\n\n!NOTE: Nếu từ để hỏi đóng vai trò làm chủ ngữ, chúng ta không dùng trợ động từ 'do/does'.\n- *Who lives here?* (Ai sống ở đây?) - Đúng\n- *Who does live here?* - Sai",
+    "examples": [
+      { "english": "What time does the lesson start?", "vietnamese": "Mấy giờ bài học bắt đầu?", "explanation": "What time dùng để hỏi giờ cụ thể." },
+      { "english": "How often do you go to the gym?", "vietnamese": "Bạn có thường xuyên đi tập gym không?", "explanation": "How often hỏi về tần suất." },
+      { "english": "Where did you buy those shoes?", "vietnamese": "Bạn đã mua đôi giày đó ở đâu?", "explanation": "Wh- question ở thì quá khứ." },
+      { "english": "Who is your favorite singer?", "vietnamese": "Ca sĩ yêu thích của bạn là ai?", "explanation": "Who dùng để hỏi về người." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "___ is your name?", "options": ["Who", "What", "Where", "How"], "answer": "What" },
+      { "type": "multiple_choice", "question": "___ do you live?", "options": ["Who", "What", "Where", "How"], "answer": "Where" },
+      { "type": "multiple_choice", "question": "___ is that boy? - He is my brother.", "options": ["Who", "What", "When", "Why"], "answer": "Who" },
+      { "type": "multiple_choice", "question": "___ do you go to school? - At 7 AM.", "options": ["What", "Where", "When", "Why"], "answer": "When" },
+      { "type": "multiple_choice", "question": "___ are you crying? - Because I'm sad.", "options": ["What", "Where", "When", "Why"], "answer": "Why" },
+      { "type": "fill_blank", "question": "___ (Như thế nào) was your weekend?", "answer": "How" },
+      { "type": "fill_blank", "question": "___ (Cái gì) is your favorite color?", "answer": "What" },
+      { "type": "fill_blank", "question": "___ (Bao nhiêu tuổi) are you?", "answer": "How old" },
+      { "type": "multiple_choice", "question": "___ bag is this? - It's mine.", "options": ["Who", "Whose", "Whom", "Which"], "answer": "Whose" },
+      { "type": "multiple_choice", "question": "___ do you prefer, tea or coffee?", "options": ["What", "Which", "Who", "How"], "answer": "Which" }
+    ]
+  },
+  {
+    "title": "Adverbs of Frequency",
+    "titleVi": "Trạng từ chỉ tần suất",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.6,
+    "content": "## Adverbs of Frequency\n\nDùng để diễn tả mức độ thường xuyên của một hành động.\n\n### 1. Các trạng từ phổ biến\n- **Always** (100%): Luôn luôn\n- **Usually** (90%): Thường xuyên\n- **Often** (70%): Thường\n- **Sometimes** (50%): Thỉnh thoảng\n- **Hardly ever / Rarely** (10%): Hiếm khi\n- **Never** (0%): Không bao giờ\n\n### 2. Vị trí trong câu\n- **Trước động từ thường:** *I **always** eat breakfast.*\n- **Sau động từ 'To be':** *She is **never** late.*\n- **Giữa trợ động từ và động từ chính:** *I have **never** been to Paris.*\n\n!NOTE: 'Never', 'Rarely', 'Hardly ever' bản thân đã mang nghĩa phủ định, nên không dùng thêm 'not'.\nSai: *I don't never smoke.* (X)\nĐúng: *I never smoke.* (V)",
+    "examples": [
+      { "english": "I usually go to bed at 11 PM.", "vietnamese": "Tôi thường đi ngủ lúc 11 giờ đêm.", "explanation": "Đứng trước động từ thường 'go'." },
+      { "english": "He is often very busy on Mondays.", "vietnamese": "Anh ấy thường rất bận vào các ngày thứ Hai.", "explanation": "Đứng sau động từ To be 'is'." },
+      { "english": "Do you always drink coffee in the morning?", "vietnamese": "Bạn có luôn uống cà phê vào buổi sáng không?", "explanation": "Vị trí trong câu hỏi." },
+      { "english": "I hardly ever watch TV.", "vietnamese": "Tôi hầu như không bao giờ xem TV.", "explanation": "Chỉ tần suất rất thấp." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Choose the correct sentence:", "options": ["I always am happy.", "I am always happy.", "Always I am happy.", "I am happy always."], "answer": "I am always happy." },
+      { "type": "multiple_choice", "question": "Choose the correct sentence:", "options": ["She often plays tennis.", "She plays often tennis.", "Often she plays tennis.", "She plays tennis often."], "answer": "She often plays tennis." },
+      { "type": "multiple_choice", "question": "I ___ drink alcohol. I hate it.", "options": ["always", "usually", "sometimes", "never"], "answer": "never" },
+      { "type": "multiple_choice", "question": "We ___ go to the beach in summer.", "options": ["never", "rarely", "usually", "hardly ever"], "answer": "usually" },
+      { "type": "multiple_choice", "question": "Do you ___ go to the cinema?", "options": ["ever", "never", "rarely", "always"], "answer": "ever" },
+      { "type": "fill_blank", "question": "He ___ (thỉnh thoảng) cooks dinner for us.", "answer": "sometimes" },
+      { "type": "fill_blank", "question": "I am ___ (luôn luôn) tired after work.", "answer": "always" },
+      { "type": "fill_blank", "question": "They ___ (hiếm khi) go out during the week.", "answer": "rarely" },
+      { "type": "multiple_choice", "question": "My sister ___ late for school.", "options": ["is never", "never is", "is usually", "usually is"], "answer": "is never" },
+      { "type": "multiple_choice", "question": "I ___ my teeth after every meal.", "options": ["always brush", "brush always", "am always brush", "always am brush"], "answer": "always brush" }
+    ]
+  },
+  {
+    "title": "Possessive 's",
+    "titleVi": "Sở hữu cách với 's",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.7,
+    "content": "## Possessive 's\n\nDùng để chỉ quyền sở hữu hoặc mối quan hệ giữa người và người, người và vật.\n\n### 1. Quy tắc cơ bản\n- **Danh từ số ít:** Thêm **'s** (*Tom's book*).\n- **Danh từ số nhiều tận cùng là -s:** Chỉ thêm dấu nháy đơn **'** (*The students' bags*).\n- **Danh từ số nhiều không tận cùng là -s:** Thêm **'s** (*The children's toys*).\n\n### 2. Lưu ý quan trọng\n- Với đồ vật, chúng ta thường dùng **'of'** thay vì **'s**.\n  *The door of the car* (thay vì *the car's door*).\n- Nếu có hai người cùng sở hữu một vật: *Tom and Mary's house* (chỉ thêm 's vào người cuối).\n\n!NOTE: Đừng nhầm lẫn 's (sở hữu) với 's (viết tắt của is hoặc has).\n- *Peter's car* (Sở hữu)\n- *Peter's happy* (Peter is happy)",
+    "examples": [
+      { "english": "This is my brother's room.", "vietnamese": "Đây là phòng của anh trai tôi.", "explanation": "Sở hữu cách số ít." },
+      { "english": "Where are the girls' shoes?", "vietnamese": "Giày của các cô gái ở đâu?", "explanation": "Sở hữu cách số nhiều tận cùng là -s." },
+      { "english": "It's a two-week's holiday.", "vietnamese": "Đó là một kỳ nghỉ kéo dài hai tuần.", "explanation": "Dùng 's với các cụm từ chỉ thời gian." },
+      { "english": "I stayed at my grandmother's.", "vietnamese": "Tôi đã ở nhà bà tôi.", "explanation": "Có thể lược bỏ danh từ 'house' phía sau." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "This is ___ car.", "options": ["John", "Johns", "John's", "Johns'"], "answer": "John's" },
+      { "type": "multiple_choice", "question": "Where are the ___ bikes?", "options": ["boy's", "boys's", "boys'", "boys"], "answer": "boys'" },
+      { "type": "multiple_choice", "question": "___ mother is a doctor.", "options": ["Amy and Ben's", "Amy's and Ben's", "Amys and Bens", "Amy and Ben"], "answer": "Amy and Ben's" },
+      { "type": "multiple_choice", "question": "Those are the ___ toys.", "options": ["children", "childrens", "children's", "childrens'"], "answer": "children's" },
+      { "type": "multiple_choice", "question": "I like the ___ of the house.", "options": ["color's", "house's color", "color of the house", "house color"], "answer": "color of the house" },
+      { "type": "fill_blank", "question": "Is this ___ (của mẹ bạn) umbrella?", "answer": "your mother's" },
+      { "type": "fill_blank", "question": "The ___ (của những con mèo) food is in the kitchen.", "answer": "cats'" },
+      { "type": "fill_blank", "question": "That's ___ (của Mr. Smith) office.", "answer": "Mr. Smith's" },
+      { "type": "multiple_choice", "question": "I live in my ___ house.", "options": ["parent", "parents", "parent's", "parents'"], "answer": "parents'" },
+      { "type": "multiple_choice", "question": "The ___ tail is very long.", "options": ["dog", "dogs", "dog's", "dogs'"], "answer": "dog's" }
+    ]
+  },
+  {
+    "title": "Stative vs Dynamic Verbs",
+    "titleVi": "Động từ trạng thái và Động từ hành động",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.8,
+    "content": "## Stative vs Dynamic Verbs\n\nPhân biệt giữa động từ chỉ hành động và động từ chỉ trạng thái là rất quan trọng để sử dụng đúng các thì tiếp diễn (-ing).\n\n### 1. Động từ hành động (Dynamic Verbs)\nDiễn tả các hành động cụ thể, có bắt đầu và kết thúc. Có thể dùng ở cả thì đơn và thì tiếp diễn.\n- *run, eat, sleep, work, play*\n- *I am eating. / I eat every day.*\n\n### 2. Động từ trạng thái (Stative Verbs)\nDiễn tả cảm xúc, suy nghĩ, sự sở hữu hoặc giác quan. **Thường KHÔNG dùng ở các thì tiếp diễn**.\n- **Cảm xúc:** *love, hate, like, want, need*\n- **Suy nghĩ:** *know, believe, remember, understand*\n- **Sở hữu:** *have, own, belong*\n- **Giác quan:** *see, hear, smell, taste*\n\n!NOTE: Một số từ có thể là cả hai tùy ngữ cảnh. \n- *I **have** a car.* (Sở hữu - Trạng thái)\n- *I **am having** dinner.* (Ăn uống - Hành động)",
+    "examples": [
+      { "english": "I want a new phone.", "vietnamese": "Tôi muốn một chiếc điện thoại mới.", "explanation": "Want là stative verb, không nói 'I am wanting'." },
+      { "english": "I don't understand this lesson.", "vietnamese": "Tôi không hiểu bài học này.", "explanation": "Understand là stative verb, không dùng tiếp diễn." },
+      { "english": "This soup tastes delicious.", "vietnamese": "Món súp này có vị rất ngon.", "explanation": "Taste chỉ trạng thái của vật." },
+      { "english": "She knows the answer.", "vietnamese": "Cô ấy biết câu trả lời.", "explanation": "Know là stative verb." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I ___ coffee. It tastes great.", "options": ["like", "am liking", "likes", "am like"], "answer": "like" },
+      { "type": "multiple_choice", "question": "Wait a minute, I ___ what to do now.", "options": ["know", "am knowing", "knows", "to know"], "answer": "know" },
+      { "type": "multiple_choice", "question": "Look! She ___ a red dress today.", "options": ["wear", "wears", "is wearing", "is wear"], "answer": "is wearing" },
+      { "type": "multiple_choice", "question": "I ___ a lot of money right now.", "options": ["need", "am needing", "needs", "needing"], "answer": "need" },
+      { "type": "multiple_choice", "question": "They ___ to the cinema every weekend.", "options": ["go", "are going", "goes", "gone"], "answer": "go" },
+      { "type": "fill_blank", "question": "I ___ (believe) you. You are honest.", "answer": "believe" },
+      { "type": "fill_blank", "question": "Listen! I ___ (hear) a strange noise.", "answer": "hear" },
+      { "type": "fill_blank", "question": "They ___ (have) a big house in the countryside.", "answer": "have" },
+      { "type": "multiple_choice", "question": "What ___ you thinking about?", "options": ["do", "are", "is", "can"], "answer": "are" },
+      { "type": "multiple_choice", "question": "I ___ she is a very nice person.", "options": ["think", "am thinking", "thinks", "thinking"], "answer": "think" }
+    ]
+  },
+  {
+    "title": "Prepositions of Place: The Basics",
+    "titleVi": "Giới từ chỉ vị trí cơ bản",
+    "level": "beginner",
+    "category": "basic",
+    "order": 0.9,
+    "content": "## Prepositions of Place (The Basics)\n\nDùng để mô tả vị trí của một người hoặc vật so với một vật khác.\n\n### 1. Các giới từ quan trọng nhất\n- **In:** Trong (không gian khép kín) -> *in the box*\n- **On:** Trên (tiếp xúc bề mặt) -> *on the table*\n- **At:** Tại (một điểm cụ thể) -> *at the bus stop*\n- **Under:** Dưới -> *under the bed*\n- **Next to:** Bên cạnh -> *next to the shop*\n- **Between:** Giữa (hai vật) -> *between the car and the house*\n- **Behind:** Phía sau -> *behind the tree*\n- **In front of:** Phía trước -> *in front of the TV*\n\n### 2. Phân biệt In - On - At\n- **In:** trong thành phố, trong nước, trong phòng.\n- **On:** trên đường phố, trên tầng, trên trang giấy.\n- **At:** địa chỉ cụ thể, tại trường học, tại nơi làm việc.\n\n!NOTE: Chúng ta nói 'in the car' nhưng lại nói 'on the bus/train/plane'.",
+    "examples": [
+      { "english": "My keys are on the table.", "vietnamese": "Chìa khóa của tôi ở trên bàn.", "explanation": "On chỉ vị trí trên bề mặt." },
+      { "english": "The cat is hiding under the chair.", "vietnamese": "Con mèo đang trốn dưới gầm ghế.", "explanation": "Under chỉ vị trí phía dưới." },
+      { "english": "I'll meet you at the cinema.", "vietnamese": "Tôi sẽ gặp bạn tại rạp chiếu phim.", "explanation": "At chỉ một địa điểm cụ thể." },
+      { "english": "She sits between Tom and Mary.", "vietnamese": "Cô ấy ngồi giữa Tom và Mary.", "explanation": "Between + A and B." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The book is ___ the bag.", "options": ["in", "on", "at", "under"], "answer": "in" },
+      { "type": "multiple_choice", "question": "There is a picture ___ the wall.", "options": ["in", "on", "at", "behind"], "answer": "on" },
+      { "type": "multiple_choice", "question": "Wait for me ___ the bus stop.", "options": ["in", "on", "at", "under"], "answer": "at" },
+      { "type": "multiple_choice", "question": "The dog is sleeping ___ the table.", "options": ["in", "on", "under", "between"], "answer": "under" },
+      { "type": "multiple_choice", "question": "My house is ___ the park.", "options": ["in", "on", "at", "next to"], "answer": "next to" },
+      { "type": "fill_blank", "question": "The ball is ___ (ở giữa) the two boxes.", "answer": "between" },
+      { "type": "fill_blank", "question": "He is standing ___ (phía sau) the door.", "answer": "behind" },
+      { "type": "fill_blank", "question": "There is a garden ___ (phía trước) the house.", "answer": "in front of" },
+      { "type": "multiple_choice", "question": "I live ___ London.", "options": ["in", "on", "at", "under"], "answer": "in" },
+      { "type": "multiple_choice", "question": "The computer is ___ the desk.", "options": ["in", "on", "at", "between"], "answer": "on" }
+    ]
+  }
+]

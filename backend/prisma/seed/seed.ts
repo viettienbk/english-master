@@ -23,6 +23,8 @@ const moreGrammarData = require('./more_grammar.json');
 const grammarData = require('./grammar.json');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const expandedGrammarData = require('./expanded_grammar.json');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ultimateBasicGrammarData = require('./ultimate_basic_grammar.json');
 
 const prisma = new PrismaClient();
 
@@ -101,6 +103,8 @@ async function main() {
   
   // Add base grammar
   rawGrammar.forEach((l: any) => allGrammarMap.set(l.title, l));
+  // Add foundational basic grammar
+  ultimateBasicGrammarData.forEach((l: any) => allGrammarMap.set(l.title, l));
   // Override with expanded grammar if exists (for 10 exercises & more detail)
   expandedGrammarData.forEach((l: any) => allGrammarMap.set(l.title, l));
   
