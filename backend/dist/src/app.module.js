@@ -16,7 +16,6 @@ const listening_module_1 = require("./listening/listening.module");
 const conversation_module_1 = require("./conversation/conversation.module");
 const progress_module_1 = require("./progress/progress.module");
 const auth_module_1 = require("./auth/auth.module");
-const pronunciation_module_1 = require("./pronunciation/pronunciation.module");
 let AppModule = class AppModule {
 };
 exports.AppModule = AppModule;
@@ -31,7 +30,6 @@ exports.AppModule = AppModule = __decorate([
             conversation_module_1.ConversationModule,
             progress_module_1.ProgressModule,
             auth_module_1.AuthModule,
-            pronunciation_module_1.PronunciationModule,
         ],
     })
 ], AppModule);

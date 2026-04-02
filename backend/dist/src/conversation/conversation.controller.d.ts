@@ -2,12 +2,7 @@ import { ConversationService } from './conversation.service';
 export declare class ConversationController {
     private readonly conversationService;
     constructor(conversationService: ConversationService);
-    getTopics(): {
-        id: string;
-        name: string;
-        nameEn: string;
-        scenario: string;
-    }[];
+    getTopics(): any;
     startConversation(req: any, topicId: string): Promise<{
         conversation: {
             id: string;
@@ -22,7 +17,7 @@ export declare class ConversationController {
     sendMessage(req: any, id: string, message: string): Promise<{
         message: string;
     }>;
-    getConversation(req: any, id: string): Promise<({
+    getConversation(req: any, id: string): Promise<{
         messages: {
             id: string;
             createdAt: Date;
@@ -39,5 +34,5 @@ export declare class ConversationController {
         score: number | null;
         createdAt: Date;
         userId: string | null;
-    }) | null>;
+    }>;
 }

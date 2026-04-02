@@ -10,9 +10,9 @@ import { cn } from '@/lib/utils';
 import FlashCard from '@/components/vocabulary/FlashCard';
 import { updateProgress } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
-import { usePronunciationAssessment, type PronunciationAssessmentResult } from '@/hooks/usePronunciationAssessment';
+import { useSpeechRecognition, type SpeechRecognitionResult } from '@/hooks/useSpeechRecognition';
 import type { Word } from '@/types';
-import { ChevronLeft, ArrowRight, Mic, CheckCircle2, AlertCircle, Square, Check, X, Loader2 } from 'lucide-react';
+import { ChevronLeft, ArrowRight, Mic, CheckCircle2, AlertCircle, Square, Check, X } from 'lucide-react';
 
 interface FlashcardSessionProps {
   title: string;
@@ -36,17 +36,14 @@ export default function FlashcardSession({
   const [currentIndex, setCurrentIndex] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const [animationClass, setAnimationClass] = useState('');
-  const [pronunciationResult, setPronunciationResult] = useState<PronunciationAssessmentResult | null>(null);
-  const [pronunciationError, setPronunciationError] = useState<string | null>(null);
+  const [pronunciationResult, setPronunciationResult] = useState<SpeechRecognitionResult | null>(null);
 
   const { speak } = useSpeechSynthesis();
-  const { isRecording, isProcessing, startRecording, stopRecording, cancelRecording } = usePronunciationAssessment();
+  const { isRecording, startRecording, stopRecording, isSupported } = useSpeechRecognition();
 
   // Reset states when word changes
   useEffect(() => {
     setPronunciationResult(null);
-    setPronunciationError(null);
-    cancelRecording();
     setFlipped(false);
     setAnimationClass('animate-in fade-in zoom-in-95 duration-500');
     const timer = setTimeout(() => setAnimationClass(''), 500);
@@ -80,23 +77,15 @@ export default function FlashcardSession({
 
   const handleRecord = () => {
     if (isRecording) {
-      stopRecording(
-        words[currentIndex].word,
-        (result) => {
-          setPronunciationResult(result);
-          setPronunciationError(null);
-          const quality = Math.round(result.overallScore / 20);
-          updateProgress(words[currentIndex].id, quality).catch(console.error);
-        },
-        (err) => {
-          setPronunciationError(err.message);
-        },
-      );
+      stopRecording();
       return;
     }
     setPronunciationResult(null);
-    setPronunciationError(null);
-    startRecording();
+    startRecording(words[currentIndex].word, (result) => {
+      setPronunciationResult(result);
+      const quality = Math.round(result.score / 20);
+      updateProgress(words[currentIndex].id, quality).catch(console.error);
+    });
   };
 
   const isFinished = currentIndex >= words.length;
@@ -180,143 +169,107 @@ export default function FlashcardSession({
 
             {/* Interaction Area */}
             <div className="max-w-md mx-auto space-y-8">
-              <div className={cn(
-                "rounded-3xl border-2 p-6 transition-all duration-500 shadow-sm",
-                isRecording ? "bg-red-50/50 border-red-200 ring-4 ring-red-50" : "bg-white border-slate-100",
-                pronunciationResult?.isCorrect && "bg-green-50/50 border-green-200",
-                pronunciationResult && !pronunciationResult.isCorrect && "bg-orange-50/50 border-orange-200"
-              )}>
-                <div className="flex items-center justify-between mb-6">
-                  <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-2">
-                    <Mic className="w-3.5 h-3.5 text-primary" />
-                    Luyện phát âm
-                  </h3>
-                  {pronunciationResult && (
-                    <div className="flex items-center gap-1.5">
+              {isSupported !== false && (
+                <div className={cn(
+                  "rounded-3xl border-2 p-6 transition-all duration-500 shadow-sm",
+                  isRecording ? "bg-red-50/50 border-red-200 ring-4 ring-red-50" : "bg-white border-slate-100",
+                  pronunciationResult?.isCorrect && "bg-green-50/50 border-green-200",
+                  pronunciationResult && !pronunciationResult.isCorrect && "bg-orange-50/50 border-orange-200"
+                )}>
+                  <div className="flex items-center justify-between mb-6">
+                    <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-2">
+                      <Mic className="w-3.5 h-3.5 text-primary" />
+                      Luyện phát âm
+                    </h3>
+                    {pronunciationResult && (
                       <Badge className={cn(
                         "px-2.5 py-0.5 text-[10px] font-black uppercase tracking-wider",
                         pronunciationResult.isCorrect ? "bg-green-500" : "bg-orange-500"
                       )}>
-                        {pronunciationResult.overallScore}%
+                        Độ chính xác: {pronunciationResult.score}%
                       </Badge>
-                    </div>
-                  )}
-                </div>
-
-                <div className="flex flex-col items-center gap-4">
-                  <button
-                    onClick={handleRecord}
-                    disabled={isProcessing}
-                    className={cn(
-                      'group relative w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 shadow-xl',
-                      isRecording
-                        ? 'bg-red-500 scale-110 shadow-red-200'
-                        : isProcessing
-                          ? 'bg-slate-300 cursor-not-allowed'
-                          : 'bg-primary hover:scale-105 active:scale-95 shadow-primary/20'
                     )}
-                  >
-                    {isProcessing
-                      ? <Loader2 className="w-6 h-6 text-white animate-spin" />
-                      : isRecording
-                        ? <Square className="w-6 h-6 text-white fill-white" />
-                        : <Mic className="w-7 h-7 text-white" />
-                    }
-                    {isRecording && <span className="absolute -inset-2 rounded-full border-4 border-red-500/20 animate-ping" />}
-                  </button>
-                  <p className="text-xs font-black text-slate-400 uppercase tracking-widest">
-                    {isProcessing ? "Đang phân tích..." : isRecording ? "Đang thu âm... Nhấn để dừng" : "Nhấn mic để luyện đọc"}
-                  </p>
+                  </div>
 
-                  {pronunciationError && (
-                    <p className="text-xs text-red-500 font-medium">{pronunciationError}</p>
-                  )}
+                  <div className="flex flex-col items-center gap-4">
+                    <button
+                      onClick={handleRecord}
+                      className={cn(
+                        'group relative w-16 h-16 rounded-full flex items-center justify-center transition-all duration-300 shadow-xl',
+                        isRecording
+                          ? 'bg-red-500 scale-110 shadow-red-200'
+                          : 'bg-primary hover:scale-105 active:scale-95 shadow-primary/20'
+                      )}
+                    >
+                      {isRecording ? <Square className="w-6 h-6 text-white fill-white" /> : <Mic className="w-7 h-7 text-white" />}
+                      {isRecording && <span className="absolute -inset-2 rounded-full border-4 border-red-500/20 animate-ping" />}
+                    </button>
+                    <p className="text-xs font-black text-slate-400 uppercase tracking-widest">
+                      {isRecording ? "Đang thu âm... Nhấn để dừng" : "Nhấn mic để luyện đọc"}
+                    </p>
 
-                  {pronunciationResult && (
-                    <div className="w-full animate-in fade-in slide-in-from-bottom-2 duration-500 mt-2">
-                      <div className={cn(
-                        "flex flex-col gap-3 p-4 rounded-2xl",
-                        pronunciationResult.isCorrect ? "bg-green-500/10 text-green-700" : "bg-orange-500/10 text-orange-700"
-                      )}>
-                        {/* Header */}
-                        <div className="flex items-start gap-3">
-                          {pronunciationResult.isCorrect
-                            ? <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" />
-                            : <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />
-                          }
-                          <div className="flex-1">
-                            <p className="font-black text-sm leading-tight mb-1 uppercase tracking-tight">
-                              {pronunciationResult.isCorrect ? "Rất tốt! Phát âm chuẩn" : "Hãy thử lại nhé!"}
-                            </p>
-                            <p className="text-xs font-medium opacity-80">
-                              Nhận diện: <span className="font-bold">"{pronunciationResult.transcript || '...'}"</span>
-                            </p>
+                    {pronunciationResult && (
+                      <div className="w-full animate-in fade-in slide-in-from-bottom-2 duration-500 mt-2">
+                        <div className={cn(
+                          "flex flex-col gap-3 p-4 rounded-2xl",
+                          pronunciationResult.isCorrect ? "bg-green-500/10 text-green-700" : "bg-orange-500/10 text-orange-700"
+                        )}>
+                          <div className="flex items-start gap-3">
+                            {pronunciationResult.isCorrect ? <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" /> : <AlertCircle className="w-5 h-5 shrink-0 mt-0.5" />}
+                            <div>
+                              <p className="font-black text-sm leading-tight mb-1 uppercase tracking-tight">
+                                {pronunciationResult.isCorrect ? "Rất tốt! Chính xác" : "Hãy thử lại nhé!"}
+                              </p>
+                              <p className="text-xs font-medium opacity-80">
+                                Nhận diện: <span className="underline decoration-2 underline-offset-4 font-bold tracking-tight">"{pronunciationResult.transcript || "..."}"</span>
+                              </p>
+                            </div>
                           </div>
-                        </div>
 
-                        {/* Score breakdown */}
-                        <div className="grid grid-cols-3 gap-2 pt-2 border-t border-current/10 text-center">
-                          {[
-                            { label: 'Chính xác', value: pronunciationResult.accuracyScore },
-                            { label: 'Lưu loát', value: pronunciationResult.fluencyScore },
-                            { label: 'Đầy đủ', value: pronunciationResult.completenessScore },
-                          ].map(({ label, value }) => (
-                            <div key={label}>
-                              <div className="text-base font-black">{value}%</div>
-                              <div className="text-[10px] uppercase tracking-wider opacity-70">{label}</div>
-                            </div>
-                          ))}
-                        </div>
-
-                        {/* Word-level feedback */}
-                        {pronunciationResult.words.length > 0 && (
-                          <div className="flex flex-col gap-2 pt-2 border-t border-current/10">
-                            {/* Word badges */}
-                            <div className="flex flex-wrap gap-1.5">
-                              {pronunciationResult.words.map((w, idx) => (
-                                <span
-                                  key={idx}
-                                  className={cn(
-                                    "px-2 py-0.5 rounded-md text-sm font-bold border",
-                                    w.errorType === 'None'
-                                      ? "bg-green-500 text-white border-green-600 shadow-sm"
-                                      : "bg-red-500 text-white border-red-600 shadow-sm"
-                                  )}
-                                >
-                                  {w.word}
-                                  {w.errorType !== 'None' && (
-                                    <span className="ml-1 text-[10px] font-normal opacity-80">
-                                      {w.accuracyScore}%
-                                    </span>
-                                  )}
-                                </span>
-                              ))}
-                            </div>
-
-                            {/* Per-word feedback from Gemini */}
-                            {pronunciationResult.words.some(w => w.errorType !== 'None') && (
-                              <div className="flex flex-col gap-1.5">
-                                {pronunciationResult.words
-                                  .filter(w => w.errorType !== 'None')
-                                  .map((w, idx) => (
-                                    <div key={idx} className="text-xs flex gap-1.5 items-start">
-                                      <span className="font-black shrink-0">"{w.word}"</span>
-                                      <span className="opacity-80">
-                                        {w.errorType === 'Omission' && '— bị bỏ sót'}
-                                        {w.errorType === 'Insertion' && '— thêm từ thừa'}
-                                        {w.errorType === 'Mispronunciation' && (w.feedback || '— phát âm chưa đúng')}
+                          {/* Word-level feedback */}
+                          {pronunciationResult.segments && (
+                            <div className="flex flex-col gap-2 mt-1 pt-3 border-t border-current/10">
+                              <div className="flex flex-wrap gap-1.5">
+                                {pronunciationResult.segments.map((seg, idx) => (
+                                  <span
+                                    key={idx}
+                                    title={seg.spokenAs ? `Bạn đọc: "${seg.spokenAs}"` : undefined}
+                                    className={cn(
+                                      "px-2 py-0.5 rounded-md text-sm font-bold border",
+                                      seg.isCorrect
+                                        ? "bg-green-500 text-white border-green-600 shadow-sm"
+                                        : "bg-red-500 text-white border-red-600 shadow-sm animate-pulse"
+                                    )}
+                                  >
+                                    {seg.word}
+                                    {!seg.isCorrect && seg.spokenAs && (
+                                      <span className="ml-1 font-normal opacity-80 text-[11px]">
+                                        → "{seg.spokenAs}"
                                       </span>
-                                    </div>
-                                  ))}
+                                    )}
+                                  </span>
+                                ))}
                               </div>
-                            )}
-                          </div>
-                        )}
+                              {pronunciationResult.segments.some(s => !s.isCorrect && s.phoneticNote) && (
+                                <div className="flex flex-col gap-1 text-xs font-medium opacity-90">
+                                  {pronunciationResult.segments
+                                    .filter(s => !s.isCorrect && s.phoneticNote)
+                                    .map((seg, idx) => (
+                                      <p key={idx} className="flex gap-1 items-start">
+                                        <span className="font-black shrink-0">"{seg.word}":</span>
+                                        <span>{seg.phoneticNote}</span>
+                                      </p>
+                                    ))}
+                                </div>
+                              )}
+                            </div>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  )}
+                    )}
+                  </div>
                 </div>
-              </div>
+              )}
 
               {/* Navigation */}
               <div className="flex items-center justify-center gap-8 pt-2">

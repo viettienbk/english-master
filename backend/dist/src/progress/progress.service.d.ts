@@ -91,7 +91,6 @@ export declare class ProgressService {
     }>;
     getOngoingLessons(userId: string): Promise<({
         details: {
-            transcript: string;
             id: string;
             createdAt: Date;
             level: string;
@@ -99,6 +98,7 @@ export declare class ProgressService {
             audioUrl: string;
             title: string;
             titleVi: string | null;
+            transcript: string;
             blanks: string;
             translation: string | null;
         } | null;
@@ -147,7 +147,6 @@ export declare class ProgressService {
         };
         ongoingLessons: ({
             details: {
-                transcript: string;
                 id: string;
                 createdAt: Date;
                 level: string;
@@ -155,6 +154,7 @@ export declare class ProgressService {
                 audioUrl: string;
                 title: string;
                 titleVi: string | null;
+                transcript: string;
                 blanks: string;
                 translation: string | null;
             } | null;

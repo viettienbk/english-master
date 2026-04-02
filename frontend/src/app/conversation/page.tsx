@@ -49,8 +49,9 @@ export default function ConversationPage() {
       // Store initial AI message so the session page can display it immediately
       sessionStorage.setItem(`conv_${res.conversation.id}`, res.message);
       router.push(`/conversation/${res.conversation.id}`);
-    } catch {
-      alert('Lỗi kết nối. Hãy kiểm tra GEMINI_API_KEY trong backend .env');
+    } catch (error: any) {
+      console.error('Start conversation error:', error);
+      alert(error.message || 'Lỗi kết nối. Hãy kiểm tra GEMINI_API_KEY trong backend .env');
       setStarting(null);
     }
   };

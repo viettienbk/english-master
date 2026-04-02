@@ -11,8 +11,8 @@ export declare class AuthService {
         picture: string;
     }): Promise<{
         id: string;
-        email: string;
         name: string | null;
+        email: string;
         password: string;
         image: string | null;
         createdAt: Date;
@@ -23,8 +23,8 @@ export declare class AuthService {
     }>;
     findUserById(id: string): Promise<{
         id: string;
-        email: string;
         name: string | null;
+        email: string;
         password: string;
         image: string | null;
         createdAt: Date;

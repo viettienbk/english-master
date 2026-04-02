@@ -9,8 +9,8 @@ export declare class AuthController {
     googleAuthRedirect(req: any, res: Response): Promise<void>;
     getProfile(req: any): Promise<{
         id: string;
-        email: string;
         name: string | null;
+        email: string;
         password: string;
         image: string | null;
         createdAt: Date;

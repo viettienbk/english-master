@@ -1,14 +1,11 @@
 import { PrismaService } from '../prisma/prisma.service';
+import { ConfigService } from '@nestjs/config';
 export declare class ConversationService {
     private prisma;
+    private configService;
     private genAI;
-    constructor(prisma: PrismaService);
-    getTopics(): {
-        id: string;
-        name: string;
-        nameEn: string;
-        scenario: string;
-    }[];
+    constructor(prisma: PrismaService, configService: ConfigService);
+    getTopics(): any;
     private buildSystemPrompt;
     startConversation(topicId: string, userId?: string): Promise<{
         conversation: {
@@ -24,7 +21,7 @@ export declare class ConversationService {
     sendMessage(conversationId: string, userMessage: string): Promise<{
         message: string;
     }>;
-    getConversation(id: string): Promise<({
+    getConversation(id: string): Promise<{
         messages: {
             id: string;
             createdAt: Date;
@@ -41,5 +38,5 @@ export declare class ConversationService {
         score: number | null;
         createdAt: Date;
         userId: string | null;
-    }) | null>;
+    }>;
 }
