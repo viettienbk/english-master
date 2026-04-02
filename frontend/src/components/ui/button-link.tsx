@@ -22,6 +22,7 @@ interface ButtonLinkProps {
   variant?: keyof typeof variantStyles;
   size?: keyof typeof sizeStyles;
   className?: string;
+  onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
 }
 
 export function ButtonLink({
@@ -30,10 +31,12 @@ export function ButtonLink({
   variant = 'default',
   size = 'default',
   className,
+  onClick,
 }: ButtonLinkProps) {
   return (
     <Link
       href={href}
+      onClick={onClick}
       className={cn(
         'inline-flex items-center justify-center rounded-lg font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring whitespace-nowrap',
         variantStyles[variant],

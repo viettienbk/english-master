@@ -524,6 +524,8 @@ export default function QuizPage() {
   }
 
   const content = () => {
+    if (!topic || !topic.words) return null;
+
     if (mode === 'multiple_choice') {
       return (
         <MultipleChoiceMode
