@@ -7,6 +7,7 @@ import type { VocabularyTopic } from '@/types';
 import FlashcardSession from '@/components/vocabulary/FlashcardSession';
 import { ButtonLink } from '@/components/ui/button-link';
 import { CheckCircle2 } from 'lucide-react';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 
 export default function FlashcardPage() {
   const params = useParams();
@@ -41,37 +42,39 @@ export default function FlashcardPage() {
   }
 
   return (
-    <FlashcardSession
-      title={topic.nameVi || topic.name}
-      subtitle="Học qua Flashcard"
-      words={topic.words}
-      backLink={`/vocabulary/${topicId}`}
-      backLabel="Quay lại chủ đề"
-      finishComponent={
-        <div className="max-w-md mx-auto p-12 rounded-[3rem] bg-gradient-to-br from-green-500 to-emerald-600 text-white text-center shadow-2xl shadow-green-200 animate-in zoom-in-95 duration-500">
-          <div className="w-20 h-20 bg-white/20 rounded-[2rem] flex items-center justify-center mx-auto mb-6 backdrop-blur-sm rotate-12">
-            <CheckCircle2 className="w-10 h-10" />
+    <ProtectedRoute>
+      <FlashcardSession
+        title={topic.nameVi || topic.name}
+        subtitle="Học qua Flashcard"
+        words={topic.words}
+        backLink={`/vocabulary/${topicId}`}
+        backLabel="Quay lại chủ đề"
+        finishComponent={
+          <div className="max-w-md mx-auto p-12 rounded-[3rem] bg-gradient-to-br from-green-500 to-emerald-600 text-white text-center shadow-2xl shadow-green-200 animate-in zoom-in-95 duration-500">
+            <div className="w-20 h-20 bg-white/20 rounded-[2rem] flex items-center justify-center mx-auto mb-6 backdrop-blur-sm rotate-12">
+              <CheckCircle2 className="w-10 h-10" />
+            </div>
+            <h3 className="text-3xl font-black mb-2 uppercase tracking-tight">Hoàn thành!</h3>
+            <p className="font-medium opacity-90 mb-10 text-lg">
+              Tuyệt vời! Bạn đã hoàn thành việc ôn tập bộ thẻ này.
+            </p>
+            <div className="flex flex-col gap-3">
+              <ButtonLink 
+                href={`/vocabulary/${topicId}/quiz`}
+                className="h-14 rounded-2xl font-black text-sm uppercase tracking-widest bg-white text-emerald-600 hover:bg-emerald-50 shadow-lg"
+              >
+                Làm bài tập ngay
+              </ButtonLink>
+              <ButtonLink 
+                href={`/vocabulary/${topicId}`}
+                className="h-14 rounded-2xl font-black text-sm uppercase tracking-widest bg-emerald-400 text-white hover:bg-emerald-300 shadow-lg"
+              >
+                Quay lại chủ đề
+              </ButtonLink>
+            </div>
           </div>
-          <h3 className="text-3xl font-black mb-2 uppercase tracking-tight">Hoàn thành!</h3>
-          <p className="font-medium opacity-90 mb-10 text-lg">
-            Tuyệt vời! Bạn đã hoàn thành việc ôn tập bộ thẻ này.
-          </p>
-          <div className="flex flex-col gap-3">
-            <ButtonLink 
-              href={`/vocabulary/${topicId}/quiz`}
-              className="h-14 rounded-2xl font-black text-sm uppercase tracking-widest bg-white text-emerald-600 hover:bg-emerald-50 shadow-lg"
-            >
-              Làm bài tập ngay
-            </ButtonLink>
-            <ButtonLink 
-              href={`/vocabulary/${topicId}`}
-              className="h-14 rounded-2xl font-black text-sm uppercase tracking-widest bg-emerald-400 text-white hover:bg-emerald-300 shadow-lg"
-            >
-              Quay lại chủ đề
-            </ButtonLink>
-          </div>
-        </div>
-      }
-    />
+        }
+      />
+    </ProtectedRoute>
   );
 }

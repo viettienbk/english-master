@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { getMasteredWords } from '@/lib/api';
 import type { Word } from '@/types';
 import FlashcardSession from '@/components/vocabulary/FlashcardSession';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 
 export default function MasteredWordsPage() {
   const [words, setWords] = useState<Word[]>([]);
@@ -28,12 +29,14 @@ export default function MasteredWordsPage() {
   }
 
   return (
-    <FlashcardSession
-      title="Ôn tập từ đã thuộc"
-      subtitle="Củng cố những từ vựng bạn đã thành thạo"
-      words={words}
-      backLink="/profile"
-      backLabel="Quay lại trang cá nhân"
-    />
+    <ProtectedRoute>
+      <FlashcardSession
+        title="Ôn tập từ đã thuộc"
+        subtitle="Củng cố những từ vựng bạn đã thành thạo"
+        words={words}
+        backLink="/profile"
+        backLabel="Quay lại trang cá nhân"
+      />
+    </ProtectedRoute>
   );
 }

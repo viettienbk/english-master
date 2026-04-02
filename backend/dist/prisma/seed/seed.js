@@ -12,6 +12,7 @@ const oxford3000Batch6Data = require('./oxford_3000_batch6.json');
 const moreListeningData = require('./more_listening.json');
 const moreGrammarData = require('./more_grammar.json');
 const grammarData = require('./grammar.json');
+const expandedGrammarData = require('./expanded_grammar.json');
 const prisma = new client_1.PrismaClient();
 async function main() {
     console.log('Seeding database...');
@@ -65,7 +66,11 @@ async function main() {
         });
         console.log(`Created topic: ${createdTopic.name} with ${words.length} words`);
     }
-    const allGrammar = [...grammarData, ...moreGrammarData];
+    const rawGrammar = [...grammarData, ...moreGrammarData];
+    const allGrammarMap = new Map();
+    rawGrammar.forEach((l) => allGrammarMap.set(l.title, l));
+    expandedGrammarData.forEach((l) => allGrammarMap.set(l.title, l));
+    const allGrammar = Array.from(allGrammarMap.values());
     for (const lesson of allGrammar) {
         const created = await prisma.grammarLesson.create({
             data: {

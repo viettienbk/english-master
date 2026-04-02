@@ -104,7 +104,7 @@ Rules:
             },
         });
         const model = this.genAI.getGenerativeModel({
-            model: 'gemini-1.5-flash',
+            model: 'gemini-2.0-flash-lite',
             systemInstruction: this.buildSystemPrompt(topic.scenario),
         });
         const result = await model.generateContent('Start the conversation naturally as the person in the scenario. Greet the user and begin the interaction. Then provide 3 suggested phrases the user could say to respond.');
@@ -131,7 +131,7 @@ Rules:
             data: { conversationId, role: 'user', content: userMessage },
         });
         const model = this.genAI.getGenerativeModel({
-            model: 'gemini-1.5-flash',
+            model: 'gemini-2.0-flash-lite',
             systemInstruction: this.buildSystemPrompt(scenario),
             generationConfig: { temperature: 0.8 },
         });

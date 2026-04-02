@@ -100,6 +100,7 @@ export declare class ProgressController {
         };
         ongoingLessons: ({
             details: {
+                transcript: string;
                 id: string;
                 createdAt: Date;
                 level: string;
@@ -107,7 +108,6 @@ export declare class ProgressController {
                 audioUrl: string;
                 title: string;
                 titleVi: string | null;
-                transcript: string;
                 blanks: string;
                 translation: string | null;
             } | null;

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { getNewWords } from '@/lib/api';
 import type { Word } from '@/types';
 import FlashcardSession from '@/components/vocabulary/FlashcardSession';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 
 export default function NewWordsPage() {
   const [words, setWords] = useState<Word[]>([]);
@@ -28,12 +29,14 @@ export default function NewWordsPage() {
   }
 
   return (
-    <FlashcardSession
-      title="Học từ vựng mới"
-      subtitle="Khám phá các từ vựng bạn chưa từng học"
-      words={words}
-      backLink="/profile"
-      backLabel="Quay lại trang cá nhân"
-    />
+    <ProtectedRoute>
+      <FlashcardSession
+        title="Học từ vựng mới"
+        subtitle="Khám phá các từ vựng bạn chưa từng học"
+        words={words}
+        backLink="/profile"
+        backLabel="Quay lại trang cá nhân"
+      />
+    </ProtectedRoute>
   );
 }

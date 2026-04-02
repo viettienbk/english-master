@@ -21,6 +21,8 @@ const moreListeningData = require('./more_listening.json');
 const moreGrammarData = require('./more_grammar.json');
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const grammarData = require('./grammar.json');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const expandedGrammarData = require('./expanded_grammar.json');
 
 const prisma = new PrismaClient();
 
@@ -94,7 +96,16 @@ async function main() {
   }
 
   // Seed grammar lessons
-  const allGrammar = [...grammarData, ...moreGrammarData];
+  const rawGrammar = [...grammarData, ...moreGrammarData];
+  const allGrammarMap = new Map();
+  
+  // Add base grammar
+  rawGrammar.forEach((l: any) => allGrammarMap.set(l.title, l));
+  // Override with expanded grammar if exists (for 10 exercises & more detail)
+  expandedGrammarData.forEach((l: any) => allGrammarMap.set(l.title, l));
+  
+  const allGrammar = Array.from(allGrammarMap.values());
+
   for (const lesson of allGrammar) {
     const created = await prisma.grammarLesson.create({
       data: {

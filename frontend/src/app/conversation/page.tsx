@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { getConversationTopics, startConversation, type ConversationTopic } from '@/lib/api';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 
 const topicIcons: Record<string, string> = {
   travel: '✈️',
@@ -70,42 +71,44 @@ export default function ConversationPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12">
-      <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Hội thoại AI</h1>
-        <p className="text-muted-foreground">
-          Luyện nói tiếng Anh với AI trong các tình huống giao tiếp thực tế
-        </p>
-      </div>
+    <ProtectedRoute>
+      <div className="max-w-7xl mx-auto px-4 py-12">
+        <div className="mb-8">
+          <h1 className="text-3xl font-bold mb-2">Hội thoại AI</h1>
+          <p className="text-muted-foreground">
+            Luyện nói tiếng Anh với AI trong các tình huống giao tiếp thực tế
+          </p>
+        </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {topics.map((topic) => (
-          <Card
-            key={topic.id}
-            className="hover:shadow-lg transition-all hover:-translate-y-1"
-          >
-            <CardHeader>
-              <div className="text-4xl mb-3">
-                {topicIcons[topic.id] || '💬'}
-              </div>
-              <CardTitle className="text-xl">{topic.name}</CardTitle>
-              <p className="text-sm text-muted-foreground">{topic.nameEn}</p>
-            </CardHeader>
-            <CardContent>
-              <p className="text-sm text-muted-foreground mb-4">
-                {topic.scenario}
-              </p>
-              <Button
-                className="w-full"
-                onClick={() => handleStart(topic.id)}
-                disabled={starting === topic.id}
-              >
-                {starting === topic.id ? 'Đang bắt đầu...' : 'Bắt đầu hội thoại'}
-              </Button>
-            </CardContent>
-          </Card>
-        ))}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {topics.map((topic) => (
+            <Card
+              key={topic.id}
+              className="hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              <CardHeader>
+                <div className="text-4xl mb-3">
+                  {topicIcons[topic.id] || '💬'}
+                </div>
+                <CardTitle className="text-xl">{topic.name}</CardTitle>
+                <p className="text-sm text-muted-foreground">{topic.nameEn}</p>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground mb-4">
+                  {topic.scenario}
+                </p>
+                <Button
+                  className="w-full"
+                  onClick={() => handleStart(topic.id)}
+                  disabled={starting === topic.id}
+                >
+                  {starting === topic.id ? 'Đang bắt đầu...' : 'Bắt đầu hội thoại'}
+                </Button>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
       </div>
-    </div>
+    </ProtectedRoute>
   );
 }

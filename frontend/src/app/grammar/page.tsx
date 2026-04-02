@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { getGrammarLessons } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
 import type { GrammarLesson } from '@/types';
 import { BookOpen, MessageSquare, Layout, Sparkles, ArrowRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -37,12 +38,21 @@ const levelLabels: Record<string, string> = {
 export default function GrammarPage() {
   const [lessons, setLessons] = useState<GrammarLesson[]>([]);
   const [loading, setLoading] = useState(true);
+  const { user } = useAuth();
 
   useEffect(() => {
     getGrammarLessons()
       .then(setLessons)
       .finally(() => setLoading(false));
   }, []);
+
+  const handleAuthAction = (e: React.MouseEvent) => {
+    if (!user) {
+      e.preventDefault();
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+      window.location.href = `${apiUrl}/auth/google`;
+    }
+  };
 
   if (loading) {
     return (
@@ -114,7 +124,12 @@ export default function GrammarPage() {
                 {lessons
                   .filter((l) => l.category === cat)
                   .map((lesson) => (
-                    <Link key={lesson.id} href={`/grammar/${lesson.id}`} className="group h-full">
+                    <Link 
+                      key={lesson.id} 
+                      href={`/grammar/${lesson.id}`}
+                      onClick={handleAuthAction}
+                      className="group h-full"
+                    >
                       <Card className="h-full flex flex-col hover:shadow-xl transition-all duration-300 hover:-translate-y-1 border-2 border-transparent group-hover:border-primary/20 rounded-2xl overflow-hidden bg-white">
                         <div className="h-2 w-full bg-gradient-to-r from-indigo-500 to-purple-500 opacity-80" />
                         <CardHeader className="pb-3 flex-1">

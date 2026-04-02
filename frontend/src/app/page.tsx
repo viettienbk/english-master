@@ -1,6 +1,9 @@
+'use client';
+
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ButtonLink } from "@/components/ui/button-link";
+import { useAuth } from "@/hooks/useAuth";
 
 const features = [
   {
@@ -39,6 +42,16 @@ const features = [
 ];
 
 export default function HomePage() {
+  const { user } = useAuth();
+
+  const handleAuthAction = (e: React.MouseEvent) => {
+    if (!user) {
+      e.preventDefault();
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+      window.location.href = `${apiUrl}/auth/google`;
+    }
+  };
+
   return (
     <div>
       {/* Hero Section */}
@@ -53,6 +66,7 @@ export default function HomePage() {
           </p>
           <ButtonLink
             href="/vocabulary"
+            onClick={handleAuthAction}
             size="lg"
             variant="secondary"
             className="text-primary font-semibold"
@@ -69,7 +83,11 @@ export default function HomePage() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature) => (
-            <Link key={feature.href} href={feature.href}>
+            <Link 
+              key={feature.href} 
+              href={feature.href}
+              onClick={handleAuthAction}
+            >
               <Card
                 className={`h-full transition-all hover:shadow-lg hover:-translate-y-1 cursor-pointer border ${feature.color}`}
               >

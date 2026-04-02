@@ -7,6 +7,7 @@ import { ListeningModule } from './listening/listening.module';
 import { ConversationModule } from './conversation/conversation.module';
 import { ProgressModule } from './progress/progress.module';
 import { AuthModule } from './auth/auth.module';
+import { PronunciationModule } from './pronunciation/pronunciation.module';
 
 @Module({
   imports: [
@@ -18,6 +19,7 @@ import { AuthModule } from './auth/auth.module';
     ConversationModule,
     ProgressModule,
     AuthModule,
+    PronunciationModule,
   ],
 })
 export class AppModule {}

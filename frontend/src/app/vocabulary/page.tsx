@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { getTopics } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
 import type { VocabularyTopic } from '@/types';
 import { BookOpen, Trophy } from 'lucide-react';
 
@@ -23,12 +24,21 @@ const levelLabels: Record<string, string> = {
 export default function VocabularyPage() {
   const [topics, setTopics] = useState<VocabularyTopic[]>([]);
   const [loading, setLoading] = useState(true);
+  const { user } = useAuth();
 
   useEffect(() => {
     getTopics()
       .then(setTopics)
       .finally(() => setLoading(false));
   }, []);
+
+  const handleAuthAction = (e: React.MouseEvent) => {
+    if (!user) {
+      e.preventDefault();
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+      window.location.href = `${apiUrl}/auth/google`;
+    }
+  };
 
   if (loading) {
     return (
@@ -59,7 +69,12 @@ export default function VocabularyPage() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {topics.map((topic) => (
-          <Link key={topic.id} href={`/vocabulary/${topic.id}`} className="group">
+          <Link 
+            key={topic.id} 
+            href={`/vocabulary/${topic.id}`} 
+            onClick={handleAuthAction}
+            className="group"
+          >
             <Card className="h-full overflow-hidden border-2 border-transparent transition-all duration-300 group-hover:border-primary/20 group-hover:shadow-xl group-hover:-translate-y-2 rounded-2xl">
               <div className="aspect-[16/9] w-full relative overflow-hidden bg-muted">
                 <img

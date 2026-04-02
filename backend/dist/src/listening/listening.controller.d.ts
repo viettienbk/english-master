@@ -3,6 +3,7 @@ export declare class ListeningController {
     private readonly listeningService;
     constructor(listeningService: ListeningService);
     getLessons(level?: string): Promise<{
+        transcript: string;
         id: string;
         createdAt: Date;
         level: string;
@@ -10,11 +11,11 @@ export declare class ListeningController {
         audioUrl: string;
         title: string;
         titleVi: string | null;
-        transcript: string;
         blanks: string;
         translation: string | null;
     }[]>;
     getLessonById(id: string): Promise<{
+        transcript: string;
         id: string;
         createdAt: Date;
         level: string;
@@ -22,7 +23,6 @@ export declare class ListeningController {
         audioUrl: string;
         title: string;
         titleVi: string | null;
-        transcript: string;
         blanks: string;
         translation: string | null;
     } | null>;

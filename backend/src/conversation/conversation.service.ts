@@ -98,7 +98,7 @@ Rules:
     });
 
     const model = this.genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-2.0-flash-lite',
       systemInstruction: this.buildSystemPrompt(topic.scenario),
     });
 
@@ -134,7 +134,7 @@ Rules:
     });
 
     const model = this.genAI.getGenerativeModel({
-      model: 'gemini-1.5-flash',
+      model: 'gemini-2.0-flash-lite',
       systemInstruction: this.buildSystemPrompt(scenario),
       generationConfig: { temperature: 0.8 },
     });

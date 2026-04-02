@@ -12,6 +12,7 @@ import { cn } from '@/lib/utils';
 import { getTopicById, updateProgress } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
 import type { VocabularyTopic, Word } from '@/types';
+import ProtectedRoute from '@/components/auth/ProtectedRoute';
 import { 
   ChevronLeft, 
   Target, 
@@ -522,98 +523,106 @@ export default function QuizPage() {
     );
   }
 
-  if (mode === 'multiple_choice') {
-    return (
-      <MultipleChoiceMode
-        words={topic.words}
-        topicId={topicId}
-        topicName={topic.nameVi || topic.name}
-      />
-    );
-  }
+  const content = () => {
+    if (mode === 'multiple_choice') {
+      return (
+        <MultipleChoiceMode
+          words={topic.words}
+          topicId={topicId}
+          topicName={topic.nameVi || topic.name}
+        />
+      );
+    }
 
-  if (mode === 'spelling') {
-    return (
-      <SpellingMode
-        words={topic.words}
-        topicId={topicId}
-        topicName={topic.nameVi || topic.name}
-      />
-    );
-  }
+    if (mode === 'spelling') {
+      return (
+        <SpellingMode
+          words={topic.words}
+          topicId={topicId}
+          topicName={topic.nameVi || topic.name}
+        />
+      );
+    }
 
-  // Mode selection screen
+    // Mode selection screen
+    return (
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="mb-12 text-center">
+          <Link
+            href={`/vocabulary/${topicId}`}
+            className="inline-flex items-center gap-2 text-slate-400 hover:text-primary transition-colors font-bold text-sm uppercase tracking-[0.2em] mb-6"
+          >
+            <ChevronLeft className="w-4 h-4" />
+            Quay lại bài học
+          </Link>
+          <h1 className="text-4xl font-black text-slate-900 mb-3 tracking-tight">Kiểm tra kiến thức</h1>
+          <p className="text-lg text-slate-500 font-medium max-w-md mx-auto">
+            Chọn phương thức luyện tập để ghi nhớ tốt nhất cho chủ đề <span className="text-primary font-bold">"{topic.nameVi || topic.name}"</span>
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <button
+            className="group relative p-1 text-left"
+            onClick={() => setMode('multiple_choice')}
+          >
+            <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] rotate-2 group-hover:rotate-0 transition-transform duration-300" />
+            <Card className="relative h-full border-none shadow-xl rounded-[2.5rem] overflow-hidden transition-all duration-300 group-hover:-translate-y-2">
+              <CardContent className="p-10 flex flex-col items-center text-center">
+                <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <Target className="w-10 h-10 text-primary" />
+                </div>
+                <h2 className="text-2xl font-black text-slate-900 mb-3">Trắc nghiệm</h2>
+                <p className="text-slate-500 font-medium mb-8">
+                  Thử thách khả năng nhận diện từ và nghĩa qua 4 lựa chọn khác nhau.
+                </p>
+                <div className="mt-auto w-full py-4 rounded-2xl bg-primary text-white font-black uppercase tracking-widest text-sm shadow-lg shadow-primary/20 group-hover:bg-primary/90 transition-colors">
+                  Bắt đầu ngay
+                </div>
+              </CardContent>
+            </Card>
+          </button>
+
+          <button
+            className="group relative p-1 text-left"
+            onClick={() => setMode('spelling')}
+          >
+            <div className="absolute inset-0 bg-slate-900/5 rounded-[2.5rem] -rotate-2 group-hover:rotate-0 transition-transform duration-300" />
+            <Card className="relative h-full border-none shadow-xl rounded-[2.5rem] overflow-hidden transition-all duration-300 group-hover:-translate-y-2">
+              <CardContent className="p-10 flex flex-col items-center text-center">
+                <div className="w-20 h-20 bg-slate-100 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                  <PenTool className="w-10 h-10 text-slate-900" />
+                </div>
+                <h2 className="text-2xl font-black text-slate-900 mb-3">Điền từ</h2>
+                <p className="text-slate-500 font-medium mb-8">
+                  Khám phá khả năng ghi nhớ mặt chữ bằng cách tự gõ từ tiếng Anh.
+                </p>
+                <div className="mt-auto w-full py-4 rounded-2xl bg-slate-900 text-white font-black uppercase tracking-widest text-sm shadow-lg shadow-slate-200 group-hover:bg-slate-800 transition-colors">
+                  Bắt đầu ngay
+                </div>
+              </CardContent>
+            </Card>
+          </button>
+        </div>
+
+        <div className="mt-16 flex items-center justify-center gap-8 py-6 px-10 rounded-3xl bg-slate-50 border border-slate-100">
+          <div className="text-center">
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Số lượng từ</p>
+            <p className="text-xl font-black text-slate-900">{topic.words.length}</p>
+          </div>
+          <div className="w-px h-8 bg-slate-200" />
+          <div className="text-center">
+            <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Thời gian ước tính</p>
+            <p className="text-xl font-black text-slate-900">{Math.ceil(topic.words.length * 0.5)} phút</p>
+          </div>
+        </div>
+      </div>
+    );
+  };
+
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12">
-      <div className="mb-12 text-center">
-        <Link
-          href={`/vocabulary/${topicId}`}
-          className="inline-flex items-center gap-2 text-slate-400 hover:text-primary transition-colors font-bold text-sm uppercase tracking-[0.2em] mb-6"
-        >
-          <ChevronLeft className="w-4 h-4" />
-          Quay lại bài học
-        </Link>
-        <h1 className="text-4xl font-black text-slate-900 mb-3 tracking-tight">Kiểm tra kiến thức</h1>
-        <p className="text-lg text-slate-500 font-medium max-w-md mx-auto">
-          Chọn phương thức luyện tập để ghi nhớ tốt nhất cho chủ đề <span className="text-primary font-bold">"{topic.nameVi || topic.name}"</span>
-        </p>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <button
-          className="group relative p-1 text-left"
-          onClick={() => setMode('multiple_choice')}
-        >
-          <div className="absolute inset-0 bg-primary/10 rounded-[2.5rem] rotate-2 group-hover:rotate-0 transition-transform duration-300" />
-          <Card className="relative h-full border-none shadow-xl rounded-[2.5rem] overflow-hidden transition-all duration-300 group-hover:-translate-y-2">
-            <CardContent className="p-10 flex flex-col items-center text-center">
-              <div className="w-20 h-20 bg-primary/10 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <Target className="w-10 h-10 text-primary" />
-              </div>
-              <h2 className="text-2xl font-black text-slate-900 mb-3">Trắc nghiệm</h2>
-              <p className="text-slate-500 font-medium mb-8">
-                Thử thách khả năng nhận diện từ và nghĩa qua 4 lựa chọn khác nhau.
-              </p>
-              <div className="mt-auto w-full py-4 rounded-2xl bg-primary text-white font-black uppercase tracking-widest text-sm shadow-lg shadow-primary/20 group-hover:bg-primary/90 transition-colors">
-                Bắt đầu ngay
-              </div>
-            </CardContent>
-          </Card>
-        </button>
-
-        <button
-          className="group relative p-1 text-left"
-          onClick={() => setMode('spelling')}
-        >
-          <div className="absolute inset-0 bg-slate-900/5 rounded-[2.5rem] -rotate-2 group-hover:rotate-0 transition-transform duration-300" />
-          <Card className="relative h-full border-none shadow-xl rounded-[2.5rem] overflow-hidden transition-all duration-300 group-hover:-translate-y-2">
-            <CardContent className="p-10 flex flex-col items-center text-center">
-              <div className="w-20 h-20 bg-slate-100 rounded-3xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-                <PenTool className="w-10 h-10 text-slate-900" />
-              </div>
-              <h2 className="text-2xl font-black text-slate-900 mb-3">Điền từ</h2>
-              <p className="text-slate-500 font-medium mb-8">
-                Khám phá khả năng ghi nhớ mặt chữ bằng cách tự gõ từ tiếng Anh.
-              </p>
-              <div className="mt-auto w-full py-4 rounded-2xl bg-slate-900 text-white font-black uppercase tracking-widest text-sm shadow-lg shadow-slate-200 group-hover:bg-slate-800 transition-colors">
-                Bắt đầu ngay
-              </div>
-            </CardContent>
-          </Card>
-        </button>
-      </div>
-
-      <div className="mt-16 flex items-center justify-center gap-8 py-6 px-10 rounded-3xl bg-slate-50 border border-slate-100">
-        <div className="text-center">
-          <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Số lượng từ</p>
-          <p className="text-xl font-black text-slate-900">{topic.words.length}</p>
-        </div>
-        <div className="w-px h-8 bg-slate-200" />
-        <div className="text-center">
-          <p className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Thời gian ước tính</p>
-          <p className="text-xl font-black text-slate-900">{Math.ceil(topic.words.length * 0.5)} phút</p>
-        </div>
-      </div>
-    </div>
+    <ProtectedRoute>
+      {content()}
+    </ProtectedRoute>
   );
 }

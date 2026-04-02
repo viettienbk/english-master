@@ -8,6 +8,7 @@ import { ButtonLink } from '@/components/ui/button-link';
 import { Badge } from '@/components/ui/badge';
 import { getTopicById } from '@/lib/api';
 import { useSpeechSynthesis } from '@/hooks/useSpeechSynthesis';
+import { useAuth } from '@/hooks/useAuth';
 import type { VocabularyTopic } from '@/types';
 import { ChevronLeft, PlayCircle, BookOpen, BrainCircuit, Volume2 } from 'lucide-react';
 
@@ -17,12 +18,21 @@ export default function TopicDetailPage() {
   const [topic, setTopic] = useState<VocabularyTopic | null>(null);
   const [loading, setLoading] = useState(true);
   const { speak } = useSpeechSynthesis();
+  const { user } = useAuth();
 
   useEffect(() => {
     getTopicById(topicId)
       .then(setTopic)
       .finally(() => setLoading(false));
   }, [topicId]);
+
+  const handleAuthAction = (e: React.MouseEvent) => {
+    if (!user) {
+      e.preventDefault();
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+      window.location.href = `${apiUrl}/auth/google`;
+    }
+  };
 
   if (loading) {
     return (
@@ -84,6 +94,7 @@ export default function TopicDetailPage() {
             <div className="flex flex-wrap gap-4">
               <ButtonLink 
                 href={`/vocabulary/${topicId}/flashcard`}
+                onClick={handleAuthAction}
                 className="h-14 px-8 rounded-2xl bg-white text-slate-900 hover:bg-slate-100 font-black text-lg shadow-xl shadow-white/5 flex items-center gap-2"
               >
                 <BrainCircuit className="w-6 h-6" />
@@ -91,6 +102,7 @@ export default function TopicDetailPage() {
               </ButtonLink>
               <ButtonLink 
                 href={`/vocabulary/${topicId}/quiz`} 
+                onClick={handleAuthAction}
                 className="h-14 px-8 rounded-2xl bg-primary text-white hover:bg-primary/90 font-black text-lg shadow-xl shadow-primary/20 flex items-center gap-2 border-none"
               >
                 <PlayCircle className="w-6 h-6" />

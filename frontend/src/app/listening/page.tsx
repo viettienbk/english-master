@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { getListeningLessons } from '@/lib/api';
+import { useAuth } from '@/hooks/useAuth';
 import type { ListeningLesson } from '@/types';
 
 const levelColors: Record<string, string> = {
@@ -22,12 +23,21 @@ const levelLabels: Record<string, string> = {
 export default function ListeningPage() {
   const [lessons, setLessons] = useState<ListeningLesson[]>([]);
   const [loading, setLoading] = useState(true);
+  const { user } = useAuth();
 
   useEffect(() => {
     getListeningLessons()
       .then(setLessons)
       .finally(() => setLoading(false));
   }, []);
+
+  const handleAuthAction = (e: React.MouseEvent) => {
+    if (!user) {
+      e.preventDefault();
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001/api';
+      window.location.href = `${apiUrl}/auth/google`;
+    }
+  };
 
   if (loading) {
     return (
@@ -55,7 +65,11 @@ export default function ListeningPage() {
 
       <div className="space-y-4">
         {lessons.map((lesson) => (
-          <Link key={lesson.id} href={`/listening/${lesson.id}`}>
+          <Link 
+            key={lesson.id} 
+            href={`/listening/${lesson.id}`}
+            onClick={handleAuthAction}
+          >
             <Card className="hover:shadow-md transition-all hover:-translate-y-0.5 cursor-pointer mb-4">
               <CardHeader className="pb-2">
                 <div className="flex items-center gap-2 mb-1">

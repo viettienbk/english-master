@@ -1,0 +1,106 @@
+[
+  {
+    "title": "Present Simple Tense",
+    "titleVi": "Thì hiện tại đơn (Nâng cao)",
+    "level": "beginner",
+    "category": "basic",
+    "order": 1,
+    "content": "## Present Simple Tense\n\nThì hiện tại đơn không chỉ dùng cho những việc lặp đi lặp lại, mà còn dùng để diễn tả các chân lý hiển nhiên, lịch trình cố định và thậm chí là tóm tắt phim ảnh/sách truyện.\n\n### 1. Cấu trúc chi tiết\n- **Khẳng định:** S + V(s/es) + O\n- **Phủ định:** S + do/does + not + V(nguyên thể)\n- **Nghi vấn:** Do/Does + S + V(nguyên thể)?\n\n### 2. Quy tắc thêm s/es\n- Thông thường thêm **-s**: *works, lives, plays*\n- Tận cùng là -ch, -sh, -x, -s, -z, -o thêm **-es**: *watches, finishes, fixes, kisses, buzzes, goes*\n- Tận cùng là 'phụ âm + y': đổi y thành i rồi thêm **-es**: *study → studies, fly → flies*\n\n### 3. Cách dùng nâng cao\n- **Sự thật hiển nhiên:** *The sun sets in the west.*\n- **Lịch trình công cộng (Tàu, xe, máy bay):** *The flight takes off at 6:00 AM tomorrow.* (Dù là tương lai nhưng có lịch trình cố định nên dùng hiện tại đơn).\n- **Tóm tắt cốt truyện:** *In the movie, the hero saves the world.*\n\n!NOTE: Tránh nhầm lẫn giữa thì hiện tại đơn và hiện tại tiếp diễn. Hiện tại đơn chỉ bản chất, thói quen; hiện tại tiếp diễn chỉ hành động nhất thời.",
+    "examples": [
+      { "english": "Water freezes at 0 degrees Celsius.", "vietnamese": "Nước đóng băng ở 0 độ C.", "explanation": "Chân lý khoa học." },
+      { "english": "The train arrives at 10 PM tonight.", "vietnamese": "Tàu sẽ đến lúc 10 giờ tối nay.", "explanation": "Lịch trình cố định, dù là sự kiện tương lai." },
+      { "english": "She always studies hard before exams.", "vietnamese": "Cô ấy luôn học tập chăm chỉ trước các kỳ thi.", "explanation": "Thói quen thường xuyên." },
+      { "english": "I don't think he knows the truth.", "vietnamese": "Tôi không nghĩ anh ấy biết sự thật.", "explanation": "Dùng với các động từ trạng thái (state verbs) như think, know." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "The Earth ___ around the Sun.", "options": ["move", "moves", "is moving", "moved"], "answer": "moves" },
+      { "type": "multiple_choice", "question": "What time ___ the next bus leave?", "options": ["do", "does", "is", "will"], "answer": "does" },
+      { "type": "fill_blank", "question": "He ___ (not/work) on Saturdays.", "answer": "doesn't work" },
+      { "type": "multiple_choice", "question": "She ___ three languages fluently.", "options": ["speak", "speaks", "speaking", "is speak"], "answer": "speaks" },
+      { "type": "fill_blank", "question": "My father ___ (fry) eggs for breakfast every morning.", "answer": "fries" },
+      { "type": "multiple_choice", "question": "I ___ remember where I put my keys.", "options": ["not", "am not", "don't", "doesn't"], "answer": "don't" },
+      { "type": "fill_blank", "question": "___ your parents live in Hanoi?", "answer": "Do" },
+      { "type": "multiple_choice", "question": "Water ___ at 100 degrees Celsius.", "options": ["boil", "boils", "is boiling", "boiled"], "answer": "boils" },
+      { "type": "fill_blank", "question": "The movie ___ (start) at 8:30 PM tonight.", "answer": "starts" },
+      { "type": "multiple_choice", "question": "Why ___ you always late for meetings?", "options": ["do", "are", "is", "does"], "answer": "are" }
+    ]
+  },
+  {
+    "title": "Polite Indirect Questions",
+    "titleVi": "Câu hỏi gián tiếp lịch sự",
+    "level": "intermediate",
+    "category": "conversational",
+    "order": 31,
+    "content": "## Polite Indirect Questions\n\nTrong giao tiếp thực tế, việc đặt câu hỏi trực tiếp (Direct Questions) đôi khi có thể bị coi là quá đột ngột hoặc thiếu lịch sự. Người bản xứ thường dùng **Câu hỏi gián tiếp** để làm cho lời nói mềm mỏng hơn.\n\n### 1. Cách chuyển đổi\nCâu hỏi trực tiếp: *Where is the bank?*\nCâu hỏi gián tiếp: *Could you tell me **where the bank is**?*\n\n!NOTE: Trong câu hỏi gián tiếp, trật tự từ giống như câu khẳng định (Chủ ngữ đứng trước Động từ), không dùng trợ động từ do/does/did.\n\n### 2. Các cụm từ mở đầu thông dụng\n- **Could you tell me...** (Bạn có thể cho tôi biết...)\n- **Do you know...** (Bạn có biết...)\n- **I was wondering...** (Tôi đang tự hỏi...)\n- **I'd like to know...** (Tôi muốn biết...)\n- **Would you mind telling me...** (Bạn có phiền cho tôi biết...)\n\n### 3. Câu hỏi Yes/No\nNếu câu hỏi gốc là câu hỏi Yes/No, chúng ta sử dụng **if** hoặc **whether**.\n*Direct:* Does he live here?\n*Indirect:* Do you know **if** he lives here?\n\n### 4. Tại sao nên dùng?\nGiúp bạn nghe có vẻ chuyên nghiệp, lịch sự và tinh tế hơn trong môi trường công sở hoặc khi gặp người lạ.",
+    "examples": [
+      { "english": "Could you tell me what time the meeting starts?", "vietnamese": "Bạn có thể cho tôi biết mấy giờ cuộc họp bắt đầu không?", "explanation": "Lịch sự hơn câu 'What time does the meeting start?'" },
+      { "english": "I was wondering if you could help me with this.", "vietnamese": "Tôi đang tự hỏi liệu bạn có thể giúp tôi việc này không.", "explanation": "Cách yêu cầu giúp đỡ cực kỳ tinh tế." },
+      { "english": "Do you know where the nearest station is?", "vietnamese": "Bạn có biết ga gần nhất ở đâu không?", "explanation": "Cấu trúc: Do you know + where + S + V." },
+      { "english": "Would you mind telling me how much this costs?", "vietnamese": "Bạn có phiền cho tôi biết cái này giá bao nhiêu không?", "explanation": "Dùng để hỏi giá một cách lịch sự." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "Direct: 'Where is the station?' -> Indirect: Could you tell me where ___?", "options": ["is the station", "the station is", "does the station", "the station"], "answer": "the station is" },
+      { "type": "fill_blank", "question": "I was wondering ___ you could lend me your pen.", "answer": "if" },
+      { "type": "multiple_choice", "question": "Do you know what time ___?", "options": ["does the shop close", "the shop closes", "is the shop closing", "the shop close"], "answer": "the shop closes" },
+      { "type": "fill_blank", "question": "Could you tell me how much this ___ (cost)?", "answer": "costs" },
+      { "type": "multiple_choice", "question": "___ you mind telling me your name?", "options": ["Do", "Could", "Would", "Can"], "answer": "Would" },
+      { "type": "fill_blank", "question": "I'd like to know ___ she is coming to the party.", "answer": "if" },
+      { "type": "multiple_choice", "question": "Direct: 'Why did she leave?' -> Indirect: Do you know why ___?", "options": ["did she leave", "she left", "she leaves", "does she leave"], "answer": "she left" },
+      { "type": "fill_blank", "question": "Can you tell me ___ the manager is in his office?", "answer": "whether" },
+      { "type": "multiple_choice", "question": "I was wondering if ___ help me.", "options": ["can you", "you can", "do you", "could you"], "answer": "you can" },
+      { "type": "multiple_choice", "question": "Would you be so kind as to tell me where ___?", "options": ["is the exit", "the exit is", "does the exit", "exit is"], "answer": "the exit is" }
+    ]
+  },
+  {
+    "title": "Using 'Actually' and 'In fact'",
+    "titleVi": "Cách dùng 'Actually' và 'In fact'",
+    "level": "intermediate",
+    "category": "conversational",
+    "order": 32,
+    "content": "## Using 'Actually' and 'In fact'\n\nTrong giao tiếp, 'Actually' và 'In fact' là những từ nối cực kỳ quan trọng để đính chính thông tin hoặc thêm chi tiết gây bất ngờ.\n\n### 1. 'Actually' để đính chính (Correcting)\nKhi ai đó nói sai hoặc bạn muốn làm rõ một sự thật khác với mong đợi.\n- *A: So you're from London?*\n- *B: **Actually**, I'm from Manchester.*\n\n### 2. 'Actually' để nhấn mạnh sự bất ngờ\n- *I thought the movie would be boring, but it was **actually** quite good.*\n\n### 3. 'In fact' để thêm thông tin chi tiết hơn\nDùng để nhấn mạnh hoặc mở rộng một ý vừa nói.\n- *The weather was bad. **In fact**, it was the worst storm in years.*\n\n### 4. Lưu ý quan trọng\nTránh nhầm lẫn 'Actually' với 'Currently' (hiện tại). \n- **Actually** = Sự thật là, thực ra là.\n- **Currently** = Hiện nay, ngay lúc này.\n\n!NOTE: Đừng lạm dụng 'Actually' quá nhiều trong một đoạn hội thoại, nó có thể làm bạn nghe như đang cố tình bắt bẻ người khác.",
+    "examples": [
+      { "english": "I'm not a doctor, actually. I'm a dentist.", "vietnamese": "Thực ra tôi không phải bác sĩ y khoa. Tôi là nha sĩ.", "explanation": "Đính chính thông tin về nghề nghiệp." },
+      { "english": "It's a nice day. In fact, it's the warmest day this week.", "vietnamese": "Hôm nay là một ngày đẹp trời. Thực tế, đó là ngày ấm nhất tuần này.", "explanation": "Dùng 'In fact' để nhấn mạnh thêm thông tin." },
+      { "english": "Did you know that she actually won a gold medal?", "vietnamese": "Bạn có biết rằng thực sự cô ấy đã giành huy chương vàng không?", "explanation": "Nhấn mạnh một sự thật gây bất ngờ." },
+      { "english": "Actually, I'd prefer to stay at home tonight.", "vietnamese": "Thực ra thì, tôi thích ở nhà tối nay hơn.", "explanation": "Dùng để đưa ra ý kiến trái ngược một cách nhẹ nhàng." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "A: Is he American? B: ___, he is Canadian.", "options": ["Currently", "Actually", "In fact", "Now"], "answer": "Actually" },
+      { "type": "multiple_choice", "question": "The food was great. ___, it was the best I've ever had.", "options": ["Actually", "In fact", "Currently", "But"], "answer": "In fact" },
+      { "type": "fill_blank", "question": "I don't ___ (thực sự) like spicy food.", "answer": "actually" },
+      { "type": "multiple_choice", "question": "He said he was 30, but ___ he is 45.", "options": ["in fact", "actually", "currently", "Both A and B"], "answer": "Both A and B" },
+      { "type": "fill_blank", "question": "___, I think we should wait for him.", "answer": "Actually" },
+      { "type": "multiple_choice", "question": "She didn't just pass the exam. ___, she got the highest score!", "options": ["Actually", "In fact", "But", "However"], "answer": "In fact" },
+      { "type": "fill_blank", "question": "I'm not ___ (hiện tại) working on that project.", "answer": "currently" },
+      { "type": "multiple_choice", "question": "Do you ___ believe his story?", "options": ["actually", "in fact", "current", "fact"], "answer": "actually" },
+      { "type": "multiple_choice", "question": "It's not that far. ___, it's only a five-minute walk.", "options": ["Currently", "In fact", "So", "Yet"], "answer": "In fact" },
+      { "type": "fill_blank", "question": "___ (Thực ra), I've already seen this movie.", "answer": "Actually" }
+    ]
+  },
+  {
+    "title": "Emphasis with 'Do', 'Does', 'Did'",
+    "titleVi": "Nhấn mạnh với 'Do', 'Does', 'Did'",
+    "level": "intermediate",
+    "category": "conversational",
+    "order": 33,
+    "content": "## Emphasis with 'Do', 'Does', 'Did'\n\nTrong câu khẳng định, chúng ta thường không dùng trợ động từ `do/does/did`. Tuy nhiên, để **nhấn mạnh** một ý kiến, cảm xúc hoặc để đính chính một sự phản đối, chúng ta có thể thêm chúng vào trước động từ nguyên thể.\n\n### 1. Cách dùng cơ bản\n- *I like coffee.* (Bình thường)\n- *I **do** like coffee!* (Thực sự rất thích - nhấn mạnh).\n\n### 2. Đính chính sự phản đối\n- *A: You didn't call me yesterday.*\n- *B: I **did** call you! You just didn't answer.*\n\n### 3. Thể hiện sự nhiệt tình hoặc chân thành\n- *I **do** hope you can come to my party.*\n- *She **does** look beautiful in that dress.*\n\n### 4. Quy tắc\nKhi dùng `do/does/did` để nhấn mạnh:\n- Động từ chính luôn ở dạng **Nguyên thể (Infinitive)**.\n- Trọng âm sẽ rơi vào từ `do/does/did` khi nói.\n\n!NOTE: Đừng dùng cấu trúc này quá thường xuyên, chỉ dùng khi bạn thực sự muốn làm nổi bật ý muốn nói.",
+    "examples": [
+      { "english": "I do apologize for the delay.", "vietnamese": "Tôi thực sự xin lỗi vì sự chậm trễ này.", "explanation": "Nhấn mạnh sự chân thành của lời xin lỗi." },
+      { "english": "He does work hard, even if he doesn't say much.", "vietnamese": "Anh ấy thực sự làm việc chăm chỉ, dù anh ấy không nói nhiều.", "explanation": "Nhấn mạnh bản chất của hành động." },
+      { "english": "We did enjoy the trip despite the rain.", "vietnamese": "Chúng tôi thực sự đã tận hưởng chuyến đi bất chấp trời mưa.", "explanation": "Nhấn mạnh cảm xúc tích cực trong quá khứ." },
+      { "english": "I do believe we've met before.", "vietnamese": "Tôi thực sự tin là chúng ta đã gặp nhau trước đây.", "explanation": "Nhấn mạnh niềm tin hoặc sự khẳng định." }
+    ],
+    "exercises": [
+      { "type": "multiple_choice", "question": "I ___ like your new haircut! It suits you.", "options": ["do", "does", "am", "doing"], "answer": "do" },
+      { "type": "multiple_choice", "question": "She ___ study hard, but she gets nervous during exams.", "options": ["do", "does", "is", "did"], "answer": "does" },
+      { "type": "fill_blank", "question": "I ___ (did) tell him the truth, but he didn't believe me.", "answer": "did" },
+      { "type": "multiple_choice", "question": "We ___ hope you have a wonderful birthday.", "options": ["do", "does", "are", "have"], "answer": "do" },
+      { "type": "fill_blank", "question": "He ___ (does) look like his father.", "answer": "does" },
+      { "type": "multiple_choice", "question": "I ___ see her yesterday, I'm sure of it.", "options": ["do", "did", "was", "have"], "answer": "did" },
+      { "type": "fill_blank", "question": "They ___ (do) have a very big house.", "answer": "do" },
+      { "type": "multiple_choice", "question": "Please ___ be careful when you drive at night.", "options": ["do", "does", "am", "is"], "answer": "do" },
+      { "type": "multiple_choice", "question": "Why did you say I don't care? I ___ care!", "options": ["do", "am", "doing", "does"], "answer": "do" },
+      { "type": "fill_blank", "question": "It ___ (does) rain a lot in this city.", "answer": "does" }
+    ]
+  }
+]
